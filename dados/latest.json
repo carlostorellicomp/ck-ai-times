@@ -1,0 +1,1489 @@
+{
+  "generated_at": "20/11/2026 às 10:13 (BRT)",
+  "date": "2026-11-20",
+  "total_items": 85,
+  "sources_status": {
+    "OpenAI News": "OK (4 itens)",
+    "The Batch (Andrew Ng)": "OK (4 itens)",
+    "TLDR AI": "OK (5 itens)",
+    "Anthropic News (Claude)": "OK (4 itens)",
+    "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
+    "Hugging Face Models": "OK (6 itens)",
+    "Hugging Face Spaces": "OK (4 itens)",
+    "Hacker News AI": "OK (5 itens)",
+    "NVIDIA Blog": "OK (4 itens)",
+    "NVIDIA Developer Blog": "OK (4 itens)",
+    "n8n Blog": "OK (4 itens)",
+    "Microsoft Copilot & Azure AI": "OK (4 itens)",
+    "Ultralytics Blog": "OK (4 itens)",
+    "Google AI Blog": "OK (4 itens)",
+    "Mercado IA Brasil": "OK (5 itens)",
+    "The Rundown AI": "OK (4 itens)",
+    "LangChain / LangGraph": "OK (4 itens)",
+    "LocalLLaMA & Open Source": "OK (4 itens)",
+    "GitHub Trending Python": "OK (5 itens)",
+    "GitHub Trending TypeScript": "OK (4 itens)",
+    "Ranking Top 50 LLMs (Artificial Analysis)": "OK (50 Top50 / 20 Open)"
+  },
+  "rankings": {
+    "source_name": "Artificial Analysis — Intelligence Index (Oficial)",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "total_evaluated": 125,
+    "top50_overall": [
+      {
+        "name": "Claude Fable 5.2 (max)",
+        "creator": "Anthropic",
+        "intelligence_index": 64.56,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+      },
+      {
+        "name": "Claude Fable 5.2 (xhigh)",
+        "creator": "Anthropic",
+        "intelligence_index": 62.22,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+      },
+      {
+        "name": "GPT-6.2 Astra (max)",
+        "creator": "OpenAI",
+        "intelligence_index": 62.14,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-astra"
+      },
+      {
+        "name": "Claude Fable 5.2 (high)",
+        "creator": "Anthropic",
+        "intelligence_index": 61.82,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+      },
+      {
+        "name": "GPT-6.2 Astra (xhigh)",
+        "creator": "OpenAI",
+        "intelligence_index": 61.56,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-astra"
+      },
+      {
+        "name": "Gemini 4 Neon (xhigh)",
+        "creator": "Google",
+        "intelligence_index": 61.4,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 3,
+        "price_out": 15,
+        "url": "https://artificialanalysis.ai/models/gemini-4-neon"
+      },
+      {
+        "name": "GPT-6.2 Astra (high)",
+        "creator": "OpenAI",
+        "intelligence_index": 60.09,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-astra"
+      },
+      {
+        "name": "Gemini 4 Carbon (high)",
+        "creator": "Google",
+        "intelligence_index": 60.03,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
+      },
+      {
+        "name": "Gemini 4 Neon (high)",
+        "creator": "Google",
+        "intelligence_index": 59.62,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 3,
+        "price_out": 15,
+        "url": "https://artificialanalysis.ai/models/gemini-4-neon"
+      },
+      {
+        "name": "Claude Opus 5.5 (max)",
+        "creator": "Anthropic",
+        "intelligence_index": 59.11,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+      },
+      {
+        "name": "Gemini 4 Carbon (medium)",
+        "creator": "Google",
+        "intelligence_index": 58.26,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
+      },
+      {
+        "name": "Claude Opus 5.5 (xhigh)",
+        "creator": "Anthropic",
+        "intelligence_index": 57.44,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+      },
+      {
+        "name": "GPT-6.2 Sol (max)",
+        "creator": "OpenAI",
+        "intelligence_index": 57.26,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-sol"
+      },
+      {
+        "name": "GPT-6.2 Astra (medium)",
+        "creator": "OpenAI",
+        "intelligence_index": 57.0,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-astra"
+      },
+      {
+        "name": "Claude Fable 5.2 (medium)",
+        "creator": "Anthropic",
+        "intelligence_index": 56.41,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+      },
+      {
+        "name": "GPT-6.2 Sol (xhigh)",
+        "creator": "OpenAI",
+        "intelligence_index": 55.74,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-sol"
+      },
+      {
+        "name": "GPT-6.2 Sol (high)",
+        "creator": "OpenAI",
+        "intelligence_index": 54.89,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-sol"
+      },
+      {
+        "name": "Gemini 4 Neon (medium)",
+        "creator": "Google",
+        "intelligence_index": 54.86,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 3,
+        "price_out": 15,
+        "url": "https://artificialanalysis.ai/models/gemini-4-neon"
+      },
+      {
+        "name": "Claude Sonnet 5.5 (max)",
+        "creator": "Anthropic",
+        "intelligence_index": 54.54,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
+      },
+      {
+        "name": "Gemini 4 Carbon (low)",
+        "creator": "Google",
+        "intelligence_index": 54.22,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
+      },
+      {
+        "name": "Claude Fable 5.2 (low)",
+        "creator": "Anthropic",
+        "intelligence_index": 53.92,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+      },
+      {
+        "name": "Gemini 4 Hydrogen (xhigh)",
+        "creator": "Google",
+        "intelligence_index": 53.92,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1.5,
+        "price_out": 7.5,
+        "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
+      },
+      {
+        "name": "GPT-6.2 Sol (medium)",
+        "creator": "OpenAI",
+        "intelligence_index": 52.68,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-sol"
+      },
+      {
+        "name": "Claude Opus 5.5 (high)",
+        "creator": "Anthropic",
+        "intelligence_index": 51.84,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+      },
+      {
+        "name": "GPT-6.1 Terra (max)",
+        "creator": "OpenAI",
+        "intelligence_index": 51.33,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1,
+        "price_out": 5,
+        "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
+      },
+      {
+        "name": "Gemini 4 Hydrogen (high)",
+        "creator": "Google",
+        "intelligence_index": 50.79,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1.5,
+        "price_out": 7.5,
+        "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
+      },
+      {
+        "name": "Gemini 4 Argon (high)",
+        "creator": "Google",
+        "intelligence_index": 50.41,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/gemini-4-argon"
+      },
+      {
+        "name": "Muse Wonder Full (max)",
+        "creator": "Meta",
+        "intelligence_index": 50.08,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": null,
+        "price_out": null,
+        "url": "https://artificialanalysis.ai/models/muse-wonder-full"
+      },
+      {
+        "name": "Claude Sonnet 5.5 (xhigh)",
+        "creator": "Anthropic",
+        "intelligence_index": 49.92,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
+      },
+      {
+        "name": "Claude Opus 5.5 (medium)",
+        "creator": "Anthropic",
+        "intelligence_index": 48.21,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+      },
+      {
+        "name": "Gemini 4 Argon (medium)",
+        "creator": "Google",
+        "intelligence_index": 47.6,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/gemini-4-argon"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "creator": "Kimi",
+        "intelligence_index": 46.45,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro"
+      },
+      {
+        "name": "GPT-6.2 Astra (low)",
+        "creator": "OpenAI",
+        "intelligence_index": 45.65,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 8,
+        "price_out": 40,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-astra"
+      },
+      {
+        "name": "GPT-6.1 Terra (xhigh)",
+        "creator": "OpenAI",
+        "intelligence_index": 45.25,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1,
+        "price_out": 5,
+        "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
+      },
+      {
+        "name": "Gemini 4 Neon (low)",
+        "creator": "Google",
+        "intelligence_index": 44.08,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 3,
+        "price_out": 15,
+        "url": "https://artificialanalysis.ai/models/gemini-4-neon"
+      },
+      {
+        "name": "Muse Wonder (max)",
+        "creator": "Meta",
+        "intelligence_index": 43.57,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1048576,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/muse-wonder"
+      },
+      {
+        "name": "Qwen4 Max",
+        "creator": "Alibaba",
+        "intelligence_index": 42.89,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 983616,
+        "price_in": 1.5,
+        "price_out": 4.5,
+        "url": "https://artificialanalysis.ai/models/qwen4-max"
+      },
+      {
+        "name": "GPT-6.1 Terra (high)",
+        "creator": "OpenAI",
+        "intelligence_index": 42.43,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1,
+        "price_out": 5,
+        "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
+      },
+      {
+        "name": "Claude Sonnet 5.5 (high)",
+        "creator": "Anthropic",
+        "intelligence_index": 41.52,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
+      },
+      {
+        "name": "Gemini 4 Hydrogen (medium)",
+        "creator": "Google",
+        "intelligence_index": 41.23,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1.5,
+        "price_out": 7.5,
+        "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
+      },
+      {
+        "name": "GPT-6.2 Sol (low)",
+        "creator": "OpenAI",
+        "intelligence_index": 40.55,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/gpt-6-2-sol"
+      },
+      {
+        "name": "Muse Wonder (high)",
+        "creator": "Meta",
+        "intelligence_index": 40.53,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1048576,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/muse-wonder"
+      },
+      {
+        "name": "GPT-6.1 Terra (medium)",
+        "creator": "OpenAI",
+        "intelligence_index": 38.17,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1,
+        "price_out": 5,
+        "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
+      },
+      {
+        "name": "Claude Haiku 5.5 (max)",
+        "creator": "Anthropic",
+        "intelligence_index": 36.48,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.1,
+        "price_out": 0.5,
+        "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
+      },
+      {
+        "name": "Muse Ember (max)",
+        "creator": "Meta",
+        "intelligence_index": 36.02,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1048576,
+        "price_in": 0.1,
+        "price_out": 0.5,
+        "url": "https://artificialanalysis.ai/models/muse-ember"
+      },
+      {
+        "name": "Grok 4.7 (xhigh)",
+        "creator": "SpaceXAI",
+        "intelligence_index": 35.49,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 500000,
+        "price_in": 2,
+        "price_out": 6,
+        "url": "https://artificialanalysis.ai/models/grok-4-7"
+      },
+      {
+        "name": "Grok 4.7 (high)",
+        "creator": "SpaceXAI",
+        "intelligence_index": 35.21,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 500000,
+        "price_in": 2,
+        "price_out": 6,
+        "url": "https://artificialanalysis.ai/models/grok-4-7"
+      },
+      {
+        "name": "Claude Opus 5.5 (low)",
+        "creator": "Anthropic",
+        "intelligence_index": 34.75,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 4,
+        "price_out": 20,
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+      },
+      {
+        "name": "Claude Haiku 5.5 (xhigh)",
+        "creator": "Anthropic",
+        "intelligence_index": 34.64,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.1,
+        "price_out": 0.5,
+        "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
+      },
+      {
+        "name": "Tencent Hy4",
+        "creator": "Tencent",
+        "intelligence_index": 34.56,
+        "is_open_weights": false,
+        "is_reasoning": true,
+        "context_window": 1048576,
+        "price_in": 0.834,
+        "price_out": 2.501,
+        "url": "https://artificialanalysis.ai/models/tencent-hy4"
+      }
+    ],
+    "top20_open_source": [
+      {
+        "name": "Kimi K3.1 Pro",
+        "creator": "Kimi",
+        "intelligence_index": 46.45,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 2,
+        "price_out": 10,
+        "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro"
+      },
+      {
+        "name": "DeepSeek V4.1 Flash 1017 (max)",
+        "creator": "DeepSeek",
+        "intelligence_index": 32.59,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.3,
+        "price_out": 1.2,
+        "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+      },
+      {
+        "name": "GLM-5.3 (max)",
+        "creator": "Z AI",
+        "intelligence_index": 31.65,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1.4,
+        "price_out": 4.4,
+        "url": "https://artificialanalysis.ai/models/glm-5-3"
+      },
+      {
+        "name": "Inkling 2 Small",
+        "creator": "Thinking Machines",
+        "intelligence_index": 30.63,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1024000,
+        "price_in": 0.3,
+        "price_out": 1,
+        "url": "https://artificialanalysis.ai/models/inkling-2-small"
+      },
+      {
+        "name": "MiMo-V2.6-Pro",
+        "creator": "Xiaomi",
+        "intelligence_index": 29.89,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.435,
+        "price_out": 0.87,
+        "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
+      },
+      {
+        "name": "Ling 3.1 Flash 1019",
+        "creator": "InclusionAI",
+        "intelligence_index": 29.57,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1048576,
+        "price_in": 0.3,
+        "price_out": 0.9,
+        "url": "https://artificialanalysis.ai/models/ling-3-1-flash"
+      },
+      {
+        "name": "MiniMax-M3.1-Flash",
+        "creator": "MiniMax",
+        "intelligence_index": 29.06,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.15,
+        "price_out": 0.6,
+        "url": "https://artificialanalysis.ai/models/minimax-m3-1-flash"
+      },
+      {
+        "name": "DeepSeek V4.1 Flash 1017 (high)",
+        "creator": "DeepSeek",
+        "intelligence_index": 28.64,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.3,
+        "price_out": 1.2,
+        "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+      },
+      {
+        "name": "Qwen3.8-Flash-Next",
+        "creator": "Alibaba",
+        "intelligence_index": 28.58,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 256000,
+        "price_in": 0.15,
+        "price_out": 0.47,
+        "url": "https://artificialanalysis.ai/models/qwen3-8-flash-next"
+      },
+      {
+        "name": "Step 5 Preview",
+        "creator": "StepFun",
+        "intelligence_index": 28.53,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1,
+        "price_out": 2.7,
+        "url": "https://artificialanalysis.ai/models/step-5-preview"
+      },
+      {
+        "name": "GLM-5.3-Flash",
+        "creator": "Z AI",
+        "intelligence_index": 27.8,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.15,
+        "price_out": 0.5,
+        "url": "https://artificialanalysis.ai/models/glm-5-3-flash"
+      },
+      {
+        "name": "MiMo-V2.6-Flash",
+        "creator": "Xiaomi",
+        "intelligence_index": 26.73,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.14,
+        "price_out": 0.28,
+        "url": "https://artificialanalysis.ai/models/mimo-v2-6-flash"
+      },
+      {
+        "name": "Mistral Large 4 (high)",
+        "creator": "Mistral",
+        "intelligence_index": 26.12,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.7,
+        "price_out": 2.1,
+        "url": "https://artificialanalysis.ai/models/mistral-large-4"
+      },
+      {
+        "name": "Muse Spark Open (xhigh)",
+        "creator": "Meta",
+        "intelligence_index": 24.88,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1048576,
+        "price_in": 1.25,
+        "price_out": 4.25,
+        "url": "https://artificialanalysis.ai/models/muse-spark-open"
+      },
+      {
+        "name": "Mistral Large 4 (medium)",
+        "creator": "Mistral",
+        "intelligence_index": 23.13,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 0.7,
+        "price_out": 2.1,
+        "url": "https://artificialanalysis.ai/models/mistral-large-4"
+      },
+      {
+        "name": "GLM-5.3 (low)",
+        "creator": "Z AI",
+        "intelligence_index": 23.11,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1.4,
+        "price_out": 4.4,
+        "url": "https://artificialanalysis.ai/models/glm-5-3"
+      },
+      {
+        "name": "DeepSeek V4 Pro 0813 (max)",
+        "creator": "DeepSeek",
+        "intelligence_index": 23.06,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1.32,
+        "price_out": 3.96,
+        "url": "https://artificialanalysis.ai/models/deepseek-v4-pro"
+      },
+      {
+        "name": "DeepSeek V4 Pro 0813 (high)",
+        "creator": "DeepSeek",
+        "intelligence_index": 20.8,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 1000000,
+        "price_in": 1.32,
+        "price_out": 3.96,
+        "url": "https://artificialanalysis.ai/models/deepseek-v4-pro"
+      },
+      {
+        "name": "Nanbeige4.3-33B",
+        "creator": "Nanbeige",
+        "intelligence_index": 20.41,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 524288,
+        "price_in": null,
+        "price_out": null,
+        "url": "https://artificialanalysis.ai/models/nanbeige4-3-33b"
+      },
+      {
+        "name": "Qwen3.8 27B (xhigh)",
+        "creator": "Alibaba",
+        "intelligence_index": 20.11,
+        "is_open_weights": true,
+        "is_reasoning": true,
+        "context_window": 256000,
+        "price_in": 0.5,
+        "price_out": 3,
+        "url": "https://artificialanalysis.ai/models/qwen3-8-27b"
+      }
+    ]
+  },
+  "items": [
+    {
+      "source": "OpenAI News",
+      "section": "labs",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "date": "Thu, 19 Nov 2026 08:00:00",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast."
+    },
+    {
+      "source": "OpenAI News",
+      "section": "labs",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "date": "Thu, 19 Nov 2026 00:00:00",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
+    },
+    {
+      "source": "OpenAI News",
+      "section": "labs",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "date": "Thu, 19 Nov 2026 00:00:00",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow."
+    },
+    {
+      "source": "OpenAI News",
+      "section": "labs",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "date": "Thu, 19 Nov 2026 00:00:00",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
+    },
+    {
+      "source": "The Batch (Andrew Ng)",
+      "section": "newsletters",
+      "title": "GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval",
+      "url": "https://www.deeplearning.ai/the-batch/tag/letters",
+      "date": "Semanal",
+      "summary": "Curadoria técnica da DeepLearning.AI (Andrew Ng)."
+    },
+    {
+      "source": "The Batch (Andrew Ng)",
+      "section": "newsletters",
+      "title": "Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer Use Gains Momentum, Fine Control of Fine-Tuning",
+      "url": "https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro",
+      "date": "Semanal",
+      "summary": "Curadoria técnica da DeepLearning.AI (Andrew Ng)."
+    },
+    {
+      "source": "The Batch (Andrew Ng)",
+      "section": "newsletters",
+      "title": "DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s o1",
+      "url": "https://www.deeplearning.ai/the-batch/issue-286",
+      "date": "Semanal",
+      "summary": "Curadoria técnica da DeepLearning.AI (Andrew Ng)."
+    },
+    {
+      "source": "The Batch (Andrew Ng)",
+      "section": "newsletters",
+      "title": "Gemini 4 Carbon Heads Toward Wider Availability, What Anthropic's IPO Means for Developers, Genie 4 Combines with Gemini to Train Robots",
+      "url": "https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1",
+      "date": "Semanal",
+      "summary": "Curadoria técnica da DeepLearning.AI (Andrew Ng)."
+    },
+    {
+      "source": "TLDR AI",
+      "section": "newsletters",
+      "title": "Gemini 4 Neon 🚀, Genie 4 worlds 🌍, AI designs chips 🔬",
+      "url": "https://tldr.tech/ai/2026-11-19",
+      "date": "Thu, 19 Nov 2026 00:00:00",
+      "summary": ""
+    },
+    {
+      "source": "TLDR AI",
+      "section": "newsletters",
+      "title": "GPT-6.2 Astra 🧠, Microsoft’s seven models 🚀, Replit Missions 🤖",
+      "url": "https://tldr.tech/ai/2026-11-18",
+      "date": "Wed, 18 Nov 2026 00:00:00",
+      "summary": ""
+    },
+    {
+      "source": "TLDR AI",
+      "section": "newsletters",
+      "title": "Perplexity Research 🧪, NVIDIA Rubin HPC 🖥️, OpenAI safety assessments 👨‍💻",
+      "url": "https://tldr.tech/ai/2026-11-17",
+      "date": "Tue, 17 Nov 2026 00:00:00",
+      "summary": ""
+    },
+    {
+      "source": "TLDR AI",
+      "section": "newsletters",
+      "title": "ChatGPT Wallet 💳, Devin Apps 🛠️, always-on agents ⚡",
+      "url": "https://tldr.tech/ai/2026-11-16",
+      "date": "Mon, 16 Nov 2026 00:00:00",
+      "summary": ""
+    },
+    {
+      "source": "TLDR AI",
+      "section": "newsletters",
+      "title": "Gemini 4 Hydrogen 🚀, self-hosted Claude agents 🔒, Replit agent commerce 🛒",
+      "url": "https://tldr.tech/ai/2026-11-13",
+      "date": "Fri, 13 Nov 2026 00:00:00",
+      "summary": ""
+    },
+    {
+      "source": "Anthropic News (Claude)",
+      "section": "labs",
+      "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure…",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "date": "Oficial",
+      "summary": "Comunicado oficial publicado em anthropic.com/news."
+    },
+    {
+      "source": "Anthropic News (Claude)",
+      "section": "labs",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S.…",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "date": "Oficial",
+      "summary": "Comunicado oficial publicado em anthropic.com/news."
+    },
+    {
+      "source": "Anthropic News (Claude)",
+      "section": "labs",
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing…",
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "date": "Oficial",
+      "summary": "Comunicado oficial publicado em anthropic.com/news."
+    },
+    {
+      "source": "Anthropic News (Claude)",
+      "section": "labs",
+      "title": "Anthropic prices initial public offering",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "date": "Oficial",
+      "summary": "Comunicado oficial publicado em anthropic.com/news."
+    },
+    {
+      "source": "One Useful Thing (Ethan Mollick)",
+      "section": "newsletters",
+      "title": "Fable 5.2 and Jagged AGI",
+      "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "date": "Mon, 09 Nov 2026 19:04:26",
+      "summary": "General, often expert, and sometimes jagged"
+    },
+    {
+      "source": "One Useful Thing (Ethan Mollick)",
+      "section": "newsletters",
+      "title": "30 Months on the Exponential (in Charts)",
+      "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+      "date": "Tue, 20 Oct 2026 15:57:59",
+      "summary": "My new book is out today... what happened since the last one"
+    },
+    {
+      "source": "One Useful Thing (Ethan Mollick)",
+      "section": "newsletters",
+      "title": "The Dot and the Swarm",
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "date": "Thu, 01 Oct 2026 10:54:12",
+      "summary": "Benefitting from the Bitter Lesson"
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "higurashi-ai/Haru-4B (audio-to-audio)",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "date": "Trending",
+      "summary": "Em alta no Hugging Face · 4,046 likes · 7,323 downloads/mês."
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "apple/FastFrames-L (text-to-video)",
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "date": "Trending",
+      "summary": "Em alta no Hugging Face · 375 likes · 0 downloads/mês."
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "inworld/voice-isolator (audio-to-audio)",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "date": "Trending",
+      "summary": "Em alta no Hugging Face · 326 likes · 0 downloads/mês."
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "date": "Trending",
+      "summary": "Em alta no Hugging Face · 791 likes · 1,874 downloads/mês."
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "Qwen/Qwen3.8-27B (image-text-to-text)",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "date": "Trending",
+      "summary": "Em alta no Hugging Face · 20,729 likes · 6,454,419 downloads/mês."
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "MiniMaxAI/MiniMax-H3-Image (text-to-image)",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "date": "Trending",
+      "summary": "Em alta no Hugging Face · 1,669 likes · 876,986 downloads/mês."
+    },
+    {
+      "source": "Hugging Face Spaces",
+      "section": "tempo_real",
+      "title": "Space: huggingface/moe-blogpost",
+      "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+      "date": "Trending",
+      "summary": "Demo interativa em alta (docker) · 759 likes."
+    },
+    {
+      "source": "Hugging Face Spaces",
+      "section": "tempo_real",
+      "title": "Space: joelniklaus/harness-leaderboard",
+      "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
+      "date": "Trending",
+      "summary": "Demo interativa em alta (docker) · 476 likes."
+    },
+    {
+      "source": "Hugging Face Spaces",
+      "section": "tempo_real",
+      "title": "Space: MiniMaxAI/minimax-h3-image",
+      "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
+      "date": "Trending",
+      "summary": "Demo interativa em alta (gradio) · 211 likes."
+    },
+    {
+      "source": "Hugging Face Spaces",
+      "section": "tempo_real",
+      "title": "Space: JCisHERE/wan2-2-i2v-v3",
+      "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+      "date": "Trending",
+      "summary": "Demo interativa em alta (gradio) · 512 likes."
+    },
+    {
+      "source": "Hacker News (Engenharia IA)",
+      "section": "labs",
+      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+      "url": "https://news.ycombinator.com/item?id=50549188",
+      "date": "2026-11-18",
+      "summary": "60 pontos · 64 comentários na comunidade técnica."
+    },
+    {
+      "source": "Hacker News (Engenharia IA)",
+      "section": "labs",
+      "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "date": "2026-11-17",
+      "summary": "54 pontos · 8 comentários na comunidade técnica."
+    },
+    {
+      "source": "Hacker News (Engenharia IA)",
+      "section": "labs",
+      "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+      "url": "https://news.ycombinator.com/item?id=50494696",
+      "date": "2026-11-14",
+      "summary": "93 pontos · 54 comentários na comunidade técnica."
+    },
+    {
+      "source": "Hacker News (Engenharia IA)",
+      "section": "labs",
+      "title": "Show HN: Kapso – Iterative learning from enterprise data",
+      "url": "https://news.ycombinator.com/item?id=50471281",
+      "date": "2026-11-12",
+      "summary": "61 pontos · 19 comentários na comunidade técnica."
+    },
+    {
+      "source": "Hacker News (Engenharia IA)",
+      "section": "labs",
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "date": "2026-11-04",
+      "summary": "112 pontos · 37 comentários na comunidade técnica."
+    },
+    {
+      "source": "NVIDIA Industrial & AI",
+      "section": "industria",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "date": "Thu, 19 Nov 2026 20:00:15",
+      "summary": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and…"
+    },
+    {
+      "source": "NVIDIA Industrial & AI",
+      "section": "industria",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "date": "Thu, 19 Nov 2026 17:00:35",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA…"
+    },
+    {
+      "source": "NVIDIA Industrial & AI",
+      "section": "industria",
+      "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+      "date": "Thu, 19 Nov 2026 14:00:12",
+      "summary": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big…"
+    },
+    {
+      "source": "NVIDIA Industrial & AI",
+      "section": "industria",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "date": "Wed, 18 Nov 2026 14:00:31",
+      "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified…"
+    },
+    {
+      "source": "NVIDIA Developer (Jetson/Omniverse)",
+      "section": "industria",
+      "title": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
+      "url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+      "date": "2026-11-19T20:28:20Z",
+      "summary": "Reinforcement learning (RL) uses rewards to train models to solve problems and complete tasks more successfully. Inference drives this process. Workers generate..."
+    },
+    {
+      "source": "NVIDIA Developer (Jetson/Omniverse)",
+      "section": "industria",
+      "title": "Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition",
+      "url": "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/",
+      "date": "2026-11-12T22:39:52Z",
+      "summary": "In science and industry, analyzing sensor measurements in real time can enable AI to adjust processes, guide experiments, and search for better operating..."
+    },
+    {
+      "source": "NVIDIA Developer (Jetson/Omniverse)",
+      "section": "industria",
+      "title": "Build Tool-Calling Parsers in Rust with AI Agents",
+      "url": "https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/",
+      "date": "2026-11-19T16:31:21Z",
+      "summary": "A tool call can arrive in pieces, an argument can be cut short, or model-specific markup can leak into the answer. A frontend parser turns that output, received..."
+    },
+    {
+      "source": "NVIDIA Developer (Jetson/Omniverse)",
+      "section": "industria",
+      "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos",
+      "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+      "date": "2026-11-18T20:02:38Z",
+      "summary": "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is..."
+    },
+    {
+      "source": "n8n (Automação & Orquestração)",
+      "section": "industria",
+      "title": "AI made integrations the vendor’s problem",
+      "url": "https://blog.n8n.io/ai-made-integrations-the-vendors-problem/",
+      "date": "Mon, 16 Nov 2026 10:17:32",
+      "summary": "In the second iteration of the AI Agent Development Tools report , I replaced the integrability axis with enterprise-readiness. I wanted this to signify the departure from 2020-style IPaaS. With MCP getting traction to…"
+    },
+    {
+      "source": "n8n (Automação & Orquestração)",
+      "section": "industria",
+      "title": "New in n8n: Public API rate limits that keep every team on your instance running",
+      "url": "https://blog.n8n.io/new-in-n8n-public-api-rate-limits-that-keep-every-team-on-your-instance-running/",
+      "date": "Fri, 13 Nov 2026 09:29:35",
+      "summary": "Cap public API requests per API key in n8n, with 429 headers that tell clients when to retry and idempotency keys for safe retries."
+    },
+    {
+      "source": "n8n (Automação & Orquestração)",
+      "section": "industria",
+      "title": "The future of work is built by everyone",
+      "url": "https://blog.n8n.io/the-future-of-work-is-built-by-everyone/",
+      "date": "Thu, 12 Nov 2026 08:00:00",
+      "summary": "Building automation is getting easier fast. So why keep it locked inside one team? A follow-up on what replaces the central automation team, and what n8n is learning as it opens building up to everyone."
+    },
+    {
+      "source": "n8n (Automação & Orquestração)",
+      "section": "industria",
+      "title": "Microservices best practices every automation engineer should know",
+      "url": "https://blog.n8n.io/microservices-best-practices/",
+      "date": "Tue, 10 Nov 2026 20:39:16",
+      "summary": "Discover microservices best practices to build resilient systems. Learn what the best patterns look like and how workflow automation fits into the process."
+    },
+    {
+      "source": "Microsoft Copilot & Azure AI",
+      "section": "labs",
+      "title": "What AI at work really costs - Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ2RuUlpBMUlmOFRsaGFqTGx4S3F5dXFVTmlJWnBuV0k0Rjl4cE02NjJSOURGanVEa3NreklzZHlqVV9ZYjJWV2xqR3gwa3JoOFFJZVBKU2syWlRWZFRmbm85VG5FeHpORkJRbzktSlpWaWFKOVJIMjZOUzU1X1JUeXMtdGlua0NDUGljRzNB?oc=5",
+      "date": "Mon, 16 Nov 2026 16:00:00",
+      "summary": "What AI at work really costs Microsoft"
+    },
+    {
+      "source": "Microsoft Copilot & Azure AI",
+      "section": "labs",
+      "title": "Introducing agent controls: An enterprise control plane for agent behavior - Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWFZLeEd2VThPME1XWmJSdk4wNVlRSDlUeG1DemQ4emhhS1ZUdTVvTlFRU3l1Z1J4WUc0VmpmMEI1NVBXSFhyMlhfOWJ2OUF4cmEtVHo0OUxpM0dkQWRvLUNQaHNsY29xQWhFeGZTdjJHVFlHdWxuMkV3Sklxbkx6dVNJcUZBZ0Zyak82eXlIRXV4UENIdTg3MDJJYzFqdmJvTzF2TkxsamtfUHNj?oc=5",
+      "date": "Wed, 18 Nov 2026 16:52:34",
+      "summary": "Introducing agent controls: An enterprise control plane for agent behavior Microsoft"
+    },
+    {
+      "source": "Microsoft Copilot & Azure AI",
+      "section": "labs",
+      "title": "State Farm scales governed AI to deliver enterprise business value with Microsoft Copilot Studio and Power Platform - Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZjBJQ1g1QkJhWmVoSWpOUkduYW9nOUJ5Y0FCTXM1RjM2T0NkUzF3TU93ZXhNZ2R4eWJUYzUtRkl3cUlCd2xmQnRxRzRKNXV5aUYwYnJ3eU1aZ2RZRUd5Si1Vc0M3dzM4YjY4TzdDNXd0MGhtbW1LZHl0R0hEQ3dqdF84amV2WXgtM0R4NnQtWQ?oc=5",
+      "date": "Sun, 08 Nov 2026 08:00:00",
+      "summary": "State Farm scales governed AI to deliver enterprise business value with Microsoft Copilot Studio and Power Platform Microsoft"
+    },
+    {
+      "source": "Microsoft Copilot & Azure AI",
+      "section": "labs",
+      "title": "Microsoft and Oracle turn data into insights and actions - Microsoft Azure",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3JRRnhXM2Z4NXlvNVhDaG1odVB0aDlUNUlNb2RfZGNQdEY5Zy12dklEbGV1WENWRC1JWFUzYlVCVk12cWp3SlJoNEtJTm1pQmZreGxzakN2UmNVR0JEeDFKSHF6eHVMVUplSURfRGFmZEpuTEcwbVhxbXBXU0VqSmhOYzEtNG5FbjNveHVxRlBra1BvdlBkcDQ5Q0FobnRDR3dkbC04TXpldw?oc=5",
+      "date": "Tue, 17 Nov 2026 18:35:00",
+      "summary": "Microsoft and Oracle turn data into insights and actions Microsoft Azure"
+    },
+    {
+      "source": "Ultralytics (YOLO / Visão Industrial)",
+      "section": "industria",
+      "title": "Qwen4 Max Auto Annotation",
+      "url": "https://www.ultralytics.com/blog/qwen4-max-auto-annotation",
+      "date": "Recente",
+      "summary": "Blog oficial Ultralytics (YOLO, visão computacional e edge AI)."
+    },
+    {
+      "source": "Ultralytics (YOLO / Visão Industrial)",
+      "section": "industria",
+      "title": "Gpt 6 2 Sol Vs Astra Auto Annotation",
+      "url": "https://www.ultralytics.com/blog/gpt-6-2-sol-vs-astra-auto-annotation",
+      "date": "Recente",
+      "summary": "Blog oficial Ultralytics (YOLO, visão computacional e edge AI)."
+    },
+    {
+      "source": "Ultralytics (YOLO / Visão Industrial)",
+      "section": "industria",
+      "title": "Azure Custom Vision Migration",
+      "url": "https://www.ultralytics.com/blog/azure-custom-vision-migration",
+      "date": "Recente",
+      "summary": "Blog oficial Ultralytics (YOLO, visão computacional e edge AI)."
+    },
+    {
+      "source": "Ultralytics (YOLO / Visão Industrial)",
+      "section": "industria",
+      "title": "Jetson Vs Raspberry Pi 5",
+      "url": "https://www.ultralytics.com/blog/jetson-vs-raspberry-pi-5",
+      "date": "Recente",
+      "summary": "Blog oficial Ultralytics (YOLO, visão computacional e edge AI)."
+    },
+    {
+      "source": "Google AI / DeepMind",
+      "section": "labs",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "date": "Thu, 19 Nov 2026 18:00:00",
+      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API."
+    },
+    {
+      "source": "Google AI / DeepMind",
+      "section": "labs",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "date": "Thu, 19 Nov 2026 17:00:00",
+      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode."
+    },
+    {
+      "source": "Google AI / DeepMind",
+      "section": "labs",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "date": "Wed, 18 Nov 2026 17:00:00",
+      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today."
+    },
+    {
+      "source": "Google AI / DeepMind",
+      "section": "labs",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "date": "Tue, 17 Nov 2026 17:00:00",
+      "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf."
+    },
+    {
+      "source": "Radar IA Brasil (Empresas & Indústria)",
+      "section": "newsletters",
+      "title": "'Em dois anos, toda a indústria será robôs': marcas de roupa querem substituir modelos por imagens de IA - G1",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQU0NBUUZMUjNmT2hzT3BRYnd3QktaQlF5SVN5WDdVaHczRDZrTE96QTE2ZlRmZWJBZGgwTXp3VG11aWExZ2oybTc0WXVjTjZVVXp3dXRSblQ3RzZham1yV1E4ZHQ3SnliQjBqc3J3Yk1ITDllSWZhVlJpaE5Eci1OTUM2d1psYlJabUxpc20zNnU2Mk54ampQVV9BUDR3VVZLb3RiWkUzS0lkLUo3Yy1lNDJ4R3dlYWM4aE5Gd05XYWJfWThRZkFZcWx3YmNkMHdmNERDbnFfUDYyYS13dUtRYXItOVZOUUNnX1dyMWRn0gH8AUFVX3lxTE42X3R2bk5nNjF0NzFhQW9kT245X1FRb0w0VVV6OC1XMFpsYzFJWXBRS0J3TVlPdkpFMER1d0kzYVExbUVWQ3VGU0JkVzF1U3dBUDY2TEJiVjdwWUhydDE3eXBXLVpxODluSnRtejBCVmZWUUZkSDI1clVGQk5mUHZyMmNDSnRjY0ZxUWdBMXhPRGpuZW0yOTBTTTR6dXkzMlVzbDhNekh1SVJSUEpzUC0teFZGSF8ycWtCaUxOSzhGcmdMY0xBRDlUQ1hLT2F2Zk1EcWZFbUVOQnpoVElEcmxmOUJ5R0JZUkdXNGtCVzdsWENkNk1iRHJ1cXF4RA?oc=5",
+      "date": "Thu, 29 Oct 2026 07:00:00",
+      "summary": "'Em dois anos, toda a indústria será robôs': marcas de roupa querem substituir modelos por imagens de IA G1"
+    },
+    {
+      "source": "Radar IA Brasil (Empresas & Indústria)",
+      "section": "newsletters",
+      "title": "IA na Indústria Alimentícia: Cases de Empresas Líderes - Food Connection",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmdibjRlWjdFcXBaWmRZQTAzb0RlRjRYc0xjS3cxY3lFMzFfZGtzOGVSMk9HNm9pYndJclN4VXM5NnZMdFl2V2xEUFpWbXY0emItTzB3VnFRNHNYZ0JoUFlNSW9feEM0ZkJYMHU1NWpXQV9obTJueXRRUmJUcWNTR2t5b1l5OXFHMi1aajR1YzBMWkVlenNwZTl3bUExbzNHT2ZN?oc=5",
+      "date": "Wed, 23 Sep 2026 07:00:00",
+      "summary": "IA na Indústria Alimentícia: Cases de Empresas Líderes Food Connection"
+    },
+    {
+      "source": "Radar IA Brasil (Empresas & Indústria)",
+      "section": "newsletters",
+      "title": "Inteligência artificial transforma a indústria brasileira - Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM0lSSVEzNE94TmtzUkZXYnpfNUtpR285MW5FQUppbkJyclVPMVJONm5FamdRT3I5VjNaR096bmgtdUpJTjJOa1l0eUd4RkN4VzV4X2o1cFJoMjQ1a1RmY2FsbUNBVHFqczVkU1RrU3laTDNkdU1qM08zT3lHZ2UxSm5Mb2ZkajdOSFZVVEl5d2JCQm8wS1lEYlRqYno4R0Z6azl6U2s4V2h5bmdMeTNkUF9LLS0tVnB6RjVOZzJBSDZPUG41WXQwYWg3UVAxdw?oc=5",
+      "date": "Wed, 21 Jan 2026 08:00:00",
+      "summary": "Inteligência artificial transforma a indústria brasileira Agência Brasil"
+    },
+    {
+      "source": "Radar IA Brasil (Empresas & Indústria)",
+      "section": "newsletters",
+      "title": "6 gigantes da indústria alimentícia que utilizam IA em seus processos - e são exemplos de sucesso - Exame",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaWxyWWhpZ1l3RjJId1BCclVHREJrWjkwemkwRThZWU1YRjBXSFo4WmpSOElXTGVwQVpvdm9hOEFJRFlSVF9VcVVtS1BQLXhjVmRybVRjSm16XzRVdFJKX0NyYWdyLWdxcHMydUhnQ3ZETVE1QlM4cnhNcFJMdWZySXl0ZTNTMXVkOHplMUQ1cE00V1ZSUGl5c0tvS1hmRDRKUHJfeW1TcEhIT3RCZ1JKaWJtUWwwelhvNTNLUVc1SW1LVkwwSlQycUREbWlrbXVuVC1xXw?oc=5",
+      "date": "Sun, 21 Jun 2026 07:00:00",
+      "summary": "6 gigantes da indústria alimentícia que utilizam IA em seus processos - e são exemplos de sucesso Exame"
+    },
+    {
+      "source": "Radar IA Brasil (Empresas & Indústria)",
+      "section": "newsletters",
+      "title": "Indústria adota IA e transforma mercado de trabalho - Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTjdvb1FWZmJMeWJRMEN1eUN0U0lWYVRDOGMtOGtVcEsyZUN4Y1VUck52TGxnX2c0bDFvTHlUY3NKV2FvWENlc2pET1JVMWFMVmVpZFRCOW1jQkgybUoxX0ltdFkxVHFTTU5yc3lRd1FaNEhZRmxTaFdiakdtTGNiNmlzRHVTRFhXR19QS0ozU0lZVWlCZW1BalZrYkxxNW15T2dfbW9jU0U2NFJUeW5NaW5DQ0IxZk56cklLMWZTMDVNVmpKTzNfcGN3?oc=5",
+      "date": "Fri, 26 Jun 2026 07:00:00",
+      "summary": "Indústria adota IA e transforma mercado de trabalho Gazeta do Povo"
+    },
+    {
+      "source": "The Rundown AI",
+      "section": "newsletters",
+      "title": "Anthropic pulls off the biggest IPO ever",
+      "url": "https://therundownai.beehiiv.com/p/anthropic-pulls-off-the-biggest-ipo-ever",
+      "date": "Fri, 20 Nov 2026 10:00:00",
+      "summary": "PLUS: Use AI to find a job and prepare to get hired"
+    },
+    {
+      "source": "The Rundown AI",
+      "section": "newsletters",
+      "title": "Google’s shipping spree continues with Neon",
+      "url": "https://therundownai.beehiiv.com/p/google-shipping-spree-continues-with-neon",
+      "date": "Thu, 19 Nov 2026 10:00:00",
+      "summary": "PLUS: Use AI to rework your LinkedIn profile"
+    },
+    {
+      "source": "The Rundown AI",
+      "section": "newsletters",
+      "title": "OpenAI’s newest release lands to rough reviews",
+      "url": "https://therundownai.beehiiv.com/p/openai-newest-release-lands-to-rough-reviews",
+      "date": "Wed, 18 Nov 2026 11:00:00",
+      "summary": "PLUS: Turn a spreadsheet into a data story with AI"
+    },
+    {
+      "source": "The Rundown AI",
+      "section": "newsletters",
+      "title": "California takes OpenAI to court",
+      "url": "https://therundownai.beehiiv.com/p/california-takes-openai-to-court",
+      "date": "Tue, 17 Nov 2026 11:00:00",
+      "summary": "PLUS: Make your AI usage go further with these tips"
+    },
+    {
+      "source": "LangChain / LangGraph",
+      "section": "industria",
+      "title": "LangChain launches a gateway to control which tools AI agents can use - Superpower Daily",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYWNLbVVuZV9fLUZBUENDbEtwNXJhU3lEUkF2YjJScGpxcXNBZ2FBLTJ3SGVoVlRXN2ZCRWpuT01JbkJ6Yld4NF9oMUF6LXVzNjF5TmJ4b0cydjRpcktwVDl2cHNxNHJZVks0MlFNVnhDdi1zcWE0V1FHQnQ3WmhLeDMtcERkTEZiTlZEdkltQTZRTmhMR01hQnhIemRiZmY5d0JXSmtB?oc=5",
+      "date": "Thu, 19 Nov 2026 19:13:15",
+      "summary": "LangChain launches a gateway to control which tools AI agents can use Superpower Daily"
+    },
+    {
+      "source": "LangChain / LangGraph",
+      "section": "industria",
+      "title": "LangChain Says Prompt Engineering Will Disappear. Here's What Comes Next - HackerNoon",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdktIY2NyMnk5VDc2WU54VGlSbWVjUjllblFqVGlrSWZkVHVVODg2UXZoOEQwZjRxXzFlWk9QTV9zTExxcTFtNlVCazJQYnppQUNSV3dJLWdROVdRVTBvSlBVYk82Z2tBZU5TQzBGSnZ5d01WdVQtemhYdDZyTDhibVJrZ2hxYzZxNXNtZGpuNjA5WkdmNVZCQg?oc=5",
+      "date": "Fri, 20 Nov 2026 06:22:15",
+      "summary": "LangChain Says Prompt Engineering Will Disappear. Here's What Comes Next HackerNoon"
+    },
+    {
+      "source": "LangChain / LangGraph",
+      "section": "industria",
+      "title": "LangChain Launches LangSmith Tool Gateway to Govern Agent Tool Calls - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQckczaFg1a1A4VEM5QnRheDFzX1BSN2d2S2pQa1Q5QkFmaXN2cGZ6SVJ5aVNYTlFZMV85ZXhUSHBENzZNenpWNUkySzhUSk44Q2VYa3g0aEhmR3UwYlRtU1RRX0Fvc1VYcFlyS0pvRkRvcHktbFFncmFFTl9zMDh6ZlMwdi00MVJkNWtrMFQ4TFBYVzc1?oc=5",
+      "date": "Thu, 19 Nov 2026 15:25:02",
+      "summary": "LangChain Launches LangSmith Tool Gateway to Govern Agent Tool Calls Unite.AI"
+    },
+    {
+      "source": "LangChain / LangGraph",
+      "section": "industria",
+      "title": "LangChain Reaches $3B Valuation With $300M Series C for AI Agent Management - AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2plR2NvZHJlNU0wb0RNV2ZOTE8zblJ5dnJfalpEOXpQQVpNN0U5Ry1BQ0lZMEdzamMtWDQzMWdZNmVFMTNGSUt1bm1ZSUZFSWpaS0VQWGxKOW9EazBPZGpoSGFLRGVKNzZFT05EcDhOeG9sWWVWWHhOb1dCWThFSEk4c0xzYVlld3hITDdpS2ZyRDB2MkVtWjdkVDNUUkJLanREQmE5RENhS0ZKVFFwXw?oc=5",
+      "date": "Mon, 16 Nov 2026 13:47:29",
+      "summary": "LangChain Reaches $3B Valuation With $300M Series C for AI Agent Management AI Insider"
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "New voice isolation model from Inworld - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWNfMEFxUFo0M21yV2xfYVBPUTVhVjdSQzI3VFpBc1JIWHhqOExWNnhYVWlReTZVMHp5UXFfWURwdVRaS3ViUG5rZ3lNdFNCMkpMd1ZVcWp1dk9oRnBIX3pjMklxaW5fb0k4ajRadE9peFFqc1pMYlFsalRmU2xYX3NWOG52VE52Sk1FSGFoTy1JU1JtWjFN?oc=5",
+      "date": "Wed, 18 Nov 2026 21:01:13",
+      "summary": "New voice isolation model from Inworld Reddit"
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "You'd never guess who opened up their checkbook to buy all the ram - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTldVcW1LUFU0ZFBST1g5VVgyWVhZMWZkNGNhVlppX2VaQU9sdG5jX1AzanpZMWkxSXJIbXk5a2kzWF9PT0JpSmtNcFFneFZjZmhxaUpvOWZBOW5fQnFxLTZGOExBNndtdEtHYkxWSzRZZmp1czBCdlMwcjhtQnR0bkxHa0dTYjgtdkdKVGtmUUROOXRELTJ0VXAtMnlHLWZjazc3Q0dR?oc=5",
+      "date": "Wed, 18 Nov 2026 14:03:39",
+      "summary": "You'd never guess who opened up their checkbook to buy all the ram Reddit"
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "Goes further with Koharu, the local-first manga translator with AI agents built in! - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOTJraUFzMDhmN2Fhc0Q4N3VjeExGdWVyOVdhdTB2czF0bW91SWFDRm41bVFjTkEzQkEyZldra28ybU43a1NEY1F4cHpyNmw5dm1fbjJCazBGOEYwR3JlS1RVVHJVVE9LWXUxWHNTdnYybm1zRnQ0cXdmVlNqMFhGRkxJOHJqRVdCVnFRUkd0blk2eVZvWXNCMU1Eenh1RTFa?oc=5",
+      "date": "Wed, 18 Nov 2026 14:58:44",
+      "summary": "Goes further with Koharu, the local-first manga translator with AI agents built in! Reddit"
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "xi called to support open source - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaUtucjJxaUV0a19MT1EzQVJUSmpEdHFodVdKSUlSNlllZExPM09QZWY0YmdTQlQzbmVISnNqdE5DbjRzT3NrU011UXo5bXpkN3Yxd24zaGp4ckk5NFp2RUhyOWdiQWJRdlJNcFdLZEo2eURnTHZDN3dFUnBiNFB1SlMyOWF4WTZUTHVhMG5naw?oc=5",
+      "date": "Thu, 19 Nov 2026 10:29:38",
+      "summary": "xi called to support open source Reddit"
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "elementalsouls/Claude-BugHunter (+1,660 ⭐ hoje)",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "date": "Trending",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise…"
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "HKUDS/CLI-Anything (+774 ⭐ hoje)",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "date": "Trending",
+      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "jingyaogong/minimind (+841 ⭐ hoje)",
+      "url": "https://github.com/jingyaogong/minimind",
+      "date": "Trending",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "mvanhorn/last30days-skill (+685 ⭐ hoje)",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "date": "Trending",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "Tracer-Cloud/opensre (+465 ⭐ hoje)",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "date": "Trending",
+      "summary": "The open-source agent for CI/CD reliability."
+    },
+    {
+      "source": "GitHub Trending (Typescript)",
+      "section": "tempo_real",
+      "title": "cursor/plugins (+292 ⭐ hoje)",
+      "url": "https://github.com/cursor/plugins",
+      "date": "Trending",
+      "summary": "Cursor plugin specification and official plugins"
+    },
+    {
+      "source": "GitHub Trending (Typescript)",
+      "section": "tempo_real",
+      "title": "firecrawl/firecrawl (+1,226 ⭐ hoje)",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "date": "Trending",
+      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API."
+    },
+    {
+      "source": "GitHub Trending (Typescript)",
+      "section": "tempo_real",
+      "title": "google-labs-code/stitch-skills (+315 ⭐ hoje)",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "date": "Trending",
+      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude…"
+    },
+    {
+      "source": "GitHub Trending (Typescript)",
+      "section": "tempo_real",
+      "title": "toeverything/AFFiNE (+686 ⭐ hoje)",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "date": "Trending",
+      "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and…"
+    }
+  ]
+}

@@ -1,0 +1,2445 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The CK AI Times · Edição Diária &amp; Ranking Top 50 LLMs | CK Intelligence</title>
+  <meta name="description" content="Radar diário 100% factual de Inteligência Artificial (20 fontes reais + Ranking Mundial Top 50 Modelos de Linguagem ao vivo)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Playfair+Display:wght@700;800;900&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #050810;
+      --paper: #0B111E;
+      --card: #0F172A;
+      --border: rgba(255,255,255,0.11);
+      --rule: rgba(255,255,255,0.22);
+      --text: #F8FAFC;
+      --muted: #94A3B8;
+      --accent: #38BDF8;
+      --blue: #0A6CFF;
+      --emerald: #10B981;
+      --amber: #F59E0B;
+    }
+    body.paper-mode {
+      --bg: #F3EFE6;
+      --paper: #FCFBF7;
+      --card: #FFFFFF;
+      --border: rgba(15,23,42,0.14);
+      --rule: #1E293B;
+      --text: #0F172A;
+      --muted: #475569;
+      --accent: #0A6CFF;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.55; padding: 16px 12px 64px 12px;
+      transition: background 0.25s, color 0.25s;
+    }
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--accent); text-decoration: underline; }
+
+    .newspaper {
+      max-width: 1260px; margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 32px 42px 32px;
+      box-shadow: 0 28px 80px -24px rgba(0,0,0,0.6);
+    }
+    @media (max-width: 720px) { .newspaper { padding: 16px; } }
+
+    .top-utility {
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+      font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted);
+      padding-bottom: 12px; border-bottom: 1px solid var(--border);
+    }
+    .verified-pill {
+      color: var(--emerald); background: rgba(16,185,129,0.12);
+      border: 1px solid rgba(16,185,129,0.35); padding: 4px 10px; border-radius: 999px; font-weight: 700;
+    }
+    .theme-btn {
+      background: var(--card); color: var(--text); border: 1px solid var(--border);
+      padding: 6px 12px; border-radius: 999px; cursor: pointer;
+      font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
+    }
+
+    .masthead {
+      text-align: center; padding: 18px 0 14px 0;
+      border-bottom: 3px double var(--rule);
+    }
+    .masthead h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(32px, 5.2vw, 62px); font-weight: 900;
+      letter-spacing: -0.02em; line-height: 1;
+    }
+    .masthead-sub {
+      margin-top: 8px; font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent);
+    }
+    .dateline {
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;
+      padding: 10px 0; border-bottom: 1px solid var(--rule);
+      font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted);
+    }
+
+    .quick-nav {
+      display: flex; gap: 8px; flex-wrap: wrap; padding: 14px 0; border-bottom: 1px solid var(--border);
+    }
+    .quick-nav a {
+      font-family: 'JetBrains Mono', monospace; font-size: 11.5px; font-weight: 700;
+      padding: 6px 13px; border-radius: 8px; background: var(--card); border: 1px solid var(--border);
+    }
+    .quick-nav a.highlight { background: var(--blue); color: #fff; border-color: var(--accent); }
+
+    /* Front Page */
+    .front-page {
+      display: grid; grid-template-columns: 1.15fr 1fr; gap: 26px;
+      padding: 24px 0; border-bottom: 2px solid var(--rule);
+    }
+    @media (max-width: 900px) { .front-page { grid-template-columns: 1fr; } }
+
+    .lead-kicker {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
+      color: var(--emerald); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 8px;
+    }
+    .lead-box h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(24px, 3vw, 38px); font-weight: 800; line-height: 1.15; margin-bottom: 12px;
+    }
+    .lead-deck { font-size: 15.5px; color: var(--muted); margin-bottom: 16px; }
+    .lead-box .cta-src {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--blue); color: #fff; padding: 10px 16px; border-radius: 9px;
+      font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700;
+    }
+
+    .signals-col {
+      display: flex; flex-direction: column; gap: 11px;
+      border-left: 1px solid var(--border); padding-left: 24px;
+    }
+    @media (max-width: 900px) { .signals-col { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 18px; } }
+    .section-kicker {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.16em; color: var(--accent); margin-bottom: 6px;
+    }
+    .signal-card { padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+    .signal-card:last-child { border-bottom: none; padding-bottom: 0; }
+    .signal-tag {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; color: var(--amber); margin-bottom: 3px;
+    }
+    .signal-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 700; line-height: 1.28; margin-bottom: 3px; }
+    .signal-card p { font-size: 12.5px; color: var(--muted); }
+
+    /* Top 50 Leaderboard Section */
+    .leaderboard-sec {
+      padding: 28px 0; border-bottom: 2px solid var(--rule);
+    }
+    .lb-header {
+      display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 14px;
+    }
+    .lb-header h2 {
+      font-family: 'Space Grotesk', sans-serif; font-size: clamp(22px, 2.5vw, 30px); font-weight: 700;
+    }
+    .top3-strip {
+      font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted);
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 10px 14px; margin-bottom: 14px;
+    }
+    .controls-bar {
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 14px;
+    }
+    .tabs { display: flex; gap: 7px; flex-wrap: wrap; }
+    .tab-btn {
+      background: var(--card); color: var(--muted); border: 1px solid var(--border);
+      padding: 7px 12px; border-radius: 8px; cursor: pointer;
+      font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
+    }
+    .tab-btn.active { background: var(--blue); color: #fff; border-color: var(--accent); }
+    .search-input {
+      background: var(--card); color: var(--text); border: 1px solid var(--border);
+      padding: 8px 14px; border-radius: 8px; font-size: 13px; min-width: 240px; outline: none;
+    }
+    .search-input:focus { border-color: var(--accent); }
+
+    .table-wrap {
+      overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; background: var(--card);
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th {
+      text-align: left; padding: 11px 14px;
+      font-family: 'JetBrains Mono', monospace; font-size: 10.5px; text-transform: uppercase;
+      color: var(--muted); border-bottom: 1px solid var(--border); background: rgba(10,108,255,0.06);
+    }
+    td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    tr:last-child td { border-bottom: none; }
+    .col-pos { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent); width: 54px; }
+    .model-link { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 14px; display: block; }
+    .creator-sub { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--muted); }
+    .score-wrap { display: flex; align-items: center; gap: 10px; min-width: 145px; }
+    .score-wrap strong { font-family: 'JetBrains Mono', monospace; font-size: 13px; width: 46px; }
+    .score-bar { flex: 1; height: 7px; border-radius: 99px; background: rgba(148,163,184,0.2); overflow: hidden; }
+    .score-fill { height: 100%; border-radius: 99px; background: linear-gradient(90deg, #0A6CFF, #38BDF8, #10B981); }
+    .pill-open {
+      font-family: 'JetBrains Mono', monospace; font-size: 10.5px; font-weight: 700;
+      color: #10B981; background: rgba(16,185,129,0.14); padding: 3px 8px; border-radius: 6px; white-space: nowrap;
+    }
+    .pill-cloud {
+      font-family: 'JetBrains Mono', monospace; font-size: 10.5px; font-weight: 700;
+      color: #38BDF8; background: rgba(56,189,248,0.12); padding: 3px 8px; border-radius: 6px; white-space: nowrap;
+    }
+    .mono-cell { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+    /* News Grid */
+    .news-sec { padding-top: 26px; }
+    .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    @media (max-width: 1000px) { .news-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 650px) { .news-grid { grid-template-columns: 1fr; } }
+    .news-row {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 16px; display: flex; flex-direction: column; justify-content: space-between; gap: 10px;
+    }
+    .news-meta { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-bottom: 6px; }
+    .src-pill { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; color: var(--accent); text-transform: uppercase; }
+    .news-date { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted); }
+    .news-row h4 { font-family: 'Space Grotesk', sans-serif; font-size: 14.5px; font-weight: 700; line-height: 1.3; margin-bottom: 6px; }
+    .news-row p { font-size: 12.5px; color: var(--muted); }
+    .src-go { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="newspaper">
+    <div class="top-utility">
+      <span class="verified-pill">🛡️ 100% FONTES OFICIAIS VERIFICADAS · ZERO INVENÇÕES</span>
+      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+        <span>Fontes online: <strong>21/21</strong> · Atualizado automaticamente na nuvem</span>
+        <button class="theme-btn" onclick="document.body.classList.toggle('paper-mode')">☀️ Papel NYT / 🌙 Dark CK</button>
+      </div>
+    </div>
+
+    <header class="masthead">
+      <h1>The CK AI Times</h1>
+      <div class="masthead-sub">Radar Diário de Inteligência Artificial, Modelos de Linguagem &amp; Indústria · CK Intelligence</div>
+    </header>
+
+    <div class="dateline">
+      <span>DATA DA EDIÇÃO: 2026-11-20</span>
+      <span>ÚLTIMA COLETA AUTOMÁTICA: 20/11/2026 às 10:13 (BRT)</span>
+      <span>85 NOTÍCIAS REAIS · TOP 50 MODELOS RANQUEADOS</span>
+    </div>
+
+    <nav class="quick-nav">
+      <a href="#capa">📰 Manchetes de Hoje</a>
+      <a href="#ranking-top50" class="highlight">🏆 Ranking Top 50 Modelos (Neon, GPT, Claude, Open-Source)</a>
+      <a href="#cadernos">📚 Todos os 4 Cadernos (85 links)</a>
+    </nav>
+
+    <!-- CAPA FACTUAL -->
+    <section id="capa" class="front-page">
+      <div class="lead-box">
+        <div class="lead-kicker">● DESTAQUE DIRETO DA FONTE · The Rundown AI (Fri, 20 Nov 2026 10:00:00)</div>
+        <h2><a href="https://therundownai.beehiiv.com/p/anthropic-pulls-off-the-biggest-ipo-ever" target="_blank" rel="noopener noreferrer">Anthropic pulls off the biggest IPO ever</a></h2>
+        <p class="lead-deck">PLUS: Use AI to find a job and prepare to get hired</p>
+        <a class="cta-src" href="https://therundownai.beehiiv.com/p/anthropic-pulls-off-the-biggest-ipo-ever" target="_blank" rel="noopener noreferrer">
+          Ler matéria original na íntegra ↗
+        </a>
+      </div>
+
+      <div class="signals-col">
+        <div class="section-kicker">📡 PRINCIPAIS LANÇAMENTOS &amp; MOVIMENTOS DE HOJE (LINKS DIRETOS)</div>
+        
+        <article class="signal-card">
+          <div class="signal-tag">TLDR AI · Thu, 19 Nov 2026 00:00:00</div>
+          <h3><a href="https://tldr.tech/ai/2026-11-19" target="_blank" rel="noopener noreferrer">Gemini 4 Neon 🚀, Genie 4 worlds 🌍, AI designs chips 🔬</a></h3>
+          <p>Clique para ler o conteúdo original direto na fonte.</p>
+        </article>
+        <article class="signal-card">
+          <div class="signal-tag">OpenAI News · Thu, 19 Nov 2026 08:00:00</div>
+          <h3><a href="https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast" target="_blank" rel="noopener noreferrer">How OpenAI’s Performance Factory keeps ChatGPT fast</a></h3>
+          <p>Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.</p>
+        </article>
+        <article class="signal-card">
+          <div class="signal-tag">Anthropic News (Claude) · Oficial</div>
+          <h3><a href="https://www.anthropic.com/news/public-benefit-fund" target="_blank" rel="noopener noreferrer">Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure…</a></h3>
+          <p>Comunicado oficial publicado em anthropic.com/news.</p>
+        </article>
+        <article class="signal-card">
+          <div class="signal-tag">Google AI / DeepMind · Thu, 19 Nov 2026 18:00:00</div>
+          <h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/" target="_blank" rel="noopener noreferrer">Introducing Tool Retrieval in the Gemini API</a></h3>
+          <p>Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.</p>
+        </article>
+        <article class="signal-card">
+          <div class="signal-tag">NVIDIA Industrial &amp; AI · Thu, 19 Nov 2026 20:00:15</div>
+          <h3><a href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/" target="_blank" rel="noopener noreferrer">NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</a></h3>
+          <p>NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and…</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- RANKING MUNDIAL TOP 50 MODELOS DE IA -->
+    <section id="ranking-top50" class="leaderboard-sec">
+      <div class="lb-header">
+        <div>
+          <div class="section-kicker">📊 DADOS OFICIAIS AO VIVO · FONTE: ARTIFICIAL ANALYSIS INTELLIGENCE INDEX</div>
+          <h2>🏆 Ranking Mundial Top 50 Modelos de Linguagem (LLMs)</h2>
+        </div>
+        <a href="https://artificialanalysis.ai/leaderboards/models" target="_blank" rel="noopener noreferrer" style="font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--accent); font-weight:700;">
+          Verificar fonte oficial Artificial Analysis ↗
+        </a>
+      </div>
+
+      <div class="top3-strip">
+        🥇 Pódio Atual (125 modelos avaliados): <strong>#1</strong> Claude Fable 5.2 (max) (64.6) · <strong>#2</strong> Claude Fable 5.2 (xhigh) (62.2) · <strong>#3</strong> GPT-6.2 Astra (max) (62.1)
+      </div>
+
+      <div class="controls-bar">
+        <div class="tabs">
+          <button class="tab-btn active" onclick="filterRank('overall', 'all', this)">🏆 Top 50 Geral</button>
+          <button class="tab-btn" onclick="filterRank('opensource', 'all', this)">🔓 Top 20 Open-Source (Local)</button>
+          <button class="tab-btn" onclick="filterRank('overall', 'google', this)">🔵 Google (Gemini)</button>
+          <button class="tab-btn" onclick="filterRank('overall', 'anthropic', this)">🟠 Anthropic (Claude)</button>
+          <button class="tab-btn" onclick="filterRank('overall', 'openai', this)">🟢 OpenAI (GPT)</button>
+        </div>
+        <input type="text" id="rankSearch" class="search-input" placeholder="Buscar modelo (ex: Neon, Argon, Hydrogen, Qwen)..." oninput="applyRankFilters()" />
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Pos</th>
+              <th>Modelo &amp; Laboratório</th>
+              <th>Intelligence Index</th>
+              <th>Tipo</th>
+              <th>Contexto</th>
+              <th>Preço / 1M (In / Out)</th>
+            </tr>
+          </thead>
+          <tbody id="rankBody">
+            
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude fable 5.2 (max) anthropic">
+              <td class="col-pos">#01</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-fable-5-2" target="_blank" rel="noopener noreferrer" class="model-link">Claude Fable 5.2 (max)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>64.56</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:100%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude fable 5.2 (xhigh) anthropic">
+              <td class="col-pos">#02</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-fable-5-2" target="_blank" rel="noopener noreferrer" class="model-link">Claude Fable 5.2 (xhigh)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>62.22</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:96%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 astra (max) openai">
+              <td class="col-pos">#03</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-astra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Astra (max)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>62.14</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:96%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude fable 5.2 (high) anthropic">
+              <td class="col-pos">#04</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-fable-5-2" target="_blank" rel="noopener noreferrer" class="model-link">Claude Fable 5.2 (high)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>61.82</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:95%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 astra (xhigh) openai">
+              <td class="col-pos">#05</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-astra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Astra (xhigh)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>61.56</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:95%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 neon (xhigh) google">
+              <td class="col-pos">#06</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-neon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Neon (xhigh)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>61.40</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:95%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$3.00 / $15.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 astra (high) openai">
+              <td class="col-pos">#07</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-astra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Astra (high)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>60.09</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:93%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 carbon (high) google">
+              <td class="col-pos">#08</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-carbon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Carbon (high)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>60.03</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:92%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 neon (high) google">
+              <td class="col-pos">#09</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-neon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Neon (high)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>59.62</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:92%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$3.00 / $15.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude opus 5.5 (max) anthropic">
+              <td class="col-pos">#10</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-opus-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Opus 5.5 (max)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>59.11</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:91%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 carbon (medium) google">
+              <td class="col-pos">#11</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-carbon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Carbon (medium)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>58.26</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:90%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude opus 5.5 (xhigh) anthropic">
+              <td class="col-pos">#12</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-opus-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Opus 5.5 (xhigh)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>57.44</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:88%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 sol (max) openai">
+              <td class="col-pos">#13</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-sol" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Sol (max)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>57.26</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:88%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 astra (medium) openai">
+              <td class="col-pos">#14</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-astra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Astra (medium)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>57.00</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:88%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude fable 5.2 (medium) anthropic">
+              <td class="col-pos">#15</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-fable-5-2" target="_blank" rel="noopener noreferrer" class="model-link">Claude Fable 5.2 (medium)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>56.41</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:87%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 sol (xhigh) openai">
+              <td class="col-pos">#16</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-sol" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Sol (xhigh)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>55.74</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:86%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 sol (high) openai">
+              <td class="col-pos">#17</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-sol" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Sol (high)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>54.89</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:85%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 neon (medium) google">
+              <td class="col-pos">#18</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-neon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Neon (medium)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>54.86</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:84%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$3.00 / $15.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude sonnet 5.5 (max) anthropic">
+              <td class="col-pos">#19</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-sonnet-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Sonnet 5.5 (max)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>54.54</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:84%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 carbon (low) google">
+              <td class="col-pos">#20</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-carbon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Carbon (low)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>54.22</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:83%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude fable 5.2 (low) anthropic">
+              <td class="col-pos">#21</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-fable-5-2" target="_blank" rel="noopener noreferrer" class="model-link">Claude Fable 5.2 (low)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>53.92</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:83%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 hydrogen (xhigh) google">
+              <td class="col-pos">#22</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-hydrogen" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Hydrogen (xhigh)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>53.92</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:83%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.50 / $7.50</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 sol (medium) openai">
+              <td class="col-pos">#23</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-sol" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Sol (medium)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>52.68</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:81%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude opus 5.5 (high) anthropic">
+              <td class="col-pos">#24</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-opus-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Opus 5.5 (high)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>51.84</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:80%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.1 terra (max) openai">
+              <td class="col-pos">#25</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-1-terra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.1 Terra (max)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>51.33</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:79%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.00 / $5.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 hydrogen (high) google">
+              <td class="col-pos">#26</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-hydrogen" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Hydrogen (high)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>50.79</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:78%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.50 / $7.50</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 argon (high) google">
+              <td class="col-pos">#27</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-argon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Argon (high)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>50.41</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:78%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="meta" data-name="muse wonder full (max) meta">
+              <td class="col-pos">#28</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/muse-wonder-full" target="_blank" rel="noopener noreferrer" class="model-link">Muse Wonder Full (max)</a>
+                <span class="creator-sub">Meta</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>50.08</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:77%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">—</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude sonnet 5.5 (xhigh) anthropic">
+              <td class="col-pos">#29</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-sonnet-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Sonnet 5.5 (xhigh)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>49.92</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:77%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude opus 5.5 (medium) anthropic">
+              <td class="col-pos">#30</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-opus-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Opus 5.5 (medium)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>48.21</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:74%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 argon (medium) google">
+              <td class="col-pos">#31</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-argon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Argon (medium)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>47.60</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:73%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="kimi" data-name="kimi k3.1 pro kimi">
+              <td class="col-pos">#32</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/kimi-k3-1-pro" target="_blank" rel="noopener noreferrer" class="model-link">Kimi K3.1 Pro</a>
+                <span class="creator-sub">Kimi</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>46.45</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:71%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 astra (low) openai">
+              <td class="col-pos">#33</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-astra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Astra (low)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>45.65</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:70%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$8.00 / $40.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.1 terra (xhigh) openai">
+              <td class="col-pos">#34</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-1-terra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.1 Terra (xhigh)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>45.25</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:70%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.00 / $5.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 neon (low) google">
+              <td class="col-pos">#35</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-neon" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Neon (low)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>44.08</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:68%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$3.00 / $15.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="meta" data-name="muse wonder (max) meta">
+              <td class="col-pos">#36</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/muse-wonder" target="_blank" rel="noopener noreferrer" class="model-link">Muse Wonder (max)</a>
+                <span class="creator-sub">Meta</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>43.57</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:67%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="alibaba" data-name="qwen4 max alibaba">
+              <td class="col-pos">#37</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/qwen4-max" target="_blank" rel="noopener noreferrer" class="model-link">Qwen4 Max</a>
+                <span class="creator-sub">Alibaba</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>42.89</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:66%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">983K</td>
+              <td class="mono-cell">$1.50 / $4.50</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.1 terra (high) openai">
+              <td class="col-pos">#38</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-1-terra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.1 Terra (high)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>42.43</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:65%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.00 / $5.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude sonnet 5.5 (high) anthropic">
+              <td class="col-pos">#39</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-sonnet-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Sonnet 5.5 (high)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>41.52</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:64%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="google" data-name="gemini 4 hydrogen (medium) google">
+              <td class="col-pos">#40</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gemini-4-hydrogen" target="_blank" rel="noopener noreferrer" class="model-link">Gemini 4 Hydrogen (medium)</a>
+                <span class="creator-sub">Google</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>41.23</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:63%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.50 / $7.50</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.2 sol (low) openai">
+              <td class="col-pos">#41</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-2-sol" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.2 Sol (low)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>40.55</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:62%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="meta" data-name="muse wonder (high) meta">
+              <td class="col-pos">#42</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/muse-wonder" target="_blank" rel="noopener noreferrer" class="model-link">Muse Wonder (high)</a>
+                <span class="creator-sub">Meta</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>40.53</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:62%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="openai" data-name="gpt-6.1 terra (medium) openai">
+              <td class="col-pos">#43</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/gpt-6-1-terra" target="_blank" rel="noopener noreferrer" class="model-link">GPT-6.1 Terra (medium)</a>
+                <span class="creator-sub">OpenAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>38.17</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:59%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.00 / $5.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude haiku 5.5 (max) anthropic">
+              <td class="col-pos">#44</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-haiku-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Haiku 5.5 (max)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>36.48</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:56%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.10 / $0.50</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="meta" data-name="muse ember (max) meta">
+              <td class="col-pos">#45</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/muse-ember" target="_blank" rel="noopener noreferrer" class="model-link">Muse Ember (max)</a>
+                <span class="creator-sub">Meta</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>36.02</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:55%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.10 / $0.50</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="spacexai" data-name="grok 4.7 (xhigh) spacexai">
+              <td class="col-pos">#46</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/grok-4-7" target="_blank" rel="noopener noreferrer" class="model-link">Grok 4.7 (xhigh)</a>
+                <span class="creator-sub">SpaceXAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>35.49</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:54%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">500K</td>
+              <td class="mono-cell">$2.00 / $6.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="spacexai" data-name="grok 4.7 (high) spacexai">
+              <td class="col-pos">#47</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/grok-4-7" target="_blank" rel="noopener noreferrer" class="model-link">Grok 4.7 (high)</a>
+                <span class="creator-sub">SpaceXAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>35.21</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:54%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">500K</td>
+              <td class="mono-cell">$2.00 / $6.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude opus 5.5 (low) anthropic">
+              <td class="col-pos">#48</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-opus-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Opus 5.5 (low)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>34.75</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:53%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$4.00 / $20.00</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="anthropic" data-name="claude haiku 5.5 (xhigh) anthropic">
+              <td class="col-pos">#49</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/claude-haiku-5-5" target="_blank" rel="noopener noreferrer" class="model-link">Claude Haiku 5.5 (xhigh)</a>
+                <span class="creator-sub">Anthropic</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>34.64</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:53%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.10 / $0.50</td>
+            </tr>
+            <tr class="rank-row" data-list="overall" data-creator="tencent" data-name="tencent hy4 tencent">
+              <td class="col-pos">#50</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/tencent-hy4" target="_blank" rel="noopener noreferrer" class="model-link">Tencent Hy4</a>
+                <span class="creator-sub">Tencent</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>34.56</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:53%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-cloud">☁️ Nuvem</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.83 / $2.50</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="kimi" data-name="kimi k3.1 pro kimi">
+              <td class="col-pos">#01</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/kimi-k3-1-pro" target="_blank" rel="noopener noreferrer" class="model-link">Kimi K3.1 Pro</a>
+                <span class="creator-sub">Kimi</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>46.45</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:71%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$2.00 / $10.00</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="deepseek" data-name="deepseek v4.1 flash 1017 (max) deepseek">
+              <td class="col-pos">#02</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017" target="_blank" rel="noopener noreferrer" class="model-link">DeepSeek V4.1 Flash 1017 (max)</a>
+                <span class="creator-sub">DeepSeek</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>32.59</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:50%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.30 / $1.20</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="z ai" data-name="glm-5.3 (max) z ai">
+              <td class="col-pos">#03</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/glm-5-3" target="_blank" rel="noopener noreferrer" class="model-link">GLM-5.3 (max)</a>
+                <span class="creator-sub">Z AI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>31.65</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:49%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.40 / $4.40</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="thinking machines" data-name="inkling 2 small thinking machines">
+              <td class="col-pos">#04</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/inkling-2-small" target="_blank" rel="noopener noreferrer" class="model-link">Inkling 2 Small</a>
+                <span class="creator-sub">Thinking Machines</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>30.63</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:47%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.30 / $1.00</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="xiaomi" data-name="mimo-v2.6-pro xiaomi">
+              <td class="col-pos">#05</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/mimo-v2-6-pro" target="_blank" rel="noopener noreferrer" class="model-link">MiMo-V2.6-Pro</a>
+                <span class="creator-sub">Xiaomi</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>29.89</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:46%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.43 / $0.87</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="inclusionai" data-name="ling 3.1 flash 1019 inclusionai">
+              <td class="col-pos">#06</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/ling-3-1-flash" target="_blank" rel="noopener noreferrer" class="model-link">Ling 3.1 Flash 1019</a>
+                <span class="creator-sub">InclusionAI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>29.57</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:45%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.30 / $0.90</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="minimax" data-name="minimax-m3.1-flash minimax">
+              <td class="col-pos">#07</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/minimax-m3-1-flash" target="_blank" rel="noopener noreferrer" class="model-link">MiniMax-M3.1-Flash</a>
+                <span class="creator-sub">MiniMax</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>29.06</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:45%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.15 / $0.60</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="deepseek" data-name="deepseek v4.1 flash 1017 (high) deepseek">
+              <td class="col-pos">#08</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017" target="_blank" rel="noopener noreferrer" class="model-link">DeepSeek V4.1 Flash 1017 (high)</a>
+                <span class="creator-sub">DeepSeek</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>28.64</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:44%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.30 / $1.20</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="alibaba" data-name="qwen3.8-flash-next alibaba">
+              <td class="col-pos">#09</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/qwen3-8-flash-next" target="_blank" rel="noopener noreferrer" class="model-link">Qwen3.8-Flash-Next</a>
+                <span class="creator-sub">Alibaba</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>28.58</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:44%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">256K</td>
+              <td class="mono-cell">$0.15 / $0.47</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="stepfun" data-name="step 5 preview stepfun">
+              <td class="col-pos">#10</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/step-5-preview" target="_blank" rel="noopener noreferrer" class="model-link">Step 5 Preview</a>
+                <span class="creator-sub">StepFun</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>28.53</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:44%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.00 / $2.70</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="z ai" data-name="glm-5.3-flash z ai">
+              <td class="col-pos">#11</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/glm-5-3-flash" target="_blank" rel="noopener noreferrer" class="model-link">GLM-5.3-Flash</a>
+                <span class="creator-sub">Z AI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>27.80</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:43%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.15 / $0.50</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="xiaomi" data-name="mimo-v2.6-flash xiaomi">
+              <td class="col-pos">#12</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/mimo-v2-6-flash" target="_blank" rel="noopener noreferrer" class="model-link">MiMo-V2.6-Flash</a>
+                <span class="creator-sub">Xiaomi</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>26.73</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:41%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.14 / $0.28</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="mistral" data-name="mistral large 4 (high) mistral">
+              <td class="col-pos">#13</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/mistral-large-4" target="_blank" rel="noopener noreferrer" class="model-link">Mistral Large 4 (high)</a>
+                <span class="creator-sub">Mistral</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>26.12</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:40%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.70 / $2.10</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="meta" data-name="muse spark open (xhigh) meta">
+              <td class="col-pos">#14</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/muse-spark-open" target="_blank" rel="noopener noreferrer" class="model-link">Muse Spark Open (xhigh)</a>
+                <span class="creator-sub">Meta</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>24.88</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:38%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.25 / $4.25</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="mistral" data-name="mistral large 4 (medium) mistral">
+              <td class="col-pos">#15</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/mistral-large-4" target="_blank" rel="noopener noreferrer" class="model-link">Mistral Large 4 (medium)</a>
+                <span class="creator-sub">Mistral</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>23.13</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:35%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$0.70 / $2.10</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="z ai" data-name="glm-5.3 (low) z ai">
+              <td class="col-pos">#16</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/glm-5-3" target="_blank" rel="noopener noreferrer" class="model-link">GLM-5.3 (low)</a>
+                <span class="creator-sub">Z AI</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>23.11</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:35%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.40 / $4.40</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="deepseek" data-name="deepseek v4 pro 0813 (max) deepseek">
+              <td class="col-pos">#17</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/deepseek-v4-pro" target="_blank" rel="noopener noreferrer" class="model-link">DeepSeek V4 Pro 0813 (max)</a>
+                <span class="creator-sub">DeepSeek</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>23.06</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:35%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.32 / $3.96</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="deepseek" data-name="deepseek v4 pro 0813 (high) deepseek">
+              <td class="col-pos">#18</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/deepseek-v4-pro" target="_blank" rel="noopener noreferrer" class="model-link">DeepSeek V4 Pro 0813 (high)</a>
+                <span class="creator-sub">DeepSeek</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>20.80</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:32%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">1M</td>
+              <td class="mono-cell">$1.32 / $3.96</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="nanbeige" data-name="nanbeige4.3-33b nanbeige">
+              <td class="col-pos">#19</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/nanbeige4-3-33b" target="_blank" rel="noopener noreferrer" class="model-link">Nanbeige4.3-33B</a>
+                <span class="creator-sub">Nanbeige</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>20.41</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:31%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">524K</td>
+              <td class="mono-cell">—</td>
+            </tr>
+            <tr class="rank-row" data-list="opensource" data-creator="alibaba" data-name="qwen3.8 27b (xhigh) alibaba">
+              <td class="col-pos">#20</td>
+              <td class="col-model">
+                <a href="https://artificialanalysis.ai/models/qwen3-8-27b" target="_blank" rel="noopener noreferrer" class="model-link">Qwen3.8 27B (xhigh)</a>
+                <span class="creator-sub">Alibaba</span>
+              </td>
+              <td class="col-score">
+                <div class="score-wrap">
+                  <strong>20.11</strong>
+                  <div class="score-bar"><div class="score-fill" style="width:31%;"></div></div>
+                </div>
+              </td>
+              <td><span class="pill-open">🔓 Open-Source</span></td>
+              <td class="mono-cell">256K</td>
+              <td class="mono-cell">$0.50 / $3.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- OS 4 CADERNOS DE NOTÍCIAS -->
+    <section id="cadernos" class="news-sec">
+      <div class="section-kicker">📚 TODOS OS 4 CADERNOS DA EDIÇÃO DE HOJE (100% LINKS OFICIAIS)</div>
+      <div class="controls-bar" style="margin-top:10px;">
+        <div class="tabs">
+          <button class="tab-btn active" onclick="filterNews('all', this)">Todos (85)</button>
+          <button class="tab-btn" onclick="filterNews('newsletters', this)">📰 Newsletters &amp; BR</button>
+          <button class="tab-btn" onclick="filterNews('labs', this)">🚀 Big Techs &amp; Labs</button>
+          <button class="tab-btn" onclick="filterNews('tempo_real', this)">🛠️ Hugging Face &amp; GitHub</button>
+          <button class="tab-btn" onclick="filterNews('industria', this)">🏭 Indústria, YOLO &amp; n8n</button>
+        </div>
+        <input type="text" id="newsSearch" class="search-input" placeholder="Filtrar notícias (ex: Neon, IPO, YOLO, n8n)..." oninput="applyNewsFilters()" />
+      </div>
+      <div class="news-grid" id="newsGrid">
+        
+        <article class="news-row" data-sec="labs" data-search="how openai’s performance factory keeps chatgpt fast openai news learn how openai built the performance factory, a system of codex-powered workflows that finds and fixes performance issues to help keep chatgpt fast.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">OpenAI News</span>
+              <span class="news-date">Thu, 19 Nov 2026 08:00:00</span>
+            </div>
+            <h4><a href="https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast" target="_blank" rel="noopener noreferrer">How OpenAI’s Performance Factory keeps ChatGPT fast</a></h4>
+            <p>Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.</p>
+          </div>
+          <a class="src-go" href="https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="deploying daybreak red openai news explore a reference architecture for supervised security investigations with daybreak red, including safety controls, setup, and monitoring.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">OpenAI News</span>
+              <span class="news-date">Thu, 19 Nov 2026 00:00:00</span>
+            </div>
+            <h4><a href="https://openai.com/business/learn/deploying-daybreak-red" target="_blank" rel="noopener noreferrer">Deploying Daybreak Red</a></h4>
+            <p>Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.</p>
+          </div>
+          <a class="src-go" href="https://openai.com/business/learn/deploying-daybreak-red" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="see pr scans in action openai news watch a walkthrough of pr scans and see how the presenter reviews scan results in a pull request workflow.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">OpenAI News</span>
+              <span class="news-date">Thu, 19 Nov 2026 00:00:00</span>
+            </div>
+            <h4><a href="https://openai.com/business/learn/pr-scans-demo" target="_blank" rel="noopener noreferrer">See PR scans in action</a></h4>
+            <p>Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.</p>
+          </div>
+          <a class="src-go" href="https://openai.com/business/learn/pr-scans-demo" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="explore the codex security plugin openai news watch a demo of the codex security plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">OpenAI News</span>
+              <span class="news-date">Thu, 19 Nov 2026 00:00:00</span>
+            </div>
+            <h4><a href="https://openai.com/business/learn/codex-security-plugin-demo" target="_blank" rel="noopener noreferrer">Explore the Codex Security Plugin</a></h4>
+            <p>Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.</p>
+          </div>
+          <a class="src-go" href="https://openai.com/business/learn/codex-security-plugin-demo" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="gpt-6 cyber versus linux, the problem with llm-powered search, llms edit model weights, agentic doc retrieval the batch (andrew ng) curadoria técnica da deeplearning.ai (andrew ng).">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">The Batch (Andrew Ng)</span>
+              <span class="news-date">Semanal</span>
+            </div>
+            <h4><a href="https://www.deeplearning.ai/the-batch/tag/letters" target="_blank" rel="noopener noreferrer">GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval</a></h4>
+            <p>Curadoria técnica da DeepLearning.AI (Andrew Ng).</p>
+          </div>
+          <a class="src-go" href="https://www.deeplearning.ai/the-batch/tag/letters" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="reinforcement learning heats up, white house orders muscular ai policy, computer use gains momentum, fine control of fine-tuning the batch (andrew ng) curadoria técnica da deeplearning.ai (andrew ng).">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">The Batch (Andrew Ng)</span>
+              <span class="news-date">Semanal</span>
+            </div>
+            <h4><a href="https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro" target="_blank" rel="noopener noreferrer">Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer Use Gains Momentum, Fine Control of Fine-Tuning</a></h4>
+            <p>Curadoria técnica da DeepLearning.AI (Andrew Ng).</p>
+          </div>
+          <a class="src-go" href="https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="deepseek sharpens its reasoning: deepseek-r1, an affordable rival to openai’s o1 the batch (andrew ng) curadoria técnica da deeplearning.ai (andrew ng).">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">The Batch (Andrew Ng)</span>
+              <span class="news-date">Semanal</span>
+            </div>
+            <h4><a href="https://www.deeplearning.ai/the-batch/issue-286" target="_blank" rel="noopener noreferrer">DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s o1</a></h4>
+            <p>Curadoria técnica da DeepLearning.AI (Andrew Ng).</p>
+          </div>
+          <a class="src-go" href="https://www.deeplearning.ai/the-batch/issue-286" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="gemini 4 carbon heads toward wider availability, what anthropic&#x27;s ipo means for developers, genie 4 combines with gemini to train robots the batch (andrew ng) curadoria técnica da deeplearning.ai (andrew ng).">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">The Batch (Andrew Ng)</span>
+              <span class="news-date">Semanal</span>
+            </div>
+            <h4><a href="https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1" target="_blank" rel="noopener noreferrer">Gemini 4 Carbon Heads Toward Wider Availability, What Anthropic&#x27;s IPO Means for Developers, Genie 4 Combines with Gemini to Train Robots</a></h4>
+            <p>Curadoria técnica da DeepLearning.AI (Andrew Ng).</p>
+          </div>
+          <a class="src-go" href="https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="gemini 4 neon 🚀, genie 4 worlds 🌍, ai designs chips 🔬 tldr ai ">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">TLDR AI</span>
+              <span class="news-date">Thu, 19 Nov 2026 00:00:00</span>
+            </div>
+            <h4><a href="https://tldr.tech/ai/2026-11-19" target="_blank" rel="noopener noreferrer">Gemini 4 Neon 🚀, Genie 4 worlds 🌍, AI designs chips 🔬</a></h4>
+            <p>Abrir matéria original na fonte.</p>
+          </div>
+          <a class="src-go" href="https://tldr.tech/ai/2026-11-19" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="gpt-6.2 astra 🧠, microsoft’s seven models 🚀, replit missions 🤖 tldr ai ">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">TLDR AI</span>
+              <span class="news-date">Wed, 18 Nov 2026 00:00:00</span>
+            </div>
+            <h4><a href="https://tldr.tech/ai/2026-11-18" target="_blank" rel="noopener noreferrer">GPT-6.2 Astra 🧠, Microsoft’s seven models 🚀, Replit Missions 🤖</a></h4>
+            <p>Abrir matéria original na fonte.</p>
+          </div>
+          <a class="src-go" href="https://tldr.tech/ai/2026-11-18" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="perplexity research 🧪, nvidia rubin hpc 🖥️, openai safety assessments 👨‍💻 tldr ai ">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">TLDR AI</span>
+              <span class="news-date">Tue, 17 Nov 2026 00:00:00</span>
+            </div>
+            <h4><a href="https://tldr.tech/ai/2026-11-17" target="_blank" rel="noopener noreferrer">Perplexity Research 🧪, NVIDIA Rubin HPC 🖥️, OpenAI safety assessments 👨‍💻</a></h4>
+            <p>Abrir matéria original na fonte.</p>
+          </div>
+          <a class="src-go" href="https://tldr.tech/ai/2026-11-17" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="chatgpt wallet 💳, devin apps 🛠️, always-on agents ⚡ tldr ai ">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">TLDR AI</span>
+              <span class="news-date">Mon, 16 Nov 2026 00:00:00</span>
+            </div>
+            <h4><a href="https://tldr.tech/ai/2026-11-16" target="_blank" rel="noopener noreferrer">ChatGPT Wallet 💳, Devin Apps 🛠️, always-on agents ⚡</a></h4>
+            <p>Abrir matéria original na fonte.</p>
+          </div>
+          <a class="src-go" href="https://tldr.tech/ai/2026-11-16" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="gemini 4 hydrogen 🚀, self-hosted claude agents 🔒, replit agent commerce 🛒 tldr ai ">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">TLDR AI</span>
+              <span class="news-date">Fri, 13 Nov 2026 00:00:00</span>
+            </div>
+            <h4><a href="https://tldr.tech/ai/2026-11-13" target="_blank" rel="noopener noreferrer">Gemini 4 Hydrogen 🚀, self-hosted Claude agents 🔒, Replit agent commerce 🛒</a></h4>
+            <p>Abrir matéria original na fonte.</p>
+          </div>
+          <a class="src-go" href="https://tldr.tech/ai/2026-11-13" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="investing in the public benefit we’re committing a portion of anthropic’s shares to the anthropic public benefit fund, a new entity with a structure… anthropic news (claude) comunicado oficial publicado em anthropic.com/news.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Anthropic News (Claude)</span>
+              <span class="news-date">Oficial</span>
+            </div>
+            <h4><a href="https://www.anthropic.com/news/public-benefit-fund" target="_blank" rel="noopener noreferrer">Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure…</a></h4>
+            <p>Comunicado oficial publicado em anthropic.com/news.</p>
+          </div>
+          <a class="src-go" href="https://www.anthropic.com/news/public-benefit-fund" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="anthropic files s-1 with the sec for proposed initial public offering today, anthropic, pbc filed a registration statement on form s-1 with the u.s.… anthropic news (claude) comunicado oficial publicado em anthropic.com/news.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Anthropic News (Claude)</span>
+              <span class="news-date">Oficial</span>
+            </div>
+            <h4><a href="https://www.anthropic.com/news/s1-sec" target="_blank" rel="noopener noreferrer">Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S.…</a></h4>
+            <p>Comunicado oficial publicado em anthropic.com/news.</p>
+          </div>
+          <a class="src-go" href="https://www.anthropic.com/news/s1-sec" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing… anthropic news (claude) comunicado oficial publicado em anthropic.com/news.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Anthropic News (Claude)</span>
+              <span class="news-date">Oficial</span>
+            </div>
+            <h4><a href="https://www.anthropic.com/news/ipo-close" target="_blank" rel="noopener noreferrer">Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing…</a></h4>
+            <p>Comunicado oficial publicado em anthropic.com/news.</p>
+          </div>
+          <a class="src-go" href="https://www.anthropic.com/news/ipo-close" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="anthropic prices initial public offering anthropic news (claude) comunicado oficial publicado em anthropic.com/news.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Anthropic News (Claude)</span>
+              <span class="news-date">Oficial</span>
+            </div>
+            <h4><a href="https://www.anthropic.com/news/anthropic-prices-initial-public-offering" target="_blank" rel="noopener noreferrer">Anthropic prices initial public offering</a></h4>
+            <p>Comunicado oficial publicado em anthropic.com/news.</p>
+          </div>
+          <a class="src-go" href="https://www.anthropic.com/news/anthropic-prices-initial-public-offering" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="fable 5.2 and jagged agi one useful thing (ethan mollick) general, often expert, and sometimes jagged">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">One Useful Thing (Ethan Mollick)</span>
+              <span class="news-date">Mon, 09 Nov 2026 19:04:26</span>
+            </div>
+            <h4><a href="https://www.oneusefulthing.org/p/fable-52-and-jagged-agi" target="_blank" rel="noopener noreferrer">Fable 5.2 and Jagged AGI</a></h4>
+            <p>General, often expert, and sometimes jagged</p>
+          </div>
+          <a class="src-go" href="https://www.oneusefulthing.org/p/fable-52-and-jagged-agi" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="30 months on the exponential (in charts) one useful thing (ethan mollick) my new book is out today... what happened since the last one">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">One Useful Thing (Ethan Mollick)</span>
+              <span class="news-date">Tue, 20 Oct 2026 15:57:59</span>
+            </div>
+            <h4><a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank" rel="noopener noreferrer">30 Months on the Exponential (in Charts)</a></h4>
+            <p>My new book is out today... what happened since the last one</p>
+          </div>
+          <a class="src-go" href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="the dot and the swarm one useful thing (ethan mollick) benefitting from the bitter lesson">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">One Useful Thing (Ethan Mollick)</span>
+              <span class="news-date">Thu, 01 Oct 2026 10:54:12</span>
+            </div>
+            <h4><a href="https://www.oneusefulthing.org/p/the-dot-and-the-swarm" target="_blank" rel="noopener noreferrer">The Dot and the Swarm</a></h4>
+            <p>Benefitting from the Bitter Lesson</p>
+          </div>
+          <a class="src-go" href="https://www.oneusefulthing.org/p/the-dot-and-the-swarm" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="higurashi-ai/haru-4b (audio-to-audio) hugging face models em alta no hugging face · 4,046 likes · 7,323 downloads/mês.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Models</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank" rel="noopener noreferrer">higurashi-ai/Haru-4B (audio-to-audio)</a></h4>
+            <p>Em alta no Hugging Face · 4,046 likes · 7,323 downloads/mês.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="apple/fastframes-l (text-to-video) hugging face models em alta no hugging face · 375 likes · 0 downloads/mês.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Models</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/apple/FastFrames-L" target="_blank" rel="noopener noreferrer">apple/FastFrames-L (text-to-video)</a></h4>
+            <p>Em alta no Hugging Face · 375 likes · 0 downloads/mês.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/apple/FastFrames-L" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="inworld/voice-isolator (audio-to-audio) hugging face models em alta no hugging face · 326 likes · 0 downloads/mês.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Models</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/inworld/voice-isolator" target="_blank" rel="noopener noreferrer">inworld/voice-isolator (audio-to-audio)</a></h4>
+            <p>Em alta no Hugging Face · 326 likes · 0 downloads/mês.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/inworld/voice-isolator" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="harness-hub/qwen3.8-27b-pi-adapted (image-text-to-text) hugging face models em alta no hugging face · 791 likes · 1,874 downloads/mês.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Models</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted" target="_blank" rel="noopener noreferrer">harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)</a></h4>
+            <p>Em alta no Hugging Face · 791 likes · 1,874 downloads/mês.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="qwen/qwen3.8-27b (image-text-to-text) hugging face models em alta no hugging face · 20,729 likes · 6,454,419 downloads/mês.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Models</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener noreferrer">Qwen/Qwen3.8-27B (image-text-to-text)</a></h4>
+            <p>Em alta no Hugging Face · 20,729 likes · 6,454,419 downloads/mês.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="minimaxai/minimax-h3-image (text-to-image) hugging face models em alta no hugging face · 1,669 likes · 876,986 downloads/mês.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Models</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener noreferrer">MiniMaxAI/MiniMax-H3-Image (text-to-image)</a></h4>
+            <p>Em alta no Hugging Face · 1,669 likes · 876,986 downloads/mês.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="space: huggingface/moe-blogpost hugging face spaces demo interativa em alta (docker) · 759 likes.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Spaces</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/spaces/huggingface/moe-blogpost" target="_blank" rel="noopener noreferrer">Space: huggingface/moe-blogpost</a></h4>
+            <p>Demo interativa em alta (docker) · 759 likes.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/spaces/huggingface/moe-blogpost" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="space: joelniklaus/harness-leaderboard hugging face spaces demo interativa em alta (docker) · 476 likes.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Spaces</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/spaces/joelniklaus/harness-leaderboard" target="_blank" rel="noopener noreferrer">Space: joelniklaus/harness-leaderboard</a></h4>
+            <p>Demo interativa em alta (docker) · 476 likes.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/spaces/joelniklaus/harness-leaderboard" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="space: minimaxai/minimax-h3-image hugging face spaces demo interativa em alta (gradio) · 211 likes.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Spaces</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image" target="_blank" rel="noopener noreferrer">Space: MiniMaxAI/minimax-h3-image</a></h4>
+            <p>Demo interativa em alta (gradio) · 211 likes.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="space: jcishere/wan2-2-i2v-v3 hugging face spaces demo interativa em alta (gradio) · 512 likes.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hugging Face Spaces</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3" target="_blank" rel="noopener noreferrer">Space: JCisHERE/wan2-2-i2v-v3</a></h4>
+            <p>Demo interativa em alta (gradio) · 512 likes.</p>
+          </div>
+          <a class="src-go" href="https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="launch hn: maritime (yc f26) – a managed cloud for production ai agents hacker news (engenharia ia) 60 pontos · 64 comentários na comunidade técnica.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hacker News (Engenharia IA)</span>
+              <span class="news-date">2026-11-18</span>
+            </div>
+            <h4><a href="https://news.ycombinator.com/item?id=50549188" target="_blank" rel="noopener noreferrer">Launch HN: Maritime (YC F26) – A managed cloud for production AI agents</a></h4>
+            <p>60 pontos · 64 comentários na comunidade técnica.</p>
+          </div>
+          <a class="src-go" href="https://news.ycombinator.com/item?id=50549188" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="show hn: trnrt – an open-source llm inference engine for aws trainium hacker news (engenharia ia) 54 pontos · 8 comentários na comunidade técnica.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hacker News (Engenharia IA)</span>
+              <span class="news-date">2026-11-17</span>
+            </div>
+            <h4><a href="https://github.com/RunanywhereAI/trnrt" target="_blank" rel="noopener noreferrer">Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium</a></h4>
+            <p>54 pontos · 8 comentários na comunidade técnica.</p>
+          </div>
+          <a class="src-go" href="https://github.com/RunanywhereAI/trnrt" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="ask hn: what are the most useful, concrete ai skills to independently learn? hacker news (engenharia ia) 93 pontos · 54 comentários na comunidade técnica.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hacker News (Engenharia IA)</span>
+              <span class="news-date">2026-11-14</span>
+            </div>
+            <h4><a href="https://news.ycombinator.com/item?id=50494696" target="_blank" rel="noopener noreferrer">Ask HN: What are the most useful, concrete AI skills to independently learn?</a></h4>
+            <p>93 pontos · 54 comentários na comunidade técnica.</p>
+          </div>
+          <a class="src-go" href="https://news.ycombinator.com/item?id=50494696" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="show hn: kapso – iterative learning from enterprise data hacker news (engenharia ia) 61 pontos · 19 comentários na comunidade técnica.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hacker News (Engenharia IA)</span>
+              <span class="news-date">2026-11-12</span>
+            </div>
+            <h4><a href="https://news.ycombinator.com/item?id=50471281" target="_blank" rel="noopener noreferrer">Show HN: Kapso – Iterative learning from enterprise data</a></h4>
+            <p>61 pontos · 19 comentários na comunidade técnica.</p>
+          </div>
+          <a class="src-go" href="https://news.ycombinator.com/item?id=50471281" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="launch hn: kino ai (yc s23) – ai media manager and video editor hacker news (engenharia ia) 112 pontos · 37 comentários na comunidade técnica.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Hacker News (Engenharia IA)</span>
+              <span class="news-date">2026-11-04</span>
+            </div>
+            <h4><a href="https://news.ycombinator.com/item?id=50368804" target="_blank" rel="noopener noreferrer">Launch HN: Kino AI (YC S23) – AI media manager and video editor</a></h4>
+            <p>112 pontos · 37 comentários na comunidade técnica.</p>
+          </div>
+          <a class="src-go" href="https://news.ycombinator.com/item?id=50368804" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="nvidia and microsoft expand accelerated computing from azure to windows pcs nvidia industrial &amp; ai nvidia and microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on azure to industrial systems and…">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">NVIDIA Industrial &amp; AI</span>
+              <span class="news-date">Thu, 19 Nov 2026 20:00:15</span>
+            </div>
+            <h4><a href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/" target="_blank" rel="noopener noreferrer">NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</a></h4>
+            <p>NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and…</p>
+          </div>
+          <a class="src-go" href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="into the omniverse: how developers turn ideas into simulations with frontier ai agents nvidia industrial &amp; ai turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. developers are combining frontier ai models with nvidia…">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">NVIDIA Industrial &amp; AI</span>
+              <span class="news-date">Thu, 19 Nov 2026 17:00:35</span>
+            </div>
+            <h4><a href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/" target="_blank" rel="noopener noreferrer">Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents</a></h4>
+            <p>Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA…</p>
+          </div>
+          <a class="src-go" href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="season’s streamings and savings: black friday deals come to geforce now nvidia industrial &amp; ai geforce now is kicking off black friday with more reasons to make time for gaming. six-month memberships are back for a limited time. save 30% on the first six-month term of a performance or ultimate membership. big…">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">NVIDIA Industrial &amp; AI</span>
+              <span class="news-date">Thu, 19 Nov 2026 14:00:12</span>
+            </div>
+            <h4><a href="https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/" target="_blank" rel="noopener noreferrer">Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW</a></h4>
+            <p>GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big…</p>
+          </div>
+          <a class="src-go" href="https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="nvidia rtx spark compact desktops out now nvidia industrial &amp; ai new nvidia rtx spark compact desktops from asus, dell and msi are available today, bringing local ai agents, image and video generation, and model fine-tuning to a dedicated windows pc. with up to 128gb of unified…">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">NVIDIA Industrial &amp; AI</span>
+              <span class="news-date">Wed, 18 Nov 2026 14:00:31</span>
+            </div>
+            <h4><a href="https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/" target="_blank" rel="noopener noreferrer">NVIDIA RTX Spark Compact Desktops Out Now</a></h4>
+            <p>New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified…</p>
+          </div>
+          <a class="src-go" href="https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="reducing rollout bottlenecks in reinforcement learning with nvidia dynamo nvidia developer (jetson/omniverse) reinforcement learning (rl) uses rewards to train models to solve problems and complete tasks more successfully. inference drives this process. workers generate...">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">NVIDIA Developer (Jetson/Omniverse)</span>
+              <span class="news-date">2026-11-19T20:28:20Z</span>
+            </div>
+            <h4><a href="https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/" target="_blank" rel="noopener noreferrer">Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo</a></h4>
+            <p>Reinforcement learning (RL) uses rewards to train models to solve problems and complete tasks more successfully. Inference drives this process. Workers generate...</p>
+          </div>
+          <a class="src-go" href="https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="enabling real-time ai for scientific instruments with gpu-native data acquisition nvidia developer (jetson/omniverse) in science and industry, analyzing sensor measurements in real time can enable ai to adjust processes, guide experiments, and search for better operating...">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">NVIDIA Developer (Jetson/Omniverse)</span>
+              <span class="news-date">2026-11-12T22:39:52Z</span>
+            </div>
+            <h4><a href="https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/" target="_blank" rel="noopener noreferrer">Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition</a></h4>
+            <p>In science and industry, analyzing sensor measurements in real time can enable AI to adjust processes, guide experiments, and search for better operating...</p>
+          </div>
+          <a class="src-go" href="https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="build tool-calling parsers in rust with ai agents nvidia developer (jetson/omniverse) a tool call can arrive in pieces, an argument can be cut short, or model-specific markup can leak into the answer. a frontend parser turns that output, received...">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">NVIDIA Developer (Jetson/Omniverse)</span>
+              <span class="news-date">2026-11-19T16:31:21Z</span>
+            </div>
+            <h4><a href="https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/" target="_blank" rel="noopener noreferrer">Build Tool-Calling Parsers in Rust with AI Agents</a></h4>
+            <p>A tool call can arrive in pieces, an argument can be cut short, or model-specific markup can leak into the answer. A frontend parser turns that output, received...</p>
+          </div>
+          <a class="src-go" href="https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="build training-ready physical ai datasets with two prompts in nvidia cosmos nvidia developer (jetson/omniverse) world model accuracy starts with high-quality, diverse training datasets. yet capturing rare defects, nighttime incidents, and other challenging scenarios is...">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">NVIDIA Developer (Jetson/Omniverse)</span>
+              <span class="news-date">2026-11-18T20:02:38Z</span>
+            </div>
+            <h4><a href="https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/" target="_blank" rel="noopener noreferrer">Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos</a></h4>
+            <p>World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is...</p>
+          </div>
+          <a class="src-go" href="https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="ai made integrations the vendor’s problem n8n (automação &amp; orquestração) in the second iteration of the ai agent development tools report , i replaced the integrability axis with enterprise-readiness. i wanted this to signify the departure from 2020-style ipaas. with mcp getting traction to…">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">n8n (Automação &amp; Orquestração)</span>
+              <span class="news-date">Mon, 16 Nov 2026 10:17:32</span>
+            </div>
+            <h4><a href="https://blog.n8n.io/ai-made-integrations-the-vendors-problem/" target="_blank" rel="noopener noreferrer">AI made integrations the vendor’s problem</a></h4>
+            <p>In the second iteration of the AI Agent Development Tools report , I replaced the integrability axis with enterprise-readiness. I wanted this to signify the departure from 2020-style IPaaS. With MCP getting traction to…</p>
+          </div>
+          <a class="src-go" href="https://blog.n8n.io/ai-made-integrations-the-vendors-problem/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="new in n8n: public api rate limits that keep every team on your instance running n8n (automação &amp; orquestração) cap public api requests per api key in n8n, with 429 headers that tell clients when to retry and idempotency keys for safe retries.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">n8n (Automação &amp; Orquestração)</span>
+              <span class="news-date">Fri, 13 Nov 2026 09:29:35</span>
+            </div>
+            <h4><a href="https://blog.n8n.io/new-in-n8n-public-api-rate-limits-that-keep-every-team-on-your-instance-running/" target="_blank" rel="noopener noreferrer">New in n8n: Public API rate limits that keep every team on your instance running</a></h4>
+            <p>Cap public API requests per API key in n8n, with 429 headers that tell clients when to retry and idempotency keys for safe retries.</p>
+          </div>
+          <a class="src-go" href="https://blog.n8n.io/new-in-n8n-public-api-rate-limits-that-keep-every-team-on-your-instance-running/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="the future of work is built by everyone n8n (automação &amp; orquestração) building automation is getting easier fast. so why keep it locked inside one team? a follow-up on what replaces the central automation team, and what n8n is learning as it opens building up to everyone.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">n8n (Automação &amp; Orquestração)</span>
+              <span class="news-date">Thu, 12 Nov 2026 08:00:00</span>
+            </div>
+            <h4><a href="https://blog.n8n.io/the-future-of-work-is-built-by-everyone/" target="_blank" rel="noopener noreferrer">The future of work is built by everyone</a></h4>
+            <p>Building automation is getting easier fast. So why keep it locked inside one team? A follow-up on what replaces the central automation team, and what n8n is learning as it opens building up to everyone.</p>
+          </div>
+          <a class="src-go" href="https://blog.n8n.io/the-future-of-work-is-built-by-everyone/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="microservices best practices every automation engineer should know n8n (automação &amp; orquestração) discover microservices best practices to build resilient systems. learn what the best patterns look like and how workflow automation fits into the process.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">n8n (Automação &amp; Orquestração)</span>
+              <span class="news-date">Tue, 10 Nov 2026 20:39:16</span>
+            </div>
+            <h4><a href="https://blog.n8n.io/microservices-best-practices/" target="_blank" rel="noopener noreferrer">Microservices best practices every automation engineer should know</a></h4>
+            <p>Discover microservices best practices to build resilient systems. Learn what the best patterns look like and how workflow automation fits into the process.</p>
+          </div>
+          <a class="src-go" href="https://blog.n8n.io/microservices-best-practices/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="what ai at work really costs - microsoft microsoft copilot &amp; azure ai what ai at work really costs microsoft">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Microsoft Copilot &amp; Azure AI</span>
+              <span class="news-date">Mon, 16 Nov 2026 16:00:00</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ2RuUlpBMUlmOFRsaGFqTGx4S3F5dXFVTmlJWnBuV0k0Rjl4cE02NjJSOURGanVEa3NreklzZHlqVV9ZYjJWV2xqR3gwa3JoOFFJZVBKU2syWlRWZFRmbm85VG5FeHpORkJRbzktSlpWaWFKOVJIMjZOUzU1X1JUeXMtdGlua0NDUGljRzNB?oc=5" target="_blank" rel="noopener noreferrer">What AI at work really costs - Microsoft</a></h4>
+            <p>What AI at work really costs Microsoft</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ2RuUlpBMUlmOFRsaGFqTGx4S3F5dXFVTmlJWnBuV0k0Rjl4cE02NjJSOURGanVEa3NreklzZHlqVV9ZYjJWV2xqR3gwa3JoOFFJZVBKU2syWlRWZFRmbm85VG5FeHpORkJRbzktSlpWaWFKOVJIMjZOUzU1X1JUeXMtdGlua0NDUGljRzNB?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="introducing agent controls: an enterprise control plane for agent behavior - microsoft microsoft copilot &amp; azure ai introducing agent controls: an enterprise control plane for agent behavior microsoft">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Microsoft Copilot &amp; Azure AI</span>
+              <span class="news-date">Wed, 18 Nov 2026 16:52:34</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQWFZLeEd2VThPME1XWmJSdk4wNVlRSDlUeG1DemQ4emhhS1ZUdTVvTlFRU3l1Z1J4WUc0VmpmMEI1NVBXSFhyMlhfOWJ2OUF4cmEtVHo0OUxpM0dkQWRvLUNQaHNsY29xQWhFeGZTdjJHVFlHdWxuMkV3Sklxbkx6dVNJcUZBZ0Zyak82eXlIRXV4UENIdTg3MDJJYzFqdmJvTzF2TkxsamtfUHNj?oc=5" target="_blank" rel="noopener noreferrer">Introducing agent controls: An enterprise control plane for agent behavior - Microsoft</a></h4>
+            <p>Introducing agent controls: An enterprise control plane for agent behavior Microsoft</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQWFZLeEd2VThPME1XWmJSdk4wNVlRSDlUeG1DemQ4emhhS1ZUdTVvTlFRU3l1Z1J4WUc0VmpmMEI1NVBXSFhyMlhfOWJ2OUF4cmEtVHo0OUxpM0dkQWRvLUNQaHNsY29xQWhFeGZTdjJHVFlHdWxuMkV3Sklxbkx6dVNJcUZBZ0Zyak82eXlIRXV4UENIdTg3MDJJYzFqdmJvTzF2TkxsamtfUHNj?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="state farm scales governed ai to deliver enterprise business value with microsoft copilot studio and power platform - microsoft microsoft copilot &amp; azure ai state farm scales governed ai to deliver enterprise business value with microsoft copilot studio and power platform microsoft">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Microsoft Copilot &amp; Azure AI</span>
+              <span class="news-date">Sun, 08 Nov 2026 08:00:00</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZjBJQ1g1QkJhWmVoSWpOUkduYW9nOUJ5Y0FCTXM1RjM2T0NkUzF3TU93ZXhNZ2R4eWJUYzUtRkl3cUlCd2xmQnRxRzRKNXV5aUYwYnJ3eU1aZ2RZRUd5Si1Vc0M3dzM4YjY4TzdDNXd0MGhtbW1LZHl0R0hEQ3dqdF84amV2WXgtM0R4NnQtWQ?oc=5" target="_blank" rel="noopener noreferrer">State Farm scales governed AI to deliver enterprise business value with Microsoft Copilot Studio and Power Platform - Microsoft</a></h4>
+            <p>State Farm scales governed AI to deliver enterprise business value with Microsoft Copilot Studio and Power Platform Microsoft</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZjBJQ1g1QkJhWmVoSWpOUkduYW9nOUJ5Y0FCTXM1RjM2T0NkUzF3TU93ZXhNZ2R4eWJUYzUtRkl3cUlCd2xmQnRxRzRKNXV5aUYwYnJ3eU1aZ2RZRUd5Si1Vc0M3dzM4YjY4TzdDNXd0MGhtbW1LZHl0R0hEQ3dqdF84amV2WXgtM0R4NnQtWQ?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="microsoft and oracle turn data into insights and actions - microsoft azure microsoft copilot &amp; azure ai microsoft and oracle turn data into insights and actions microsoft azure">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Microsoft Copilot &amp; Azure AI</span>
+              <span class="news-date">Tue, 17 Nov 2026 18:35:00</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3JRRnhXM2Z4NXlvNVhDaG1odVB0aDlUNUlNb2RfZGNQdEY5Zy12dklEbGV1WENWRC1JWFUzYlVCVk12cWp3SlJoNEtJTm1pQmZreGxzakN2UmNVR0JEeDFKSHF6eHVMVUplSURfRGFmZEpuTEcwbVhxbXBXU0VqSmhOYzEtNG5FbjNveHVxRlBra1BvdlBkcDQ5Q0FobnRDR3dkbC04TXpldw?oc=5" target="_blank" rel="noopener noreferrer">Microsoft and Oracle turn data into insights and actions - Microsoft Azure</a></h4>
+            <p>Microsoft and Oracle turn data into insights and actions Microsoft Azure</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3JRRnhXM2Z4NXlvNVhDaG1odVB0aDlUNUlNb2RfZGNQdEY5Zy12dklEbGV1WENWRC1JWFUzYlVCVk12cWp3SlJoNEtJTm1pQmZreGxzakN2UmNVR0JEeDFKSHF6eHVMVUplSURfRGFmZEpuTEcwbVhxbXBXU0VqSmhOYzEtNG5FbjNveHVxRlBra1BvdlBkcDQ5Q0FobnRDR3dkbC04TXpldw?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="qwen4 max auto annotation ultralytics (yolo / visão industrial) blog oficial ultralytics (yolo, visão computacional e edge ai).">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Ultralytics (YOLO / Visão Industrial)</span>
+              <span class="news-date">Recente</span>
+            </div>
+            <h4><a href="https://www.ultralytics.com/blog/qwen4-max-auto-annotation" target="_blank" rel="noopener noreferrer">Qwen4 Max Auto Annotation</a></h4>
+            <p>Blog oficial Ultralytics (YOLO, visão computacional e edge AI).</p>
+          </div>
+          <a class="src-go" href="https://www.ultralytics.com/blog/qwen4-max-auto-annotation" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="gpt 6 2 sol vs astra auto annotation ultralytics (yolo / visão industrial) blog oficial ultralytics (yolo, visão computacional e edge ai).">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Ultralytics (YOLO / Visão Industrial)</span>
+              <span class="news-date">Recente</span>
+            </div>
+            <h4><a href="https://www.ultralytics.com/blog/gpt-6-2-sol-vs-astra-auto-annotation" target="_blank" rel="noopener noreferrer">Gpt 6 2 Sol Vs Astra Auto Annotation</a></h4>
+            <p>Blog oficial Ultralytics (YOLO, visão computacional e edge AI).</p>
+          </div>
+          <a class="src-go" href="https://www.ultralytics.com/blog/gpt-6-2-sol-vs-astra-auto-annotation" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="azure custom vision migration ultralytics (yolo / visão industrial) blog oficial ultralytics (yolo, visão computacional e edge ai).">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Ultralytics (YOLO / Visão Industrial)</span>
+              <span class="news-date">Recente</span>
+            </div>
+            <h4><a href="https://www.ultralytics.com/blog/azure-custom-vision-migration" target="_blank" rel="noopener noreferrer">Azure Custom Vision Migration</a></h4>
+            <p>Blog oficial Ultralytics (YOLO, visão computacional e edge AI).</p>
+          </div>
+          <a class="src-go" href="https://www.ultralytics.com/blog/azure-custom-vision-migration" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="jetson vs raspberry pi 5 ultralytics (yolo / visão industrial) blog oficial ultralytics (yolo, visão computacional e edge ai).">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Ultralytics (YOLO / Visão Industrial)</span>
+              <span class="news-date">Recente</span>
+            </div>
+            <h4><a href="https://www.ultralytics.com/blog/jetson-vs-raspberry-pi-5" target="_blank" rel="noopener noreferrer">Jetson Vs Raspberry Pi 5</a></h4>
+            <p>Blog oficial Ultralytics (YOLO, visão computacional e edge AI).</p>
+          </div>
+          <a class="src-go" href="https://www.ultralytics.com/blog/jetson-vs-raspberry-pi-5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="introducing tool retrieval in the gemini api google ai / deepmind give your agents access to hundreds of tools while using fewer tokens with tool retrieval, now in preview in the gemini api.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Google AI / DeepMind</span>
+              <span class="news-date">Thu, 19 Nov 2026 18:00:00</span>
+            </div>
+            <h4><a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/" target="_blank" rel="noopener noreferrer">Introducing Tool Retrieval in the Gemini API</a></h4>
+            <p>Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.</p>
+          </div>
+          <a class="src-go" href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="walter isaacson on curiosity and creativity in the ai age. google ai / deepmind walter isaacson joins google to discuss how history’s greatest innovators inspire creativity and human judgment in the ai age. watch the episode.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Google AI / DeepMind</span>
+              <span class="news-date">Thu, 19 Nov 2026 17:00:00</span>
+            </div>
+            <h4><a href="https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/" target="_blank" rel="noopener noreferrer">Walter Isaacson on curiosity and creativity in the AI age.</a></h4>
+            <p>Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.</p>
+          </div>
+          <a class="src-go" href="https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="the gemini app is now available on lower-memory android devices. google ai / deepmind the google gemini app now supports lower-memory android devices. access gemini live and custom image creation on your phone. download the app today.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Google AI / DeepMind</span>
+              <span class="news-date">Wed, 18 Nov 2026 17:00:00</span>
+            </div>
+            <h4><a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/" target="_blank" rel="noopener noreferrer">The Gemini app is now available on lower-memory Android devices.</a></h4>
+            <p>The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.</p>
+          </div>
+          <a class="src-go" href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="labs" data-search="put gemini to work for you google ai / deepmind tasks in gemini is now free of charge in six countries, with new features starting in the u.s. and deeper google workspace integration to get things done on your behalf.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Google AI / DeepMind</span>
+              <span class="news-date">Tue, 17 Nov 2026 17:00:00</span>
+            </div>
+            <h4><a href="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/" target="_blank" rel="noopener noreferrer">Put Gemini to work for you</a></h4>
+            <p>Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.</p>
+          </div>
+          <a class="src-go" href="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="&#x27;em dois anos, toda a indústria será robôs&#x27;: marcas de roupa querem substituir modelos por imagens de ia - g1 radar ia brasil (empresas &amp; indústria) &#x27;em dois anos, toda a indústria será robôs&#x27;: marcas de roupa querem substituir modelos por imagens de ia g1">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Radar IA Brasil (Empresas &amp; Indústria)</span>
+              <span class="news-date">Thu, 29 Oct 2026 07:00:00</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxQU0NBUUZMUjNmT2hzT3BRYnd3QktaQlF5SVN5WDdVaHczRDZrTE96QTE2ZlRmZWJBZGgwTXp3VG11aWExZ2oybTc0WXVjTjZVVXp3dXRSblQ3RzZham1yV1E4ZHQ3SnliQjBqc3J3Yk1ITDllSWZhVlJpaE5Eci1OTUM2d1psYlJabUxpc20zNnU2Mk54ampQVV9BUDR3VVZLb3RiWkUzS0lkLUo3Yy1lNDJ4R3dlYWM4aE5Gd05XYWJfWThRZkFZcWx3YmNkMHdmNERDbnFfUDYyYS13dUtRYXItOVZOUUNnX1dyMWRn0gH8AUFVX3lxTE42X3R2bk5nNjF0NzFhQW9kT245X1FRb0w0VVV6OC1XMFpsYzFJWXBRS0J3TVlPdkpFMER1d0kzYVExbUVWQ3VGU0JkVzF1U3dBUDY2TEJiVjdwWUhydDE3eXBXLVpxODluSnRtejBCVmZWUUZkSDI1clVGQk5mUHZyMmNDSnRjY0ZxUWdBMXhPRGpuZW0yOTBTTTR6dXkzMlVzbDhNekh1SVJSUEpzUC0teFZGSF8ycWtCaUxOSzhGcmdMY0xBRDlUQ1hLT2F2Zk1EcWZFbUVOQnpoVElEcmxmOUJ5R0JZUkdXNGtCVzdsWENkNk1iRHJ1cXF4RA?oc=5" target="_blank" rel="noopener noreferrer">&#x27;Em dois anos, toda a indústria será robôs&#x27;: marcas de roupa querem substituir modelos por imagens de IA - G1</a></h4>
+            <p>&#x27;Em dois anos, toda a indústria será robôs&#x27;: marcas de roupa querem substituir modelos por imagens de IA G1</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxQU0NBUUZMUjNmT2hzT3BRYnd3QktaQlF5SVN5WDdVaHczRDZrTE96QTE2ZlRmZWJBZGgwTXp3VG11aWExZ2oybTc0WXVjTjZVVXp3dXRSblQ3RzZham1yV1E4ZHQ3SnliQjBqc3J3Yk1ITDllSWZhVlJpaE5Eci1OTUM2d1psYlJabUxpc20zNnU2Mk54ampQVV9BUDR3VVZLb3RiWkUzS0lkLUo3Yy1lNDJ4R3dlYWM4aE5Gd05XYWJfWThRZkFZcWx3YmNkMHdmNERDbnFfUDYyYS13dUtRYXItOVZOUUNnX1dyMWRn0gH8AUFVX3lxTE42X3R2bk5nNjF0NzFhQW9kT245X1FRb0w0VVV6OC1XMFpsYzFJWXBRS0J3TVlPdkpFMER1d0kzYVExbUVWQ3VGU0JkVzF1U3dBUDY2TEJiVjdwWUhydDE3eXBXLVpxODluSnRtejBCVmZWUUZkSDI1clVGQk5mUHZyMmNDSnRjY0ZxUWdBMXhPRGpuZW0yOTBTTTR6dXkzMlVzbDhNekh1SVJSUEpzUC0teFZGSF8ycWtCaUxOSzhGcmdMY0xBRDlUQ1hLT2F2Zk1EcWZFbUVOQnpoVElEcmxmOUJ5R0JZUkdXNGtCVzdsWENkNk1iRHJ1cXF4RA?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="ia na indústria alimentícia: cases de empresas líderes - food connection radar ia brasil (empresas &amp; indústria) ia na indústria alimentícia: cases de empresas líderes food connection">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Radar IA Brasil (Empresas &amp; Indústria)</span>
+              <span class="news-date">Wed, 23 Sep 2026 07:00:00</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmdibjRlWjdFcXBaWmRZQTAzb0RlRjRYc0xjS3cxY3lFMzFfZGtzOGVSMk9HNm9pYndJclN4VXM5NnZMdFl2V2xEUFpWbXY0emItTzB3VnFRNHNYZ0JoUFlNSW9feEM0ZkJYMHU1NWpXQV9obTJueXRRUmJUcWNTR2t5b1l5OXFHMi1aajR1YzBMWkVlenNwZTl3bUExbzNHT2ZN?oc=5" target="_blank" rel="noopener noreferrer">IA na Indústria Alimentícia: Cases de Empresas Líderes - Food Connection</a></h4>
+            <p>IA na Indústria Alimentícia: Cases de Empresas Líderes Food Connection</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmdibjRlWjdFcXBaWmRZQTAzb0RlRjRYc0xjS3cxY3lFMzFfZGtzOGVSMk9HNm9pYndJclN4VXM5NnZMdFl2V2xEUFpWbXY0emItTzB3VnFRNHNYZ0JoUFlNSW9feEM0ZkJYMHU1NWpXQV9obTJueXRRUmJUcWNTR2t5b1l5OXFHMi1aajR1YzBMWkVlenNwZTl3bUExbzNHT2ZN?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="inteligência artificial transforma a indústria brasileira - agência brasil radar ia brasil (empresas &amp; indústria) inteligência artificial transforma a indústria brasileira agência brasil">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Radar IA Brasil (Empresas &amp; Indústria)</span>
+              <span class="news-date">Wed, 21 Jan 2026 08:00:00</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxPM0lSSVEzNE94TmtzUkZXYnpfNUtpR285MW5FQUppbkJyclVPMVJONm5FamdRT3I5VjNaR096bmgtdUpJTjJOa1l0eUd4RkN4VzV4X2o1cFJoMjQ1a1RmY2FsbUNBVHFqczVkU1RrU3laTDNkdU1qM08zT3lHZ2UxSm5Mb2ZkajdOSFZVVEl5d2JCQm8wS1lEYlRqYno4R0Z6azl6U2s4V2h5bmdMeTNkUF9LLS0tVnB6RjVOZzJBSDZPUG41WXQwYWg3UVAxdw?oc=5" target="_blank" rel="noopener noreferrer">Inteligência artificial transforma a indústria brasileira - Agência Brasil</a></h4>
+            <p>Inteligência artificial transforma a indústria brasileira Agência Brasil</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMizgFBVV95cUxPM0lSSVEzNE94TmtzUkZXYnpfNUtpR285MW5FQUppbkJyclVPMVJONm5FamdRT3I5VjNaR096bmgtdUpJTjJOa1l0eUd4RkN4VzV4X2o1cFJoMjQ1a1RmY2FsbUNBVHFqczVkU1RrU3laTDNkdU1qM08zT3lHZ2UxSm5Mb2ZkajdOSFZVVEl5d2JCQm8wS1lEYlRqYno4R0Z6azl6U2s4V2h5bmdMeTNkUF9LLS0tVnB6RjVOZzJBSDZPUG41WXQwYWg3UVAxdw?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="6 gigantes da indústria alimentícia que utilizam ia em seus processos - e são exemplos de sucesso - exame radar ia brasil (empresas &amp; indústria) 6 gigantes da indústria alimentícia que utilizam ia em seus processos - e são exemplos de sucesso exame">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Radar IA Brasil (Empresas &amp; Indústria)</span>
+              <span class="news-date">Sun, 21 Jun 2026 07:00:00</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaWxyWWhpZ1l3RjJId1BCclVHREJrWjkwemkwRThZWU1YRjBXSFo4WmpSOElXTGVwQVpvdm9hOEFJRFlSVF9VcVVtS1BQLXhjVmRybVRjSm16XzRVdFJKX0NyYWdyLWdxcHMydUhnQ3ZETVE1QlM4cnhNcFJMdWZySXl0ZTNTMXVkOHplMUQ1cE00V1ZSUGl5c0tvS1hmRDRKUHJfeW1TcEhIT3RCZ1JKaWJtUWwwelhvNTNLUVc1SW1LVkwwSlQycUREbWlrbXVuVC1xXw?oc=5" target="_blank" rel="noopener noreferrer">6 gigantes da indústria alimentícia que utilizam IA em seus processos - e são exemplos de sucesso - Exame</a></h4>
+            <p>6 gigantes da indústria alimentícia que utilizam IA em seus processos - e são exemplos de sucesso Exame</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaWxyWWhpZ1l3RjJId1BCclVHREJrWjkwemkwRThZWU1YRjBXSFo4WmpSOElXTGVwQVpvdm9hOEFJRFlSVF9VcVVtS1BQLXhjVmRybVRjSm16XzRVdFJKX0NyYWdyLWdxcHMydUhnQ3ZETVE1QlM4cnhNcFJMdWZySXl0ZTNTMXVkOHplMUQ1cE00V1ZSUGl5c0tvS1hmRDRKUHJfeW1TcEhIT3RCZ1JKaWJtUWwwelhvNTNLUVc1SW1LVkwwSlQycUREbWlrbXVuVC1xXw?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="indústria adota ia e transforma mercado de trabalho - gazeta do povo radar ia brasil (empresas &amp; indústria) indústria adota ia e transforma mercado de trabalho gazeta do povo">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">Radar IA Brasil (Empresas &amp; Indústria)</span>
+              <span class="news-date">Fri, 26 Jun 2026 07:00:00</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxOTjdvb1FWZmJMeWJRMEN1eUN0U0lWYVRDOGMtOGtVcEsyZUN4Y1VUck52TGxnX2c0bDFvTHlUY3NKV2FvWENlc2pET1JVMWFMVmVpZFRCOW1jQkgybUoxX0ltdFkxVHFTTU5yc3lRd1FaNEhZRmxTaFdiakdtTGNiNmlzRHVTRFhXR19QS0ozU0lZVWlCZW1BalZrYkxxNW15T2dfbW9jU0U2NFJUeW5NaW5DQ0IxZk56cklLMWZTMDVNVmpKTzNfcGN3?oc=5" target="_blank" rel="noopener noreferrer">Indústria adota IA e transforma mercado de trabalho - Gazeta do Povo</a></h4>
+            <p>Indústria adota IA e transforma mercado de trabalho Gazeta do Povo</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMiygFBVV95cUxOTjdvb1FWZmJMeWJRMEN1eUN0U0lWYVRDOGMtOGtVcEsyZUN4Y1VUck52TGxnX2c0bDFvTHlUY3NKV2FvWENlc2pET1JVMWFMVmVpZFRCOW1jQkgybUoxX0ltdFkxVHFTTU5yc3lRd1FaNEhZRmxTaFdiakdtTGNiNmlzRHVTRFhXR19QS0ozU0lZVWlCZW1BalZrYkxxNW15T2dfbW9jU0U2NFJUeW5NaW5DQ0IxZk56cklLMWZTMDVNVmpKTzNfcGN3?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="anthropic pulls off the biggest ipo ever the rundown ai plus: use ai to find a job and prepare to get hired">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">The Rundown AI</span>
+              <span class="news-date">Fri, 20 Nov 2026 10:00:00</span>
+            </div>
+            <h4><a href="https://therundownai.beehiiv.com/p/anthropic-pulls-off-the-biggest-ipo-ever" target="_blank" rel="noopener noreferrer">Anthropic pulls off the biggest IPO ever</a></h4>
+            <p>PLUS: Use AI to find a job and prepare to get hired</p>
+          </div>
+          <a class="src-go" href="https://therundownai.beehiiv.com/p/anthropic-pulls-off-the-biggest-ipo-ever" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="google’s shipping spree continues with neon the rundown ai plus: use ai to rework your linkedin profile">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">The Rundown AI</span>
+              <span class="news-date">Thu, 19 Nov 2026 10:00:00</span>
+            </div>
+            <h4><a href="https://therundownai.beehiiv.com/p/google-shipping-spree-continues-with-neon" target="_blank" rel="noopener noreferrer">Google’s shipping spree continues with Neon</a></h4>
+            <p>PLUS: Use AI to rework your LinkedIn profile</p>
+          </div>
+          <a class="src-go" href="https://therundownai.beehiiv.com/p/google-shipping-spree-continues-with-neon" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="openai’s newest release lands to rough reviews the rundown ai plus: turn a spreadsheet into a data story with ai">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">The Rundown AI</span>
+              <span class="news-date">Wed, 18 Nov 2026 11:00:00</span>
+            </div>
+            <h4><a href="https://therundownai.beehiiv.com/p/openai-newest-release-lands-to-rough-reviews" target="_blank" rel="noopener noreferrer">OpenAI’s newest release lands to rough reviews</a></h4>
+            <p>PLUS: Turn a spreadsheet into a data story with AI</p>
+          </div>
+          <a class="src-go" href="https://therundownai.beehiiv.com/p/openai-newest-release-lands-to-rough-reviews" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="newsletters" data-search="california takes openai to court the rundown ai plus: make your ai usage go further with these tips">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">The Rundown AI</span>
+              <span class="news-date">Tue, 17 Nov 2026 11:00:00</span>
+            </div>
+            <h4><a href="https://therundownai.beehiiv.com/p/california-takes-openai-to-court" target="_blank" rel="noopener noreferrer">California takes OpenAI to court</a></h4>
+            <p>PLUS: Make your AI usage go further with these tips</p>
+          </div>
+          <a class="src-go" href="https://therundownai.beehiiv.com/p/california-takes-openai-to-court" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="langchain launches a gateway to control which tools ai agents can use - superpower daily langchain / langgraph langchain launches a gateway to control which tools ai agents can use superpower daily">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">LangChain / LangGraph</span>
+              <span class="news-date">Thu, 19 Nov 2026 19:13:15</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQYWNLbVVuZV9fLUZBUENDbEtwNXJhU3lEUkF2YjJScGpxcXNBZ2FBLTJ3SGVoVlRXN2ZCRWpuT01JbkJ6Yld4NF9oMUF6LXVzNjF5TmJ4b0cydjRpcktwVDl2cHNxNHJZVks0MlFNVnhDdi1zcWE0V1FHQnQ3WmhLeDMtcERkTEZiTlZEdkltQTZRTmhMR01hQnhIemRiZmY5d0JXSmtB?oc=5" target="_blank" rel="noopener noreferrer">LangChain launches a gateway to control which tools AI agents can use - Superpower Daily</a></h4>
+            <p>LangChain launches a gateway to control which tools AI agents can use Superpower Daily</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQYWNLbVVuZV9fLUZBUENDbEtwNXJhU3lEUkF2YjJScGpxcXNBZ2FBLTJ3SGVoVlRXN2ZCRWpuT01JbkJ6Yld4NF9oMUF6LXVzNjF5TmJ4b0cydjRpcktwVDl2cHNxNHJZVks0MlFNVnhDdi1zcWE0V1FHQnQ3WmhLeDMtcERkTEZiTlZEdkltQTZRTmhMR01hQnhIemRiZmY5d0JXSmtB?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="langchain says prompt engineering will disappear. here&#x27;s what comes next - hackernoon langchain / langgraph langchain says prompt engineering will disappear. here&#x27;s what comes next hackernoon">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">LangChain / LangGraph</span>
+              <span class="news-date">Fri, 20 Nov 2026 06:22:15</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPdktIY2NyMnk5VDc2WU54VGlSbWVjUjllblFqVGlrSWZkVHVVODg2UXZoOEQwZjRxXzFlWk9QTV9zTExxcTFtNlVCazJQYnppQUNSV3dJLWdROVdRVTBvSlBVYk82Z2tBZU5TQzBGSnZ5d01WdVQtemhYdDZyTDhibVJrZ2hxYzZxNXNtZGpuNjA5WkdmNVZCQg?oc=5" target="_blank" rel="noopener noreferrer">LangChain Says Prompt Engineering Will Disappear. Here&#x27;s What Comes Next - HackerNoon</a></h4>
+            <p>LangChain Says Prompt Engineering Will Disappear. Here&#x27;s What Comes Next HackerNoon</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPdktIY2NyMnk5VDc2WU54VGlSbWVjUjllblFqVGlrSWZkVHVVODg2UXZoOEQwZjRxXzFlWk9QTV9zTExxcTFtNlVCazJQYnppQUNSV3dJLWdROVdRVTBvSlBVYk82Z2tBZU5TQzBGSnZ5d01WdVQtemhYdDZyTDhibVJrZ2hxYzZxNXNtZGpuNjA5WkdmNVZCQg?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="langchain launches langsmith tool gateway to govern agent tool calls - unite.ai langchain / langgraph langchain launches langsmith tool gateway to govern agent tool calls unite.ai">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">LangChain / LangGraph</span>
+              <span class="news-date">Thu, 19 Nov 2026 15:25:02</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQckczaFg1a1A4VEM5QnRheDFzX1BSN2d2S2pQa1Q5QkFmaXN2cGZ6SVJ5aVNYTlFZMV85ZXhUSHBENzZNenpWNUkySzhUSk44Q2VYa3g0aEhmR3UwYlRtU1RRX0Fvc1VYcFlyS0pvRkRvcHktbFFncmFFTl9zMDh6ZlMwdi00MVJkNWtrMFQ4TFBYVzc1?oc=5" target="_blank" rel="noopener noreferrer">LangChain Launches LangSmith Tool Gateway to Govern Agent Tool Calls - Unite.AI</a></h4>
+            <p>LangChain Launches LangSmith Tool Gateway to Govern Agent Tool Calls Unite.AI</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQckczaFg1a1A4VEM5QnRheDFzX1BSN2d2S2pQa1Q5QkFmaXN2cGZ6SVJ5aVNYTlFZMV85ZXhUSHBENzZNenpWNUkySzhUSk44Q2VYa3g0aEhmR3UwYlRtU1RRX0Fvc1VYcFlyS0pvRkRvcHktbFFncmFFTl9zMDh6ZlMwdi00MVJkNWtrMFQ4TFBYVzc1?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="industria" data-search="langchain reaches $3b valuation with $300m series c for ai agent management - ai insider langchain / langgraph langchain reaches $3b valuation with $300m series c for ai agent management ai insider">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">LangChain / LangGraph</span>
+              <span class="news-date">Mon, 16 Nov 2026 13:47:29</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2plR2NvZHJlNU0wb0RNV2ZOTE8zblJ5dnJfalpEOXpQQVpNN0U5Ry1BQ0lZMEdzamMtWDQzMWdZNmVFMTNGSUt1bm1ZSUZFSWpaS0VQWGxKOW9EazBPZGpoSGFLRGVKNzZFT05EcDhOeG9sWWVWWHhOb1dCWThFSEk4c0xzYVlld3hITDdpS2ZyRDB2MkVtWjdkVDNUUkJLanREQmE5RENhS0ZKVFFwXw?oc=5" target="_blank" rel="noopener noreferrer">LangChain Reaches $3B Valuation With $300M Series C for AI Agent Management - AI Insider</a></h4>
+            <p>LangChain Reaches $3B Valuation With $300M Series C for AI Agent Management AI Insider</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2plR2NvZHJlNU0wb0RNV2ZOTE8zblJ5dnJfalpEOXpQQVpNN0U5Ry1BQ0lZMEdzamMtWDQzMWdZNmVFMTNGSUt1bm1ZSUZFSWpaS0VQWGxKOW9EazBPZGpoSGFLRGVKNzZFT05EcDhOeG9sWWVWWHhOb1dCWThFSEk4c0xzYVlld3hITDdpS2ZyRDB2MkVtWjdkVDNUUkJLanREQmE5RENhS0ZKVFFwXw?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="new voice isolation model from inworld - reddit localllama / open-source new voice isolation model from inworld reddit">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">LocalLLaMA / Open-Source</span>
+              <span class="news-date">Wed, 18 Nov 2026 21:01:13</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWNfMEFxUFo0M21yV2xfYVBPUTVhVjdSQzI3VFpBc1JIWHhqOExWNnhYVWlReTZVMHp5UXFfWURwdVRaS3ViUG5rZ3lNdFNCMkpMd1ZVcWp1dk9oRnBIX3pjMklxaW5fb0k4ajRadE9peFFqc1pMYlFsalRmU2xYX3NWOG52VE52Sk1FSGFoTy1JU1JtWjFN?oc=5" target="_blank" rel="noopener noreferrer">New voice isolation model from Inworld - Reddit</a></h4>
+            <p>New voice isolation model from Inworld Reddit</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWNfMEFxUFo0M21yV2xfYVBPUTVhVjdSQzI3VFpBc1JIWHhqOExWNnhYVWlReTZVMHp5UXFfWURwdVRaS3ViUG5rZ3lNdFNCMkpMd1ZVcWp1dk9oRnBIX3pjMklxaW5fb0k4ajRadE9peFFqc1pMYlFsalRmU2xYX3NWOG52VE52Sk1FSGFoTy1JU1JtWjFN?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="you&#x27;d never guess who opened up their checkbook to buy all the ram - reddit localllama / open-source you&#x27;d never guess who opened up their checkbook to buy all the ram reddit">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">LocalLLaMA / Open-Source</span>
+              <span class="news-date">Wed, 18 Nov 2026 14:03:39</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNTldVcW1LUFU0ZFBST1g5VVgyWVhZMWZkNGNhVlppX2VaQU9sdG5jX1AzanpZMWkxSXJIbXk5a2kzWF9PT0JpSmtNcFFneFZjZmhxaUpvOWZBOW5fQnFxLTZGOExBNndtdEtHYkxWSzRZZmp1czBCdlMwcjhtQnR0bkxHa0dTYjgtdkdKVGtmUUROOXRELTJ0VXAtMnlHLWZjazc3Q0dR?oc=5" target="_blank" rel="noopener noreferrer">You&#x27;d never guess who opened up their checkbook to buy all the ram - Reddit</a></h4>
+            <p>You&#x27;d never guess who opened up their checkbook to buy all the ram Reddit</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNTldVcW1LUFU0ZFBST1g5VVgyWVhZMWZkNGNhVlppX2VaQU9sdG5jX1AzanpZMWkxSXJIbXk5a2kzWF9PT0JpSmtNcFFneFZjZmhxaUpvOWZBOW5fQnFxLTZGOExBNndtdEtHYkxWSzRZZmp1czBCdlMwcjhtQnR0bkxHa0dTYjgtdkdKVGtmUUROOXRELTJ0VXAtMnlHLWZjazc3Q0dR?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="goes further with koharu, the local-first manga translator with ai agents built in! - reddit localllama / open-source goes further with koharu, the local-first manga translator with ai agents built in! reddit">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">LocalLLaMA / Open-Source</span>
+              <span class="news-date">Wed, 18 Nov 2026 14:58:44</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPOTJraUFzMDhmN2Fhc0Q4N3VjeExGdWVyOVdhdTB2czF0bW91SWFDRm41bVFjTkEzQkEyZldra28ybU43a1NEY1F4cHpyNmw5dm1fbjJCazBGOEYwR3JlS1RVVHJVVE9LWXUxWHNTdnYybm1zRnQ0cXdmVlNqMFhGRkxJOHJqRVdCVnFRUkd0blk2eVZvWXNCMU1Eenh1RTFa?oc=5" target="_blank" rel="noopener noreferrer">Goes further with Koharu, the local-first manga translator with AI agents built in! - Reddit</a></h4>
+            <p>Goes further with Koharu, the local-first manga translator with AI agents built in! Reddit</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPOTJraUFzMDhmN2Fhc0Q4N3VjeExGdWVyOVdhdTB2czF0bW91SWFDRm41bVFjTkEzQkEyZldra28ybU43a1NEY1F4cHpyNmw5dm1fbjJCazBGOEYwR3JlS1RVVHJVVE9LWXUxWHNTdnYybm1zRnQ0cXdmVlNqMFhGRkxJOHJqRVdCVnFRUkd0blk2eVZvWXNCMU1Eenh1RTFa?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="xi called to support open source - reddit localllama / open-source xi called to support open source reddit">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">LocalLLaMA / Open-Source</span>
+              <span class="news-date">Thu, 19 Nov 2026 10:29:38</span>
+            </div>
+            <h4><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQaUtucjJxaUV0a19MT1EzQVJUSmpEdHFodVdKSUlSNlllZExPM09QZWY0YmdTQlQzbmVISnNqdE5DbjRzT3NrU011UXo5bXpkN3Yxd24zaGp4ckk5NFp2RUhyOWdiQWJRdlJNcFdLZEo2eURnTHZDN3dFUnBiNFB1SlMyOWF4WTZUTHVhMG5naw?oc=5" target="_blank" rel="noopener noreferrer">xi called to support open source - Reddit</a></h4>
+            <p>xi called to support open source Reddit</p>
+          </div>
+          <a class="src-go" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQaUtucjJxaUV0a19MT1EzQVJUSmpEdHFodVdKSUlSNlllZExPM09QZWY0YmdTQlQzbmVISnNqdE5DbjRzT3NrU011UXo5bXpkN3Yxd24zaGp4ckk5NFp2RUhyOWdiQWJRdlJNcFdLZEo2eURnTHZDN3dFUnBiNFB1SlMyOWF4WTZUTHVhMG5naw?oc=5" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="elementalsouls/claude-bughunter (+1,660 ⭐ hoje) github trending (python) a claude code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise…">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Python)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/elementalsouls/Claude-BugHunter" target="_blank" rel="noopener noreferrer">elementalsouls/Claude-BugHunter (+1,660 ⭐ hoje)</a></h4>
+            <p>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise…</p>
+          </div>
+          <a class="src-go" href="https://github.com/elementalsouls/Claude-BugHunter" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="hkuds/cli-anything (+774 ⭐ hoje) github trending (python) &quot;cli-anything: making all software agent-native&quot; -- cli-hub: https://clianything.cc/">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Python)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener noreferrer">HKUDS/CLI-Anything (+774 ⭐ hoje)</a></h4>
+            <p>&quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/</p>
+          </div>
+          <a class="src-go" href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="jingyaogong/minimind (+841 ⭐ hoje) github trending (python) 🧠 两小时从 0 训出你的 64m 大模型。train your own 64m llm from scratch in 2 hours.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Python)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener noreferrer">jingyaogong/minimind (+841 ⭐ hoje)</a></h4>
+            <p>🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.</p>
+          </div>
+          <a class="src-go" href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="mvanhorn/last30days-skill (+685 ⭐ hoje) github trending (python) ai agent skill that researches any topic across reddit, x, youtube, hn, polymarket, and the web - then synthesizes a grounded summary">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Python)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noopener noreferrer">mvanhorn/last30days-skill (+685 ⭐ hoje)</a></h4>
+            <p>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</p>
+          </div>
+          <a class="src-go" href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="tracer-cloud/opensre (+465 ⭐ hoje) github trending (python) the open-source agent for ci/cd reliability.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Python)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noopener noreferrer">Tracer-Cloud/opensre (+465 ⭐ hoje)</a></h4>
+            <p>The open-source agent for CI/CD reliability.</p>
+          </div>
+          <a class="src-go" href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="cursor/plugins (+292 ⭐ hoje) github trending (typescript) cursor plugin specification and official plugins">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Typescript)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/cursor/plugins" target="_blank" rel="noopener noreferrer">cursor/plugins (+292 ⭐ hoje)</a></h4>
+            <p>Cursor plugin specification and official plugins</p>
+          </div>
+          <a class="src-go" href="https://github.com/cursor/plugins" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="firecrawl/firecrawl (+1,226 ⭐ hoje) github trending (typescript) knowledge infrastructure to make your agents smarter. search, scrape and 550+ data providers through one api.">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Typescript)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/firecrawl/firecrawl" target="_blank" rel="noopener noreferrer">firecrawl/firecrawl (+1,226 ⭐ hoje)</a></h4>
+            <p>Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.</p>
+          </div>
+          <a class="src-go" href="https://github.com/firecrawl/firecrawl" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="google-labs-code/stitch-skills (+315 ⭐ hoje) github trending (typescript) a library of agent skills designed to work with the stitch mcp server. each skill follows the agent skills open standard, for compatibility with coding agents such as antigravity, gemini cli, claude…">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Typescript)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noopener noreferrer">google-labs-code/stitch-skills (+315 ⭐ hoje)</a></h4>
+            <p>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude…</p>
+          </div>
+          <a class="src-go" href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+        <article class="news-row" data-sec="tempo_real" data-search="toeverything/affine (+686 ⭐ hoje) github trending (typescript) there can be more than notion and miro. affine(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. privacy first, open-source, customizable and…">
+          <div>
+            <div class="news-meta">
+              <span class="src-pill">GitHub Trending (Typescript)</span>
+              <span class="news-date">Trending</span>
+            </div>
+            <h4><a href="https://github.com/toeverything/AFFiNE" target="_blank" rel="noopener noreferrer">toeverything/AFFiNE (+686 ⭐ hoje)</a></h4>
+            <p>There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and…</p>
+          </div>
+          <a class="src-go" href="https://github.com/toeverything/AFFiNE" target="_blank" rel="noopener noreferrer">Abrir fonte original ↗</a>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    let activeRankList = 'overall';
+    let activeRankCreator = 'all';
+    let activeNewsSec = 'all';
+
+    function filterRank(listKey, creator, btn) {
+      activeRankList = listKey;
+      activeRankCreator = creator;
+      btn.parentElement.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyRankFilters();
+    }
+
+    function applyRankFilters() {
+      const q = (document.getElementById('rankSearch').value || '').toLowerCase().trim();
+      document.querySelectorAll('.rank-row').forEach(row => {
+        const matchList = row.getAttribute('data-list') === activeRankList;
+        const matchCreator = activeRankCreator === 'all' || row.getAttribute('data-creator').includes(activeRankCreator);
+        const matchQ = !q || row.getAttribute('data-name').includes(q);
+        row.style.display = (matchList && matchCreator && matchQ) ? '' : 'none';
+      });
+    }
+
+    function filterNews(sec, btn) {
+      activeNewsSec = sec;
+      btn.parentElement.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyNewsFilters();
+    }
+
+    function applyNewsFilters() {
+      const q = (document.getElementById('newsSearch').value || '').toLowerCase().trim();
+      document.querySelectorAll('.news-row').forEach(row => {
+        const matchSec = activeNewsSec === 'all' || row.getAttribute('data-sec') === activeNewsSec;
+        const matchQ = !q || row.getAttribute('data-search').includes(q);
+        row.style.display = (matchSec && matchQ) ? 'flex' : 'none';
+      });
+    }
+
+    applyRankFilters();
+  </script>
+</body>
+</html>

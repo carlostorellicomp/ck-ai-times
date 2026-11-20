@@ -1,0 +1,5 @@
+dados/raw_*.json
+dados/curadoria_*.json
+edicao-*.html
+__pycache__/
+*.pyc
