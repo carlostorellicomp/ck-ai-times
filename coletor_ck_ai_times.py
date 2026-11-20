@@ -5,11 +5,14 @@ Roda localmente no Windows e automaticamente na nuvem via GitHub Actions todo di
 """
 import urllib.request
 import urllib.parse
+import urllib.error
 import xml.etree.ElementTree as ET
 import json
 import re
 import os
 import html
+import time
+import threading
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -68,46 +71,111 @@ def fetch_url(url, timeout=14):
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode('utf-8', errors='replace')
 
+TRANS_LOCK = threading.Lock()
+TRANS_STATS = {'cache': 0, 'gtx': 0, 'clients5': 0, 'mymemory': 0, 'fail': 0, 'last_err': ''}
+BLOCKED_PROVIDERS = set()
+
+def is_probably_pt(text):
+    if not text:
+        return True
+    pt_markers = (' de ', ' da ', ' do ', ' para ', ' com ', ' uma ', ' inteligência ', ' empresa', ' indústria', 'ção ', 'ões ', ' não ', ' está ', ' sobre ')
+    low = ' ' + text.lower() + ' '
+    return sum(1 for m in pt_markers if m in low) >= 3
+
+def _split_chunks(text, max_len):
+    """Divide texto preservando quebras de parágrafo quando possível."""
+    if len(text) <= max_len:
+        return [text]
+    chunks = []
+    remaining = text.strip()
+    while remaining:
+        if len(remaining) <= max_len:
+            chunks.append(remaining)
+            break
+        cut = remaining.rfind('\n', 0, max_len)
+        if cut < max_len // 3:
+            cut = remaining.rfind('. ', 0, max_len)
+        if cut < max_len // 3:
+            cut = remaining.rfind(' ', 0, max_len)
+        if cut <= 0:
+            cut = max_len
+        chunks.append(remaining[:cut + 1].strip())
+        remaining = remaining[cut + 1:].strip()
+    return [c for c in chunks if c]
+
+def _call_gtx(ch):
+    url = 'https://translate.googleapis.com/translate_a/single?' + urllib.parse.urlencode({
+        'client': 'gtx', 'sl': 'auto', 'tl': 'pt', 'dt': 't', 'q': ch
+    })
+    raw = urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=10).read().decode('utf-8')
+    data = json.loads(raw)
+    return ''.join(seg[0] for seg in data[0] if seg and seg[0]).strip()
+
+def _call_clients5(ch):
+    url = 'https://clients5.google.com/translate_a/t?' + urllib.parse.urlencode({
+        'client': 'dict-chrome-ex', 'sl': 'auto', 'tl': 'pt', 'q': ch
+    })
+    raw = urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=10).read().decode('utf-8')
+    data = json.loads(raw)
+    if isinstance(data, list) and data:
+        if isinstance(data[0], list) and data[0]:
+            return str(data[0][0]).strip()
+        if isinstance(data[0], str):
+            return data[0].strip()
+    raise ValueError('Resposta inesperada clients5')
+
+def _call_mymemory(ch):
+    parts = []
+    for sub in _split_chunks(ch, 460):
+        url = 'https://api.mymemory.translated.net/get?' + urllib.parse.urlencode({
+            'q': sub, 'langpair': 'en|pt-BR', 'de': 'ckaitimes@ckintelligence.com.br'
+        })
+        raw = urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=12).read().decode('utf-8')
+        data = json.loads(raw)
+        if int(data.get('responseStatus') or 0) != 200:
+            raise urllib.error.HTTPError(url, int(data.get('responseStatus') or 429), str(data.get('responseDetails')), {}, None)
+        txt = (data.get('responseData') or {}).get('translatedText') or ''
+        if not txt or 'MYMEMORY WARNING' in txt.upper():
+            raise urllib.error.HTTPError(url, 429, 'MyMemory quota limit', {}, None)
+        parts.append(html.unescape(txt).strip())
+        time.sleep(0.1)
+    return ' '.join(parts).strip()
+
+def _translate_chunk_waterfall(ch):
+    providers = [('gtx', _call_gtx), ('clients5', _call_clients5), ('mymemory', _call_mymemory)]
+    for name, fn in providers:
+        if name in BLOCKED_PROVIDERS:
+            continue
+        try:
+            time.sleep(0.12)
+            out = fn(ch)
+            if out:
+                with TRANS_LOCK:
+                    TRANS_STATS[name] += 1
+                return out
+        except urllib.error.HTTPError as e:
+            with TRANS_LOCK:
+                TRANS_STATS['last_err'] = f'{name}: HTTP {e.code}'
+                if e.code in (403, 429):
+                    BLOCKED_PROVIDERS.add(name)
+        except Exception as e:
+            with TRANS_LOCK:
+                TRANS_STATS['last_err'] = f'{name}: {str(e)[:60]}'
+    with TRANS_LOCK:
+        TRANS_STATS['fail'] += 1
+    return ch
+
 def translate_literal_pt(text):
     """
-    Tradução literal 1-para-1 (ZERO invenções) via endpoint público Google Translate GTX.
-    Preserva o texto original caso falhe ou já esteja em português.
+    Tradução literal 1-para-1 (ZERO invenções) com fallback automático em 3 camadas
+    (Google GTX -> Clients5 -> MyMemory) e circuit-breaker contra HTTP 429.
     """
-    if not text or len(text.strip()) < 3:
+    if not text or len(text.strip()) < 3 or is_probably_pt(text):
         return text
-    # Detecta se já parece português para evitar tradução desnecessária
-    pt_markers = (' de ', ' da ', ' do ', ' para ', ' com ', ' uma ', ' inteligência ', ' empresa', ' indústria', 'ção ', 'ões ')
-    low = ' ' + text.lower() + ' '
-    if sum(1 for m in pt_markers if m in low) >= 3:
-        return text
-    try:
-        # Quebra textos maiores que 1600 caracteres em blocos seguros
-        chunks = []
-        remaining = text.strip()
-        while remaining:
-            if len(remaining) <= 1500:
-                chunks.append(remaining)
-                break
-            cut = remaining.rfind('. ', 0, 1500)
-            if cut == -1:
-                cut = remaining.rfind(' ', 0, 1500)
-            if cut == -1:
-                cut = 1500
-            chunks.append(remaining[:cut + 1].strip())
-            remaining = remaining[cut + 1:].strip()
-
-        out_parts = []
-        for ch in chunks:
-            url = 'https://translate.googleapis.com/translate_a/single?' + urllib.parse.urlencode({
-                'client': 'gtx', 'sl': 'auto', 'tl': 'pt', 'dt': 't', 'q': ch
-            })
-            raw = urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=10).read().decode('utf-8')
-            data = json.loads(raw)
-            translated = ''.join(seg[0] for seg in data[0] if seg and seg[0])
-            out_parts.append(translated)
-        return ' '.join(out_parts).strip()
-    except Exception:
-        return text
+    chunks = _split_chunks(text.strip(), 1400)
+    out_parts = [_translate_chunk_waterfall(ch) for ch in chunks]
+    sep = '\n\n' if '\n\n' in text else ' '
+    return sep.join(out_parts).strip()
 
 def parse_rss(name, section, url, limit=5):
     items = []
@@ -375,21 +443,72 @@ def fetch_artificial_analysis_rankings():
         'top20_open_source': [m for m in models if m['is_open_weights']][:20]
     }
 
-def translate_item(it):
-    """Traduz literalmente título, resumo e parágrafos completos (se houver) para PT-BR."""
-    it['title_pt'] = translate_literal_pt(it.get('title', ''))
-    it['summary_pt'] = translate_literal_pt(it.get('summary', ''))
-    paras_en = it.get('full_paragraphs') or []
+def load_translation_cache():
+    latest_json = os.path.join(DATA_DIR, 'latest.json')
+    cache = {}
+    if not os.path.exists(latest_json):
+        return cache
+    try:
+        with open(latest_json, 'r', encoding='utf-8') as f:
+            old = json.load(f)
+        for it in old.get('items', []):
+            url = it.get('url')
+            t_en = it.get('title') or ''
+            t_pt = it.get('title_pt') or ''
+            if url and t_pt and (t_pt != t_en or is_probably_pt(t_en)):
+                cache[url] = {
+                    'title': t_en,
+                    'title_pt': t_pt,
+                    'summary_pt': it.get('summary_pt') or '',
+                    'full_paragraphs': it.get('full_paragraphs') or [],
+                    'full_paragraphs_pt': it.get('full_paragraphs_pt') or [],
+                }
+    except Exception:
+        pass
+    return cache
+
+def translate_item(it, trans_cache=None):
+    """Traduz literalmente título, resumo e parágrafos completos para PT-BR (com reuso de cache)."""
+    url = it.get('url', '')
+    paras_en = (it.get('full_paragraphs') or [])[:8]
+    it['full_paragraphs'] = paras_en
+
+    cached = (trans_cache or {}).get(url)
+    if cached and cached.get('title') == it.get('title') and len(cached.get('full_paragraphs_pt') or []) >= len(paras_en):
+        it['title_pt'] = cached['title_pt']
+        it['summary_pt'] = cached['summary_pt'] or it.get('summary', '')
+        it['full_paragraphs_pt'] = (cached['full_paragraphs_pt'] or [])[:len(paras_en)]
+        with TRANS_LOCK:
+            TRANS_STATS['cache'] += 1
+        return it
+
+    title = it.get('title', '')
+    summary = it.get('summary', '')
+    # Traduz título + resumo numa única requisição quando ambos precisarem (economiza 50% das chamadas)
+    if title and summary and not is_probably_pt(title) and not is_probably_pt(summary) and (len(title) + len(summary) < 1200):
+        sep = '\n§§§\n'
+        combo = translate_literal_pt(title + sep + summary)
+        if '§§§' in combo:
+            parts = combo.split('§§§', 1)
+            it['title_pt'] = parts[0].strip()
+            it['summary_pt'] = parts[1].strip()
+        else:
+            it['title_pt'] = translate_literal_pt(title)
+            it['summary_pt'] = translate_literal_pt(summary)
+    else:
+        it['title_pt'] = translate_literal_pt(title)
+        it['summary_pt'] = translate_literal_pt(summary)
+
     paras_pt = []
     if paras_en:
-        paras_en = paras_en[:8]
-        # Traduz os 8 primeiros parágrafos reais da matéria (mantendo alinhamento 1:1 para modo bilíngue)
-        joined = '\n\n'.join(paras_en)
-        translated_block = translate_literal_pt(joined)
-        paras_pt = [p.strip() for p in translated_block.split('\n') if len(p.strip()) > 20]
-        if not paras_pt:
-            paras_pt = [translated_block]
-        it['full_paragraphs'] = paras_en
+        if 'gtx' in BLOCKED_PROVIDERS and 'clients5' in BLOCKED_PROVIDERS:
+            paras_pt = [translate_literal_pt(p) for p in paras_en]
+        else:
+            joined = '\n\n'.join(paras_en)
+            translated_block = translate_literal_pt(joined)
+            paras_pt = [p.strip() for p in translated_block.split('\n') if len(p.strip()) > 20]
+            if len(paras_pt) != len(paras_en):
+                paras_pt = [translate_literal_pt(p) for p in paras_en]
     it['full_paragraphs_pt'] = paras_pt
     return it
 
@@ -442,10 +561,12 @@ def collect_all():
     with ThreadPoolExecutor(max_workers=8) as ex:
         list(ex.map(enrich_article_fulltext, to_enrich))
 
-    # Traduz literalmente TODOS os itens (título + resumo + texto completo) para PT-BR em paralelo
-    print(f"[CK AI TIMES] Traduzindo literalmente {len(results)} notícias reais para PT-BR (modo bilíngue)...")
-    with ThreadPoolExecutor(max_workers=10) as ex:
-        list(ex.map(translate_item, results))
+    # Traduz literalmente TODOS os itens (título + resumo + texto completo) para PT-BR com cache e cadência segura
+    trans_cache = load_translation_cache()
+    print(f"[CK AI TIMES] Traduzindo literalmente {len(results)} notícias reais para PT-BR (cache={len(trans_cache)} itens)...")
+    with ThreadPoolExecutor(max_workers=2) as ex:
+        list(ex.map(lambda it: translate_item(it, trans_cache), results))
+    print(f"[CK AI TIMES] Tradução stats: cache={TRANS_STATS['cache']} gtx={TRANS_STATS['gtx']} clients5={TRANS_STATS['clients5']} mymemory={TRANS_STATS['mymemory']} falhas={TRANS_STATS['fail']} last_err={TRANS_STATS['last_err'] or 'nenhum'}")
 
     # Ranking Top 50 Artificial Analysis
     rankings = {'source_name': 'Artificial Analysis', 'source_url': 'https://artificialanalysis.ai/leaderboards/models', 'total_evaluated': 0, 'top50_overall': [], 'top20_open_source': []}
