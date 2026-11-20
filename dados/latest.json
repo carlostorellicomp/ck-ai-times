@@ -1,7 +1,7 @@
 {
   "generated_at": "20/11/2026 às 11:44 (BRT)",
   "date": "2026-11-20",
-  "total_items": 85,
+  "total_items": 81,
   "sources_status": {
     "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
     "OpenAI News": "OK (4 itens)",
@@ -10,8 +10,10 @@
     "Anthropic News (Claude)": "OK (4 itens)",
     "Hugging Face Models": "OK (6 itens)",
     "Hugging Face Spaces": "OK (4 itens)",
-    "Hacker News AI": "OK (5 itens)",
-    "NVIDIA Blog": "OK (4 itens)",
+    "Anthropic News (Claude)": "OK (4 itens)",
+    "The Batch (Andrew Ng)": "OK (4 itens)",
+    "Google AI Blog": "OK (4 itens)",
+    "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
     "NVIDIA Developer Blog": "OK (4 itens)",
     "n8n Blog": "OK (4 itens)",
     "Ultralytics Blog": "OK (4 itens)",
@@ -1850,7 +1852,15 @@
       "full_paragraphs_pt": []
     },
     {
-      "source": "Google AI / DeepMind",
+      "source": "NVIDIA Industrial & AI",
+      "section": "industria",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "date": "Wed, 18 Nov 2026 14:00:31",
+      "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified…"
+    },
+    {
+      "source": "Hacker News (Engenharia IA)",
       "section": "labs",
       "title": "Put Gemini to work for you",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
@@ -2112,6 +2122,14 @@
       "title_pt": "Novo modelo de isolamento de voz da Inworld - Reddit",
       "summary_pt": "Novo modelo de isolamento de voz do Inworld Reddit",
       "full_paragraphs_pt": []
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "New voice isolation model from Inworld - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWNfMEFxUFo0M21yV2xfYVBPUTVhVjdSQzI3VFpBc1JIWHhqOExWNnhYVWlReTZVMHp5UXFfWURwdVRaS3ViUG5rZ3lNdFNCMkpMd1ZVcWp1dk9oRnBIX3pjMklxaW5fb0k4ajRadE9peFFqc1pMYlFsalRmU2xYX3NWOG52VE52Sk1FSGFoTy1JU1JtWjFN?oc=5",
+      "date": "Wed, 18 Nov 2026 21:01:13",
+      "summary": "New voice isolation model from Inworld Reddit"
     },
     {
       "source": "LocalLLaMA / Open-Source",
