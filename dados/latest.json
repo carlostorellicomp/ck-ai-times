@@ -1,30 +1,30 @@
 {
-  "generated_at": "21/11/2026 às 07:47 (BRT)",
+  "generated_at": "21/11/2026 às 07:51 (BRT)",
   "date": "2026-11-21",
-  "total_items": 102,
+  "total_items": 94,
   "sources_status": {
-    "The Verge AI (Diário 24/7)": "OK (4 itens)",
-    "TechCrunch AI (Diário 24/7)": "OK (5 itens)",
-    "Ars Technica AI": "OK (4 itens)",
     "MIT Technology Review AI": "OK (4 itens)",
     "OpenAI News": "OK (4 itens)",
-    "The Batch (Andrew Ng)": "OK (4 itens)",
+    "Ars Technica AI": "OK (4 itens)",
+    "TechCrunch AI (Diário 24/7)": "OK (5 itens)",
+    "The Rundown AI": "OK (4 itens)",
     "TLDR AI": "OK (5 itens)",
-    "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
-    "Hugging Face Models": "OK (6 itens)",
+    "The Verge AI (Diário 24/7)": "OK (4 itens)",
     "Anthropic News (Claude)": "OK (4 itens)",
+    "Hugging Face Models": "OK (6 itens)",
     "Hugging Face Spaces": "OK (4 itens)",
-    "Mercado IA Brasil": "OK (5 itens)",
+    "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
     "NVIDIA Blog": "OK (4 itens)",
-    "n8n Blog": "OK (4 itens)",
     "Hacker News AI": "OK (5 itens)",
-    "Ultralytics Blog": "OK (4 itens)",
+    "Google AI Blog": "OK (4 itens)",
+    "n8n Blog": "OK (4 itens)",
+    "Mercado IA Brasil": "OK (5 itens)",
     "Microsoft Copilot & Azure AI": "OK (4 itens)",
     "NVIDIA Developer Blog": "OK (4 itens)",
-    "Google AI Blog": "OK (4 itens)",
-    "The Rundown AI": "OK (4 itens)",
+    "Ultralytics Blog": "OK (4 itens)",
+    "The Batch (Andrew Ng)": "ERRO: HTTP Error 403: Forbidden",
     "LangChain / LangGraph": "OK (4 itens)",
-    "LocalLLaMA & Open Source": "OK (4 itens)",
+    "LocalLLaMA & Open Source": "OK (0 itens)",
     "GitHub Trending TypeScript": "OK (4 itens)",
     "GitHub Trending Python": "OK (5 itens)",
     "Ranking Top 50 LLMs (Artificial Analysis)": "OK (50 Top50 / 20 Open)"
@@ -831,19 +831,6 @@
       ]
     },
     {
-      "source": "LocalLLaMA / Open-Source",
-      "section": "tempo_real",
-      "title": "thinkingmachines/Inkling-2-Mini (MoE: 26b, a3B) - Reddit",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjRaaGRJVFdtOHRnV3ZzblNhSlhfVUtoUmFBSmx0MjhRZFhkV2czNmxTSjF6U2xTWDRPMVplVXFsel9PWkhObmlKMUtxVFdOZ3kzeXVBYWRnZEdjbTVkRnNRSEx5UllFUS1BTWZjRElHNUZPWGZUQXN0a2h4VEpDLVRENkl1eFBSS1VNMHc2VVAtdjlLUlN4Z3FB?oc=5",
-      "date": "Fri, 20 Nov 2026 20:10:53",
-      "published_ts": 1795205453,
-      "summary": "thinkingmachines/Inkling-2-Mini (MoE: 26b, a3B) Reddit",
-      "full_paragraphs": [],
-      "title_pt": "máquinas de pensar/Inkling-2-Mini (MoE: 26b, a3B) - Reddit",
-      "summary_pt": "máquinas de pensar/Inkling-2-Mini (MoE: 26b, a3B) Reddit",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "TechCrunch AI",
       "section": "newsletters",
       "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
@@ -1030,208 +1017,6 @@
       ]
     },
     {
-      "source": "The Batch (Andrew Ng)",
-      "section": "newsletters",
-      "title": "Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
-      "url": "https://www.deeplearning.ai/the-batch/tag/letters",
-      "date": "Semanal",
-      "summary": "✨ New Course! Enroll in Tabular Foundation Models for Data Science Agents I was saddened to hear about Jensen Huang resigning from Nvidia last week",
-      "full_paragraphs": [
-        "✨ New Course! Enroll in Tabular Foundation Models for Data Science Agents",
-        "I was saddened to hear about Jensen Huang resigning from Nvidia last week",
-        "Building an agent harness has been a rapidly growing method to build an AI agent.",
-        "LinkedIn data shows that AI has helped create 2 million jobs.",
-        "Following our annual tradition, this special Halloween edition of The Batch treats leading AI fears.",
-        "What should an engineering leader such as a VP Engineering or an Engineering manager do to help their team become more proficient in AI?",
-        "The gulf between LLM performance on verifiable tasks vs. unverifiable tasks that require judgement is larger than most people realize.",
-        "I think most people still underestimate the data center build-outs that will be required to meet demand."
-      ],
-      "published_ts": 1795193274,
-      "title_pt": "O legado Nvidia de Jensen Huang, Claude Fable 5.2 e IPO da Anthropic, World Labs lança Atlas para desenvolvedores",
-      "summary_pt": "✨Novo Curso! Inscreva-se em modelos de base tabular para agentes de ciência de dados Fiquei triste ao saber que Jensen Huang se demitiu da Nvidia na semana passada",
-      "full_paragraphs_pt": [
-        "✨Novo Curso! Inscreva-se em modelos de base tabular para agentes de ciência de dados",
-        "Fiquei triste ao saber que Jensen Huang se demitiu da Nvidia na semana passada",
-        "Construir um equipamento de agente tem sido um método de rápido crescimento para construir um agente de IA.",
-        "Os dados do LinkedIn mostram que a IA ajudou a criar 2 milhões de empregos.",
-        "Seguindo nossa tradição anual, esta edição especial de Halloween do The Batch trata dos principais medos da IA.",
-        "O que um líder de engenharia, como um vice-presidente de engenharia ou um gerente de engenharia, deve fazer para ajudar sua equipe a se tornar mais proficiente em IA?",
-        "O abismo entre o desempenho do LLM em tarefas verificáveis ​​e tarefas não verificáveis ​​que exigem julgamento é maior do que a maioria das pessoas imagina.",
-        "Acho que a maioria das pessoas ainda subestima a construção de data centers que será necessária para atender à demanda."
-      ]
-    },
-    {
-      "source": "The Batch (Andrew Ng)",
-      "section": "newsletters",
-      "title": "Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer Use Gains Momentum, Fine Control of Fine-Tuning",
-      "url": "https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro",
-      "date": "Semanal",
-      "summary": "✨ New Course! Enroll in Tabular Foundation Models for Data Science Agents Today I'm launching DeepLearning.AI Pro – the one membership that keeps you at the forefront of AI. Please join!",
-      "full_paragraphs": [
-        "✨ New Course! Enroll in Tabular Foundation Models for Data Science Agents",
-        "Today I'm launching DeepLearning.AI Pro – the one membership that keeps you at the forefront of AI. Please join!",
-        "There has never been a moment in human history when the distance between your having an idea and building it has been smaller. Things that would have required months of work for a team of researchers, developers and engineers can now often be built by a small group or even an individual using AI, in days. This is why we're launching DeepLearning.AI Pro.",
-        "This membership gives you full access to 150+ programs, including my Agentic AI course launched earlier this month, our LLM Post-training course by Sharon Zhou and our PyTorch professional certificate by Laurence Moroney that were launched this week, and all of DeepLearning.AI's top courses and professional certificates. I'm personally working hard on this membership program to help you build applications that can launch or accelerate your career, and shape the future of AI.",
-        "All of DeepLearning.AI’s course videos remain free to view on our platform. Pro membership adds that critical hands-on learning: Labs to build working systems from scratch, practice questions to hone your understanding, and certificates to show others your skills.",
-        "Beyond courses, I am working on new tools to help you build AI applications and grow your career (and have fun doing so!). Many of these tools will be available first to DeepLearning.AI Pro members. So please join to be the first to hear about these new developments!",
-        "Try out Pro membership for free, and let me know what you build!",
-        "Stay updated with weekly AI News and Insights delivered to your inbox"
-      ],
-      "published_ts": 1795193274,
-      "title_pt": "O aprendizado por reforço esquenta, a Casa Branca ordena uma política de IA muscular, o uso do computador ganha impulso, o controle preciso do ajuste fino",
-      "summary_pt": "✨Novo Curso! Inscreva-se em modelos de base tabular para agentes de ciência de dados Hoje estou lançando o DeepLearning.AI Pro – a única associação que mantém você na vanguarda da IA. Por favor, participe!",
-      "full_paragraphs_pt": [
-        "✨Novo Curso! Inscreva-se em modelos de base tabular para agentes de ciência de dados",
-        "Hoje estou lançando o DeepLearning.AI Pro – a assinatura que mantém você na vanguarda da IA. Por favor, participe!",
-        "Nunca houve um momento na história da humanidade em que a distância entre ter uma ideia e construí-la tenha sido menor. Coisas que exigiriam meses de trabalho para uma equipe de pesquisadores, desenvolvedores e engenheiros agora podem ser construídas por um pequeno grupo ou até mesmo por um indivíduo usando IA, em poucos dias. É por isso que estamos lançando o DeepLearning.AI Pro.",
-        "Esta associação dá a você acesso total a mais de 150 programas, incluindo meu curso Agentic AI lançado no início deste mês, nosso curso de pós-treinamento LLM de Sharon Zhou e nosso certificado profissional PyTorch de Laurence Moroney que foram lançados esta semana, e todos os principais cursos e certificados profissionais do DeepLearning.AI. Pessoalmente, estou trabalhando duro neste programa de associação para ajudá-lo a criar aplicativos que possam lançar ou acelerar sua carreira e moldar o futuro da IA.",
-        "Todos os vídeos dos cursos do DeepLearning.AI permanecem gratuitos para visualização em nossa plataforma. A associação Pro acrescenta aquele aprendizado prático crítico: laboratórios para construir sistemas funcionais do zero, questões práticas para aprimorar sua compreensão e certificados para mostrar suas habilidades aos outros.",
-        "Além dos cursos, estou trabalhando em novas ferramentas para ajudá-lo a criar aplicativos de IA e expandir sua carreira (e se divertir fazendo isso!). Muitas dessas ferramentas estarão disponíveis primeiro para membros do DeepLearning.AI Pro. Então, por favor, inscreva-se para ser o primeiro a saber sobre esses novos desenvolvimentos!",
-        "Experimente a assinatura Pro gratuitamente e conte-me o que você criou!",
-        "Fique atualizado com notícias e insights semanais sobre IA entregues em sua caixa de entrada"
-      ]
-    },
-    {
-      "source": "The Batch (Andrew Ng)",
-      "section": "newsletters",
-      "title": "DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s o1",
-      "url": "https://www.deeplearning.ai/the-batch/issue-286",
-      "date": "Semanal",
-      "summary": "✨ New Course! Enroll in Tabular Foundation Models for Data Science Agents The buzz over DeepSeek this week crystallized, for many people, a few important trends that have been happening in plain sight: (i) China is catching up to the U.S. in generative AI, with implications for the AI supply chain. (ii) Open weight models are commoditizing the foundation-model layer, which creates opportunities for application builders. (iii) Scaling up isn’t the only path to AI progress. Despite the massive focus on and hype aroun",
-      "full_paragraphs": [
-        "✨ New Course! Enroll in Tabular Foundation Models for Data Science Agents",
-        "The buzz over DeepSeek this week crystallized, for many people, a few important trends that have been happening in plain sight: (i) China is catching up to the U.S. in generative AI, with implications for the AI supply chain. (ii) Open weight models are commoditizing the foundation-model layer, which creates opportunities for application builders. (iii) Scaling up isn’t the only path to AI progress. Despite the massive focus on and hype around processing power, algorithmic innovations are rapidly pushing down training costs.",
-        "About a week ago, DeepSeek, a company based in China, released DeepSeek-R1, a remarkable model whose performance on benchmarks is comparable to OpenAI’s o1. Further, it was released as an open weight model with a permissive MIT license. At Davos last week, I got a lot of questions about it from non-technical business leaders. And on Monday, the stock market saw a “DeepSeek selloff”: The share prices of Nvidia and a number of other U.S. tech companies plunged. (As of the time of writing, they have recovered somewhat.)",
-        "Here’s what I think DeepSeek has caused many people to realize:",
-        "China is catching up to the U.S. in generative AI. When ChatGPT was launched in November 2022, the U.S. was significantly ahead of China in generative AI. Impressions change slowly, and so even recently I heard friends in both the U.S. and China say they thought China was behind. But in reality, this gap has rapidly eroded over the past two years. With models from China such as Qwen (which my teams have used for months), Kimi, InternVL, and DeepSeek, China had clearly been closing the gap, and in areas such as video generation there were already moments where China seemed to be in the lead.",
-        "I’m thrilled that DeepSeek-R1 was released as an open weight model, with a technical report that shares many details. In contrast, a number of U.S. companies have pushed for regulation to stifle open source by hyping up hypothetical AI dangers such as human extinction. It is now clear that open source/open weight models are a key part of the AI supply chain: Many companies will use them. If the U.S. continues to stymie open source, China will come to dominate this part of the supply chain and many businesses will end up using models that reflect China’s values much more than America’s.",
-        "Open weight models are commoditizing the foundation-model layer. As I wrote previously, LLM token prices have been falling rapidly, and open weights have contributed to this trend and given developers more choice. OpenAI’s o1 costs $60 per million output tokens; DeepSeek R1 costs $2.19. This nearly 30x difference brought the trend of falling prices to the attention of many people.",
-        "The business of training foundation models and selling API access is tough. Many companies in this area are still looking for a path to recouping the massive cost of model training. The article “ AI’s $600B Question ” lays out the challenge well (but, to be clear, I think the foundation model companies are doing great work, and I hope they succeed). In contrast, building applications on top of foundation models presents many great business opportunities. Now that others have spent billions training such models, you can access these models for mere dollars to build customer service chatbots, email summarizers, AI doctors, legal document assistants, and much more."
-      ],
-      "published_ts": 1795193274,
-      "title_pt": "DeepSeek aprimora seu raciocínio: DeepSeek-R1, um rival acessível do o1 da OpenAI",
-      "summary_pt": "✨Novo Curso! Inscreva-se em modelos de base tabular para agentes de ciência de dados O burburinho sobre o DeepSeek esta semana cristalizou, para muitas pessoas, algumas tendências importantes que têm acontecido à vista de todos: (i) a China está alcançando os EUA em IA generativa, com implicações para a cadeia de fornecimento de IA. (ii) Os modelos abertos estão a comoditizar a camada do modelo de base, o que cria oportunidades para os criadores de aplicações. (iii) A expansão não é o único caminho para o progresso da IA. Apesar do enorme foco e entusiasmo em torno",
-      "full_paragraphs_pt": [
-        "✨Novo Curso! Inscreva-se em modelos de base tabular para agentes de ciência de dados",
-        "O burburinho sobre o DeepSeek esta semana cristalizou, para muitas pessoas, algumas tendências importantes que têm acontecido à vista de todos: (i) a China está a alcançar os EUA em IA generativa, com implicações para a cadeia de fornecimento de IA. (ii) Os modelos abertos estão a comoditizar a camada do modelo de base, o que cria oportunidades para os criadores de aplicações. (iii) A expansão não é o único caminho para o progresso da IA. Apesar do enorme foco e entusiasmo em torno do poder de processamento, as inovações algorítmicas estão rapidamente reduzindo os custos de treinamento.",
-        "Há cerca de uma semana, a DeepSeek, uma empresa com sede na China, lançou o DeepSeek-R1, um modelo notável cujo desempenho em benchmarks é comparável ao o1 da OpenAI. Além disso, foi lançado como um modelo de peso aberto com uma licença permissiva do MIT. Em Davos, na semana passada, recebi muitas perguntas sobre o assunto por parte de líderes empresariais não técnicos. E na segunda-feira, o mercado de ações viu uma “venda DeepSeek”: os preços das ações da Nvidia e de uma série de outras empresas de tecnologia dos EUA despencaram. (No momento em que este artigo foi escrito, eles se recuperaram um pouco.)",
-        "Aqui está o que acho que o DeepSeek fez com que muitas pessoas percebessem:",
-        "A China está alcançando os EUA em IA generativa. Quando o ChatGPT foi lançado em novembro de 2022, os EUA estavam significativamente à frente da China em IA generativa. As impressões mudam lentamente e, recentemente, ouvi amigos nos EUA e na China dizerem que pensavam que a China estava atrasada. Mas, na realidade, esta lacuna diminuiu rapidamente nos últimos dois anos. Com modelos da China como Qwen (que minhas equipes usam há meses), Kimi, InternVL e DeepSeek, a China vinha claramente diminuindo a lacuna e em áreas como geração de vídeo já houve momentos em que a China parecia estar na liderança.",
-        "Estou emocionado que o DeepSeek-R1 tenha sido lançado como um modelo aberto, com um relatório técnico que compartilha muitos detalhes. Em contraste, várias empresas dos EUA pressionaram por uma regulamentação que reprimisse o código aberto, exaltando perigos hipotéticos da IA, como a extinção humana. Agora está claro que os modelos de código aberto/peso aberto são uma parte fundamental da cadeia de fornecimento de IA: muitas empresas os utilizarão. Se os EUA continuarem a impedir o código aberto, a China dominará esta parte da cadeia de abastecimento e muitas empresas acabarão por utilizar modelos que reflectem muito mais os valores da China do que os da América.",
-        "Os modelos de peso aberto estão comoditizando a camada do modelo de base. Como escrevi anteriormente, os preços dos tokens LLM têm caído rapidamente e os pesos abertos contribuíram para essa tendência e deram aos desenvolvedores mais opções. O o1 da OpenAI custa US$ 60 por milhão de tokens de saída; DeepSeek R1 custa US$ 2,19. Essa diferença de quase 30x chamou a atenção de muita gente para a tendência de queda dos preços.",
-        "O negócio de treinar modelos básicos e vender acesso à API é difícil. Muitas empresas nesta área ainda procuram um caminho para recuperar o enorme custo do treinamento de modelos. O artigo “A pergunta de US$ 600 bilhões da IA” expõe bem o desafio (mas, para ser claro, acho que as empresas modelo de base estão fazendo um ótimo trabalho e espero que tenham sucesso). Por outro lado, construir aplicativos com base em modelos básicos apresenta muitas oportunidades de negócios excelentes. Agora que outros gastaram bilhões treinando esses modelos, você pode acessá-los por meros dólares para construir chatbots de atendimento ao cliente, resumidores de e-mail, médicos de IA, assistentes de documentos jurídicos e muito mais."
-      ]
-    },
-    {
-      "source": "The Batch (Andrew Ng)",
-      "section": "newsletters",
-      "title": "GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval",
-      "url": "https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1",
-      "date": "Semanal",
-      "summary": "✨ New Course! Enroll in Tabular Foundation Models for Data Science Agents A new open model rivals OpenAI’s o1, and it’s free to use or modify.",
-      "full_paragraphs": [
-        "✨ New Course! Enroll in Tabular Foundation Models for Data Science Agents",
-        "A new open model rivals OpenAI’s o1, and it’s free to use or modify.",
-        "What’s new: DeepSeek released DeepSeek-R1, a large language model that executes long lines of reasoning before producing output. The code and weights are licensed freely for commercial and personal use, including training new models on R1 outputs. The paper provides an up-close look at the training of a high-performance model that implements a chain of thought without explicit prompting. ( DeepSeek-R1-lite-preview came out in November with fewer parameters and a different base model.)",
-        "Mixture of experts (MoE) basics: The MoE architecture uses different subsets of its parameters to process different inputs. Each MoE layer contains a group of neural networks, or experts, preceded by a gating module that learns to choose which one(s) to use based on the input. In this way, different experts learn to specialize in different types of examples. Because not all parameters are used to produce any given output, the network uses less energy and runs faster than models of similar size that use all parameters to process every input.",
-        "How it works: DeepSeek-R1 is a version of DeepSeek-V3-Base that was fine-tuned over four stages to enhance its ability to process a chain of thought (CoT). It’s a mixture-of-experts transformer with 671 billion total parameters, 37 billion of which are active at any given time, and it processes 128,000 tokens of input context. Access to the model via DeepSeek’s API costs $0.55 per million input tokens ($0.14 for cached inputs) and $2.19 per million output tokens. (In comparison, o1 costs $15 per million input tokens, $7.50 for cached inputs, and $60 per million output tokens.)",
-        "Other models: DeepSeek researchers also released seven related models.",
-        "Results: In DeepSeek’s tests, DeepSeek-R1 went toe-to-toe with o1, outperforming that model on 5 of 11 of the benchmarks tested. Some of the other new models showed competitive performance, too.",
-        "Why it matters: Late last year, OpenAI’s o1 kicked off a trend toward so-called reasoning models that implement a CoT without explicit prompting. But o1 and o3, its not-yet-widely-available successor, hide their reasoning steps. In contrast, DeepSeek-R1 bares all, allowing users to see the steps the model took to arrive at a particular answer. DeepSeek’s own experiments with distillation show how powerful such models can be as teachers to train smaller student models. Moreover, they appear to pass along some of the benefits of their reasoning skills, making their students more accurate."
-      ],
-      "published_ts": 1795193274,
-      "title_pt": "GPT-6 Cyber ​​Versus Linux, o problema com pesquisa baseada em LLM, pesos de modelo de edição de LLMs, recuperação de documentos agente",
-      "summary_pt": "✨Novo Curso! Inscreva-se em modelos de base tabular para agentes de ciência de dados Um novo modelo aberto rivaliza com o o1 da OpenAI e é gratuito para usar ou modificar.",
-      "full_paragraphs_pt": [
-        "✨Novo Curso! Inscreva-se em modelos de base tabular para agentes de ciência de dados",
-        "Um novo modelo aberto rivaliza com o o1 da OpenAI e é gratuito para usar ou modificar.",
-        "O que há de novo: DeepSeek lançou DeepSeek-R1, um grande modelo de linguagem que executa longas linhas de raciocínio antes de produzir resultados. O código e os pesos são licenciados gratuitamente para uso comercial e pessoal, incluindo o treinamento de novos modelos nas saídas R1. O artigo fornece uma visão detalhada do treinamento de um modelo de alto desempenho que implementa uma cadeia de pensamento sem orientação explícita. (DeepSeek-R1-lite-preview foi lançado em novembro com menos parâmetros e um modelo base diferente.)",
-        "Noções básicas de mistura de especialistas (MoE): A arquitetura do MoE usa diferentes subconjuntos de seus parâmetros para processar diferentes entradas. Cada camada do MoE contém um grupo de redes neurais, ou especialistas, precedidas por um módulo de controle que aprende a escolher qual(is) usar com base na entrada. Dessa forma, diferentes especialistas aprendem a se especializar em diferentes tipos de exemplos. Como nem todos os parâmetros são usados ​​para produzir uma determinada saída, a rede utiliza menos energia e funciona mais rápido do que modelos de tamanho semelhante que usam todos os parâmetros para processar cada entrada.",
-        "Como funciona: DeepSeek-R1 é uma versão do DeepSeek-V3-Base que foi ajustada em quatro estágios para aprimorar sua capacidade de processar uma cadeia de pensamento (CoT). É um transformador misto de especialistas com 671 bilhões de parâmetros totais, 37 bilhões dos quais estão ativos a qualquer momento, e processa 128.000 tokens de contexto de entrada. O acesso ao modelo por meio da API do DeepSeek custa US$ 0,55 por milhão de tokens de entrada (US$ 0,14 para entradas em cache) e US$ 2,19 por milhão de tokens de saída. (Em comparação, o1 custa US$ 15 por milhão de tokens de entrada, US$ 7,50 para entradas em cache e US$ 60 por milhão de tokens de saída.)",
-        "Outros modelos: Os pesquisadores do DeepSeek também lançaram sete modelos relacionados.",
-        "Resultados: Nos testes do DeepSeek, o DeepSeek-R1 ficou cara a cara com o1, superando esse modelo em 5 dos 11 benchmarks testados. Alguns dos outros novos modelos também mostraram desempenho competitivo.",
-        "Por que é importante: No final do ano passado, o o1 da OpenAI deu início a uma tendência para os chamados modelos de raciocínio que implementam um CoT sem aviso explícito. Mas o1 e o3, seus sucessores ainda não amplamente disponíveis, escondem suas etapas de raciocínio. Em contraste, o DeepSeek-R1 descobre tudo, permitindo que os usuários vejam as etapas que o modelo seguiu para chegar a uma resposta específica. Os próprios experimentos do DeepSeek com destilação mostram o quão poderosos esses modelos podem ser para professores treinarem modelos de alunos menores. Além disso, parecem transmitir alguns dos benefícios das suas capacidades de raciocínio, tornando os seus alunos mais precisos."
-      ]
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,142 curtidas e 7,944 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795193274,
-      "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,142 curtidas e 7,944 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "higurashi-ai/Haru-4B (audio-to-audio)",
-      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 5,718 curtidas e 8,120 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795193274,
-      "title_pt": "higurashi-ai/Haru-4B (audio-to-audio)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 5,718 curtidas e 8,120 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
-      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 842 curtidas e 2,383 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795193274,
-      "title_pt": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 842 curtidas e 2,383 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "Sentinel7/h3 (open-source)",
-      "url": "https://huggingface.co/Sentinel7/h3",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 586 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795193274,
-      "title_pt": "Sentinel7/h3 (open-source)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 586 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "tencent/Hy4-flash (image-text-to-text)",
-      "url": "https://huggingface.co/tencent/Hy4-flash",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 558 curtidas e 5,588 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795193274,
-      "title_pt": "tencent/Hy4-flash (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 558 curtidas e 5,588 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "Lightricks/LTX-2.5 (image-to-video)",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-to-video', com 12,847 curtidas e 3,000,544 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795193274,
-      "title_pt": "Lightricks/LTX-2.5 (image-to-video)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-to-video', com 12,847 curtidas e 3,000,544 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "Anthropic News (Claude)",
       "section": "labs",
       "title": "Investing in the public benefit",
@@ -1248,7 +1033,7 @@
         "This builds on commitments our co-founders and employees have already made. When Anthropic was founded, our co-founders pledged to donate 80% of their equity holdings, and since founding we have also operated an equity donation match program that allows employees to pledge equity which Anthropic matches. Approximately half of our employees participate in this program. When combined with today’s announcement, roughly 20% of Anthropic shares will be dedicated to the public good, plus any additional percentage that could be added if the company reaches specific valuation milestones.",
         "In the coming months, we will share more about the Anthropic Public Benefit Fund’s structure and governance, including the valuation milestones that may add to its stake. We will also report on our progress to date against our mission in an upcoming public benefit report."
       ],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Investir no benefício público",
       "summary_pt": "Hoje, estamos comprometendo parte das ações da Anthropic com o Fundo de Benefício Público da Anthropic, uma nova entidade integral com uma estrutura que aumenta a participação à medida que a empresa cresce. Sujeito à aprovação dos acionistas, 5% das ações da Anthropic serão comprometidas hoje, com 2% adicionais adicionados a critério do conselho para cada aumento de 50% no valor da empresa acima de uma linha de base definida. Como uma empresa de utilidade pública, a maior parte do nosso trabalho na prossecução da nossa missão ocorre dentro da empresa: investigação relevante para a IA",
       "full_paragraphs_pt": [
@@ -1275,7 +1060,7 @@
         "The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.",
         "A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Anthropic arquiva S-1 junto à SEC para proposta de oferta pública inicial",
       "summary_pt": "Hoje, a Anthropic, PBC apresentou uma declaração de registro no Formulário S-1 junto à Comissão de Valores Mobiliários dos EUA relativa à sua proposta de oferta pública inicial de suas ações ordinárias Classe A. A Anthropic pretende listar suas ações ordinárias Classe A no Nasdaq Global Select Market sob o símbolo “ANT”. A quantidade de ações ordinárias Classe A a serem ofertadas e a faixa de preço da oferta proposta ainda não foram determinadas.",
       "full_paragraphs_pt": [
@@ -1300,7 +1085,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026, and a related registration statement filed pursuant to Rule 462(b) under the Securities Act became effective upon filing on November 18, 2026. The offering was made only by means of a prospectus. Copies of the final prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Anthropic anuncia fechamento de oferta pública inicial, incluindo exercício integral da opção dos subscritores de compra de ações adicionais, e fechamento de…",
       "summary_pt": "Hoje a Antrópico, PBC anunciou o fechamento de sua oferta pública inicial de um total de 1.127.000.000 ações ordinárias Classe A a um preço de oferta pública de US$ 83,00 por ação, incluindo o exercício integral pelos subscritores de sua opção de comprar 147.000.000 ações ordinárias Classe A adicionais da Antrópico ao preço da oferta pública inicial. A oferta consistiu em 1.103.351.354 ações vendidas pela Anthropic e 23.648.646 ações vendidas por determinados acionistas vendedores. O valor bruto agregado",
       "full_paragraphs_pt": [
@@ -1325,7 +1110,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Oferta pública inicial de preços antrópicos",
       "summary_pt": "Hoje a Anthropic, PBC fixou o preço de sua oferta pública inicial de suas ações ordinárias Classe A em US$ 83,00 por ação. A oferta consiste em 980.000.000 ações ordinárias Classe A, das quais 956.351.354 estão sendo vendidas pela Anthropic e 23.648.646 das quais estão sendo vendidas por determinados acionistas vendedores. A Antthropic não receberá quaisquer recursos provenientes da venda de ações pelos acionistas vendedores. Espera-se que as ações comecem a ser negociadas no Nasdaq Global Select Market em 19 de novembro de 2026 sob o símbolo “ANT”. A oferta",
       "full_paragraphs_pt": [
@@ -1336,6 +1121,84 @@
       ]
     },
     {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,144 curtidas e 7,944 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795193466,
+      "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,144 curtidas e 7,944 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "higurashi-ai/Haru-4B (audio-to-audio)",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 5,718 curtidas e 8,120 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795193466,
+      "title_pt": "higurashi-ai/Haru-4B (audio-to-audio)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 5,718 curtidas e 8,120 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 842 curtidas e 2,383 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795193466,
+      "title_pt": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 842 curtidas e 2,383 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "Sentinel7/h3 (open-source)",
+      "url": "https://huggingface.co/Sentinel7/h3",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 586 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795193466,
+      "title_pt": "Sentinel7/h3 (open-source)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 586 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "tencent/Hy4-flash (image-text-to-text)",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 558 curtidas e 5,588 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795193466,
+      "title_pt": "tencent/Hy4-flash (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 558 curtidas e 5,588 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "Lightricks/LTX-2.5 (image-to-video)",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-to-video', com 12,847 curtidas e 3,000,544 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795193466,
+      "title_pt": "Lightricks/LTX-2.5 (image-to-video)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-to-video', com 12,847 curtidas e 3,000,544 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
       "source": "Hugging Face Spaces",
       "section": "tempo_real",
       "title": "Space: huggingface/moe-blogpost",
@@ -1343,7 +1206,7 @@
       "date": "Trending",
       "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 789 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Espaço: huggingface/moe-blogpost",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 762 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1356,7 +1219,7 @@
       "date": "Trending",
       "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 542 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Espaço: JCisHERE/wan2-2-i2v-v3",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 514 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1369,7 +1232,7 @@
       "date": "Trending",
       "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 234 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Espaço: MiniMaxAI/minimax-h3-image",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 213 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1382,7 +1245,7 @@
       "date": "Trending",
       "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 485 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Espaço: joelniklaus/harness-leaderboard",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 477 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1404,7 +1267,7 @@
         "Qwen4-Max improves on Qwen3.8-Max on every headline metric, costs less per image and completed every benchmark request. It still sits well behind the leaders on average: GPT-6.1 Terra scores 0.560 for less money and in well under half the time.",
         "Each dot is a paid model on the Ultralytics VLM Leaderboard."
       ],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Anotação automática Qwen4 Max",
       "summary_pt": "Qwen4-Max ocupa o 13º lugar entre 51 em nosso benchmark de anotação automática, primeiro em radiografias de pulso e segundo nas prateleiras de varejo. Precisão, custo e como executá-lo. O Alibaba lançou o Qwen4-Max em 16 de novembro de 2026, chamando-o de o modelo mais capaz da família Qwen até o momento, com visão nativa e uma janela de contexto de um milhão de tokens. Executamos o teste no UL37, nosso benchmark de detecção de 36 conjuntos de dados, no mesmo dia.",
       "full_paragraphs_pt": [
@@ -1435,7 +1298,7 @@
         "In this run, the two are close on accuracy. Their mAP 50-95 scores, which reward tight boxes, differ by 0.001, and their precision by 0.003. Sol finds slightly more of the labeled objects: its 0.643 recall is the highest of all 50 models on the leaderboard, just ahead of Gemini 4 Carbon's 0.642. It is also the fastest of the top seven models, at 3.4 seconds per image.",
         "The eight highest-scoring models on UL37, with provider cost per 1,000 images."
       ],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Anotação automática Gpt 6 2 Sol Vs Astra",
       "summary_pt": "GPT-6.2 Sol e Astra pontuam 0,551 e 0,546 mAP 50 em 36 conjuntos de dados de detecção, mas Sol custa US$ 8,10 por 1.000 imagens versus US$ 31,88. Aqui está o que usar. A OpenAI lançou o GPT-6.2 Astra e o GPT-6.2 Sol em 17 de novembro de 2026, descrevendo o Astra como seu modelo mais capaz e o Sol como seu modelo ideal para o trabalho diário. Quando pedimos que desenhassem caixas delimitadoras, a precisão deles ficou próxima. Seus preços não.",
       "full_paragraphs_pt": [
@@ -1466,7 +1329,7 @@
         "The first row is an example of the level of detail to record, not data from a real project.",
         "This list becomes your requirements for the replacement and your test plan for the cutover."
       ],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Migração de visão personalizada do Azure",
       "summary_pt": "A Azure Custom Vision será desativada em 25 de setembro de 2028. Planeje sua migração, exporte seus dados rotulados e treine novamente na Plataforma Ultralytics. O Azure Custom Vision será desativado em 25 de setembro de 2028. As equipes que usam seu treinamento ou previsão em nuvem precisam de uma substituição antes disso, e as equipes que executam modelos exportados ainda vão querer um lugar para treiná-los novamente à medida que os produtos e as câmeras mudam. É um bom momento para migrar para uma plataforma que você possa continuar rotulando, treinando e implantando por anos.",
       "full_paragraphs_pt": [
@@ -1497,7 +1360,7 @@
         "Power is part of the choice too. NVIDIA lists the Orin Nano Super Developer Kit at 7 W to 25 W. When the board is flashed with a Super-enabled configuration, the Orin Nano 8GB offers 15 W, 25 W and MAXN SUPER power modes; with the default configuration it keeps its original 7 W and 15 W modes. Whichever board you pick, measure the whole system's draw with your cameras attached, since that's what your power supply and enclosure have to handle.",
         "Price the whole build, not just the board: storage, power, cooling and cameras add up on both. Raspberry Pi has raised Pi 5 prices more than once in 2026 as memory costs climbed. As of November 2026 the 2GB Pi 5 lists at $77.50 and the 16GB board at $385. For current Jetson pricing and availability, check NVIDIA's developer kit page, and add the cost of any accelerator a Pi needs, such as the Raspberry Pi AI HAT+. For production, NVIDIA sells Jetson modules for your own carrier board; the developer kit we benchmarked is for development and prototyping."
       ],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Jetson versus Raspberry Pi 5",
       "summary_pt": "Inferência YOLO26n: 4,57 ms em um Jetson Orin Nano Super (TensorRT FP16) vs 67,03 ms em uma CPU Pi 5, em testes separados. Escolha por modelo, FPS e câmeras. Você deve executar a detecção de objetos em um Raspberry Pi 5 ou NVIDIA Jetson Orin Nano? Para uma câmera, um alvo de baixa taxa de quadros e um modelo pequeno, uma CPU Pi 5 pode ser suficiente: em nosso benchmark publicado, o Ultralytics YOLO26n exportado para NCNN leva 67,03 ms de inferência por imagem em seus quatro núcleos Arm, cerca de 15 quadros de inferência por segundo. Quando você precisar de mais câmeras, uma câmera maior",
       "full_paragraphs_pt": [
@@ -1519,7 +1382,7 @@
       "date": "Trending",
       "summary": "Cursor plugin specification and official plugins",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "cursor/plugins (+299 ⭐ hoje)",
       "summary_pt": "Especificação do plugin de cursor e plugins oficiais",
       "full_paragraphs_pt": []
@@ -1532,7 +1395,7 @@
       "date": "Trending",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "firecrawl/firecrawl (+1.241 ⭐ hoje)",
       "summary_pt": "Infraestrutura de conhecimento para tornar seus agentes mais inteligentes. Pesquise, extraia e acesse mais de 550 provedores de dados por meio de uma API.",
       "full_paragraphs_pt": []
@@ -1545,7 +1408,7 @@
       "date": "Trending",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "google-labs-code/stitch-skills (+315 ⭐ hoje)",
       "summary_pt": "Uma biblioteca de habilidades de agente projetada para funcionar com o servidor Stitch MCP. Cada habilidade segue o padrão aberto Agent Skills, para compatibilidade com agentes de codificação como Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs_pt": []
@@ -1558,7 +1421,7 @@
       "date": "Trending",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "toeverything/AFFiNE (+676 ⭐ hoje)",
       "summary_pt": "Pode haver mais do que Notion e Miro. AFFiNE (pronuncia-se [ə'fain]) é uma base de conhecimento de última geração que reúne planejamento, classificação e criação. Privacidade em primeiro lugar, código aberto, personalizável e pronto para uso.",
       "full_paragraphs_pt": []
@@ -1571,7 +1434,7 @@
       "date": "Trending",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "elementalsouls/Claude-BugHunter (+1.622 ⭐ hoje)",
       "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 82 habilidades, 15 comandos de barra, 681 padrões de relatórios divulgados com curadoria de 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
       "full_paragraphs_pt": []
@@ -1584,7 +1447,7 @@
       "date": "Trending",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "HKUDS/CLI-Qualquer coisa (+773 ⭐ hoje)",
       "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
       "full_paragraphs_pt": []
@@ -1597,7 +1460,7 @@
       "date": "Trending",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "jingyaogong/minimind (+847 ⭐ hoje)",
       "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
       "full_paragraphs_pt": []
@@ -1610,7 +1473,7 @@
       "date": "Trending",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "mvanhorn/last30days-skill (+681 ⭐ hoje)",
       "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
       "full_paragraphs_pt": []
@@ -1623,22 +1486,9 @@
       "date": "Trending",
       "summary": "The open-source agent for CI/CD reliability.",
       "full_paragraphs": [],
-      "published_ts": 1795193274,
+      "published_ts": 1795193466,
       "title_pt": "Tracer-Cloud/opensre (+466 ⭐ hoje)",
       "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "LocalLLaMA / Open-Source",
-      "section": "tempo_real",
-      "title": "Tencent Hy Team & Shunyu Yao Here! Ask Us Anything about Hy4 & Hy4 flash! - Reddit",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM2o2NkNSQ2hMY1dIX2hHRHlTUmFwWkFCbmFzTGE2Mml4TUdDN2psS2Y3YzVWWGloTEEwX3VhdHVrMXJWaEQxNEJBNXRfWnI4cC1yX2V6UDFDQXVCeG9wdkhOaUU4emJ3UWZOVkNON05OX2xCdE1xN2t6N3ZjajZ2RzQzYjBOdjJBQmFTYUdqcGF3RVE1dXBrOEtiT2hkcGYzdEF3?oc=5",
-      "date": "Fri, 20 Nov 2026 15:10:58",
-      "published_ts": 1795187458,
-      "summary": "Tencent Hy Team & Shunyu Yao Here! Ask Us Anything about Hy4 & Hy4 flash! Reddit",
-      "full_paragraphs": [],
-      "title_pt": "Equipe Tencent Hy e Shunyu Yao aqui! Pergunte-nos qualquer coisa sobre o flash Hy4 e Hy4! -Reddit",
-      "summary_pt": "Equipe Tencent Hy e Shunyu Yao aqui! Pergunte-nos qualquer coisa sobre o flash Hy4 e Hy4! Reddit",
       "full_paragraphs_pt": []
     },
     {
@@ -1741,11 +1591,29 @@
       "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
       "date": "Fri, 20 Nov 2026 14:00:00",
       "published_ts": 1795183200,
-      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
-      "full_paragraphs": [],
+      "summary": "Tech companies are racing to figure out how AI can make everyday work a little easier. From notetakers to webcams that follow your movements, here are six AI-powered gadgets worth checking out if you want to upgrade your workspace.",
+      "full_paragraphs": [
+        "Tech companies are racing to figure out how AI can make everyday work a little easier.",
+        "From notetakers to webcams that follow your movements, here are six AI-powered gadgets worth checking out if you want to upgrade your workspace.",
+        "If you’re constantly scribbling notes during meetings, the Flowtica Scribe could save you from having to type everything up afterward.",
+        "The AI-powered pen combines traditional handwriting with audio recording. You can use its built-in gel pen to take notes, tap the side to highlight important points, and press the end of the pen to start recording audio. Once the meeting is over, its AI can transcribe the conversation, summarize key takeaways, and create a to-do list based on what was discussed.",
+        "You can even ask the AI questions about the meeting to find specific information without having to go through the entire recording.",
+        "The Scribe comes with a built-in microphone and 32GB of onboard storage. It can also identify up to 15 different speakers and supports 92 languages.",
+        "Anker’s AI-powered recording pin, Soundcore Work, is designed to capture conversations, meetings, and quick voice memos without taking up much space on your desk.",
+        "Priced at $159 (currently reduced to $99 in the Amazon Black Friday sale), the coin-sized device comes with a puck-shaped charging case and can record for up to eight hours on a single charge, extending to 32 hours when used with its case. Anker also claims a recording range of up to 5 meters, making it useful for capturing conversations around a meeting table."
+      ],
       "title_pt": "Seis gadgets com tecnologia de IA que podem tornar seu escritório doméstico mais inteligente",
-      "summary_pt": "De anotadores a webcams, aqui estão seis gadgets com tecnologia de IA para atualizar seu espaço de trabalho.",
-      "full_paragraphs_pt": []
+      "summary_pt": "As empresas de tecnologia estão correndo para descobrir como a IA pode tornar o trabalho diário um pouco mais fácil. De anotadores a webcams que acompanham seus movimentos, aqui estão seis gadgets com tecnologia de IA que vale a pena conferir se você quiser atualizar seu espaço de trabalho.",
+      "full_paragraphs_pt": [
+        "As empresas de tecnologia estão correndo para descobrir como a IA pode tornar o trabalho diário um pouco mais fácil.",
+        "De anotadores a webcams que acompanham seus movimentos, aqui estão seis gadgets com tecnologia de IA que vale a pena conferir se você quiser atualizar seu espaço de trabalho.",
+        "Se você rabisca notas constantemente durante as reuniões, o Flowtica Scribe pode evitar que você tenha que digitar tudo depois.",
+        "A caneta com tecnologia de IA combina escrita tradicional com gravação de áudio. Você pode usar a caneta de gel integrada para fazer anotações, tocar na lateral para destacar pontos importantes e pressionar a ponta da caneta para iniciar a gravação de áudio. Quando a reunião termina, sua IA pode transcrever a conversa, resumir as principais conclusões e criar uma lista de tarefas com base no que foi discutido.",
+        "Você pode até fazer perguntas à IA sobre a reunião para encontrar informações específicas sem ter que passar por toda a gravação.",
+        "O Scribe vem com um microfone embutido e 32 GB de armazenamento integrado. Ele também pode identificar até 15 falantes diferentes e oferece suporte a 92 idiomas.",
+        "O pino de gravação com tecnologia de IA da Anker, Soundcore Work, foi projetado para capturar conversas, reuniões e memorandos de voz rápidos sem ocupar muito espaço em sua mesa.",
+        "Custando US$ 159 (atualmente reduzido para US$ 99 na promoção da Amazon Black Friday), o dispositivo do tamanho de uma moeda vem com um estojo de carregamento em forma de disco e pode gravar por até oito horas com uma única carga, estendendo-se para 32 horas quando usado com seu estojo. Anker também possui um alcance de gravação de até 5 metros, o que o torna útil para capturar conversas em torno de uma mesa de reunião."
+      ]
     },
     {
       "source": "OpenAI News",
@@ -1755,10 +1623,28 @@
       "date": "Fri, 20 Nov 2026 10:00:00",
       "published_ts": 1795168800,
       "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "full_paragraphs": [],
+      "full_paragraphs": [
+        "How we’re addressing safety risks of distillation and lessons we’ve learned for strengthening safeguards across the industry.",
+        "As frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly. Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards. An actor may use a frontier model’s outputs without authorization to train another model with similar capabilities, then deploy it without comparable protections. For instance, an adversary might distill a model’s cyber capabilities and use the resulting model to help carry out cyberattacks that the original model would have refused to assist with or that its safeguards would have blocked.",
+        "We’re sharing how OpenAI detects and disrupts adversarial distillation, how we’ve strengthened protections for our models’ protected reasoning, and what we’ve learned that can help strengthen defenses across the industry.",
+        "Our approach to adversarial distillation combines adversarial testing, model training, classifiers, and API-level protections with investigations into coordinated attempts to extract model capabilities. These updated safeguards align more closely with those we use for biology and cybersecurity.",
+        "We place particular emphasis on preventing attackers from extracting our models’ protected reasoning: the intermediate steps a model generates internally while working toward an answer, known as its chain-of-thought. These traces can contain information the final answer leaves out, making them especially valuable training data for another model.",
+        "W e’ve strengthened our defenses against protected reasoning extraction in GPT‑6.2 Astra and GPT‑6.2 Sol. In an internal adaptive evaluation using strong automated red-teaming, we tested whether attackers could recover protected reasoning the model had generated while answering an earlier prompt. The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards.",
+        "Distillation is a common machine-learning technique in which one model learns from data produced by another. For example, a model can learn from another model’s answers, its reasoning, or its judgments about which answers are better and why. Beyond intellectual property concerns, unauthorized distillation poses serious safety risks. Through adversarial distillation, a second model can learn advanced frontier capabilities without inheriting the safeguards that govern how the original model can use them.",
+        "The concern is especially clear in dual-use domains like cybersecurity and biology. A model that helps defenders find vulnerabilities in software could also help an attacker exploit them; a model that assists with biological research could also help someone develop a harmful pathogen. If such capabilities were transferred to a model with weaker safeguards, it may provide assistance that the original model would have refused, or that the original safeguards would have blocked."
+      ],
       "title_pt": "Combatendo a destilação adversária",
       "summary_pt": "A abordagem em camadas da OpenAI para destilação adversária combina treinamento de modelo, salvaguardas, detecção e fiscalização para proteção contra extração de capacidade.",
-      "full_paragraphs_pt": []
+      "full_paragraphs_pt": [
+        "Como estamos abordando os riscos de segurança da destilação e as lições que aprendemos para fortalecer as salvaguardas em toda a indústria.",
+        "À medida que os modelos de IA de fronteira se tornam mais capazes, as salvaguardas desempenham um papel cada vez mais importante na forma como podem ser utilizadas de forma responsável. A destilação adversária cria um caminho para que os malfeitores reproduzam essas capacidades sem as salvaguardas adequadas. Um ator pode usar os resultados de um modelo de fronteira sem autorização para treinar outro modelo com capacidades semelhantes e, em seguida, implantá-lo sem proteções comparáveis. Por exemplo, um adversário pode destilar as capacidades cibernéticas de um modelo e utilizar o modelo resultante para ajudar a realizar ataques cibernéticos que o modelo original teria recusado ajudar ou que as suas salvaguardas teriam bloqueado.",
+        "Estamos compartilhando como a OpenAI detecta e interrompe a destilação adversária, como fortalecemos as proteções para o raciocínio protegido de nossos modelos e o que aprendemos que pode ajudar a fortalecer as defesas em todo o setor.",
+        "Nossa abordagem à destilação adversária combina testes adversários, treinamento de modelo, classificadores e proteções em nível de API com investigações sobre tentativas coordenadas de extrair recursos de modelo. Estas salvaguardas atualizadas alinham-se mais estreitamente com aquelas que usamos para biologia e segurança cibernética.",
+        "Colocamos ênfase especial em impedir que invasores extraiam o raciocínio protegido de nossos modelos: as etapas intermediárias que um modelo gera internamente enquanto trabalha em direção a uma resposta, conhecidas como cadeia de pensamento. Esses rastreamentos podem conter informações que a resposta final deixa de fora, tornando-os dados de treinamento especialmente valiosos para outro modelo.",
+        "Reforçamos nossas defesas contra a extração de raciocínio protegido no GPT‑6.2 Astra e no GPT‑6.2 Sol. Em uma avaliação adaptativa interna usando red-teaming automatizado forte, testamos se os invasores poderiam recuperar o raciocínio protegido que o modelo havia gerado ao responder a um prompt anterior. A taxa média de sucesso de ataque caiu de 54,0% contra o GPT‑6 Astra com suas salvaguardas originais para 0,2% contra o GPT‑6.2 Astra com suas salvaguardas atualizadas.",
+        "A destilação é uma técnica comum de aprendizado de máquina na qual um modelo aprende com os dados produzidos por outro. Por exemplo, um modelo pode aprender com as respostas de outro modelo, com o seu raciocínio ou com os seus julgamentos sobre quais respostas são melhores e porquê. Além das preocupações com a propriedade intelectual, a destilação não autorizada representa sérios riscos de segurança. Através da destilação adversária, um segundo modelo pode aprender capacidades avançadas de fronteira sem herdar as salvaguardas que regem a forma como o modelo original pode utilizá-las.",
+        "A preocupação é especialmente clara em domínios de dupla utilização, como a cibersegurança e a biologia. Um modelo que ajude os defensores a encontrar vulnerabilidades no software também poderia ajudar um invasor a explorá-las; um modelo que auxilie na pesquisa biológica também poderia ajudar alguém a desenvolver um patógeno prejudicial. Se essas capacidades fossem transferidas para um modelo com salvaguardas mais fracas, poderia fornecer uma assistência que o modelo original teria recusado ou que as salvaguardas originais teriam bloqueado."
+      ]
     },
     {
       "source": "The Rundown AI",
@@ -1792,19 +1678,6 @@
       ]
     },
     {
-      "source": "LocalLLaMA / Open-Source",
-      "section": "tempo_real",
-      "title": "Tencent Hy4 (flagship multimodal MoE A49B/770B) released - Reddit",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZjFLSTQ1TmFHaWxadG5tRGlpZE1iMnJSOVQzaFpJSHlveFRqNG5rNlZqSEFOYXUtczVRVWJ6WjNxT0gtVFRTWkNPZnpPWnFXZDNDWXRBQVRvOHVUX3Q2R19IamhGcXVKNGNxdkdpTV9KRGR6Z3JDZXhvSk55NVEwbnB5d2Vld09sZmtETGthTHZCTFdCWHVSLWxtTWxlUkU?oc=5",
-      "date": "Fri, 20 Nov 2026 05:27:11",
-      "published_ts": 1795152431,
-      "summary": "Tencent Hy4 (flagship multimodal MoE A49B/770B) released Reddit",
-      "full_paragraphs": [],
-      "title_pt": "Tencent Hy4 (carro-chefe multimodal MoE A49B/770B) lançado - Reddit",
-      "summary_pt": "Tencent Hy4 (carro-chefe multimodal MoE A49B/770B) lançou Reddit",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "OpenAI News",
       "section": "labs",
       "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
@@ -1812,10 +1685,28 @@
       "date": "Fri, 20 Nov 2026 00:00:00",
       "published_ts": 1795132800,
       "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "full_paragraphs": [],
+      "full_paragraphs": [
+        "Hebbia sees gains in financial research in tests of GPT‑6 Astra.",
+        "Percentage-point lead over the best alternative tested in Hebbia’s tests.",
+        "Percent of cited excerpts relevant to the question in Hebbia’s tests.",
+        "Percent of applicable presentation requirements met in Hebbia’s tests.",
+        "Percentage-point lead over the best alternative tested on presentation requirements.",
+        "Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations. Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them.",
+        "Hebbia tested OpenAI’s GPT‑6 Astra to improve two parts of that work: finding the sources a question requires and building a presentation that follows the banker’s brief.",
+        "It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review. What makes its revenue durable? How does it compare with peers? In Hebbia’s hypothetical example, the banker could load the data room into Matrix and examine customer concentration, contract terms and churn in cited cells. Matrix could bring in peer filings and industry news to help develop the deal thesis, then turn that research into a diligence summary and valuation deck in the firm’s template."
+      ],
       "title_pt": "Hebbia vê melhorias em pesquisas financeiras com GPT-6 Astra",
       "summary_pt": "A Hebbia testou o GPT-6 Astra para pesquisas financeiras. Suas avaliações de pré-lançamento encontraram ganhos na cobertura da fonte, na relevância das citações e na qualidade da apresentação.",
-      "full_paragraphs_pt": []
+      "full_paragraphs_pt": [
+        "A Hebbia vê ganhos em pesquisas financeiras nos testes do GPT‑6 Astra.",
+        "Vantagem em pontos percentuais sobre a melhor alternativa testada nos testes da Hebbia.",
+        "Porcentagem de trechos citados relevantes para a questão nos testes da Hebbia.",
+        "Porcentagem de requisitos de apresentação aplicáveis ​​atendidos nos testes da Hebbia.",
+        "Vantagem em pontos percentuais sobre a melhor alternativa testada nos requisitos de apresentação.",
+        "Antes que um banqueiro possa recomendar uma aquisição ao seu cliente, ele precisa entender as demonstrações financeiras, os contratos dos clientes e as apresentações gerenciais. A Matriz da Hebbia ajuda a reunir essas pesquisas, vinculando as respostas aos documentos por trás delas.",
+        "A Hebbia testou o GPT-6 Astra da OpenAI para melhorar duas partes desse trabalho: encontrar as fontes que uma pergunta exige e construir uma apresentação que siga as instruções do banqueiro.",
+        "Poderia funcionar assim: um banqueiro está ajudando seu cliente a avaliar uma aquisição estratégica de uma empresa de software industrial, com cerca de 2.000 arquivos para revisar. O que torna sua receita durável? Como ele se compara aos pares? No exemplo hipotético da Hebbia, o banqueiro poderia carregar a sala de dados na Matrix e examinar a concentração de clientes, os termos do contrato e a rotatividade nas células citadas. A Matrix poderia trazer registros de pares e notícias do setor para ajudar a desenvolver a tese do negócio e, em seguida, transformar essa pesquisa em um resumo de diligência e uma apresentação de avaliação no modelo da empresa."
+      ]
     },
     {
       "source": "OpenAI News",
@@ -1825,10 +1716,28 @@
       "date": "Fri, 20 Nov 2026 00:00:00",
       "published_ts": 1795132800,
       "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "full_paragraphs": [],
+      "full_paragraphs": [
+        "Introducing MedChemBench, a benchmark that tests how well AI models read molecular structures, interpret experimental results, and choose which compounds to test next.",
+        "We’re introducing MedChemBench, a benchmark that evaluates AI models on reasoning tasks drawn from medicinal chemistry research. It tests whether models can connect a molecule’s structure with experimental evidence to explain results, compare compounds, and predict their properties. Building AI that can reliably support this work is one step towards helping scientists develop better medicines.",
+        "One of the hardest parts of this work is that improving one property of a molecule can make another worse. A compound might act strongly against a disease related protein but be poorly absorbed or break down too quickly in the body. Medicinal chemists work through these tradeoffs by designing, making, and testing related compounds, then deciding what to try next. For AI to help, it needs to connect changes in molecular structure with experimental evidence and reason about what compounds are worth pursuing.",
+        "MedChemBench measures these abilities through 99 problems drawn from published research. At the xhigh reasoning setting, GPT‑6.2 Astra earned 84.5% of the available credit, compared with 83.3% for GPT‑6 Astra, 82.0% for GPT‑6.1 Sol, and 58.2% for GPT‑5.6 Sol. GPT‑6 Astra was strongest at reconstructing molecular structures and explaining experimental evidence. Selecting compounds and predicting their numerical properties proved harder for that model.",
+        "MedChemBench draws on 117 papers and patents and includes 761 distinct molecular structures. For most problems, models receive the context available at a chosen point in a research program: the biological target, the researchers’ goals, the compounds studied so far, and selected experimental findings.",
+        "Molecular structures. Correct atom connections and specified stereochemistry in molecules assembled from the drawings and chemical groups provided.",
+        "Scientific reasoning. Explanations supported by the supplied evidence, such as the reasons for choosing one compound over another.",
+        "Ranking and selection. Compound rankings and choices that meet the stated requirements."
+      ],
       "title_pt": "A IA pode ajudar os cientistas a identificar candidatos promissores a medicamentos?",
       "summary_pt": "O MedChemBench avalia quão bem os modelos de IA interpretam as estruturas moleculares, raciocinam a partir de evidências experimentais e selecionam compostos na descoberta inicial de medicamentos.",
-      "full_paragraphs_pt": []
+      "full_paragraphs_pt": [
+        "Apresentando o MedChemBench, um benchmark que testa quão bem os modelos de IA leem estruturas moleculares, interpretam resultados experimentais e escolhem quais compostos testar em seguida.",
+        "Estamos apresentando o MedChemBench, um benchmark que avalia modelos de IA em tarefas de raciocínio extraídas de pesquisas em química medicinal. Ele testa se os modelos podem conectar a estrutura de uma molécula com evidências experimentais para explicar resultados, comparar compostos e prever suas propriedades. Construir uma IA que possa apoiar este trabalho de forma confiável é um passo para ajudar os cientistas a desenvolver medicamentos melhores.",
+        "Uma das partes mais difíceis deste trabalho é que melhorar uma propriedade de uma molécula pode piorar outra. Um composto pode agir fortemente contra uma proteína relacionada a uma doença, mas ser mal absorvido ou decompor-se muito rapidamente no corpo. Os químicos medicinais resolvem essas compensações projetando, fabricando e testando compostos relacionados e, em seguida, decidindo o que tentar em seguida. Para que a IA ajude, ela precisa conectar as mudanças na estrutura molecular com evidências experimentais e raciocinar sobre quais compostos valem a pena buscar.",
+        "O MedChemBench mede essas habilidades por meio de 99 problemas extraídos de pesquisas publicadas. Na configuração de raciocínio xhigh, o GPT‑6.2 Astra obteve 84,5% do crédito disponível, em comparação com 83,3% para o GPT‑6 Astra, 82,0% para o GPT‑6.1 Sol e 58,2% para o GPT‑5.6 Sol. O GPT‑6 Astra foi mais forte na reconstrução de estruturas moleculares e na explicação de evidências experimentais. Selecionar compostos e prever suas propriedades numéricas mostrou-se mais difícil para esse modelo.",
+        "MedChemBench baseia-se em 117 artigos e patentes e inclui 761 estruturas moleculares distintas. Para a maioria dos problemas, os modelos recebem o contexto disponível num ponto escolhido num programa de investigação: o alvo biológico, os objetivos dos investigadores, os compostos estudados até agora e resultados experimentais selecionados.",
+        "Estruturas moleculares. Conexões corretas de átomos e estereoquímica especificada em moléculas montadas a partir dos desenhos e grupos químicos fornecidos.",
+        "Raciocínio científico. Explicações apoiadas pelas evidências fornecidas, tais como as razões para a escolha de um composto em detrimento de outro.",
+        "Classificação e seleção. Classificações e escolhas compostas que atendam aos requisitos declarados."
+      ]
     },
     {
       "source": "TLDR AI",
@@ -2050,19 +1959,6 @@
         "Em apenas quatro dias úteis consecutivos, uma interrupção em massa da Microsoft Exchange interrompeu os serviços de TI de milhares de empresas, uma falha tecnológica da Administração Federal de Aviação prendeu aviões em todo o país, um problema de software que afetou o JPMorgan Chase causou outra rodada de interrupções, uma falha no sistema da United Airlines atrasou voos mais uma vez, e o tempo de inatividade de uma rede classificada da NSA deixou a equipe da agência sentada em casa esperando para retornar ao seu escritório em Fort Meade. No meio de uma guerra dos EUA com o Irão e de receios crescentes de pirataria informática possibilitada pela IA, esta comédia ainda em desenvolvimento de erros de TI colidindo com a infra-estrutura americana pareceu, para muitos observadores, mais do que uma coincidência.",
         "No entanto, ainda não há provas de que qualquer uma destas falhas tecnológicas agrupadas esteja relacionada e muito menos causada por hackers. Seu timing improvável e sequencial deixou os americanos ansiosos em busca de sinais de crime. Mas em casos como este, é função dos analistas de segurança cibernética (e dos repórteres da WIRED) determinar – vibrações à parte – se a última interrupção tecnológica foi na verdade um acidente ou o resultado de um ataque cibernético."
       ]
-    },
-    {
-      "source": "LocalLLaMA / Open-Source",
-      "section": "tempo_real",
-      "title": "xi called to support open source - Reddit",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaUtucjJxaUV0a19MT1EzQVJUSmpEdHFodVdKSUlSNlllZExPM09QZWY0YmdTQlQzbmVISnNqdE5DbjRzT3NrU011UXo5bXpkN3Yxd24zaGp4ckk5NFp2RUhyOWdiQWJRdlJNcFdLZEo2eURnTHZDN3dFUnBiNFB1SlMyOWF4WTZUTHVhMG5naw?oc=5",
-      "date": "Thu, 19 Nov 2026 10:29:38",
-      "published_ts": 1795084178,
-      "summary": "xi called to support open source Reddit",
-      "full_paragraphs": [],
-      "title_pt": "xi chamado para apoiar código aberto - Reddit",
-      "summary_pt": "xi chamado para apoiar o Reddit de código aberto",
-      "full_paragraphs_pt": []
     },
     {
       "source": "The Rundown AI",
