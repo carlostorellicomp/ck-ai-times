@@ -1,9 +1,11 @@
-name: Atualizar The CK AI Times (Diário 07h00 BRT)
+name: Atualizar The CK AI Times (Automático 06h17 + 07h43 BRT)
 
 on:
   schedule:
-    # Todo dia às 07:00 horário de Brasília (10:00 UTC)
-    - cron: '0 10 * * *'
+    # 06:17 BRT (09:17 UTC) — minuto fora de pico para garantir edição no ar antes das 07h00
+    - cron: '17 9 * * *'
+    # 07:43 BRT (10:43 UTC) — redundância automática + captura de newsletters da manhã dos EUA
+    - cron: '43 10 * * *'
   workflow_dispatch:
 
 permissions:
@@ -41,8 +43,11 @@ jobs:
           git config user.name "CK AI Times Bot"
           git config user.email "bot@ckintelligence.com.br"
           git add index.html ultima-edicao.html dados/latest.json
-          git diff --staged --quiet || git commit -m "chore: edição diária automática $(date -u +'%Y-%m-%d')"
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: edição diária automática $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase -X ours origin main || true
+            git push
+          fi
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5

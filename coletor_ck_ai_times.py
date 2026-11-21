@@ -66,10 +66,18 @@ def extract_paragraphs_from_html(raw_html, max_paragraphs=12, min_len=55):
                 break
     return paras
 
-def fetch_url(url, timeout=14):
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode('utf-8', errors='replace')
+def fetch_url(url, timeout=14, retries=2):
+    last_err = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode('utf-8', errors='replace')
+        except Exception as e:
+            last_err = e
+            if attempt + 1 < retries:
+                time.sleep(0.6)
+    raise last_err
 
 TRANS_LOCK = threading.Lock()
 TRANS_STATS = {'cache': 0, 'gtx': 0, 'clients5': 0, 'mymemory': 0, 'fail': 0, 'last_err': ''}
