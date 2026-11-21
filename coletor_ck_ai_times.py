@@ -13,6 +13,7 @@ import os
 import html
 import time
 import threading
+import email.utils
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -185,6 +186,32 @@ def translate_literal_pt(text):
     sep = '\n\n' if '\n\n' in text else ' '
     return sep.join(out_parts).strip()
 
+def parse_pub_ts(date_str):
+    """Converte data RSS/Atom/ISO em timestamp Unix UTC (0 se não reconhecível)."""
+    if not date_str:
+        return 0
+    s = str(date_str).strip()
+    if s in ('Trending', 'Recente', 'Oficial', 'Semanal'):
+        return int(NOW_BRT.timestamp()) - 3600 * 18  # recente, abaixo de notícias datadas de hoje
+    try:
+        dt = email.utils.parsedate_to_datetime(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return int(dt.timestamp())
+    except Exception:
+        pass
+    try:
+        s_iso = s.replace('Z', '+00:00')
+        if len(s_iso) == 10:
+            dt = datetime.strptime(s_iso, '%Y-%m-%d').replace(tzinfo=timezone.utc)
+        else:
+            dt = datetime.fromisoformat(s_iso)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+        return int(dt.timestamp())
+    except Exception:
+        return 0
+
 def parse_rss(name, section, url, limit=5):
     items = []
     raw = fetch_url(url)
@@ -228,6 +255,7 @@ def parse_rss(name, section, url, limit=5):
                 'title': title,
                 'url': link,
                 'date': pub[:25],
+                'published_ts': parse_pub_ts(pub),
                 'summary': desc,
                 'full_paragraphs': full_paras
             })
@@ -526,6 +554,10 @@ def collect_all():
         ('The Rundown AI', lambda: parse_rss('The Rundown AI', 'newsletters', 'https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml', 4)),
         ('One Useful Thing (Ethan Mollick)', lambda: parse_rss('One Useful Thing (Ethan Mollick)', 'newsletters', 'https://www.oneusefulthing.org/feed', 3)),
         ('The Batch (Andrew Ng)', lambda: parse_the_batch(4)),
+        ('TechCrunch AI (Diário 24/7)', lambda: parse_rss('TechCrunch AI', 'newsletters', 'https://techcrunch.com/category/artificial-intelligence/feed/', 5)),
+        ('The Verge AI (Diário 24/7)', lambda: parse_rss('The Verge AI', 'newsletters', 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', 4)),
+        ('MIT Technology Review AI', lambda: parse_rss('MIT Technology Review AI', 'newsletters', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', 4)),
+        ('Ars Technica AI', lambda: parse_rss('Ars Technica AI', 'labs', 'https://feeds.arstechnica.com/arstechnica/technology-lab', 4)),
         ('Mercado IA Brasil', lambda: parse_rss('Radar IA Brasil (Empresas & Indústria)', 'newsletters', 'https://news.google.com/rss/search?q=inteligencia+artificial+empresas+industria+OR+%22AI+Drop%22&hl=pt-BR&gl=BR&ceid=BR:pt-419', 5)),
         ('OpenAI News', lambda: parse_rss('OpenAI News', 'labs', 'https://openai.com/news/rss.xml', 4)),
         ('Anthropic News (Claude)', lambda: parse_anthropic(4)),
@@ -558,14 +590,29 @@ def collect_all():
             except Exception as e:
                 status_report[name] = f"ERRO: {str(e)[:80]}"
 
-    # Enriquece com parágrafos completos os destaques de capa e blogs principais
+    # Normaliza published_ts para todos os itens (incluindo fontes não-RSS) e deduplica por URL
+    deduped = []
+    seen_urls = set()
+    for it in results:
+        u = it.get('url', '')
+        if not u or u in seen_urls:
+            continue
+        seen_urls.add(u)
+        if not it.get('published_ts'):
+            it['published_ts'] = parse_pub_ts(it.get('date', ''))
+        deduped.append(it)
+    results = deduped
+    results.sort(key=lambda x: x.get('published_ts', 0), reverse=True)
+
+    # Enriquece com parágrafos completos os itens MAIS RECENTES das fontes editoriais
     priority_sources = {
+        'TechCrunch AI', 'The Verge AI', 'MIT Technology Review AI', 'Ars Technica AI',
         'The Rundown AI', 'TLDR AI', 'OpenAI News', 'Anthropic News (Claude)',
         'Google AI / DeepMind', 'NVIDIA Industrial & AI', 'n8n (Automação & Orquestração)',
         'One Useful Thing (Ethan Mollick)', 'Ultralytics (YOLO / Visão Industrial)',
         'The Batch (Andrew Ng)'
     }
-    to_enrich = [it for it in results if it.get('source') in priority_sources and len(it.get('full_paragraphs') or []) < 3][:16]
+    to_enrich = [it for it in results if it.get('source') in priority_sources and len(it.get('full_paragraphs') or []) < 3][:20]
     with ThreadPoolExecutor(max_workers=8) as ex:
         list(ex.map(enrich_article_fulltext, to_enrich))
 

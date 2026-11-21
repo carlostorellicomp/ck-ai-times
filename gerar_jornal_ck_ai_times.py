@@ -45,38 +45,91 @@ def build_newspaper():
     top50 = rankings.get('top50_overall', [])
     top20_open = rankings.get('top20_open_source', [])
 
-    # Garante índice único para o leitor modal
+    # Carrega histórico de capas anteriores para rotacionar manchetes todo dia (nunca repetir capa de ontem!)
+    hist_path = os.path.join(DATA_DIR, 'historico_capa.json')
+    hist = {'by_date': {}, 'seen_urls': {}}
+    if os.path.exists(hist_path):
+        try:
+            with open(hist_path, 'r', encoding='utf-8') as f:
+                hist = json.load(f)
+        except Exception:
+            pass
+    by_date = hist.get('by_date') or {}
+    seen_urls = hist.get('seen_urls') or {}
+
+    past_cover_urls = set()
+    for hd, urls in by_date.items():
+        if hd != d_str:
+            past_cover_urls.update(urls or [])
+
+    # Marca o que é NOVO hoje (visto pela primeira vez nesta data) e ordena por frescor real
+    for it in items:
+        u = it.get('url', '')
+        first_seen = seen_urls.get(u)
+        if not first_seen:
+            seen_urls[u] = d_str
+            first_seen = d_str
+        it['_is_new'] = (first_seen == d_str)
+
+    items.sort(key=lambda x: (1 if x.get('_is_new') else 0, x.get('published_ts', 0), len(x.get('full_paragraphs_pt') or [])), reverse=True)
+
+    # Garante índice único para o leitor modal (após ordenação final)
     for i, it in enumerate(items):
         it['_idx'] = i
 
-    # Seleciona os destaques reais de capa dando preferência a matérias com texto completo rico
-    priority_sources = [
-        'The Rundown AI', 'NVIDIA Industrial & AI', 'OpenAI News', 'Anthropic News (Claude)',
-        'Google AI / DeepMind', 'n8n (Automação & Orquestração)', 'TLDR AI',
-        'One Useful Thing (Ethan Mollick)', 'Microsoft Copilot & Azure AI'
-    ]
+    new_count = sum(1 for it in items if it.get('_is_new'))
+
+    # Seleciona Capa Dinâmica por frescor + rotação (prioriza matérias inéditas na capa, com texto rico e mais recentes)
+    editorial_sections = {'newsletters', 'labs', 'industria'}
     front_picks = []
     used_urls = set()
-    for psrc in priority_sources:
-        # Prioriza item da fonte que tenha parágrafos completos
-        candidates = [it for it in items if it.get('source') == psrc and it.get('url') not in used_urls]
-        candidates.sort(key=lambda x: len(x.get('full_paragraphs_pt') or []), reverse=True)
-        if candidates:
-            front_picks.append(candidates[0])
-            used_urls.add(candidates[0].get('url'))
-        if len(front_picks) >= 7:
-            break
-    if len(front_picks) < 7:
-        for it in items:
-            if it.get('url') not in used_urls:
-                front_picks.append(it)
-                used_urls.add(it.get('url'))
-            if len(front_picks) >= 7:
-                break
+    used_sources = set()
 
-    lead = front_picks[0] if front_picks else {'_idx': 0, 'source': 'CK AI Times', 'title': '', 'title_pt': '', 'summary': '', 'summary_pt': '', 'url': '#', 'date': d_str, 'full_paragraphs': [], 'full_paragraphs_pt': []}
+    def pick_next(require_editorial=False, require_rich=False):
+        pool = []
+        for it in items:
+            u = it.get('url')
+            if not u or u in used_urls or it.get('source') in used_sources:
+                continue
+            if require_editorial and it.get('section') not in editorial_sections:
+                continue
+            rich = len(it.get('full_paragraphs_pt') or []) >= 2
+            if require_rich and not rich:
+                continue
+            not_in_past = 1 if u not in past_cover_urls else 0
+            is_new = 1 if it.get('_is_new') else 0
+            pool.append(((not_in_past, 1 if rich else 0, is_new, it.get('published_ts', 0)), it))
+        pool.sort(key=lambda x: x[0], reverse=True)
+        if pool:
+            chosen = pool[0][1]
+            front_picks.append(chosen)
+            used_urls.add(chosen.get('url'))
+            used_sources.add(chosen.get('source'))
+            return True
+        return False
+
+    # Lead #1 e Segundo Destaque #2: matérias editoriais inéditas na capa e ricas em texto
+    for _ in range(2):
+        if not pick_next(require_editorial=True, require_rich=True):
+            pick_next(require_editorial=True, require_rich=False) or pick_next()
+    # 5 destaques da coluna direita: fontes variadas priorizando novidades mais recentes
+    while len(front_picks) < 7:
+        if not pick_next(require_editorial=False, require_rich=False):
+            break
+
+    lead = front_picks[0] if front_picks else {'_idx': 0, 'source': 'CK AI Times', 'title': '', 'title_pt': '', 'summary': '', 'summary_pt': '', 'url': '#', 'date': d_str, 'full_paragraphs': [], 'full_paragraphs_pt': [], '_is_new': True}
     sub_lead = front_picks[1] if len(front_picks) > 1 else None
     side_picks = front_picks[2:7]
+
+    # Salva histórico atualizado (mantém últimos 14 dias para nunca inchar)
+    today_cover = [x.get('url') for x in front_picks[:2] if x and x.get('url')]
+    by_date[d_str] = today_cover
+    recent_dates = sorted(by_date.keys())[-14:]
+    by_date = {k: by_date[k] for k in recent_dates}
+    cutoff_dates = set(recent_dates)
+    seen_urls = {u: dt for u, dt in seen_urls.items() if dt in cutoff_dates or dt == d_str}
+    with open(hist_path, 'w', encoding='utf-8') as f:
+        json.dump({'by_date': by_date, 'seen_urls': seen_urls}, f, ensure_ascii=False, indent=2)
 
     def render_lead_paragraphs(item, max_p=3):
         pts = item.get('full_paragraphs_pt') or []
@@ -97,9 +150,10 @@ def build_newspaper():
     if sub_lead:
         has_full_sub = len(sub_lead.get('full_paragraphs_pt') or []) >= 2
         btn_sub_read = f'<button class="btn-reader" onclick="openReader({sub_lead["_idx"]})">📖 Ler matéria completa aqui</button>' if has_full_sub else ''
+        sub_new = '<span class="new-badge">🆕 NOVO</span> ' if sub_lead.get('_is_new') else ''
         sub_lead_html = f'''
         <div class="sub-lead-box">
-          <div class="lead-kicker" style="color:var(--accent);">● SEGUNDO DESTAQUE DO DIA · {esc(sub_lead.get('source'))} ({esc(sub_lead.get('date'))})</div>
+          <div class="lead-kicker" style="color:var(--accent);">{sub_new}● SEGUNDO DESTAQUE DO DIA · {esc(sub_lead.get('source'))} ({esc(sub_lead.get('date'))})</div>
           <h3>
             <a href="{esc(sub_lead.get('url'))}" target="_blank" rel="noopener noreferrer">
               <span class="lang-pt">{esc(sub_lead.get('title_pt') or sub_lead.get('title'))}</span>
@@ -117,9 +171,10 @@ def build_newspaper():
     for s in side_picks:
         has_full = len(s.get('full_paragraphs_pt') or []) >= 2
         read_btn = f'<button class="mini-reader-btn" onclick="openReader({s["_idx"]})">📖 Ler resumo completo</button>' if has_full else ''
+        s_new = '<span class="new-badge">🆕 NOVO</span> ' if s.get('_is_new') else ''
         side_html.append(f'''
         <article class="signal-card">
-          <div class="signal-tag">{esc(s.get('source'))} · {esc(s.get('date'))}</div>
+          <div class="signal-tag">{s_new}{esc(s.get('source'))} · {esc(s.get('date'))}</div>
           <h3>
             <a href="{esc(s.get('url'))}" target="_blank" rel="noopener noreferrer">
               <span class="lang-pt">{esc(s.get('title_pt') or s.get('title'))}</span>
@@ -170,11 +225,12 @@ def build_newspaper():
         search_blob = (it.get('title', '') + ' ' + it.get('title_pt', '') + ' ' + it.get('source', '') + ' ' + it.get('summary_pt', '')).lower()
         has_full = len(it.get('full_paragraphs_pt') or []) >= 2
         btn_full = f'<button class="mini-reader-btn" onclick="openReader({it["_idx"]})">📖 Ler matéria ({len(it.get("full_paragraphs_pt") or [])} parág.)</button>' if has_full else ''
+        it_new = '<span class="new-badge">🆕 NOVO</span> ' if it.get('_is_new') else ''
         items_html.append(f'''
         <article class="news-row" data-sec="{esc(sec)}" data-search="{esc(search_blob)}">
           <div>
             <div class="news-meta">
-              <span class="src-pill">{esc(it.get('source'))}</span>
+              <span class="src-pill">{it_new}{esc(it.get('source'))}</span>
               <span class="news-date">{esc(it.get('date'))}</span>
             </div>
             <h4>
@@ -290,6 +346,11 @@ def build_newspaper():
     .verified-pill {{
       color: var(--emerald); background: rgba(16,185,129,0.12);
       border: 1px solid rgba(16,185,129,0.35); padding: 4px 10px; border-radius: 999px; font-weight: 700;
+    }}
+    .new-badge {{
+      display: inline-block; background: rgba(16,185,129,0.18); color: #10B981;
+      border: 1px solid rgba(16,185,129,0.45); padding: 1px 6px; border-radius: 5px;
+      font-family: 'JetBrains Mono', monospace; font-size: 9.5px; font-weight: 800; vertical-align: middle;
     }}
     .lang-switcher {{ display: inline-flex; gap: 4px; background: var(--card); border: 1px solid var(--border); padding: 3px; border-radius: 999px; }}
     .lang-btn {{
@@ -450,7 +511,7 @@ def build_newspaper():
     </header>
 
     <div class="dateline">
-      <span>DATA: {esc(d_str)} · FONTES ONLINE: {ok_sources}/{total_sources}</span>
+      <span>DATA: {esc(d_str)} · FONTES ONLINE: {ok_sources}/{total_sources} · <strong style="color:var(--emerald);">🆕 {new_count} NOVIDADES HOJE</strong></span>
       <span>ATUALIZADO NA NUVEM: {esc(raw.get('generated_at', ''))}</span>
       <span>{raw.get('total_items', 0)} MATÉRIAS TRADUZIDAS · TOP {len(top50)} MODELOS</span>
     </div>
@@ -464,7 +525,7 @@ def build_newspaper():
     <!-- CAPA RICA COM PARÁGRAFOS REAIS TRADUZIDOS -->
     <section id="capa" class="front-page">
       <div class="lead-box">
-        <div class="lead-kicker">● MANCHETE PRINCIPAL · {esc(lead.get('source'))} ({esc(lead.get('date'))})</div>
+        <div class="lead-kicker">{'<span class="new-badge">🆕 NOVO</span> ' if lead.get('_is_new') else ''}● MANCHETE PRINCIPAL · {esc(lead.get('source'))} ({esc(lead.get('date'))})</div>
         <h2>
           <a href="{esc(lead.get('url'))}" target="_blank" rel="noopener noreferrer">
             <span class="lang-pt">{esc(lead.get('title_pt') or lead.get('title'))}</span>
