@@ -7,6 +7,10 @@
     "2026-11-21": [
       "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
       "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
+    ],
+    "2026-11-22": [
+      "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
     ]
   },
   "seen_urls": {
@@ -111,6 +115,23 @@
     "https://www.oneusefulthing.org/p/the-dot-and-the-swarm": "2026-11-21",
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmdibjRlWjdFcXBaWmRZQTAzb0RlRjRYc0xjS3cxY3lFMzFfZGtzOGVSMk9HNm9pYndJclN4VXM5NnZMdFl2V2xEUFpWbXY0emItTzB3VnFRNHNYZ0JoUFlNSW9feEM0ZkJYMHU1NWpXQV9obTJueXRRUmJUcWNTR2t5b1l5OXFHMi1aajR1YzBMWkVlenNwZTl3bUExbzNHT2ZN?oc=5": "2026-11-21",
     "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTjdvb1FWZmJMeWJRMEN1eUN0U0lWYVRDOGMtOGtVcEsyZUN4Y1VUck52TGxnX2c0bDFvTHlUY3NKV2FvWENlc2pET1JVMWFMVmVpZFRCOW1jQkgybUoxX0ltdFkxVHFTTU5yc3lRd1FaNEhZRmxTaFdiakdtTGNiNmlzRHVTRFhXR19QS0ozU0lZVWlCZW1BalZrYkxxNW15T2dfbW9jU0U2NFJUeW5NaW5DQ0IxZk56cklLMWZTMDVNVmpKTzNfcGN3?oc=5": "2026-11-21",
-    "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM0lSSVEzNE94TmtzUkZXYnpfNUtpR285MW5FQUppbkJyclVPMVJONm5FamdRT3I5VjNaR096bmgtdUpJTjJOa1l0eUd4RkN4VzV4X2o1cFJoMjQ1a1RmY2FsbUNBVHFqczVkU1RrU3laTDNkdU1qM08zT3lHZ2UxSm5Mb2ZkajdOSFZVVEl5d2JCQm8wS1lEYlRqYno4R0Z6azl6U2s4V2h5bmdMeTNkUF9LLS0tVnB6RjVOZzJBSDZPUG41WXQwYWg3UVAxdw?oc=5": "2026-11-21"
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM0lSSVEzNE94TmtzUkZXYnpfNUtpR285MW5FQUppbkJyclVPMVJONm5FamdRT3I5VjNaR096bmgtdUpJTjJOa1l0eUd4RkN4VzV4X2o1cFJoMjQ1a1RmY2FsbUNBVHFqczVkU1RrU3laTDNkdU1qM08zT3lHZ2UxSm5Mb2ZkajdOSFZVVEl5d2JCQm8wS1lEYlRqYno4R0Z6azl6U2s4V2h5bmdMeTNkUF9LLS0tVnB6RjVOZzJBSDZPUG41WXQwYWg3UVAxdw?oc=5": "2026-11-21",
+    "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/": "2026-11-22",
+    "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/": "2026-11-22",
+    "https://www.theverge.com/tech/1039554/un-regulations-killer-robots": "2026-11-22",
+    "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/": "2026-11-22",
+    "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF": "2026-11-22",
+    "https://huggingface.co/inworld/voice-isolator": "2026-11-22",
+    "https://huggingface.co/apple/FastFrames-L": "2026-11-22",
+    "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/": "2026-11-22",
+    "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure": "2026-11-22",
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWi12TEYxTHdRYTRqUXlHVlBVZHpSTm43OUEyWnpQdWtXTHFaNHh4V2pCTkVxT3Q2Y0lMQzVwVWVwSEc1cDZqMlB3VzFFRXB4RjB6elJfcV84Rms1alRJbUpucEFmYVN4eGY2TWo2SnZYdWN0eWY0X2ZuaDJHYjRiSmtvQjV1Q25SQ3BsM0k3X0xfUy13cDZWcG1vb0g4QzY5VGJ5ZA?oc=5": "2026-11-22",
+    "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai": "2026-11-22",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc0RPR3hOb1hkX2ZWYTJLY0IwNG5Pd2J5S3BhNllISHBhMVZGdnB0OVJBTkktMUVveXJGMHJ3akotQ0NPYVdDUkFOZjRPZGxiRFhNbC05dlFvbGtSSWM2Wi16cnAxRW54bDg4NnpNRU1jVldpekxIcV9hTEx4MS1oNXNNX3p1ekt0cWJMZUJSOE9UemtCS24ta2xsQ00zdk93aHVv?oc=5": "2026-11-22",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUU1fTU1iOWtQRm1ZUmdnOHFJeEItSWU2OWoxdmpPU192VkdRWE1iT3ZkM2gxdHYwQkVXWFlnZzVmd1dUTE1WMWxhZ0I5Y2tfOXE0NDl3WXZERUoyLU5Td1FxemowTlFrWDhqdTJIRkRWYnl3RE8taXdOUzZURWU4dm90cFBBS3M?oc=5": "2026-11-22",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOME9pWWVWX0JYdXUyajg4Y2w3b1pVRHZwMWxCVnRRV3BzQ0dWbU1xM1NUdVhrV0c3THd0NHVTM1ZqZ2dGamJZME9mcEgxVDdhMnc1QzB6R1ZhQ01ZQTRsZkx1MHpubUMtRFRJbjRFN1czelBUaElpVFZ0c0ZjOXcwU09sUWthRDEtS1ZoZkM2WW13MG9QT0lKVDE0bjY?oc=5": "2026-11-22",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTExQ3Y3Q3JBV2Z1WGtJbmpzZWdJbTV1UjlDZ21BenEzUWhOTW1pc2doRlhDRktWZFNDT1lhWjROcE9UZUQzQmQxRFBYZW9kYTBockNoUEtzWFhVbDBTb2pZNXFpSnAtU2tMRVdySzA5Y2d4bmY1WFhvQV9Fd3dTbHVmTFhNNXVxcEN2UXFrenhpUy1jdVJ0UHVUUTRpS2djV3lZZ185MXB3QQ?oc=5": "2026-11-22",
+    "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVlNLbW92WmpoLXJQU1EtWWRfZ1RwTlpfNU5BNmtyUmpSNzZWYXgwdFphU2VaWGVXcnJaSFpoODVnZ3lZeTktNk5QZmNyMmlEOFhjc0pEM3RZaU1nS3ZER0Jsc2R3Sk96c1pmc3VGMzFlTVlZMVNxWmtWdlluWGpKQWN0OGlqTV9MWC1oRzJBYldSSER6RjRRT2lFZ3lQVkJRSDV6ZWJhY3QtYUZMZ2d3M0IxUFpURWFMWHV6c0ZOUU41T2lxVzg3azVWSVRHeGpXelNSTFlhakQyQQ?oc=5": "2026-11-22",
+    "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaWxyWWhpZ1l3RjJId1BCclVHREJrWjkwemkwRThZWU1YRjBXSFo4WmpSOElXTGVwQVpvdm9hOEFJRFlSVF9VcVVtS1BQLXhjVmRybVRjSm16XzRVdFJKX0NyYWdyLWdxcHMydUhnQ3ZETVE1QlM4cnhNcFJMdWZySXl0ZTNTMXVkOHplMUQ1cE00V1ZSUGl5c0tvS1hmRDRKUHJfeW1TcEhIT3RCZ1JKaWJtUWwwelhvNTNLUVc1SW1LVkwwSlQycUREbWlrbXVuVC1xXw?oc=5": "2026-11-22"
   }
 }
