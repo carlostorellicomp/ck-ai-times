@@ -1,32 +1,32 @@
 {
-  "generated_at": "22/11/2026 às 14:12 (BRT)",
+  "generated_at": "22/11/2026 às 15:02 (BRT)",
   "date": "2026-11-22",
   "total_items": 98,
   "sources_status": {
-    "Ars Technica AI": "OK (4 itens)",
     "TechCrunch AI (Diário 24/7)": "OK (5 itens)",
-    "MIT Technology Review AI": "OK (4 itens)",
     "The Verge AI (Diário 24/7)": "OK (4 itens)",
+    "Ars Technica AI": "OK (4 itens)",
     "OpenAI News": "OK (4 itens)",
     "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
+    "TLDR AI": "OK (5 itens)",
+    "MIT Technology Review AI": "OK (4 itens)",
     "Anthropic News (Claude)": "OK (4 itens)",
+    "The Rundown AI": "OK (4 itens)",
     "Hugging Face Models": "OK (6 itens)",
     "Hugging Face Spaces": "OK (4 itens)",
-    "TLDR AI": "OK (5 itens)",
-    "Google AI Blog": "OK (4 itens)",
     "Mercado IA Brasil": "OK (5 itens)",
-    "Hacker News AI": "OK (5 itens)",
+    "Google AI Blog": "OK (4 itens)",
+    "n8n Blog": "OK (4 itens)",
     "NVIDIA Blog": "OK (4 itens)",
     "Microsoft Copilot & Azure AI": "OK (4 itens)",
-    "n8n Blog": "OK (4 itens)",
-    "The Rundown AI": "OK (4 itens)",
-    "GitHub Trending Python": "OK (5 itens)",
-    "NVIDIA Developer Blog": "OK (4 itens)",
-    "The Batch (Andrew Ng)": "ERRO: HTTP Error 403: Forbidden",
     "Ultralytics Blog": "OK (4 itens)",
+    "Hacker News AI": "OK (5 itens)",
+    "The Batch (Andrew Ng)": "ERRO: HTTP Error 403: Forbidden",
+    "NVIDIA Developer Blog": "OK (4 itens)",
     "LangChain / LangGraph": "OK (4 itens)",
     "LocalLLaMA & Open Source": "OK (4 itens)",
     "GitHub Trending TypeScript": "OK (4 itens)",
+    "GitHub Trending Python": "OK (5 itens)",
     "Ranking Top 50 LLMs (Artificial Analysis)": "OK (50 Top50 / 20 Open)"
   },
   "rankings": {
@@ -810,6 +810,37 @@
   },
   "items": [
     {
+      "source": "The Verge AI",
+      "section": "newsletters",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "date": "2026-11-22T12:25:20-05:00",
+      "published_ts": 1795368320,
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+      "full_paragraphs": [
+        "Posts from this topic will be added to your daily email digest and your homepage feed.",
+        "Creator Edmund McMillen claims he ‘had no idea’ AI music was used in the latest version of Binding of Isaac.",
+        "Posts from this author will be added to your daily email digest and your homepage feed.",
+        "If you buy something from a link, The Verge may earn a commission. See our ethics statement.",
+        "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto -themed section. They found several audio files with Suno metadata that pointed back to the tracks on Suno’s site.",
+        "Creator Edmund McMillen took to X to apologize and claimed he “had no idea” the in-game GTA parody used generative AI music. Adding to the drama, Valve requires developers to disclose how and when they use generative AI in the development process, and Nicalis, Inc., the studio behind Repentance Plus, doesn’t appear to have mentioned the AI music anywhere.",
+        "Within hours of the discovery, Nicalis shared on X that Repentance Plus had been updated and the generated music files had been removed. While reviews on Steam have yet to rebound, and the game is still rated as “overwhelmingly negative,” users on X seem to be giving McMillen the benefit of the doubt, likely because he’s been quite outspoken on AI in game development, calling it “ uninspired and bland ” in a TikTok from 2024.",
+        "Sign in to see your notifications or create an account to join the conversation."
+      ],
+      "title_pt": "O desenvolvedor do Binding of Isaac remove músicas de IA do Repentance Plus",
+      "summary_pt": "The Binding of Isaac: Repentance Plus passou os últimos dias sendo criticado no Steam depois que foi descoberto que um segmento específico do jogo usava música de IA. O usuário do Reddit ShweetsStuff descobriu as músicas usadas durante uma seção temática de Grand Theft Auto. Eles encontraram vários arquivos de áudio com metadados Suno que apontavam para […]",
+      "full_paragraphs_pt": [
+        "As postagens deste tópico serão adicionadas ao seu resumo diário por e-mail e ao feed da sua página inicial.",
+        "O criador Edmund McMillen afirma que “não tinha ideia” de que a música AI foi usada na versão mais recente de Binding of Isaac.",
+        "As postagens deste autor serão adicionadas ao seu resumo diário por e-mail e ao feed da sua página inicial.",
+        "Se você comprar algo por meio de um link, The Verge poderá ganhar uma comissão. Veja nossa declaração de ética.",
+        "The Binding of Isaac: Repentance Plus passou os últimos dias sendo criticado no Steam depois que foi descoberto que um segmento específico do jogo usava música de IA. O usuário do Reddit ShweetsStuff descobriu as músicas usadas durante uma seção temática de Grand Theft Auto. Eles encontraram vários arquivos de áudio com metadados da Suno que apontavam para as faixas no site da Suno.",
+        "O criador Edmund McMillen pediu desculpas a X e afirmou que “não tinha ideia” de que a paródia de GTA no jogo usava música generativa de IA. Para aumentar o drama, a Valve exige que os desenvolvedores divulguem como e quando usam IA generativa no processo de desenvolvimento, e Nicalis, Inc., o estúdio por trás do Repentance Plus, não parece ter mencionado a música de IA em lugar nenhum.",
+        "Poucas horas após a descoberta, Nicalis compartilhou no X que o Repentance Plus foi atualizado e os arquivos de música gerados foram removidos. Embora as análises no Steam ainda não tenham se recuperado e o jogo ainda seja classificado como “extremamente negativo”, os usuários do X parecem estar dando a McMillen o benefício da dúvida, provavelmente porque ele tem falado abertamente sobre IA no desenvolvimento de jogos, chamando-o de “sem inspiração e sem graça” em um TikTok de 2024.",
+        "Faça login para ver suas notificações ou crie uma conta para participar da conversa."
+      ]
+    },
+    {
       "source": "LocalLLaMA / Open-Source",
       "section": "tempo_real",
       "title": "OpenRouter removes privacy eligibility from 125 endpoints after provider incidents - Reddit",
@@ -839,7 +870,7 @@
         "This builds on commitments our co-founders and employees have already made. When Anthropic was founded, our co-founders pledged to donate 80% of their equity holdings, and since founding we have also operated an equity donation match program that allows employees to pledge equity which Anthropic matches. Approximately half of our employees participate in this program. When combined with today’s announcement, roughly 20% of Anthropic shares will be dedicated to the public good, plus any additional percentage that could be added if the company reaches specific valuation milestones.",
         "In the coming months, we will share more about the Anthropic Public Benefit Fund’s structure and governance, including the valuation milestones that may add to its stake. We will also report on our progress to date against our mission in an upcoming public benefit report."
       ],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Investir no benefício público",
       "summary_pt": "Hoje, estamos comprometendo parte das ações da Anthropic com o Fundo de Benefício Público da Anthropic, uma nova entidade integral com uma estrutura que aumenta a participação à medida que a empresa cresce. Sujeito à aprovação dos acionistas, 5% das ações da Anthropic serão comprometidas hoje, com 2% adicionais adicionados a critério do conselho para cada aumento de 50% no valor da empresa acima de uma linha de base definida. Como uma empresa de utilidade pública, a maior parte do nosso trabalho na prossecução da nossa missão ocorre dentro da empresa: investigação relevante para a IA",
       "full_paragraphs_pt": [
@@ -866,7 +897,7 @@
         "The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.",
         "A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Anthropic arquiva S-1 junto à SEC para proposta de oferta pública inicial",
       "summary_pt": "Hoje, a Anthropic, PBC apresentou uma declaração de registro no Formulário S-1 junto à Comissão de Valores Mobiliários dos EUA relativa à sua proposta de oferta pública inicial de suas ações ordinárias Classe A. A Anthropic pretende listar suas ações ordinárias Classe A no Nasdaq Global Select Market sob o símbolo “ANT”. A quantidade de ações ordinárias Classe A a serem ofertadas e a faixa de preço da oferta proposta ainda não foram determinadas.",
       "full_paragraphs_pt": [
@@ -891,7 +922,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026, and a related registration statement filed pursuant to Rule 462(b) under the Securities Act became effective upon filing on November 18, 2026. The offering was made only by means of a prospectus. Copies of the final prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Anthropic anuncia fechamento de oferta pública inicial, incluindo exercício integral da opção dos subscritores de compra de ações adicionais, e fechamento de…",
       "summary_pt": "Hoje a Antrópico, PBC anunciou o fechamento de sua oferta pública inicial de um total de 1.127.000.000 ações ordinárias Classe A a um preço de oferta pública de US$ 83,00 por ação, incluindo o exercício integral pelos subscritores de sua opção de comprar 147.000.000 ações ordinárias Classe A adicionais da Antrópico ao preço da oferta pública inicial. A oferta consistiu em 1.103.351.354 ações vendidas pela Anthropic e 23.648.646 ações vendidas por determinados acionistas vendedores. O valor bruto agregado",
       "full_paragraphs_pt": [
@@ -916,7 +947,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Oferta pública inicial de preços antrópicos",
       "summary_pt": "Hoje a Anthropic, PBC fixou o preço de sua oferta pública inicial de suas ações ordinárias Classe A em US$ 83,00 por ação. A oferta consiste em 980.000.000 ações ordinárias Classe A, das quais 956.351.354 estão sendo vendidas pela Anthropic e 23.648.646 das quais estão sendo vendidas por determinados acionistas vendedores. A Antthropic não receberá quaisquer recursos provenientes da venda de ações pelos acionistas vendedores. Espera-se que as ações comecem a ser negociadas no Nasdaq Global Select Market em 19 de novembro de 2026 sob o símbolo “ANT”. A oferta",
       "full_paragraphs_pt": [
@@ -932,11 +963,11 @@
       "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
       "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
       "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 4,433 curtidas e 23,543 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 4,523 curtidas e 23,543 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 4,433 curtidas e 23,543 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 4,523 curtidas e 23,543 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs_pt": []
     },
     {
@@ -945,11 +976,11 @@
       "title": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
       "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
       "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 809 curtidas e 805,993 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 817 curtidas e 805,993 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 809 curtidas e 805,993 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 817 curtidas e 805,993 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs_pt": []
     },
     {
@@ -958,11 +989,11 @@
       "title": "inworld/voice-isolator (audio-to-audio)",
       "url": "https://huggingface.co/inworld/voice-isolator",
       "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 592 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 597 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "inworld/voice-isolator (audio-to-audio)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 592 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 597 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs_pt": []
     },
     {
@@ -971,11 +1002,11 @@
       "title": "tencent/Hy4-flash (image-text-to-text)",
       "url": "https://huggingface.co/tencent/Hy4-flash",
       "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 593 curtidas e 6,617 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 596 curtidas e 6,617 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "tencent/Hy4-flash (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 593 curtidas e 6,617 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 596 curtidas e 6,617 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs_pt": []
     },
     {
@@ -984,11 +1015,11 @@
       "title": "apple/FastFrames-L (text-to-video)",
       "url": "https://huggingface.co/apple/FastFrames-L",
       "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'text-to-video', com 517 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'text-to-video', com 519 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "apple/FastFrames-L (text-to-video)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'text-to-video', com 517 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'text-to-video', com 519 curtidas e 0 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs_pt": []
     },
     {
@@ -997,11 +1028,11 @@
       "title": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
       "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
       "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 963 curtidas e 2,831 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 969 curtidas e 2,831 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 963 curtidas e 2,831 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 969 curtidas e 2,831 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs_pt": []
     },
     {
@@ -1010,9 +1041,9 @@
       "title": "Space: huggingface/moe-blogpost",
       "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
       "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 817 curtidas da comunidade de engenharia de IA.",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 818 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Espaço: huggingface/moe-blogpost",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 762 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1023,9 +1054,9 @@
       "title": "Space: MiniMaxAI/minimax-h3-image",
       "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
       "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 264 curtidas da comunidade de engenharia de IA.",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 265 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Espaço: MiniMaxAI/minimax-h3-image",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 213 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1036,9 +1067,9 @@
       "title": "Space: JCisHERE/wan2-2-i2v-v3",
       "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
       "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 593 curtidas da comunidade de engenharia de IA.",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 594 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Espaço: JCisHERE/wan2-2-i2v-v3",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 514 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1049,76 +1080,11 @@
       "title": "Space: joelniklaus/harness-leaderboard",
       "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
       "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 511 curtidas da comunidade de engenharia de IA.",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 512 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Espaço: joelniklaus/harness-leaderboard",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 477 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "elementalsouls/Claude-BugHunter (+1,721 ⭐ hoje)",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "date": "Trending",
-      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "full_paragraphs": [],
-      "published_ts": 1795302741,
-      "title_pt": "elementalsouls/Claude-BugHunter (+1.721 ⭐ hoje)",
-      "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 82 habilidades, 15 comandos de barra, 681 padrões de relatórios divulgados com curadoria de 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "HKUDS/CLI-Anything (+687 ⭐ hoje)",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "date": "Trending",
-      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "full_paragraphs": [],
-      "published_ts": 1795302741,
-      "title_pt": "HKUDS/CLI-Qualquer coisa (+687 ⭐ hoje)",
-      "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "jingyaogong/minimind (+473 ⭐ hoje)",
-      "url": "https://github.com/jingyaogong/minimind",
-      "date": "Trending",
-      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "full_paragraphs": [],
-      "published_ts": 1795302741,
-      "title_pt": "jingyaogong/minimind (+473 ⭐ hoje)",
-      "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "mvanhorn/last30days-skill (+673 ⭐ hoje)",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "date": "Trending",
-      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "full_paragraphs": [],
-      "published_ts": 1795302741,
-      "title_pt": "mvanhorn/last30days-skill (+673 ⭐ hoje)",
-      "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "Tracer-Cloud/opensre (+395 ⭐ hoje)",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "date": "Trending",
-      "summary": "The open-source agent for CI/CD reliability.",
-      "full_paragraphs": [],
-      "published_ts": 1795302741,
-      "title_pt": "Tracer-Cloud/opensre (+395 ⭐ hoje)",
-      "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
       "full_paragraphs_pt": []
     },
     {
@@ -1138,7 +1104,7 @@
         "Qwen4-Max improves on Qwen3.8-Max on every headline metric, costs less per image and completed every benchmark request. It still sits well behind the leaders on average: GPT-6.1 Terra scores 0.560 for less money and in well under half the time.",
         "Each dot is a paid model on the Ultralytics VLM Leaderboard."
       ],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Anotação automática Qwen4 Max",
       "summary_pt": "Qwen4-Max ocupa o 13º lugar entre 51 em nosso benchmark de anotação automática, primeiro em radiografias de pulso e segundo nas prateleiras de varejo. Precisão, custo e como executá-lo. O Alibaba lançou o Qwen4-Max em 16 de novembro de 2026, chamando-o de o modelo mais capaz da família Qwen até o momento, com visão nativa e uma janela de contexto de um milhão de tokens. Executamos o teste no UL37, nosso benchmark de detecção de 36 conjuntos de dados, no mesmo dia.",
       "full_paragraphs_pt": [
@@ -1169,7 +1135,7 @@
         "In this run, the two are close on accuracy. Their mAP 50-95 scores, which reward tight boxes, differ by 0.001, and their precision by 0.003. Sol finds slightly more of the labeled objects: its 0.643 recall is the highest of all 50 models on the leaderboard, just ahead of Gemini 4 Carbon's 0.642. It is also the fastest of the top seven models, at 3.4 seconds per image.",
         "The eight highest-scoring models on UL37, with provider cost per 1,000 images."
       ],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Anotação automática Gpt 6 2 Sol Vs Astra",
       "summary_pt": "GPT-6.2 Sol e Astra pontuam 0,551 e 0,546 mAP 50 em 36 conjuntos de dados de detecção, mas Sol custa US$ 8,10 por 1.000 imagens versus US$ 31,88. Aqui está o que usar. A OpenAI lançou o GPT-6.2 Astra e o GPT-6.2 Sol em 17 de novembro de 2026, descrevendo o Astra como seu modelo mais capaz e o Sol como seu modelo ideal para o trabalho diário. Quando pedimos que desenhassem caixas delimitadoras, a precisão deles ficou próxima. Seus preços não.",
       "full_paragraphs_pt": [
@@ -1200,7 +1166,7 @@
         "The first row is an example of the level of detail to record, not data from a real project.",
         "This list becomes your requirements for the replacement and your test plan for the cutover."
       ],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Migração de visão personalizada do Azure",
       "summary_pt": "A Azure Custom Vision será desativada em 25 de setembro de 2028. Planeje sua migração, exporte seus dados rotulados e treine novamente na Plataforma Ultralytics. O Azure Custom Vision será desativado em 25 de setembro de 2028. As equipes que usam seu treinamento ou previsão em nuvem precisam de uma substituição antes disso, e as equipes que executam modelos exportados ainda vão querer um lugar para treiná-los novamente à medida que os produtos e as câmeras mudam. É um bom momento para migrar para uma plataforma que você possa continuar rotulando, treinando e implantando por anos.",
       "full_paragraphs_pt": [
@@ -1231,7 +1197,7 @@
         "Power is part of the choice too. NVIDIA lists the Orin Nano Super Developer Kit at 7 W to 25 W. When the board is flashed with a Super-enabled configuration, the Orin Nano 8GB offers 15 W, 25 W and MAXN SUPER power modes; with the default configuration it keeps its original 7 W and 15 W modes. Whichever board you pick, measure the whole system's draw with your cameras attached, since that's what your power supply and enclosure have to handle.",
         "Price the whole build, not just the board: storage, power, cooling and cameras add up on both. Raspberry Pi has raised Pi 5 prices more than once in 2026 as memory costs climbed. As of November 2026 the 2GB Pi 5 lists at $77.50 and the 16GB board at $385. For current Jetson pricing and availability, check NVIDIA's developer kit page, and add the cost of any accelerator a Pi needs, such as the Raspberry Pi AI HAT+. For production, NVIDIA sells Jetson modules for your own carrier board; the developer kit we benchmarked is for development and prototyping."
       ],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "Jetson versus Raspberry Pi 5",
       "summary_pt": "Inferência YOLO26n: 4,57 ms em um Jetson Orin Nano Super (TensorRT FP16) vs 67,03 ms em uma CPU Pi 5, em testes separados. Escolha por modelo, FPS e câmeras. Você deve executar a detecção de objetos em um Raspberry Pi 5 ou NVIDIA Jetson Orin Nano? Para uma câmera, um alvo de baixa taxa de quadros e um modelo pequeno, uma CPU Pi 5 pode ser suficiente: em nosso benchmark publicado, o Ultralytics YOLO26n exportado para NCNN leva 67,03 ms de inferência por imagem em seus quatro núcleos Arm, cerca de 15 quadros de inferência por segundo. Quando você precisar de mais câmeras, uma câmera maior",
       "full_paragraphs_pt": [
@@ -1253,7 +1219,7 @@
       "date": "Trending",
       "summary": "Cursor plugin specification and official plugins",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "cursor/plugins (+301 ⭐ hoje)",
       "summary_pt": "Especificação do plugin de cursor e plugins oficiais",
       "full_paragraphs_pt": []
@@ -1266,7 +1232,7 @@
       "date": "Trending",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "firecrawl/firecrawl (+910 ⭐ hoje)",
       "summary_pt": "Infraestrutura de conhecimento para tornar seus agentes mais inteligentes. Pesquise, extraia e acesse mais de 550 provedores de dados por meio de uma API.",
       "full_paragraphs_pt": []
@@ -1279,7 +1245,7 @@
       "date": "Trending",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "google-labs-code/stitch-skills (+516 ⭐ hoje)",
       "summary_pt": "Uma biblioteca de habilidades de agente projetada para funcionar com o servidor Stitch MCP. Cada habilidade segue o padrão aberto Agent Skills, para compatibilidade com agentes de codificação como Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs_pt": []
@@ -1292,10 +1258,106 @@
       "date": "Trending",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "full_paragraphs": [],
-      "published_ts": 1795302741,
+      "published_ts": 1795305726,
       "title_pt": "toeverything/AFFiNE (+537 ⭐ hoje)",
       "summary_pt": "Pode haver mais do que Notion e Miro. AFFiNE (pronuncia-se [ə'fain]) é uma base de conhecimento de última geração que reúne planejamento, classificação e criação. Privacidade em primeiro lugar, código aberto, personalizável e pronto para uso.",
       "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "elementalsouls/Claude-BugHunter (+1,721 ⭐ hoje)",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "date": "Trending",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "full_paragraphs": [],
+      "published_ts": 1795305726,
+      "title_pt": "elementalsouls/Claude-BugHunter (+1.721 ⭐ hoje)",
+      "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 82 habilidades, 15 comandos de barra, 681 padrões de relatórios divulgados com curadoria de 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "HKUDS/CLI-Anything (+687 ⭐ hoje)",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "date": "Trending",
+      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_paragraphs": [],
+      "published_ts": 1795305726,
+      "title_pt": "HKUDS/CLI-Qualquer coisa (+687 ⭐ hoje)",
+      "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "jingyaogong/minimind (+473 ⭐ hoje)",
+      "url": "https://github.com/jingyaogong/minimind",
+      "date": "Trending",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "full_paragraphs": [],
+      "published_ts": 1795305726,
+      "title_pt": "jingyaogong/minimind (+473 ⭐ hoje)",
+      "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "mvanhorn/last30days-skill (+673 ⭐ hoje)",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "date": "Trending",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_paragraphs": [],
+      "published_ts": 1795305726,
+      "title_pt": "mvanhorn/last30days-skill (+673 ⭐ hoje)",
+      "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "Tracer-Cloud/opensre (+395 ⭐ hoje)",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "date": "Trending",
+      "summary": "The open-source agent for CI/CD reliability.",
+      "full_paragraphs": [],
+      "published_ts": 1795305726,
+      "title_pt": "Tracer-Cloud/opensre (+395 ⭐ hoje)",
+      "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "OpenAI News",
+      "section": "labs",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "date": "Sun, 22 Nov 2026 00:00:00",
+      "published_ts": 1795305600,
+      "summary": "From afar, it might seem like modern AI is built similarly to how software has been built in previous decades: with a diverse set of techniques targeting specific capabilities. There are indeed a variety of methods, but rather than designing something from scratch, they are mostly harnessing the intelligence coming from a much simpler and less interpretable process: training a compressor (or, equivalently ⁠ (opens in a new window), predictor) on a very large corpus of data. 1 I believe tracking the pace of progress",
+      "full_paragraphs": [
+        "From afar, it might seem like modern AI is built similarly to how software has been built in previous decades: with a diverse set of techniques targeting specific capabilities. There are indeed a variety of methods, but rather than designing something from scratch, they are mostly harnessing the intelligence coming from a much simpler and less interpretable process: training a compressor (or, equivalently ⁠ (opens in a new window), predictor) on a very large corpus of data. 1",
+        "I believe tracking the pace of progress on training better compressors is key to understanding the arc of advances in AI. In this post, I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards. As a first step, I provide more transparency into pretraining progress at OpenAI. Publishing our internal perplexity measurements took some consideration; it gives competitors a clearer picture of where we stand, but that concern is outweighed by the urgency of establishing shared ⁠ (opens in a new window) safety measures across the industry. We at OpenAI hope for this to be a step towards building a shared scientific basis for future pacing efforts.",
+        "A simplified, but fundamentally informative, view of AI development is that first, one builds a large computer, then uses it to pretrain a model (compressor) on a large unstructured dataset, then applies a variety of techniques—like prompting, finetuning or reinforcement learning—in different contexts to elicit the latent capabilities of that model. Algorithmic progress can blur the distinction between training phases, but we can still separate the creation of the AI with hard-to-predict emergent capabilities (which I earlier dubbed “ an alien mind ⁠ ”) and the subsequent targeted elicitation.",
+        "The primary way we measure progress on this key “intelligence substrate” has remained remarkably constant over the years—we have been tracking the perplexity of the models on a held-out dataset. 2, 3 Perplexity measures how well a model predicts the next token on average; lower perplexity means better predictions. The plot opening this blog post shows how this metric evolved for our models starting with GPT‑3.5.",
+        "The range of capabilities of models that are largely described by this one metric is stunning. Setting the new perplexity state-of-the-art on older datasets 4, GPT‑2 was arguably the first model capable of consistently formulating coherent paragraphs of text. The next major leap, GPT‑3, was capable of learning in context, given a few examples of a task. GPT‑3.5, at a log-perplexity of ~0.99 on our current main evaluation dataset, was capable of fluent conversation and formed the basis for the original ChatGPT. GPT‑4, at ~0.91, was proficient at utilizing chain-of-thought reasoning productively, which motivated the subsequent targeted elicitation of this capability and the creation of modern reasoning models. Now, as we have reached losses below 0.8, we have seen the emergence of transformative capabilities in fields like cybersecurity and mathematics. I want to reemphasize that it was not at all clear a priori that these capabilities would appear once those precise perplexity thresholds are met—they can fundamentally be seen as emergent latent capabilities from progress on this one metric.",
+        "As AI advances very rapidly, the scope and way in which we measure downstream capabilities may change quickly. It would make little sense to evaluate GPT‑2 and GPT‑3 on most modern benchmarks; and the benchmarks used then were largely saturated around GPT‑4. In contrast, I believe looking at progress on pretraining is likely to stay informative.",
+        "A particular change in the pace of progress comes from the increasing contribution of AI to its own development. The most commonly discussed metrics revolve around AI augmenting and replacing human researchers in all stages of the development cycle; with an ultimate inflection point seen at “full recursive self-improvement”, where the process would be entirely automated with no human oversight. Apart from considering such a state as something we should obviously avoid for the sake of maintaining human control, I find this general framing misses something crucial. There is a potential step change that may come from AI participation in one key part of the development process: algorithmic research on pretraining.",
+        "We have recently witnessed unprecedented acceleration in another domain. For more than a year, we have been posing open problems in mathematics to our models as one of the ways of evaluating them. Once we upgraded to a model of log-perplexity ~0.76, it started producing groundbreaking results. For many of us that have previously worked in mathematics and adjacent fields, seeing the resolutions to questions we’ve long thought about coming out of the model one after another in a single Slack thread felt deeply surreal. Having experienced that allows us to extrapolate—such a sudden transformation is plausible in deep learning research too. While this field relies more on experimentation, there is a long history of simple insights being missed for years; and so as soon as 2027 we could conceivably see a similar avalanche of fundamental pretraining advancements 5. While I expect AI will also significantly contribute to progress on alignment and monitoring, I think that progress is unlikely to be fast enough to allow the full potential acceleration in pretraining."
+      ],
+      "title_pt": "Perplexidade e Inteligência",
+      "summary_pt": "À distância, pode parecer que a IA moderna é construída de forma semelhante à forma como o software foi construído nas décadas anteriores: com um conjunto diversificado de técnicas visando capacidades específicas. Na verdade, há uma variedade de métodos, mas em vez de projetar algo do zero, eles aproveitam principalmente a inteligência proveniente de um processo muito mais simples e menos interpretável: treinar um compressor (ou, equivalentemente ⁠ (abre em uma nova janela), preditor) em um corpus muito grande de dados. 1 Acredito que acompanhar o ritmo do progresso",
+      "full_paragraphs_pt": [
+        "À distância, pode parecer que a IA moderna é construída de forma semelhante à forma como o software foi construído nas décadas anteriores: com um conjunto diversificado de técnicas visando capacidades específicas. Na verdade, há uma variedade de métodos, mas em vez de projetar algo do zero, eles aproveitam principalmente a inteligência proveniente de um processo muito mais simples e menos interpretável: treinar um compressor (ou, equivalentemente ⁠ (abre em uma nova janela), preditor) em um corpus muito grande de dados. 1",
+        "Acredito que acompanhar o ritmo do progresso no treinamento de compressores melhores é fundamental para compreender o arco de avanços na IA. Neste post, defendo o estabelecimento da perplexidade (ou, equivalentemente, a perda de entropia cruzada) como uma métrica para comparar entre desenvolvedores de modelos e informar padrões de segurança compartilhados. Como primeiro passo, forneço mais transparência no progresso do pré-treinamento na OpenAI. A publicação de nossas medidas de perplexidade interna exigiu alguma consideração; dá aos concorrentes uma imagem mais clara de nossa posição, mas essa preocupação é compensada pela urgência de estabelecer medidas de segurança compartilhadas ⁠ (abre em uma nova janela) em todo o setor. Nós da OpenAI esperamos que este seja um passo na construção de uma base científica compartilhada para futuros esforços de ritmo.",
+        "Uma visão simplificada, mas fundamentalmente informativa, do desenvolvimento da IA ​​é que, primeiro, constrói-se um grande computador, depois utiliza-se para pré-treinar um modelo (compressor) num grande conjunto de dados não estruturado e, em seguida, aplica-se uma variedade de técnicas – como prompting, ajuste fino ou aprendizagem por reforço – em diferentes contextos para extrair as capacidades latentes desse modelo. O progresso algorítmico pode confundir a distinção entre as fases de treinamento, mas ainda podemos separar a criação da IA ​​com capacidades emergentes difíceis de prever (que anteriormente apelidei de “uma mente alienígena ⁠”) e a subsequente elicitação direcionada.",
+        "A principal forma de medir o progresso neste “substrato de inteligência” chave permaneceu notavelmente constante ao longo dos anos – temos acompanhado a perplexidade dos modelos num conjunto de dados mantido. 2, 3 A perplexidade mede quão bem um modelo prevê, em média, o próximo token; menor perplexidade significa melhores previsões. O gráfico que abre esta postagem do blog mostra como essa métrica evoluiu para nossos modelos começando com GPT‑3.5.",
+        "A gama de capacidades dos modelos amplamente descritas por esta métrica é impressionante. Estabelecendo o novo estado da arte em termos de perplexidade em conjuntos de dados mais antigos 4, o GPT‑2 foi indiscutivelmente o primeiro modelo capaz de formular consistentemente parágrafos de texto coerentes. O próximo grande salto, GPT‑3, foi capaz de aprender no contexto, dados alguns exemplos de tarefas. GPT-3.5, com uma perplexidade logarítmica de ~0,99 em nosso conjunto de dados de avaliação principal atual, era capaz de conversação fluente e formou a base para o ChatGPT original. GPT-4, com ~0,91, era proficiente na utilização produtiva do raciocínio em cadeia de pensamento, o que motivou a subsequente elicitação direcionada dessa capacidade e a criação de modelos de raciocínio modernos. Agora, à medida que atingimos perdas inferiores a 0,8, assistimos ao surgimento de capacidades transformadoras em domínios como a cibersegurança e a matemática. Quero voltar a sublinhar que não estava nada claro a priori que estas capacidades surgiriam assim que esses limiares de perplexidade fossem atingidos – podem fundamentalmente ser vistas como capacidades latentes emergentes do progresso nesta métrica.",
+        "À medida que a IA avança muito rapidamente, o âmbito e a forma como medimos as capacidades a jusante podem mudar rapidamente. Faria pouco sentido avaliar GPT-2 e GPT-3 na maioria dos benchmarks modernos; e os benchmarks usados ​​então estavam amplamente saturados em torno do GPT-4. Em contraste, acredito que observar o progresso no pré-treinamento provavelmente permanecerá informativo.",
+        "Uma mudança específica no ritmo do progresso advém da crescente contribuição da IA ​​para o seu próprio desenvolvimento. As métricas mais comumente discutidas giram em torno do aumento e substituição de pesquisadores humanos pela IA em todos os estágios do ciclo de desenvolvimento; com um ponto de inflexão final visto no “autoaperfeiçoamento totalmente recursivo”, onde o processo seria totalmente automatizado sem supervisão humana. Além de considerar tal estado como algo que deveríamos obviamente evitar para manter o controle humano, acho que este enquadramento geral deixa escapar algo crucial. Há uma potencial mudança radical que pode advir da participação da IA ​​numa parte fundamental do processo de desenvolvimento: a investigação algorítmica sobre pré-treinamento.",
+        "Assistimos recentemente a uma aceleração sem precedentes noutro domínio. Há mais de um ano, colocamos problemas abertos em matemática aos nossos modelos como uma das formas de avaliá-los. Depois que atualizamos para um modelo de perplexidade logarítmica de ~0,76, ele começou a produzir resultados inovadores. Para muitos de nós que já trabalhamos em matemática e áreas adjacentes, ver as soluções para questões que há muito pensamos em sair do modelo, uma após a outra, em um único tópico do Slack, pareceu profundamente surreal. Ter experimentado isso nos permite extrapolar – uma transformação tão repentina também é plausível na pesquisa de aprendizagem profunda. Embora este campo dependa mais da experimentação, há um longo histórico de insights simples perdidos durante anos; e assim, já em 2027, poderemos ver uma avalanche semelhante de avanços fundamentais no pré-treinamento 5. Embora eu espere que a IA também contribua significativamente para o progresso no alinhamento e na monitorização, penso que é pouco provável que o progresso seja suficientemente rápido para permitir a aceleração potencial total no pré-treinamento."
+      ]
     },
     {
       "source": "TechCrunch AI",
@@ -1772,37 +1834,6 @@
       ]
     },
     {
-      "source": "The Verge AI",
-      "section": "newsletters",
-      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
-      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
-      "date": "2026-11-19T18:04:02-05:00",
-      "published_ts": 1795129442,
-      "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching […]",
-      "full_paragraphs": [
-        "Posts from this topic will be added to your daily email digest and your homepage feed.",
-        "AI changed the game at Chess.com, helping it expand to 11 other classics this year.﻿",
-        "Posts from this author will be added to your daily email digest and your homepage feed.",
-        "If you buy something from a link, The Verge may earn a commission. See our ethics statement.",
-        "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They’re all part of Chess’s new Classic Games platform, which is launching its public beta on Saturday on the web and through a new app for iOS and Android.",
-        "“Our cofounders have had many people come up to them and say, ‘Hey, I run a mahjong night on Wednesdays’ or ‘I go to this local bar in Chicago with like five people, and we love playing go, but we lack a Chess.com,’” chief growth officer Albert Cheng says in an interview with The Verge. “The way that Chess.com has grown this community of almost 300 million members has not really happened for a lot of these other types of classic games.”",
-        "Classic Games is aimed at filling that gap. Some of the new games, like shoji or xiangqi, are strategy games similar to chess while others are further afield, like sudoku, solitaire, and word. The Classic team chose the new games through “a mix of community feedback, market research, and then just our own confidence in our ability to serve that game well,” Cheng says. It’s focused on classics that “have some sort of lifelong journey of learning and a community.”",
-        "Classic Games will feel familiar if you’ve ever played a match on Chess.com. Each game has lessons, leaderboards, and a rating system. Multiplayer games like checkers or mahjong have options for matches against other players or bots, and they use the same bot characters that Chess.com has. (Martin remains the lowest-rated bot across the board, whether it’s on Chess, Gambit, or Classic.) Not all of the games have the same play modes — word and mahjong have puzzles like chess, while sudoku has a set of daily grids and solitaire has daily deals."
-      ],
-      "title_pt": "O próximo passo do Chess.com é um novo centro para jogos clássicos, do mahjong ao sudoku",
-      "summary_pt": "O Chess.com está pronto para ir muito além do xadrez. Depois de lançar o Gambit, um site de pôquer sem jogos de azar, no início deste ano, a empresa está adicionando mais 10 jogos: gamão, damas, go, copas, mahjong, shogi, sudoku, paciência, xiangqi e uma alternativa ao Scrabble chamada palavra. Todos fazem parte da nova plataforma de Jogos Clássicos do Xadrez, que está sendo lançada […]",
-      "full_paragraphs_pt": [
-        "As postagens deste tópico serão adicionadas ao seu resumo diário por e-mail e ao feed da sua página inicial.",
-        "A IA mudou o jogo no Chess.com, ajudando-o a expandir-se para 11 outros clássicos este ano.﻿",
-        "As postagens deste autor serão adicionadas ao seu resumo diário por e-mail e ao feed da sua página inicial.",
-        "Se você comprar algo por meio de um link, The Verge poderá ganhar uma comissão. Veja nossa declaração de ética.",
-        "O Chess.com está pronto para ir muito além do xadrez. Depois de lançar o Gambit, um site de pôquer sem jogos de azar, no início deste ano, a empresa está adicionando mais 10 jogos: gamão, damas, go, copas, mahjong, shogi, sudoku, paciência, xiangqi e uma alternativa ao Scrabble chamada palavra. Todos eles fazem parte da nova plataforma de Jogos Clássicos do Chess, que lança sua versão beta pública no sábado na web e por meio de um novo aplicativo para iOS e Android.",
-        "“Muitas pessoas vieram até eles para nossos cofundadores e disseram: ‘Ei, eu jogo uma noite de mahjong às quartas-feiras’ ou ‘Vou a um bar local em Chicago com umas cinco pessoas e adoramos jogar go, mas nos falta um Chess.com'”, disse o diretor de crescimento Albert Cheng em entrevista ao The Verge. “A maneira como o Chess.com fez crescer esta comunidade de quase 300 milhões de membros não aconteceu realmente com muitos desses outros tipos de jogos clássicos.”",
-        "A Classic Games visa preencher essa lacuna. Alguns dos novos jogos, como shoji ou xiangqi, são jogos de estratégia semelhantes ao xadrez, enquanto outros são mais distantes, como sudoku, paciência e palavras. A equipe Classic escolheu os novos jogos por meio de “uma mistura de feedback da comunidade, pesquisa de mercado e apenas nossa própria confiança em nossa capacidade de servir bem esse jogo”, diz Cheng. É focado em clássicos que “têm algum tipo de jornada de aprendizagem ao longo da vida e uma comunidade”.",
-        "Os Jogos Clássicos parecerão familiares se você já jogou uma partida no Chess.com. Cada jogo tem lições, tabelas de classificação e um sistema de classificação. Jogos multijogador como damas ou mahjong têm opções de partidas contra outros jogadores ou bots, e usam os mesmos personagens bot que o Chess.com possui. (Martin continua sendo o bot com a classificação mais baixa em todos os aspectos, seja no Xadrez, Gambito ou Clássico.) Nem todos os jogos têm os mesmos modos de jogo – palavra e mahjong têm quebra-cabeças como o xadrez, enquanto o sudoku tem um conjunto de grades diárias e paciência tem ofertas diárias."
-      ]
-    },
-    {
       "source": "Ars Technica AI",
       "section": "labs",
       "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
@@ -1878,29 +1909,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "date": "Thu, 19 Nov 2026 18:00:00",
       "published_ts": 1795111200,
-      "summary": "Tool Retrieval is now in preview in the Gemini Interactions API. Load tool parameter schemas on demand instead of sending your full tool library in every prompt,designed to reduce input tokens and keep tool selection accurate as your agent scales. We are launching Tool Retrieval in the Gemini API to help your agents manage large tool libraries more efficiently. By loading parameter schemas only when needed, you reduce latency and input token costs for complex tasks. You can try this feature today in the Interaction",
-      "full_paragraphs": [
-        "Tool Retrieval is now in preview in the Gemini Interactions API. Load tool parameter schemas on demand instead of sending your full tool library in every prompt,designed to reduce input tokens and keep tool selection accurate as your agent scales.",
-        "We are launching Tool Retrieval in the Gemini API to help your agents manage large tool libraries more efficiently. By loading parameter schemas only when needed, you reduce latency and input token costs for complex tasks. You can try this feature today in the Interactions API by adding a tool_search tool and setting defer_loading to true in your requests.",
-        "We are introducing Tool Retrieval to help developers manage large collections of software tools more efficiently. Instead of loading every tool at once, your agent now keeps a library on standby and only pulls in the specific details it needs for a task. This reduces data usage, speeds up performance, and improves accuracy. You can start using this feature today with our latest Gemini models to build more capable and responsive applications.",
-        "Today we're launching Tool Retrieval in the Gemini API, available in preview in the Interactions API.",
-        "When an agent connects to dozens or even hundreds of tools, sending every full parameter schema on every request adds up fast. It inflates input token counts, adds latency, and lowers tool-selection accuracy as the candidate list grows. Tool Retrieval lets your agent keep its full tool library on standby and load parameter schemas only when the current task needs them.",
-        "To turn on Tool Retrieval, add a tool_search tool to your request and set defer_loading: true on the tools you want to hold back. The model still sees the name and description of every deferred tool, so it knows what's available, but the parameter schemas stay out of context. When the model needs a tool, it asks for it by name, the API loads the full schema, and the model calls the function, all inside the same request.",
-        "from google import genai client = genai.Client() tools = [ {\"type\": \"tool_search\"}, { \"type\": \"function\", \"name\": \"issue_refund\", \"description\": \"Refund an order to the original payment method.\", \"defer_loading\": True, \"parameters\": { \"type\": \"object\", \"properties\": { \"order_id\": {\"type\": \"string\"}, \"amount\": {\"type\": \"number\"}, }, \"required\": [\"order_id\", \"amount\"], }, }, #... 50+ other deferred functions (leave frequent tools undeferred) ] interaction = client.interactions.create( model=\"gemini-4-hydrogen\", input=\"Order A-1042 arrived damaged. Please refund 40 dollars.\", tools=tools, ) Inside that single API call, the model searches for issue_refund, the API loads its schema, and the model emits the function_call. All three steps appear in interaction.steps, making it easy to inspect which tools the model considered when debugging tool names or descriptions:",
-        "\"steps\": [ { \"type\": \"tool_search_call\", \"id\": \"tsc_7f2a\", \"arguments\": {\"function_names\": [\"issue_refund\"]}, \"signature\": \"...\" }, { \"type\": \"tool_search_result\", \"call_id\": \"tsc_7f2a\", \"result\": [{\"type\": \"function\", \"name\": \"issue_refund\", \"parameters\": {...}}], \"signature\": \"...\" }, { \"type\": \"function_call\", \"id\": \"fc_91c3\", \"name\": \"issue_refund\", \"arguments\": {\"order_id\": \"A-1042\", \"amount\": 40} } ] From here it's normal function calling: your code runs the refund and sends back a function_result."
-      ],
+      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "full_paragraphs": [],
       "title_pt": "Apresentando a recuperação de ferramentas na API Gemini",
       "summary_pt": "A recuperação de ferramentas agora está em versão prévia na API Gemini Interactions. Carregue esquemas de parâmetros de ferramentas sob demanda em vez de enviar sua biblioteca completa de ferramentas em cada prompt, projetado para reduzir tokens de entrada e manter a seleção de ferramentas precisa à medida que seu agente escala. Estamos lançando o Tool Retrieval na API Gemini para ajudar seus agentes a gerenciar grandes bibliotecas de ferramentas com mais eficiência. Ao carregar esquemas de parâmetros somente quando necessário, você reduz a latência e os custos de token de entrada para tarefas complexas. Você pode experimentar esse recurso hoje no Interaction",
-      "full_paragraphs_pt": [
-        "A recuperação de ferramentas agora está em versão prévia na API Gemini Interactions. Carregue esquemas de parâmetros de ferramentas sob demanda em vez de enviar sua biblioteca completa de ferramentas em cada prompt, projetado para reduzir tokens de entrada e manter a seleção de ferramentas precisa à medida que seu agente escala.",
-        "Estamos lançando o Tool Retrieval na API Gemini para ajudar seus agentes a gerenciar grandes bibliotecas de ferramentas com mais eficiência. Ao carregar esquemas de parâmetros somente quando necessário, você reduz a latência e os custos de token de entrada para tarefas complexas. Você pode experimentar esse recurso hoje mesmo na API de interações adicionando uma ferramenta tool_search e definindo defer_loading como true em suas solicitações.",
-        "Estamos introduzindo o Tool Retrieval para ajudar os desenvolvedores a gerenciar grandes coleções de ferramentas de software com mais eficiência. Em vez de carregar todas as ferramentas de uma vez, seu agente agora mantém uma biblioteca em espera e extrai apenas os detalhes específicos necessários para uma tarefa. Isso reduz o uso de dados, acelera o desempenho e melhora a precisão. Você pode começar a usar esse recurso hoje mesmo com nossos modelos Gemini mais recentes para criar aplicativos mais capazes e responsivos.",
-        "Hoje estamos lançando o Tool Retrieval na API Gemini, disponível em versão prévia na API Interactions.",
-        "Quando um agente se conecta a dezenas ou até centenas de ferramentas, o envio de todos os esquemas de parâmetros completos em cada solicitação aumenta rapidamente. Ele aumenta a contagem de tokens de entrada, adiciona latência e reduz a precisão da seleção de ferramentas à medida que a lista de candidatos aumenta. A recuperação de ferramentas permite que seu agente mantenha sua biblioteca completa de ferramentas em espera e carregue esquemas de parâmetros somente quando a tarefa atual precisar deles.",
-        "Para ativar a recuperação de ferramentas, adicione uma ferramenta tool_search à sua solicitação e defina defer_loading: true nas ferramentas que você deseja reter. O modelo ainda vê o nome e a descrição de cada ferramenta adiada, portanto sabe o que está disponível, mas os esquemas de parâmetros permanecem fora do contexto. Quando o modelo precisa de uma ferramenta, ele a solicita pelo nome, a API carrega o esquema completo e o modelo chama a função, tudo dentro da mesma solicitação.",
-        "from google import genai client = genai.Client() tools = [ {\"type\": \"tool_search\"}, { \"type\": \"function\", \"name\": \"issue_refund\", \"description\": \"Reembolsar um pedido para o método de pagamento original.\", \"defer_loading\": True, \"parameters\": { \"type\": \"object\", \"properties\": { \"order_id\": {\"type\": \"string\"}, \"amount\": {\"type\": \"number\"}, }, \"required\": [\"order_id\", \"amount\"], }, }, #... 50+ outras funções adiadas (deixe ferramentas frequentes indeferidas) ] interação = client.interactions.create( model=\"gemini-4-hydrogen\", input=\"O pedido A-1042 chegou danificado. Por favor, devolva 40 dólares.\", tools=tools, ) Dentro dessa única chamada de API, o modelo procura por issue_refund, a API carrega seu esquema e o modelo emite a function_call. Todas as três etapas aparecem em interact.steps, facilitando a inspeção de quais ferramentas o modelo considerou ao depurar nomes ou descrições de ferramentas:",
-        "\"etapas\": [ { \"tipo\": \"tool_search_call\", \"id\": \"tsc_7f2a\", \"argumentos\": {\"function_names\": [\"issue_refund\"]}, \"signature\": \"...\" }, { \"type\": \"tool_search_result\", \"call_id\": \"tsc_7f2a\", \"resultado\": [{\"type\": \"função\", \"nome\": \"issue_refund\", \"parameters\": {...}}], \"signature\": \"...\" }, { \"type\": \"function_call\", \"id\": \"fc_91c3\", \"name\": \"issue_refund\", \"arguments\": {\"order_id\": \"A-1042\", \"amount\": 40} } ] A partir daqui é uma chamada de função normal: seu código executa o reembolso e envia de volta um function_result."
-      ]
+      "full_paragraphs_pt": []
     },
     {
       "source": "NVIDIA Industrial & AI",
@@ -2045,19 +2058,6 @@
         "Na noite anterior ao lançamento, Minkai Xu do Google postou “muitas pessoas ficam surpresas com a rapidez com que o RSI se move”, sugerindo que o autoaperfeiçoamento da IA ​​​​pode estar atrás do ritmo do Google.",
         "Por que é importante: durante a maior parte de 2026, o Google teve todas as vantagens (chips, dinheiro, usuários), mas foi dolorosamente lento para fornecer as opções de fronteira que as pessoas queriam. Quer se trate de autoaperfeiçoamento recursivo (RSI) ou qualquer outra coisa, um interruptor foi acionado internamente e a análise da tabela periódica do Google (argônio, carbono, hidrogênio, néon) está aparecendo em grande estilo."
       ]
-    },
-    {
-      "source": "OpenAI News",
-      "section": "labs",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "date": "Thu, 19 Nov 2026 08:00:00",
-      "published_ts": 1795075200,
-      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "full_paragraphs": [],
-      "title_pt": "Como o Performance Factory da OpenAI mantém o ChatGPT rápido",
-      "summary_pt": "Saiba como a OpenAI construiu o Performance Factory, um sistema de fluxos de trabalho com tecnologia Codex que encontra e corrige problemas de desempenho para ajudar a manter o ChatGPT rápido.",
-      "full_paragraphs_pt": []
     },
     {
       "source": "TLDR AI",
