@@ -15,6 +15,10 @@
     "2026-11-23": [
       "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
       "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    ],
+    "2026-11-24": [
+      "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
     ]
   },
   "seen_urls": {
@@ -170,6 +174,34 @@
     "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/": "2026-11-23",
     "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/": "2026-11-23",
     "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit": "2026-11-23",
-    "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYzkxaFJ4UUU1a0VVNjB3R1BWUjBSMEhnSmlJeklMTFJ2MlQyakM5c21RTlNCV21RRTNWVzJrOWdFcHM3dUlOV200ZWVwdV9LaUpscmdISEgzTkhIbHdXM3ktUVhFS1B0dnJldTJuOEEybTlHODAwdDhTTmQzMThZeDFuT2dlNVFMY012dy1PazVLTW5SelEtQkRWdGRPdlMzWWc?oc=5": "2026-11-23"
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYzkxaFJ4UUU1a0VVNjB3R1BWUjBSMEhnSmlJeklMTFJ2MlQyakM5c21RTlNCV21RRTNWVzJrOWdFcHM3dUlOV200ZWVwdV9LaUpscmdISEgzTkhIbHdXM3ktUVhFS1B0dnJldTJuOEEybTlHODAwdDhTTmQzMThZeDFuT2dlNVFMY012dy1PazVLTW5SelEtQkRWdGRPdlMzWWc?oc=5": "2026-11-23",
+    "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/": "2026-11-24",
+    "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive": "2026-11-24",
+    "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/": "2026-11-24",
+    "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/": "2026-11-24",
+    "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/": "2026-11-24",
+    "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban": "2026-11-24",
+    "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/": "2026-11-24",
+    "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features": "2026-11-24",
+    "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/": "2026-11-24",
+    "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes": "2026-11-24",
+    "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/": "2026-11-24",
+    "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/": "2026-11-24",
+    "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/": "2026-11-24",
+    "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents/": "2026-11-24",
+    "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/": "2026-11-24",
+    "https://openai.com/index/searching-for-distant-planets-with-astra": "2026-11-24",
+    "https://therundownai.beehiiv.com/p/jensen-huang-returns-to-nvidia": "2026-11-24",
+    "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/": "2026-11-24",
+    "https://huggingface.co/spaces/Lakonik/pi-H3": "2026-11-24",
+    "https://www.ultralytics.com/blog/yolo-tensorrt-int8-entropy-calibration": "2026-11-24",
+    "https://www.ultralytics.com/blog/stm32n6-yolo26-st-edge-ai": "2026-11-24",
+    "https://openai.com/business/customer-stories/intentful-dots": "2026-11-24",
+    "https://openai.com/business/customer-stories/ifood": "2026-11-24",
+    "https://tldr.tech/ai/2026-11-24": "2026-11-24",
+    "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/": "2026-11-24",
+    "https://openai.com/index/introducing-shirudo": "2026-11-24",
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZzJaa0t4blY2blZCVlB4QkRsRV84WXRMdlRVb1FnSnhvVFNISlkwX3lmQjZCV1lXYXAzTlVyczB4WXlOY0IteFdmQXN5QU1WdEt1Z3lNbzBTN0IxeXZWc2hIUGUwelMtVThlcnZCUG9ZYTc1cUQ4WGczUkFSckgxQ0ZsVHAyRV9ValJjckhpWmV6WkdtMFBQMEtOVkFuYTVYMW1DaFJ1aUkwUnUxVVFBWlRjTlNZajJ2Tm5EQUVpeGNodGZNWkNTSmZZMi01RGs?oc=5": "2026-11-24",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRU01VDJjUVQwdmx1YmdQYnR2dFVsMV9CMlROYnZnQzJNYkEwUW9fa0E2MERzRWV2WnR1RGRxOFhhd0QxRUk1ekdhSFl3S2hRSXd0aUhxSVhUei1GaUMybWFrZS1fcVFZbjhkSjAtQTZsZndDRndYeVZyQ0Z1WDR2ZGs3d3gwZkllTkZ3OFd2SEpUSjFDQ1BLbS0tRk9Yc1FkbHpoenZ6SkNfMFRi?oc=5": "2026-11-24"
   }
 }
