@@ -1,32 +1,32 @@
 {
-  "generated_at": "24/11/2026 às 17:12 (BRT)",
+  "generated_at": "24/11/2026 às 17:53 (BRT)",
   "date": "2026-11-24",
-  "total_items": 94,
+  "total_items": 98,
   "sources_status": {
-    "TechCrunch AI (Diário 24/7)": "OK (5 itens)",
     "The Verge AI (Diário 24/7)": "OK (4 itens)",
-    "OpenAI News": "OK (4 itens)",
     "Ars Technica AI": "OK (4 itens)",
-    "TLDR AI": "OK (5 itens)",
     "MIT Technology Review AI": "OK (4 itens)",
+    "TechCrunch AI (Diário 24/7)": "OK (5 itens)",
+    "OpenAI News": "OK (4 itens)",
+    "TLDR AI": "OK (5 itens)",
+    "The Rundown AI": "OK (4 itens)",
     "Anthropic News (Claude)": "OK (4 itens)",
-    "Mercado IA Brasil": "OK (5 itens)",
-    "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
-    "Hugging Face Models": "OK (6 itens)",
     "Hugging Face Spaces": "OK (4 itens)",
+    "Hugging Face Models": "OK (6 itens)",
     "Google AI Blog": "OK (4 itens)",
     "NVIDIA Blog": "OK (4 itens)",
-    "Microsoft Copilot & Azure AI": "OK (4 itens)",
-    "Hacker News AI": "OK (5 itens)",
+    "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
     "n8n Blog": "OK (4 itens)",
+    "Hacker News AI": "OK (5 itens)",
+    "Microsoft Copilot & Azure AI": "OK (4 itens)",
+    "Mercado IA Brasil": "OK (5 itens)",
     "NVIDIA Developer Blog": "OK (4 itens)",
-    "The Batch (Andrew Ng)": "ERRO: HTTP Error 403: Forbidden",
-    "The Rundown AI": "OK (4 itens)",
     "Ultralytics Blog": "OK (4 itens)",
+    "The Batch (Andrew Ng)": "ERRO: HTTP Error 403: Forbidden",
     "LangChain / LangGraph": "OK (4 itens)",
-    "LocalLLaMA & Open Source": "OK (0 itens)",
-    "GitHub Trending Python": "OK (5 itens)",
+    "LocalLLaMA & Open Source": "OK (4 itens)",
     "GitHub Trending TypeScript": "OK (4 itens)",
+    "GitHub Trending Python": "OK (5 itens)",
     "Ranking Top 50 LLMs (Artificial Analysis)": "OK (50 Top50 / 20 Open)"
   },
   "rankings": {
@@ -810,6 +810,37 @@
   },
   "items": [
     {
+      "source": "The Verge AI",
+      "section": "newsletters",
+      "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+      "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "date": "2026-11-24T15:02:03-05:00",
+      "published_ts": 1795550523,
+      "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang […]",
+      "full_paragraphs": [
+        "Posts from this topic will be added to your daily email digest and your homepage feed.",
+        "Posts from this author will be added to your daily email digest and your homepage feed.",
+        "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket’s Marisa Kabas.",
+        "During the meeting, Huang reportedly called claims that President Donald Trump was directly involved in his reinstatement — an idea publicly promoted by Trump himself — “completely untrue.” He added, “Don’t think for a second politics played a role in the company. We are the most apolitical company,” according to Kabas.",
+        "Along with attempting to dismiss Trump’s involvement, Huang reportedly said he also didn’t return because he was a “tech bro” who was “above the law” or “above the code of conduct.” He added that, “no story has been more tortured than this one in human history,” Kabas reports. Instead, Huang said the Nvidia board “evaluated the entire situation,” while receiving assurance from the government that he posed no national security threat, according to the NYT.",
+        "Huang resigned as CEO of Nvidia on November 12th, following reports of affairs with an alleged Chinese spy and two employees, including vice president of healthcare Kimberly Powell. On Monday, Nvidia announced that it had reinstated Huang as CEO, president, and member of the board — a decision the White House said Trump was “totally involved in.” Trump also confirmed that he worked with Vice President JD Vance and other officials to bring Huang back. A swath of tech leaders, including Tesla CEO Elon Musk, Epic Games CEO Tim Sweeney, and former White House AI czar David Sacks, were also in favor of Huang’s return.",
+        "In a post on Truth Social, Trump said that the government “has no reason to believe” Huang’s return poses a risk to national security, adding that the US attorney general “does not possess evidence” that he engaged in “unlawful conduct.” Nvidia is still facing an investigation over its accounting practices, according to Reuters. The company is also carrying out its own internal investigation surrounding reports that Huang was the target of a Chinese spy plot. Huang is set to testify before Congress on December 1st to answer questions about national security concerns, and Democrats are already planning to press Huang about his return, as well as Trump’s involvement.",
+        "Even after all this, Huang reportedly said he “doesn’t believe in succession planning.” He also acknowledged that he violated Nvidia’s code of conduct, adding that he is attending therapy daily, Bloomberg reports. “I made some terrible mistakes,” Huang said, according to the NYT. “I was unfaithful to Lori, and I hurt my kids and of course, I hurt all of you.”"
+      ],
+      "title_pt": "Jensen Huang supostamente disse à equipe da Nvidia que ‘não é verdade’ Trump o recontratou",
+      "summary_pt": "O CEO da Nvidia, Jensen Huang, pediu desculpas à equipe durante sua primeira visita geral desde que retornou à empresa, enquanto tentava se distanciar da narrativa de que a Casa Branca e os líderes de tecnologia o ajudaram a recuperar seu emprego, de acordo com relatórios da Bloomberg, The New York Times e Marisa Kabas do The Handbasket. Durante a reunião, Huang […]",
+      "full_paragraphs_pt": [
+        "As postagens deste tópico serão adicionadas ao seu resumo diário por e-mail e ao feed da sua página inicial.",
+        "As postagens deste autor serão adicionadas ao seu resumo diário por e-mail e ao feed da sua página inicial.",
+        "O CEO da Nvidia, Jensen Huang, pediu desculpas à equipe durante sua primeira visita geral desde que retornou à empresa, enquanto tentava se distanciar da narrativa de que a Casa Branca e os líderes de tecnologia o ajudaram a recuperar seu emprego, de acordo com relatórios da Bloomberg, The New York Times e Marisa Kabas do The Handbasket.",
+        "Durante a reunião, Huang teria chamado as alegações de que o presidente Donald Trump estava diretamente envolvido na sua reintegração – uma ideia promovida publicamente pelo próprio Trump – “completamente falsas”. Ele acrescentou: \"Não pense nem por um segundo que a política desempenhou um papel na empresa. Somos a empresa mais apolítica\", segundo Kabas.",
+        "Além de tentar descartar o envolvimento de Trump, Huang teria dito que também não voltou porque era um “mano da tecnologia” que estava “acima da lei” ou “acima do código de conduta”. Ele acrescentou que “nenhuma história foi mais torturada do que esta na história da humanidade”, relata Kabas. Em vez disso, Huang disse que o conselho da Nvidia “avaliou toda a situação”, ao mesmo tempo que recebeu garantia do governo de que não representava nenhuma ameaça à segurança nacional, de acordo com o NYT.",
+        "Huang renunciou ao cargo de CEO da Nvidia em 12 de novembro, após relatos de casos com um suposto espião chinês e dois funcionários, incluindo a vice-presidente de saúde Kimberly Powell. Na segunda-feira, a Nvidia anunciou que havia reintegrado Huang como CEO, presidente e membro do conselho – uma decisão na qual a Casa Branca disse que Trump estava “totalmente envolvido”. Trump também confirmou que trabalhou com o vice-presidente JD Vance e outras autoridades para trazer Huang de volta. Vários líderes de tecnologia, incluindo o CEO da Tesla, Elon Musk, o CEO da Epic Games, Tim Sweeney, e o ex-czar da IA ​​da Casa Branca, David Sacks, também foram a favor do retorno de Huang.",
+        "Numa publicação no Truth Social, Trump disse que o governo “não tem motivos para acreditar” que o regresso de Huang representa um risco para a segurança nacional, acrescentando que o procurador-geral dos EUA “não possui provas” de que se envolveu em “conduta ilegal”. A Nvidia ainda enfrenta uma investigação sobre suas práticas contábeis, segundo a Reuters. A empresa também está conduzindo sua própria investigação interna em torno de relatos de que Huang foi alvo de uma conspiração de espionagem chinesa. Huang deverá testemunhar perante o Congresso no dia 1 de dezembro para responder a perguntas sobre questões de segurança nacional, e os democratas já estão a planear pressionar Huang sobre o seu regresso, bem como sobre o envolvimento de Trump.",
+        "Mesmo depois de tudo isso, Huang teria dito que “não acredita no planejamento de sucessão”. Ele também reconheceu que violou o código de conduta da Nvidia, acrescentando que faz terapia diariamente, relata a Bloomberg. “Cometi alguns erros terríveis”, disse Huang, segundo o NYT. “Fui infiel a Lori e machuquei meus filhos e, claro, machuquei todos vocês.”"
+      ]
+    },
+    {
       "source": "NVIDIA Developer (Jetson/Omniverse)",
       "section": "industria",
       "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
@@ -996,37 +1027,6 @@
         "Meta também anunciou que os usuários agora podem fazer mais com as postagens e rolos que marcaram no Instagram. Por exemplo, eles podem pedir ao Muse para organizar o conteúdo salvo em pastas personalizadas, conhecidas como Coleções. Eles também podem pedir ao Muse para transformar um vídeo de receita em uma lista de compras, transformar o conteúdo de viagens de seus criadores de viagens favoritos em um itinerário para uma próxima viagem ou fazer com que o Muse envie ideias de roupas com base nos rolos de moda que eles coletaram.",
         "A partir de terça-feira, quando os usuários salvarem uma postagem no Instagram, eles verão uma solicitação para o Muse organizá-la para eles. Este recurso está sendo lançado nos EUA e no Canadá.",
         "Meta diz que os usuários permanecem no controle de sua experiência com o Muse no Instagram. Nada é compartilhado, publicado ou enviado sem a sua aprovação, e eles podem pedir ao Muse para esquecer informações ou desfazer ações a qualquer momento."
-      ]
-    },
-    {
-      "source": "The Verge AI",
-      "section": "newsletters",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "date": "2026-11-24T11:52:41-05:00",
-      "published_ts": 1795539161,
-      "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh […]",
-      "full_paragraphs": [
-        "Posts from this topic will be added to your daily email digest and your homepage feed.",
-        "An email sent to freelance photographers says Photoshop’s latest update uses AI ‘in ways that may not be apparent.’",
-        "Posts from this author will be added to your daily email digest and your homepage feed.",
-        "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI “in ways that may not be apparent to users.” In an email seen by The Verge and posted on Threads, two of the Times ’ photography leaders, Meaghan Looram and Josh Haner, write that the use of these features “can result in metadata identifying photographs as AI-generated.”",
-        "Adobe has spent the past few years filling Photoshop and other apps in its creative suite with a trove of AI-powered tools. The November update cited by the NYT ’s email adds several new AI features, including Adobe’s new “AI Assisted Editor” view, which lets users access all of Photoshop’s AI features from a single toolbar. It also adds an AI assistant for step-by-step editing instructions, prompt-based image transformation and editing, new AI upscaling options, and an AI-powered tool that recomposes images for different canvas sizes.",
-        "It’s not always clear which tools in Adobe’s apps are AI-powered, and even some older options like automated selection tools may now be considered part of the AI suite. This can lead to photos ending up with metadata indicating they were edited with AI, which is a blunt way of describing what happened in post-production. For a newsroom like the Times, where photo editing is kept to a minimum, the metadata risks losing readers’ trust. Last year, the Times said that it does not “retouch or digitally manipulate” photos but may “make minimal adjustments to color to ensure we are accurately reproducing the image.”",
-        "In August, Adobe began rolling out support for C2PA metadata across its apps, which indicates whether an image is AI-generated or edited using AI features. The NYT is issuing its restriction to keep these tags from inadvertently appearing in its photos. “At this time, we are requiring that all contributing photographers avoid using Adobe Photoshop 2027 (release 28.0.0 and subsequent updates) when working on assignment for The Times,” the email reads. NYT spokesperson Graham James confirmed the requirement in a statement to The Verge, which reiterated the policy outlined in the email.",
-        "It’s still not clear which specific Photoshop features the NYT is referring to. Adobe didn’t immediately respond to The Verge ’s request for more information."
-      ],
-      "title_pt": "O New York Times alerta os fotógrafos para não atualizarem o Photoshop sobre os recursos de IA",
-      "summary_pt": "O New York Times está pedindo aos fotógrafos freelance que não usem a versão mais recente do Adobe Photoshop porque os recursos da atualização de 2027 usam IA “de maneiras que podem não ser aparentes para os usuários”. Em um e-mail visto pelo The Verge e postado no Threads, dois dos líderes fotográficos do Times, Meaghan Looram e Josh […]",
-      "full_paragraphs_pt": [
-        "As postagens deste tópico serão adicionadas ao seu resumo diário por e-mail e ao feed da sua página inicial.",
-        "Um e-mail enviado a fotógrafos freelance diz que a atualização mais recente do Photoshop usa IA “de maneiras que podem não ser aparentes”.",
-        "As postagens deste autor serão adicionadas ao seu resumo diário por e-mail e ao feed da sua página inicial.",
-        "O New York Times está pedindo aos fotógrafos freelance que não usem a versão mais recente do Adobe Photoshop porque os recursos da atualização de 2027 usam IA “de maneiras que podem não ser aparentes para os usuários”. Em um e-mail visto pelo The Verge e postado no Threads, dois dos líderes fotográficos do Times, Meaghan Looram e Josh Haner, escrevem que o uso desses recursos “pode resultar em metadados que identificam fotografias como geradas por IA”.",
-        "A Adobe passou os últimos anos preenchendo o Photoshop e outros aplicativos em seu pacote criativo com um tesouro de ferramentas baseadas em IA. A atualização de novembro citada pelo e-mail do NYT adiciona vários novos recursos de IA, incluindo a nova visualização “AI Assisted Editor” da Adobe, que permite aos usuários acessar todos os recursos de IA do Photoshop a partir de uma única barra de ferramentas. Ele também adiciona um assistente de IA para instruções de edição passo a passo, transformação e edição de imagens com base em prompts, novas opções de aumento de escala de IA e uma ferramenta alimentada por IA que recompõe imagens para diferentes tamanhos de tela.",
-        "Nem sempre está claro quais ferramentas nos aplicativos da Adobe são baseadas em IA, e até mesmo algumas opções mais antigas, como ferramentas de seleção automatizada, agora podem ser consideradas parte do conjunto de IA. Isso pode fazer com que as fotos acabem com metadados indicando que foram editadas com IA, o que é uma forma contundente de descrever o que aconteceu na pós-produção. Para uma redação como o Times, onde a edição de fotos é reduzida ao mínimo, os metadados correm o risco de perder a confiança dos leitores. No ano passado, o Times disse que não “retoca ou manipula digitalmente” fotos, mas pode “fazer ajustes mínimos na cor para garantir que estamos reproduzindo a imagem com precisão”.",
-        "Em agosto, a Adobe começou a implementar suporte para metadados C2PA em seus aplicativos, que indicam se uma imagem é gerada por IA ou editada usando recursos de IA. O NYT está emitindo restrições para evitar que essas tags apareçam inadvertidamente em suas fotos. “No momento, exigimos que todos os fotógrafos colaboradores evitem usar o Adobe Photoshop 2027 (versão 28.0.0 e atualizações subsequentes) ao trabalhar em trabalhos para o The Times”, diz o e-mail. O porta-voz do NYT, Graham James, confirmou a exigência em uma declaração ao The Verge, que reiterou a política descrita no e-mail.",
-        "Ainda não está claro a quais recursos específicos do Photoshop o NYT se refere. A Adobe não respondeu imediatamente ao pedido de mais informações do The Verge."
       ]
     },
     {
@@ -1289,23 +1289,6 @@
       ]
     },
     {
-      "source": "NVIDIA Developer (Jetson/Omniverse)",
-      "section": "industria",
-      "title": "What’s New for Game Developers: AI Animation and RTX Tools",
-      "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/",
-      "date": "2026-11-24T02:20:14Z",
-      "published_ts": 1795486814,
-      "summary": "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image...",
-      "full_paragraphs": [
-        "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image quality, performance, and creative intent. This post covers: In an interview, Gaijin Entertainment shares how it integrated DLSS 5 with 3D-Guided Neural Rendering into War Thunder’s Dagor Engine while preserving the game’s…"
-      ],
-      "title_pt": "O que há de novo para desenvolvedores de jogos: animação de IA e ferramentas RTX",
-      "summary_pt": "As atualizações de desenvolvimento de jogos da NVIDIA deste mês ajudam as equipes a trazer novos gráficos, animações e recursos locais de IA para seus mecanismos, ao mesmo tempo que equilibram a imagem...",
-      "full_paragraphs_pt": [
-        "As atualizações de desenvolvimento de jogos da NVIDIA deste mês ajudam as equipes a trazer novos gráficos, animações e recursos locais de IA para seus mecanismos, ao mesmo tempo que equilibram qualidade de imagem, desempenho e intenção criativa. Este post cobre: ​​Em uma entrevista, a Gaijin Entertainment compartilha como integrou o DLSS 5 com a renderização neural guiada em 3D no motor Dagor do War Thunder, preservando ao mesmo tempo o jogo…"
-      ]
-    },
-    {
       "source": "Anthropic News (Claude)",
       "section": "labs",
       "title": "Investing in the public benefit",
@@ -1322,7 +1305,7 @@
         "This builds on commitments our co-founders and employees have already made. When Anthropic was founded, our co-founders pledged to donate 80% of their equity holdings, and since founding we have also operated an equity donation match program that allows employees to pledge equity which Anthropic matches. Approximately half of our employees participate in this program. When combined with today’s announcement, roughly 20% of Anthropic shares will be dedicated to the public good, plus any additional percentage that could be added if the company reaches specific valuation milestones.",
         "In the coming months, we will share more about the Anthropic Public Benefit Fund’s structure and governance, including the valuation milestones that may add to its stake. We will also report on our progress to date against our mission in an upcoming public benefit report."
       ],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Investir no benefício público",
       "summary_pt": "Hoje, estamos comprometendo parte das ações da Anthropic com o Fundo de Benefício Público da Anthropic, uma nova entidade integral com uma estrutura que aumenta a participação à medida que a empresa cresce. Sujeito à aprovação dos acionistas, 5% das ações da Anthropic serão comprometidas hoje, com 2% adicionais adicionados a critério do conselho para cada aumento de 50% no valor da empresa acima de uma linha de base definida. Como uma empresa de utilidade pública, a maior parte do nosso trabalho na prossecução da nossa missão ocorre dentro da empresa: investigação relevante para a IA",
       "full_paragraphs_pt": [
@@ -1349,7 +1332,7 @@
         "The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.",
         "A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Anthropic arquiva S-1 junto à SEC para proposta de oferta pública inicial",
       "summary_pt": "Hoje, a Anthropic, PBC apresentou uma declaração de registro no Formulário S-1 junto à Comissão de Valores Mobiliários dos EUA relativa à sua proposta de oferta pública inicial de suas ações ordinárias Classe A. A Anthropic pretende listar suas ações ordinárias Classe A no Nasdaq Global Select Market sob o símbolo “ANT”. A quantidade de ações ordinárias Classe A a serem ofertadas e a faixa de preço da oferta proposta ainda não foram determinadas.",
       "full_paragraphs_pt": [
@@ -1374,7 +1357,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026, and a related registration statement filed pursuant to Rule 462(b) under the Securities Act became effective upon filing on November 18, 2026. The offering was made only by means of a prospectus. Copies of the final prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Anthropic anuncia fechamento de oferta pública inicial, incluindo exercício integral da opção dos subscritores de compra de ações adicionais, e fechamento de…",
       "summary_pt": "Hoje a Antrópico, PBC anunciou o fechamento de sua oferta pública inicial de um total de 1.127.000.000 ações ordinárias Classe A a um preço de oferta pública de US$ 83,00 por ação, incluindo o exercício integral pelos subscritores de sua opção de comprar 147.000.000 ações ordinárias Classe A adicionais da Antrópico ao preço da oferta pública inicial. A oferta consistiu em 1.103.351.354 ações vendidas pela Anthropic e 23.648.646 ações vendidas por determinados acionistas vendedores. O valor bruto agregado",
       "full_paragraphs_pt": [
@@ -1399,7 +1382,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Oferta pública inicial de preços antrópicos",
       "summary_pt": "Hoje a Anthropic, PBC fixou o preço de sua oferta pública inicial de suas ações ordinárias Classe A em US$ 83,00 por ação. A oferta consiste em 980.000.000 ações ordinárias Classe A, das quais 956.351.354 estão sendo vendidas pela Anthropic e 23.648.646 das quais estão sendo vendidas por determinados acionistas vendedores. A Antthropic não receberá quaisquer recursos provenientes da venda de ações pelos acionistas vendedores. Espera-se que as ações comecem a ser negociadas no Nasdaq Global Select Market em 19 de novembro de 2026 sob o símbolo “ANT”. A oferta",
       "full_paragraphs_pt": [
@@ -1410,92 +1393,14 @@
       ]
     },
     {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 5,738 curtidas e 69,042 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 5,738 curtidas e 69,042 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
-      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,236 curtidas e 1,913,407 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,236 curtidas e 1,913,407 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "inworld/voice-isolator (audio-to-audio)",
-      "url": "https://huggingface.co/inworld/voice-isolator",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 806 curtidas e 12,733 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "inworld/voice-isolator (audio-to-audio)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 806 curtidas e 12,733 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
-      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 732 curtidas e 573,775 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 732 curtidas e 573,775 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
-      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,066 curtidas e 3,529 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,066 curtidas e 3,529 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "higurashi-ai/Haru-4B (audio-to-audio)",
-      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 973 curtidas e 9,575 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "higurashi-ai/Haru-4B (audio-to-audio)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 973 curtidas e 9,575 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "Hugging Face Spaces",
       "section": "tempo_real",
       "title": "Space: JCisHERE/wan2-2-i2v-v3",
       "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
       "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 706 curtidas da comunidade de engenharia de IA.",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 707 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Espaço: JCisHERE/wan2-2-i2v-v3",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 514 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1506,9 +1411,9 @@
       "title": "Space: MiniMaxAI/minimax-h3-image",
       "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
       "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 324 curtidas da comunidade de engenharia de IA.",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 325 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Espaço: MiniMaxAI/minimax-h3-image",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 213 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1521,7 +1426,7 @@
       "date": "Trending",
       "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 845 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Espaço: huggingface/moe-blogpost",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 762 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1534,9 +1439,87 @@
       "date": "Trending",
       "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 157 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Espaço: Lakonik/pi-H3",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 157 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 5,747 curtidas e 69,042 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 5,747 curtidas e 69,042 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,239 curtidas e 1,913,407 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,239 curtidas e 1,913,407 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "inworld/voice-isolator (audio-to-audio)",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 808 curtidas e 12,733 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "inworld/voice-isolator (audio-to-audio)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 808 curtidas e 12,733 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 735 curtidas e 573,775 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 735 curtidas e 573,775 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,066 curtidas e 3,529 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "harness-hub/Qwen3.8-27B-pi-adapted (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,066 curtidas e 3,529 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "higurashi-ai/Haru-4B (audio-to-audio)",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 973 curtidas e 9,575 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "higurashi-ai/Haru-4B (audio-to-audio)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 973 curtidas e 9,575 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs_pt": []
     },
     {
@@ -1556,7 +1539,7 @@
         "max sets each tensor's range from the single largest value seen during calibration. If one activation spikes far above the rest, the whole range stretches to cover it, and the ordinary values that carry most of the signal get squeezed into a few levels. entropy instead picks the clipping range that best preserves each tensor's distribution, measured by minimum KL divergence, and saturates the rare outliers.",
         "That explains a result that looked backwards. More calibration images bring more outliers, so following the docs' advice to calibrate on more data made max engines worse. On YOLO26s-pose, going from 4 calibration images to 128 dropped the max engine from 0.6103 to 0.3130 pose mAP 50-95 on COCO val2017, while the entropy engine held steady, 0.6118 and 0.6106."
       ],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Calibração de entropia Yolo Tensorrt Int8",
       "summary_pt": "Ultralytics 8.4.217 muda a calibração do TensorRT 11 INT8 para entropia, recuperando até 29,76 pose e 20,10 box mAP 50-95 pontos com 128 imagens. Se você exportar o Ultralytics YOLO para um mecanismo TensorRT INT8, o método de calibração decidirá quanta precisão você manterá. Até esta semana, nosso caminho TensorRT 11 calibrado com max, e em alguns modelos que custam muito. Em um NVIDIA RTX PRO 6000 Blackwell, um mecanismo de segmentação Ultralytics YOLO26s calibrado em 128 imagens marcou 0,2675 box mAP 50-95 no COCO val2017, contra 0,47",
       "full_paragraphs_pt": [
@@ -1587,7 +1570,7 @@
         "Model quantization maps an activation tensor's float values onto 256 integer levels with one per-tensor scale and zero point, so the values in that tensor need to share a range. A YOLO detection head breaks that rule: it joins box coordinates in pixels, about 0 to 640 at the default 640-pixel input, with class scores from 0 to 1 in one output tensor.",
         "Give that tensor one INT8 scale and the boxes set it. Each integer step then covers about 2.5 pixels, so class scores, which live between 0 and 1, lose almost all of their resolution. This is why the standard ONNX export with quantize=8 quantizes only the convolution and matrix-multiplication layers and leaves the head in float. On a GPU or CPU, that is a sensible trade. On a microcontroller, a float head costs activation memory you would rather keep."
       ],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Stm32N6 Yolo26 St Borda Ai",
       "summary_pt": "Exporte Ultralytics YOLO26 para o NPU STM32N6 com formato = \"stedgeai\": gráfico inteiro INT8, calibração em suas próprias imagens e compilação com ST Edge AI Core. Como você coloca um modelo Ultralytics YOLO26 em um microcontrolador STM32N6? A partir de 20 de novembro de 2026, um comando de exportação fornece um modelo ONNX para o compilador ST. Ultralytics 8.4.216, lançado em 20 de novembro de 2026, adiciona format=\"stedgeai\", que grava um arquivo ONNX moldado para ST Edge AI Core, o conjunto de ferramentas STMicroelectronics que compila redes neurais para STM32 de",
       "full_paragraphs_pt": [
@@ -1618,7 +1601,7 @@
         "Qwen4-Max improves on Qwen3.8-Max on every headline metric, costs less per image and completed every benchmark request. It still sits well behind the leaders on average: GPT-6.1 Terra scores 0.560 for less money and in well under half the time.",
         "Each dot is a paid model on the Ultralytics VLM Leaderboard."
       ],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Anotação automática Qwen4 Max",
       "summary_pt": "Qwen4-Max ocupa o 13º lugar entre 51 em nosso benchmark de anotação automática, primeiro em radiografias de pulso e segundo nas prateleiras de varejo. Precisão, custo e como executá-lo. O Alibaba lançou o Qwen4-Max em 16 de novembro de 2026, chamando-o de o modelo mais capaz da família Qwen até o momento, com visão nativa e uma janela de contexto de um milhão de tokens. Executamos o teste no UL37, nosso benchmark de detecção de 36 conjuntos de dados, no mesmo dia.",
       "full_paragraphs_pt": [
@@ -1649,7 +1632,7 @@
         "In this run, the two are close on accuracy. Their mAP 50-95 scores, which reward tight boxes, differ by 0.001, and their precision by 0.003. Sol finds slightly more of the labeled objects: its 0.643 recall is the highest of all 50 models on the leaderboard, just ahead of Gemini 4 Carbon's 0.642. It is also the fastest of the top seven models, at 3.4 seconds per image.",
         "The eight highest-scoring models on UL37, with provider cost per 1,000 images."
       ],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "Anotação automática Gpt 6 2 Sol Vs Astra",
       "summary_pt": "GPT-6.2 Sol e Astra pontuam 0,551 e 0,546 mAP 50 em 36 conjuntos de dados de detecção, mas Sol custa US$ 8,10 por 1.000 imagens versus US$ 31,88. Aqui está o que usar. A OpenAI lançou o GPT-6.2 Astra e o GPT-6.2 Sol em 17 de novembro de 2026, descrevendo o Astra como seu modelo mais capaz e o Sol como seu modelo ideal para o trabalho diário. Quando pedimos que desenhassem caixas delimitadoras, a precisão deles ficou próxima. Seus preços não.",
       "full_paragraphs_pt": [
@@ -1664,71 +1647,6 @@
       ]
     },
     {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "elementalsouls/Claude-BugHunter (+1,833 ⭐ hoje)",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "date": "Trending",
-      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "elementalsouls/Claude-BugHunter (+1.833 ⭐ hoje)",
-      "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 84 habilidades, 15 comandos de barra, 681 padrões de relatórios divulgados com curadoria de 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "HKUDS/CLI-Anything (+1,075 ⭐ hoje)",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "date": "Trending",
-      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "HKUDS/CLI-Qualquer coisa (+1.075 ⭐ hoje)",
-      "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "jingyaogong/minimind (+727 ⭐ hoje)",
-      "url": "https://github.com/jingyaogong/minimind",
-      "date": "Trending",
-      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "jingyaogong/minimind (+727 ⭐ hoje)",
-      "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "mvanhorn/last30days-skill (+695 ⭐ hoje)",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "date": "Trending",
-      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "mvanhorn/last30days-skill (+695 ⭐ hoje)",
-      "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "Tracer-Cloud/opensre (+408 ⭐ hoje)",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "date": "Trending",
-      "summary": "The open-source agent for CI/CD reliability.",
-      "full_paragraphs": [],
-      "published_ts": 1795486347,
-      "title_pt": "Tracer-Cloud/opensre (+408 ⭐ hoje)",
-      "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "GitHub Trending (Typescript)",
       "section": "tempo_real",
       "title": "cursor/plugins (+359 ⭐ hoje)",
@@ -1736,7 +1654,7 @@
       "date": "Trending",
       "summary": "Cursor plugin specification and official plugins",
       "full_paragraphs": [],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "cursor/plugins (+359 ⭐ hoje)",
       "summary_pt": "Especificação do plugin de cursor e plugins oficiais",
       "full_paragraphs_pt": []
@@ -1749,7 +1667,7 @@
       "date": "Trending",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "full_paragraphs": [],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "firecrawl/firecrawl (+990 ⭐ hoje)",
       "summary_pt": "Infraestrutura de conhecimento para tornar seus agentes mais inteligentes. Pesquise, extraia e acesse mais de 550 provedores de dados por meio de uma API.",
       "full_paragraphs_pt": []
@@ -1762,7 +1680,7 @@
       "date": "Trending",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs": [],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "google-labs-code/stitch-skills (+401 ⭐ hoje)",
       "summary_pt": "Uma biblioteca de habilidades de agente projetada para funcionar com o servidor Stitch MCP. Cada habilidade segue o padrão aberto Agent Skills, para compatibilidade com agentes de codificação como Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs_pt": []
@@ -1775,10 +1693,92 @@
       "date": "Trending",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "full_paragraphs": [],
-      "published_ts": 1795486347,
+      "published_ts": 1795488793,
       "title_pt": "toeverything/AFFiNE (+589 ⭐ hoje)",
       "summary_pt": "Pode haver mais do que Notion e Miro. AFFiNE (pronuncia-se [ə'fain]) é uma base de conhecimento de última geração que reúne planejamento, classificação e criação. Privacidade em primeiro lugar, código aberto, personalizável e pronto para uso.",
       "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "elementalsouls/Claude-BugHunter (+1,833 ⭐ hoje)",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "date": "Trending",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "elementalsouls/Claude-BugHunter (+1.833 ⭐ hoje)",
+      "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 84 habilidades, 15 comandos de barra, 681 padrões de relatórios divulgados com curadoria de 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "HKUDS/CLI-Anything (+1,075 ⭐ hoje)",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "date": "Trending",
+      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "HKUDS/CLI-Qualquer coisa (+1.075 ⭐ hoje)",
+      "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "jingyaogong/minimind (+727 ⭐ hoje)",
+      "url": "https://github.com/jingyaogong/minimind",
+      "date": "Trending",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "jingyaogong/minimind (+727 ⭐ hoje)",
+      "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "mvanhorn/last30days-skill (+695 ⭐ hoje)",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "date": "Trending",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "mvanhorn/last30days-skill (+695 ⭐ hoje)",
+      "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "Tracer-Cloud/opensre (+408 ⭐ hoje)",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "date": "Trending",
+      "summary": "The open-source agent for CI/CD reliability.",
+      "full_paragraphs": [],
+      "published_ts": 1795488793,
+      "title_pt": "Tracer-Cloud/opensre (+408 ⭐ hoje)",
+      "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "NVIDIA Developer (Jetson/Omniverse)",
+      "section": "industria",
+      "title": "What’s New for Game Developers: AI Animation and RTX Tools",
+      "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/",
+      "date": "2026-11-24T02:20:14Z",
+      "published_ts": 1795486814,
+      "summary": "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image...",
+      "full_paragraphs": [
+        "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image quality, performance, and creative intent. This post covers: In an interview, Gaijin Entertainment shares how it integrated DLSS 5 with 3D-Guided Neural Rendering into War Thunder’s Dagor Engine while preserving the game’s…"
+      ],
+      "title_pt": "O que há de novo para desenvolvedores de jogos: animação de IA e ferramentas RTX",
+      "summary_pt": "As atualizações de desenvolvimento de jogos da NVIDIA deste mês ajudam as equipes a trazer novos gráficos, animações e recursos locais de IA para seus mecanismos, ao mesmo tempo que equilibram a imagem...",
+      "full_paragraphs_pt": [
+        "As atualizações de desenvolvimento de jogos da NVIDIA deste mês ajudam as equipes a trazer novos gráficos, animações e recursos locais de IA para seus mecanismos, ao mesmo tempo que equilibram qualidade de imagem, desempenho e intenção criativa. Este post cobre: ​​Em uma entrevista, a Gaijin Entertainment compartilha como integrou o DLSS 5 com a renderização neural guiada em 3D no motor Dagor do War Thunder, preservando ao mesmo tempo o jogo…"
+      ]
     },
     {
       "source": "OpenAI News",
@@ -1943,6 +1943,19 @@
       "full_paragraphs_pt": []
     },
     {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "GLM 5.4 is great at coding. But absolutely garbage at writing and anything but that. Are future open weight models going to be just codemaxxed?? - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkhNUTQ4eXNuSmFrbnoyQWlhQlRLSVFFYkp2ODNBd3RhSlpIczFDdkd5Nnd1SUR4ekxDNDhuOHUxaS1uQUJ3UEE0dHFnSzl3eXMwY0JlODVjQU5WYVN6T255Qkw3cFlWRVpDcEVMaVhHYzFGdkdBT0FhSVc4bGNKYzVjRDlDWHBaOFd6akJwdTM4TVlFMVVnS3FpMU10MmFabFY2Uw?oc=5",
+      "date": "Mon, 23 Nov 2026 15:50:16",
+      "published_ts": 1795449016,
+      "summary": "GLM 5.4 is great at coding. But absolutely garbage at writing and anything but that. Are future open weight models going to be just codemaxxed?? Reddit",
+      "full_paragraphs": [],
+      "title_pt": "GLM 5.4 é ótimo em codificação. Mas absolutamente lixo na escrita e tudo menos isso. Os futuros modelos de peso aberto serão apenas codemaxxados? -Reddit",
+      "summary_pt": "GLM 5.4 é ótimo em codificação. Mas absolutamente lixo na escrita e tudo menos isso. Os futuros modelos de peso aberto serão apenas codemaxxados? Reddit",
+      "full_paragraphs_pt": []
+    },
+    {
       "source": "n8n (Automação & Orquestração)",
       "section": "industria",
       "title": "The Monday morning incident: your “Lead Routing” workflow stopped routing",
@@ -2005,6 +2018,32 @@
       ]
     },
     {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYzkxaFJ4UUU1a0VVNjB3R1BWUjBSMEhnSmlJeklMTFJ2MlQyakM5c21RTlNCV21RRTNWVzJrOWdFcHM3dUlOV200ZWVwdV9LaUpscmdISEgzTkhIbHdXM3ktUVhFS1B0dnJldTJuOEEybTlHODAwdDhTTmQzMThZeDFuT2dlNVFMY012dy1PazVLTW5SelEtQkRWdGRPdlMzWWc?oc=5",
+      "date": "Mon, 23 Nov 2026 10:11:32",
+      "published_ts": 1795428692,
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer Reddit",
+      "full_paragraphs": [],
+      "title_pt": "GLM-5.4: Rumo à codificação generalizada com nosso primeiro transformador de loop - Reddit",
+      "summary_pt": "GLM-5.4: Rumo à codificação generalizada com nosso primeiro transformador de loop Reddit",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "GLM-5.4 is now available to all GLM Coding Plan users - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTHJZRGdRQ0QyMnpYc0F1TWw2ei1sQi1YVjAzZnFhSHpVa3ZoT0xkajlNMGVfQ3RzSFVGbFdDZld5TWVQRjlGSVpFUGJMb2JVQk1sQUFnUmQyeDZBWjE2WEY5Ym1hWDJXUXZ3aWRfYXdvREg0a0NiY3Q4VDFvelhEWVdCUHZ5UEloX2NrRUpTbE1RVE9yTmV6ZlA5OU9HcVBE?oc=5",
+      "date": "Mon, 23 Nov 2026 04:30:31",
+      "published_ts": 1795408231,
+      "summary": "GLM-5.4 is now available to all GLM Coding Plan users Reddit",
+      "full_paragraphs": [],
+      "title_pt": "GLM-5.4 agora está disponível para todos os usuários do Plano de Codificação GLM - Reddit",
+      "summary_pt": "GLM-5.4 agora está disponível para todos os usuários do Plano de Codificação GLM Reddit",
+      "full_paragraphs_pt": []
+    },
+    {
       "source": "TLDR AI",
       "section": "newsletters",
       "title": "OpenAI publishes progress 🧠, Inkling 2 Mini 💧, Riemann proof 📐",
@@ -2015,6 +2054,19 @@
       "full_paragraphs": [],
       "title_pt": "OpenAI publica progresso 🧠, Inkling 2 Mini 💧, prova de Riemann 📐",
       "summary_pt": "A Plaid entrevistou mais de 1.000 tomadores de decisão financeiras e mais de 2.000 consumidores. Suas respostas nem sempre estão alinhadas. 4/ Suporte exclusivo: especialistas em IA agregam valor em 3 meses",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "Inkling-2-Mini-Unbound v2 is out: conv-aware abliterated, then self-distilled on its own best answers. 52% → 79% useful answers and measurably the best uncensored Inkling 2 Mini…",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUWF1VnV5ZnFoYVdNZWJ0STVjUk56NVR4THZCbEgyWXY0ZGdybWRwX0N1N1ZnTzI0dkdrcjZHUkpEVS01dmJqelZxMVBIQTlEVXpIYWw3M2ppdVhfblNrNEF6WTByUGNGYWVPeUZRTW5BQXpvRlZZUElvYUhKNXRJYldoZHNQUVJ0UjVjR1BMOHdsUDdyYUxwag?oc=5",
+      "date": "Sun, 22 Nov 2026 14:02:31",
+      "published_ts": 1795356151,
+      "summary": "Inkling-2-Mini-Unbound v2 is out: conv-aware abliterated, then self-distilled on its own best answers. 52% → 79% useful answers and measurably the best uncensored Inkling 2 Mini available Reddit",
+      "full_paragraphs": [],
+      "title_pt": "Inkling-2-Mini-Unbound v2 foi lançado: com reconhecimento de conv abolido e depois autodestilado em suas próprias melhores respostas. 52% → 79% de respostas úteis e mensuravelmente o melhor Inkling 2 Mini sem censura…",
+      "summary_pt": "Inkling-2-Mini-Unbound v2 foi lançado: com reconhecimento de conv abolido e depois autodestilado em suas próprias melhores respostas. 52% → 79% de respostas úteis e mensuravelmente o melhor Inkling 2 Mini sem censura disponível no Reddit",
       "full_paragraphs_pt": []
     },
     {
@@ -2644,19 +2696,6 @@
       ]
     },
     {
-      "source": "Radar IA Brasil (Empresas & Indústria)",
-      "section": "newsletters",
-      "title": "Muito barulho, pouca receita: o gargalo da IA na indústria de consumo - Exame",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQk1EYk11NDhTckJ5WF9xZGhCYjQydTZMUWVhM3djSWk1V1UzM3c5ektrRmJhT0hfOW9DVkZGd3JNbHUxalJ0RHJ5V0V1cUVsdTJ2bzM1UHlNVGwtbFI5ZDF3aWpUS01lNGo2TlJ1Z1dtRkJYS1B1MVFvZjNtT3lFaWdOYmRzTmVlSG05SllfNUVLZS0xR2xXOG9nV2lhU214NmRnTXhsTXVQU0otcTJv?oc=5",
-      "date": "Sat, 03 Oct 2026 07:00:00",
-      "published_ts": 1791010800,
-      "summary": "Muito barulho, pouca receita: o gargalo da IA na indústria de consumo Exame",
-      "full_paragraphs": [],
-      "title_pt": "Muito barulho, pouca receita: o gargalo da IA na indústria de consumo - Exame",
-      "summary_pt": "Muito barulho, pouca receita: o gargalo da IA na indústria de consumo Exame",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "One Useful Thing (Ethan Mollick)",
       "section": "newsletters",
       "title": "The Dot and the Swarm",
@@ -2724,6 +2763,19 @@
       "full_paragraphs": [],
       "title_pt": "Indústria adota IA e transforma mercado de trabalho - Gazeta do Povo",
       "summary_pt": "Indústria adota IA e transforma mercado de trabalho Gazeta do Povo",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Radar IA Brasil (Empresas & Indústria)",
+      "section": "newsletters",
+      "title": "6 gigantes da indústria alimentícia que utilizam IA em seus processos - e são exemplos de sucesso - Exame",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaWxyWWhpZ1l3RjJId1BCclVHREJrWjkwemkwRThZWU1YRjBXSFo4WmpSOElXTGVwQVpvdm9hOEFJRFlSVF9VcVVtS1BQLXhjVmRybVRjSm16XzRVdFJKX0NyYWdyLWdxcHMydUhnQ3ZETVE1QlM4cnhNcFJMdWZySXl0ZTNTMXVkOHplMUQ1cE00V1ZSUGl5c0tvS1hmRDRKUHJfeW1TcEhIT3RCZ1JKaWJtUWwwelhvNTNLUVc1SW1LVkwwSlQycUREbWlrbXVuVC1xXw?oc=5",
+      "date": "Sun, 21 Jun 2026 07:00:00",
+      "published_ts": 1782025200,
+      "summary": "6 gigantes da indústria alimentícia que utilizam IA em seus processos - e são exemplos de sucesso Exame",
+      "full_paragraphs": [],
+      "title_pt": "6 gigantes da indústria alimentícia que utilizam IA em seus processos - e são exemplos de sucesso - Exame",
+      "summary_pt": "6 gigantes da indústria alimentícia que utilizam IA em seus processos - e são exemplos de sucesso Exame",
       "full_paragraphs_pt": []
     },
     {
