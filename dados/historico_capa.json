@@ -19,6 +19,10 @@
     "2026-11-24": [
       "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
       "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+    ],
+    "2026-11-25": [
+      "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+      "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
     ]
   },
   "seen_urls": {
@@ -205,6 +209,23 @@
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRU01VDJjUVQwdmx1YmdQYnR2dFVsMV9CMlROYnZnQzJNYkEwUW9fa0E2MERzRWV2WnR1RGRxOFhhd0QxRUk1ekdhSFl3S2hRSXd0aUhxSVhUei1GaUMybWFrZS1fcVFZbjhkSjAtQTZsZndDRndYeVZyQ0Z1WDR2ZGs3d3gwZkllTkZ3OFd2SEpUSjFDQ1BLbS0tRk9Yc1FkbHpoenZ6SkNfMFRi?oc=5": "2026-11-24",
     "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology": "2026-11-24",
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkhNUTQ4eXNuSmFrbnoyQWlhQlRLSVFFYkp2ODNBd3RhSlpIczFDdkd5Nnd1SUR4ekxDNDhuOHUxaS1uQUJ3UEE0dHFnSzl3eXMwY0JlODVjQU5WYVN6T255Qkw3cFlWRVpDcEVMaVhHYzFGdkdBT0FhSVc4bGNKYzVjRDlDWHBaOFd6akJwdTM4TVlFMVVnS3FpMU10MmFabFY2Uw?oc=5": "2026-11-24",
-    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUWF1VnV5ZnFoYVdNZWJ0STVjUk56NVR4THZCbEgyWXY0ZGdybWRwX0N1N1ZnTzI0dkdrcjZHUkpEVS01dmJqelZxMVBIQTlEVXpIYWw3M2ppdVhfblNrNEF6WTByUGNGYWVPeUZRTW5BQXpvRlZZUElvYUhKNXRJYldoZHNQUVJ0UjVjR1BMOHdsUDdyYUxwag?oc=5": "2026-11-24"
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUWF1VnV5ZnFoYVdNZWJ0STVjUk56NVR4THZCbEgyWXY0ZGdybWRwX0N1N1ZnTzI0dkdrcjZHUkpEVS01dmJqelZxMVBIQTlEVXpIYWw3M2ppdVhfblNrNEF6WTByUGNGYWVPeUZRTW5BQXpvRlZZUElvYUhKNXRJYldoZHNQUVJ0UjVjR1BMOHdsUDdyYUxwag?oc=5": "2026-11-24",
+    "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/": "2026-11-25",
+    "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/": "2026-11-25",
+    "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers": "2026-11-25",
+    "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/": "2026-11-25",
+    "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal": "2026-11-25",
+    "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/": "2026-11-25",
+    "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions": "2026-11-25",
+    "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/": "2026-11-25",
+    "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/": "2026-11-25",
+    "https://therundownai.beehiiv.com/p/three-xai-founders-want-ai-to-predict-the-future": "2026-11-25",
+    "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/": "2026-11-25",
+    "https://huggingface.co/SulphurAI/Sulphur-3": "2026-11-25",
+    "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF": "2026-11-25",
+    "https://tldr.tech/ai/2026-11-25": "2026-11-25",
+    "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware": "2026-11-25",
+    "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": "2026-11-25",
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY1J4RXlUdkZGVkxMbHVYLXZJU3lLa3dSTkdoZHhVa2M2Y1JNb3JJeXFvMEYzS2pOb2hGQW4taC1KdjFzSktHa2VqVWRncjlKdEpBbTl6SzBFWlZjRmFDZ3dFU09EUFh5Ulk1X2xaR3FyRWFCR0ZjcnBxVEcwOGFEUlFmTWNMOWwzUC1qbHo5dUJsQ0haTmZlUUlCNlZJT2NNQzFnSVNkd0lrV2JQS3ROcXd5V0hqY29Wa2dTNWFtN1ZpQkpjamdCNUU5c1g?oc=5": "2026-11-25"
   }
 }
