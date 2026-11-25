@@ -1,32 +1,32 @@
 {
-  "generated_at": "25/11/2026 às 16:21 (BRT)",
+  "generated_at": "25/11/2026 às 17:10 (BRT)",
   "date": "2026-11-25",
-  "total_items": 94,
+  "total_items": 98,
   "sources_status": {
-    "The Verge AI (Diário 24/7)": "OK (4 itens)",
-    "TechCrunch AI (Diário 24/7)": "OK (5 itens)",
     "MIT Technology Review AI": "OK (4 itens)",
-    "Ars Technica AI": "OK (4 itens)",
+    "TechCrunch AI (Diário 24/7)": "OK (5 itens)",
     "OpenAI News": "OK (4 itens)",
-    "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
-    "Anthropic News (Claude)": "OK (4 itens)",
+    "TLDR AI": "OK (5 itens)",
     "The Rundown AI": "OK (4 itens)",
+    "Ars Technica AI": "OK (4 itens)",
+    "The Verge AI (Diário 24/7)": "OK (4 itens)",
     "Hugging Face Models": "OK (6 itens)",
     "Hugging Face Spaces": "OK (4 itens)",
-    "TLDR AI": "OK (5 itens)",
+    "Anthropic News (Claude)": "OK (4 itens)",
     "Google AI Blog": "OK (4 itens)",
+    "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
     "NVIDIA Blog": "OK (4 itens)",
+    "Mercado IA Brasil": "OK (5 itens)",
     "Hacker News AI": "OK (5 itens)",
     "n8n Blog": "OK (4 itens)",
-    "NVIDIA Developer Blog": "OK (4 itens)",
     "Microsoft Copilot & Azure AI": "OK (4 itens)",
+    "NVIDIA Developer Blog": "OK (4 itens)",
     "Ultralytics Blog": "OK (4 itens)",
     "The Batch (Andrew Ng)": "ERRO: HTTP Error 403: Forbidden",
-    "Mercado IA Brasil": "OK (5 itens)",
-    "LocalLLaMA & Open Source": "ERRO: HTTP Error 429: Too Many Requests",
-    "GitHub Trending Python": "OK (5 itens)",
     "LangChain / LangGraph": "OK (4 itens)",
+    "LocalLLaMA & Open Source": "OK (4 itens)",
     "GitHub Trending TypeScript": "OK (4 itens)",
+    "GitHub Trending Python": "OK (5 itens)",
     "Ranking Top 50 LLMs (Artificial Analysis)": "OK (50 Top50 / 20 Open)"
   },
   "rankings": {
@@ -810,6 +810,116 @@
   },
   "items": [
     {
+      "source": "TechCrunch AI",
+      "section": "newsletters",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "date": "Wed, 25 Nov 2026 20:03:27",
+      "published_ts": 1795637007,
+      "summary": "While the rollout has started for a small group of users, OpenAI plans to bring shared usage limits more broadly in December, per its support page. Similar to OpenAI, rival Anthropic also moved to bring its conversational chat service Claude and work-focused Cowork under one interface in September.",
+      "full_paragraphs": [
+        "While the rollout has started for a small group of users, OpenAI plans to bring shared usage limits more broadly in December, per its support page.",
+        "Similar to OpenAI, rival Anthropic also moved to bring its conversational chat service Claude and work-focused Cowork under one interface in September.",
+        "The changes come as AI companies face mounting infrastructure costs and growing demand for increasingly capable models, putting pressure on their computing resources. Bringing conversational and work-related tools into a single interface could also make AI chatbots simpler to use, allowing users to move between chats and more complex tasks without switching tabs.",
+        "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+        "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+        "Figma employee sues, alleging company forced her to confront harassers Dominic-Madori Davis",
+        "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes Sarah Perez",
+        "Startup sues Apple in India over tap-to-share contacts feature Jagmeet Singh"
+      ],
+      "title_pt": "OpenAI diz que usuários frequentes do ChatGPT podem atingir os limites mais cedo, à medida que funde Chat e Work",
+      "summary_pt": "Embora a implementação tenha começado para um pequeno grupo de usuários, a OpenAI planeja ampliar os limites de uso compartilhado em dezembro, de acordo com sua página de suporte. Semelhante ao OpenAI, a rival Anthropic também mudou para trazer seu serviço de bate-papo conversacional Claude e Cowork focado no trabalho em uma única interface em setembro.",
+      "full_paragraphs_pt": [
+        "Embora a implementação tenha começado para um pequeno grupo de usuários, a OpenAI planeja ampliar os limites de uso compartilhado em dezembro, de acordo com sua página de suporte.",
+        "Semelhante ao OpenAI, a rival Anthropic também mudou para trazer seu serviço de bate-papo conversacional Claude e Cowork focado no trabalho em uma única interface em setembro.",
+        "As mudanças ocorrem num momento em que as empresas de IA enfrentam custos crescentes de infraestrutura e uma procura crescente por modelos cada vez mais capazes, colocando pressão sobre os seus recursos computacionais. Trazer ferramentas de conversação e relacionadas ao trabalho em uma única interface também poderia tornar os chatbots de IA mais simples de usar, permitindo que os usuários alternassem entre bate-papos e tarefas mais complexas sem alternar entre guias.",
+        "Quando você compra por meio de links em nossos artigos, podemos ganhar uma pequena comissão. Isso não afeta nossa independência editorial.",
+        "Jagmeet cobre startups, atualizações relacionadas a políticas de tecnologia e todos os outros grandes desenvolvimentos centrados em tecnologia da Índia para o TechCrunch. Anteriormente, ele trabalhou como correspondente principal na NDTV.",
+        "Funcionária da Figma processa, alegando que a empresa a forçou a confrontar os assediadores Dominic-Madori Davis",
+        "Anthropic lança Claude Ship, permitindo que agentes de IA revisem, corrijam e aprovem alterações de código Sarah Perez",
+        "Startup processa Apple na Índia por recurso de contato toque para compartilhar Jagmeet Singh"
+      ]
+    },
+    {
+      "source": "NVIDIA Developer (Jetson/Omniverse)",
+      "section": "industria",
+      "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
+      "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+      "date": "2026-11-25T19:55:58Z",
+      "published_ts": 1795636558,
+      "summary": "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and...",
+      "full_paragraphs": [
+        "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and NVIDIA Blackwell data center GPUs, FlashAttention3 and FlashAttention4 improve attention performance by overlapping matrix multiply-accumulate (MMA) operations through softmax within a thread block. However…"
+      ],
+      "title_pt": "Como otimizar a atenção do NVFP4 no NVIDIA RTX Blackwell por meio da reciclagem de registros",
+      "summary_pt": "A atenção pode ser um grande gargalo ao servir modelos de base mundial, onde sequências longas tornam a inferência computacionalmente exigente. No NVIDIA Hopper e...",
+      "full_paragraphs_pt": [
+        "A atenção pode ser um grande gargalo ao servir modelos de base mundial, onde sequências longas tornam a inferência computacionalmente exigente. Nas GPUs de data center NVIDIA Hopper e NVIDIA Blackwell, FlashAttention3 e FlashAttention4 melhoram o desempenho da atenção ao sobrepor operações de multiplicação e acumulação de matriz (MMA) por meio de softmax dentro de um bloco de thread. No entanto…"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "section": "newsletters",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "date": "Wed, 25 Nov 2026 19:54:57",
+      "published_ts": 1795636497,
+      "summary": "When Jensen Huang gave his first all-hands address since returning as CEO, there was an odd emphasis on Nvidia’s code of conduct. He admitted to violating the code, then emphasized that no one was exempt from it. But that “does not mean, the moment you violate a code of conduct, we walk you out the door,” Huang said, according to Wired. “Facts, circumstances, a lot of assessments” still matter. In other words, the code applies to everyone, but breaking it doesn’t automatically cost anyone their job, including, appa",
+      "full_paragraphs": [
+        "When Jensen Huang gave his first all-hands address since returning as CEO, there was an odd emphasis on Nvidia’s code of conduct. He admitted to violating the code, then emphasized that no one was exempt from it. But that “does not mean, the moment you violate a code of conduct, we walk you out the door,” Huang said, according to Wired. “Facts, circumstances, a lot of assessments” still matter. In other words, the code applies to everyone, but breaking it doesn’t automatically cost anyone their job, including, apparently, the CEO.",
+        "It’s an awkward stance for a company whose CEO has admitted to breaking its rules. A central part of modern human resources, a code of conduct can seem like a quasi-legal rulebook that lays out unacceptable behavior. But experts say most codes are better understood as a reflection of corporate culture. When an infraction goes unpunished, the main risk isn’t legal but cultural — that employees will feel embarrassed or even angry about the company they work for. That’s the risk Huang now faces at Nvidia.",
+        "Matt Plass, chief market strategy officer at LRN, an ethics and compliance training outfit, recently surveyed more than 2,000 workers across different industries for a study on workplace codes of conduct. As Plass sees it, the biggest risk is that employees will become ashamed of their workplace.",
+        "“People coming into the workforce now, ethics is incredibly important to them,” he told TechCrunch. “They’re really mindful of the ethical standards of their company. They’re really embarrassed and angry when senior leadership lets them down.”",
+        "The consequences of violating the rules aren’t always tangible, but they’re definitely real. Plass gave one example of a company that banned corporate travel to cut costs – only to have its CEO turn up in a VIP box at the Olympics.",
+        "“For over a decade afterwards, ‘the Olympics’ was used within that company as an example of the worst thing an employee could do. People would say, ‘Yeah, I shouldn’t have done that, but it’s not like I went to the Olympics.’”",
+        "Plass says companies that remove an executive typically do so after an investigation, then try to win back employees. “In most organizations they make a change at the top based on what’s happened,” he said, “and then they will have a hearts-and-minds initiative, to go out to their employee base and their customers and their investors and everybody else, and say, we get it. We’re sorry. We’ve changed. That’s essentially what they do.”",
+        "Of course, that playbook is harder to follow at a company like Nvidia, where Huang left without a clear succession plan, and there are serious doubts about whether the company could continue to thrive without him. In cases like that, Plass acknowledges there’s no easy answer."
+      ],
+      "title_pt": "Jensen Huang quebrou o código de conduta da Nvidia e seus funcionários não podem esquecer isso",
+      "summary_pt": "Quando Jensen Huang fez seu primeiro discurso geral desde que retornou como CEO, houve uma estranha ênfase no código de conduta da Nvidia. Ele admitiu ter violado o código e depois enfatizou que ninguém estava isento dele. Mas isso “não significa que, no momento em que você violar um código de conduta, nós o acompanharemos porta afora”, disse Huang, de acordo com a Wired. “Fatos, circunstâncias, muitas avaliações” ainda importam. Em outras palavras, o código se aplica a todos, mas quebrá-lo não custa automaticamente o trabalho de ninguém, inclusive, appa",
+      "full_paragraphs_pt": [
+        "Quando Jensen Huang fez seu primeiro discurso geral desde que retornou como CEO, houve uma estranha ênfase no código de conduta da Nvidia. Ele admitiu ter violado o código e depois enfatizou que ninguém estava isento dele. Mas isso “não significa que, no momento em que você violar um código de conduta, nós o acompanharemos porta afora”, disse Huang, de acordo com a Wired. “Fatos, circunstâncias, muitas avaliações” ainda importam. Por outras palavras, o código aplica-se a todos, mas quebrá-lo não custa automaticamente o emprego de ninguém, incluindo, aparentemente, o CEO.",
+        "É uma postura estranha para uma empresa cujo CEO admitiu ter violado as suas regras. Parte central dos recursos humanos modernos, um código de conduta pode parecer um conjunto de regras quase legais que estabelece comportamentos inaceitáveis. Mas os especialistas dizem que a maioria dos códigos é melhor compreendida como um reflexo da cultura corporativa. Quando uma infração fica impune, o principal risco não é legal, mas cultural — o de que os funcionários se sintam envergonhados ou até irritados com a empresa em que trabalham. Esse é o risco que Huang enfrenta agora na Nvidia.",
+        "Matt Plass, diretor de estratégia de mercado da LRN, uma empresa de treinamento em ética e conformidade, entrevistou recentemente mais de 2.000 trabalhadores de diferentes setores para um estudo sobre códigos de conduta no local de trabalho. Na opinião de Plass, o maior risco é que os funcionários tenham vergonha de seu local de trabalho.",
+        "“Para as pessoas que estão ingressando no mercado de trabalho agora, a ética é extremamente importante para elas”, disse ele ao TechCrunch. \"Eles estão realmente atentos aos padrões éticos de sua empresa. Eles ficam muito envergonhados e irritados quando a liderança sênior os decepciona.\"",
+        "As consequências da violação das regras nem sempre são tangíveis, mas são definitivamente reais. Plass deu o exemplo de uma empresa que proibiu viagens corporativas para cortar custos – apenas para ver o seu CEO aparecer num camarote VIP nos Jogos Olímpicos.",
+        "\"Por mais de uma década depois, 'as Olimpíadas' foram usadas naquela empresa como um exemplo da pior coisa que um funcionário poderia fazer. As pessoas diriam: 'Sim, eu não deveria ter feito isso, mas não é como se eu tivesse ido às Olimpíadas'\".",
+        "Plass diz que as empresas que demitem um executivo normalmente o fazem após uma investigação e depois tentam reconquistar funcionários. “Na maioria das organizações, eles fazem uma mudança no topo com base no que aconteceu”, disse ele, “e então eles terão uma iniciativa de coração e mente, para ir até sua base de funcionários, seus clientes, seus investidores e todos os outros, e dizer: nós entendemos. Lamentamos. Nós mudamos. Isso é essencialmente o que eles fazem”.",
+        "É claro que esse manual é mais difícil de seguir em uma empresa como a Nvidia, de onde Huang saiu sem um plano de sucessão claro, e há sérias dúvidas sobre se a empresa poderia continuar a prosperar sem ele. Em casos como esse, Plass reconhece que não há uma resposta fácil."
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "section": "newsletters",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "date": "Wed, 25 Nov 2026 19:44:24",
+      "published_ts": 1795635864,
+      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+      "full_paragraphs": [
+        "Anthropic CEO Dario Amodei is pushing back against claims that Anthropic believes we should “surrender human free will” to AI systems. In a long X post on Wednesday, Amodei called the suggestion “absurd.”",
+        "“We should never sacrifice legitimacy or self-determination at the altar of efficiency or security,” he wrote. This argument against autocracy applies word for word against governance by AI, and I feel equally strongly that turning over governance to AI is a bad idea…No one who had carefully read my writing or my interviews could reasonably conclude that I believe anything different.”",
+        "The statement comes after a growing chorus from Anthropic rivals suggesting that human agency could be at risk if AI is developed irresponsibly. Earlier this month, OpenAI CEO Sam Altman said he wanted to ensure people continue to have “agency over the future.”",
+        "Meta’s chief AI officer Alexandr Wang also wrote in an essay on X that we “should not be okay with a ‘handover’ of society to AI.”",
+        "“It is hard to imagine a world where humanity can maintain control over fully unconstrained recursive self-improvement,” Wang wrote. “Now that we are at a point where the scientific and technical problems on capability progress are likely solved, we must not only make progress in the extremely urgent areas of safety, alignment, and security, but we have to start thinking through how we progress thoughtfully.”",
+        "But in published essays, Amodei claims he has repeatedly advocated for democratic oversight of AI, saying the technology should strengthen democratic institutions and that humans should retain ultimate decision-making power.",
+        "Amodei noted that there’s a difference between surrendering human free will broadly and the idea that “as AI systems advance, they become capable of doing specific tasks in a more automated way.” As examples, he gave AI driving a car, designing a cancer drug, or writing end-to-end software.",
+        "Amodei suggested drawing a line at recursive self-improvement (RSI), or AI that can improve itself without human assistance. Many safety experts see RSI as inevitably leading to a loss of human control, a point Amodei implicitly acknowledged, writing, “we may want limits on this process.”"
+      ],
+      "title_pt": "Dario Amodei, da Anthropic, chama de ‘absurdas’ as acusações de entregar o controle humano à IA",
+      "summary_pt": "O CEO da Anthropic, Dario Amodei, rejeita as acusações dos rivais de que é a favor de entregar a agência humana à IA, mesmo quando as principais empresas de IA automatizam cada vez mais a sua própria investigação e desenvolvimento de modelos.",
+      "full_paragraphs_pt": [
+        "O CEO da Anthropic, Dario Amodei, está resistindo às alegações de que a Anthropic acredita que devemos “entregar o livre arbítrio humano” aos sistemas de IA. Em uma longa postagem X na quarta-feira, Amodei chamou a sugestão de “absurda”.",
+        "“Nunca devemos sacrificar a legitimidade ou a autodeterminação no altar da eficiência ou da segurança”, escreveu ele. Este argumento contra a autocracia aplica-se palavra por palavra contra a governação pela IA, e sinto igualmente fortemente que entregar a governação à IA é uma má ideia…Ninguém que tenha lido cuidadosamente os meus escritos ou as minhas entrevistas poderia razoavelmente concluir que acredito em algo diferente.”",
+        "A declaração surge após um coro crescente de rivais antrópicos sugerindo que a agência humana poderia estar em risco se a IA fosse desenvolvida de forma irresponsável. No início deste mês, o CEO da OpenAI, Sam Altman, disse que queria garantir que as pessoas continuassem a ter “arbítrio no futuro”.",
+        "O diretor de IA da Meta, Alexandr Wang, também escreveu em um ensaio sobre X que “não deveríamos aceitar uma ‘transferência’ da sociedade para a IA”.",
+        "“É difícil imaginar um mundo onde a humanidade possa manter o controle sobre o autoaperfeiçoamento recursivo totalmente irrestrito”, escreveu Wang. “Agora que estamos num ponto em que os problemas científicos e técnicos sobre o progresso da capacidade estão provavelmente resolvidos, não devemos apenas fazer progressos nas áreas extremamente urgentes de segurança, alinhamento e proteção, mas temos de começar a pensar em como podemos progredir cuidadosamente.”",
+        "Mas em ensaios publicados, Amodei afirma ter defendido repetidamente a supervisão democrática da IA, dizendo que a tecnologia deveria fortalecer as instituições democráticas e que os humanos deveriam reter o poder de decisão final.",
+        "Amodei observou que há uma diferença entre renunciar amplamente ao livre arbítrio humano e a ideia de que “à medida que os sistemas de IA avançam, eles se tornam capazes de realizar tarefas específicas de uma forma mais automatizada”. Como exemplos, ele citou a IA dirigindo um carro, projetando um medicamento contra o câncer ou escrevendo software de ponta a ponta.",
+        "Amodei sugeriu traçar um limite para o autoaperfeiçoamento recursivo (RSI), ou IA, que pode melhorar a si mesmo sem assistência humana. Muitos especialistas em segurança consideram que a LER conduz inevitavelmente a uma perda de controlo humano, um ponto que Amodei reconheceu implicitamente, escrevendo: “podemos querer limites neste processo”."
+      ]
+    },
+    {
       "source": "Ars Technica AI",
       "section": "labs",
       "title": "Backblaze explains why it's sharing customer information with advertisers",
@@ -953,37 +1063,6 @@
       ]
     },
     {
-      "source": "TechCrunch AI",
-      "section": "newsletters",
-      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
-      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-      "date": "Wed, 25 Nov 2026 15:41:43",
-      "published_ts": 1795621303,
-      "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]",
-      "full_paragraphs": [
-        "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck.",
-        "⁠Anita Verma-Lallian⁠ has been selling exactly that. Her company, Arizona Land Consulting, assembles data center sites for developers, hyperscalers, AI labs, and neoclouds, giving her a view into who’s buying, what makes a site viable, and where projects are running into trouble. She also partners with investor ⁠Chamath Palihapitiya,⁠ who has been predicting an industry shakeout.",
-        "On this episode of TechCrunch’s ⁠Equity⁠ podcast, Rebecca Bellan talks with Verma-Lallian about who bears the risk when Nvidia gets pickier, why speculative projects could be the first to fall apart, and what a 2027 shakeout might look like.",
-        "Theresa Loconsolo is an audio producer at TechCrunch focusing on Equity, the network’s flagship podcast. Before joining TechCrunch in 2022, she was one of 2 producers at a four-station conglomerate where she wrote, recorded, voiced and edited content, and engineered live performances and interviews from guests like lovelytheband. Theresa is based in New Jersey and holds a bachelors degree in Communication from Monmouth University. You can contact or verify outreach from Theresa by emailing [email protected]. View Bio Rebecca Bellan Senior Reporter",
-        "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
-        "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
-        "Figma employee sues, alleging company forced her to confront harassers Dominic-Madori Davis",
-        "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes Sarah Perez"
-      ],
-      "title_pt": "Os data centers de IA estão se tornando mais difíceis de construir e as neonuvens estão sentindo isso",
-      "summary_pt": "⁠A Nvidia deixou claro⁠ que não apoiará um data center de IA até que ele esteja quase pronto para funcionar, e isso está acontecendo no momento em que as neonuvens relatam atrasos na construção e dívidas mais caras. A mensagem para os desenvolvedores é que terreno, energia e um edifício acabado são mais importantes do que uma apresentação. ⁠Anita Verma-Lallian⁠ tem vendido exatamente isso. […]",
-      "full_paragraphs_pt": [
-        "⁠A Nvidia deixou claro⁠ que não apoiará um data center de IA até que ele esteja quase pronto para funcionar, e isso está acontecendo no momento em que as neonuvens relatam atrasos na construção e dívidas mais caras. A mensagem para os desenvolvedores é que terreno, energia e um edifício acabado são mais importantes do que uma apresentação.",
-        "⁠Anita Verma-Lallian⁠ tem vendido exatamente isso. Sua empresa, Arizona Land Consulting, monta sites de data center para desenvolvedores, hiperscaladores, laboratórios de IA e neoclouds, dando a ela uma visão de quem está comprando, o que torna um site viável e onde os projetos estão enfrentando problemas. Ela também faz parceria com o investidor ⁠Chamath Palihapitiya,⁠ que vem prevendo uma mudança no setor.",
-        "Neste episódio do podcast ⁠Equity⁠ do TechCrunch, Rebecca Bellan fala com Verma-Lallian sobre quem assume o risco quando a Nvidia se torna mais exigente, por que projetos especulativos podem ser os primeiros a desmoronar e como seria uma mudança em 2027.",
-        "Theresa Loconsolo é produtora de áudio do TechCrunch com foco em Equity, o principal podcast da rede. Antes de ingressar no TechCrunch em 2022, ela foi uma das duas produtoras em um conglomerado de quatro estações onde escreveu, gravou, dublou e editou conteúdo, além de projetar performances ao vivo e entrevistas com convidados como Lovelytheband. Theresa mora em Nova Jersey e é bacharel em Comunicação pela Monmouth University. Você pode entrar em contato ou verificar a divulgação de Theresa enviando um e-mail para [email protegido]. Ver biografia Rebecca Bellan Repórter Sênior",
-        "Rebecca Bellan é repórter sênior do TechCrunch, onde cobre negócios, políticas e tendências emergentes que moldam a inteligência artificial. Seu trabalho também apareceu na Forbes, Bloomberg, The Atlantic, The Daily Beast e outras publicações.",
-        "Você pode entrar em contato ou verificar a divulgação de Rebecca enviando um e-mail para [email protegido] ou via mensagem criptografada em rebeccabellan.491 no Signal.",
-        "Funcionária da Figma processa, alegando que a empresa a forçou a confrontar os assediadores Dominic-Madori Davis",
-        "Anthropic lança Claude Ship, permitindo que agentes de IA revisem, corrijam e aprovem alterações de código Sarah Perez"
-      ]
-    },
-    {
       "source": "The Verge AI",
       "section": "newsletters",
       "title": "Amazon is reportedly in talks to end Muse AI shopping block",
@@ -1010,68 +1089,6 @@
         "Conforme relatado pela Fortune, a Amazon está preocupada com a possibilidade de perder receitas de publicidade ao permitir o Muse em seu site, uma vez que depende de humanos reais verem anúncios em seu mercado online. Também está supostamente preocupado com a qualidade dos resultados da pesquisa de produtos que o Muse apresentará aos usuários, bem como se o agente de IA afetará o relacionamento da Amazon com os clientes. Nem a Amazon nem a Meta responderam imediatamente ao pedido de comentários do The Verge.",
         "Embora alguns varejistas online, como Walmart, Best Buy, Gap e Sephora, tenham aberto suas portas digitais para agentes de IA como Muse, a Amazon tem sido mais hesitante. A Amazon também bloqueou o agente de IA da Perplexity de fazer compras em seu site e, em vez disso, se concentrou em promover seu próprio assistente Alexa for Shopping, para o qual os clientes agora podem enviar mensagens de texto para comprar em seu nome.",
         "Faça login para ver suas notificações ou crie uma conta para participar da conversa."
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "section": "newsletters",
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "date": "Wed, 25 Nov 2026 14:10:18",
-      "published_ts": 1795615818,
-      "summary": "Amazon may be having a change of heart about Meta’s AI agent, Muse. The two tech giants are reportedly discussing a potential deal that would allow Meta’s popular AI agent to connect directly to Amazon’s store. The talks would mark a significant reversal from just two months ago, when Muse users discovered they were unable to purchase products on Amazon and instead received an error message when attempting to check out.",
-      "full_paragraphs": [
-        "Amazon may be having a change of heart about Meta’s AI agent, Muse. The two tech giants are reportedly discussing a potential deal that would allow Meta’s popular AI agent to connect directly to Amazon’s store.",
-        "The talks would mark a significant reversal from just two months ago, when Muse users discovered they were unable to purchase products on Amazon and instead received an error message when attempting to check out.",
-        "According to a Wednesday report by Fortune, citing people familiar with the discussions, Amazon and Meta have held multiple rounds of talks about the matter. Two key issues remain under negotiation: how search results would be presented and how advertising would be handled under a potential agreement.",
-        "One of Amazon’s biggest concerns is how third-party shopping agents like Muse could affect its advertising business. In October, Amazon CEO Andy Jassy argued that few customers were making purchases through outside shopping agents.",
-        "Amazon may also have been waiting for Muse to mature before agreeing to integrate it with its marketplace. If Muse places the wrong order or creates a problem with a purchase, Amazon could ultimately be left dealing with frustrated customers and unhappy sellers.",
-        "Fortune reported that executives are concerned that third-party shopping agents could weaken Amazon’s direct relationship with consumers, according to people familiar with the matter.",
-        "Any potential agreement between Amazon and Meta would reportedly require approval from both companies’ CEOs, Fortune also reported.",
-        "Meta and Amazon have not yet responded to TechCrunch’s requests for comment."
-      ],
-      "title_pt": "Amazon e Meta supostamente em negociações para suspender o bloqueio ao agente de IA Muse",
-      "summary_pt": "A Amazon pode estar mudando de ideia em relação ao agente de IA da Meta, Muse. Os dois gigantes da tecnologia estão discutindo um acordo potencial que permitiria ao popular agente de IA da Meta se conectar diretamente à loja da Amazon. As negociações marcariam uma reversão significativa em relação a apenas dois meses atrás, quando os usuários do Muse descobriram que não conseguiam comprar produtos na Amazon e, em vez disso, receberam uma mensagem de erro ao tentar finalizar a compra.",
-      "full_paragraphs_pt": [
-        "A Amazon pode estar mudando de ideia em relação ao agente de IA da Meta, Muse. Os dois gigantes da tecnologia estão discutindo um acordo potencial que permitiria ao popular agente de IA da Meta se conectar diretamente à loja da Amazon.",
-        "As negociações marcariam uma reversão significativa em relação a apenas dois meses atrás, quando os usuários do Muse descobriram que não conseguiam comprar produtos na Amazon e, em vez disso, receberam uma mensagem de erro ao tentar finalizar a compra.",
-        "De acordo com um relatório de quarta-feira da Fortune, citando pessoas familiarizadas com as discussões, a Amazon e a Meta realizaram várias rodadas de negociações sobre o assunto. Duas questões-chave permanecem em negociação: como os resultados da pesquisa seriam apresentados e como a publicidade seria tratada no âmbito de um potencial acordo.",
-        "Uma das maiores preocupações da Amazon é como agentes de compras terceirizados, como a Muse, poderiam afetar seu negócio de publicidade. Em outubro, o CEO da Amazon, Andy Jassy, ​​argumentou que poucos clientes faziam compras através de agentes comerciais externos.",
-        "A Amazon também pode ter esperado que o Muse amadurecesse antes de concordar em integrá-lo ao seu mercado. Se o Muse fizer o pedido errado ou criar um problema com uma compra, a Amazon poderá acabar lidando com clientes frustrados e vendedores insatisfeitos.",
-        "A Fortune informou que os executivos estão preocupados com a possibilidade de agentes de compras terceirizados enfraquecerem o relacionamento direto da Amazon com os consumidores, segundo pessoas familiarizadas com o assunto.",
-        "Qualquer acordo potencial entre a Amazon e a Meta exigiria a aprovação dos CEOs de ambas as empresas, informou também a Fortune.",
-        "Meta e Amazon ainda não responderam aos pedidos de comentários do TechCrunch."
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "section": "newsletters",
-      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "date": "Wed, 25 Nov 2026 13:00:00",
-      "published_ts": 1795611600,
-      "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-      "full_paragraphs": [
-        "Jensen Huang’s return as CEO to Nvidia hasn’t eased the scrutiny the company faces. The chipmaker still needs to address multiple inquiries into allegations that its advanced GPUs were smuggled into China by a customer, the Singapore-based data center operator Megaspeed, in violation of U.S. export rules designed to slow China’s development of frontier AI models.",
-        "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang’s affair with a Megaspeed executive gave the company reason to doubt Megaspeed’s assurances. Huang’s return doesn’t settle that. U.S. Attorney General Todd Blanche has suggested Nvidia isn’t a target of an investigation, but California’s attorney general and Congress are pressing ahead, and the Securities and Exchange Commission is reportedly investigating, too.",
-        "The U.S. government opened an investigation into Megaspeed in 2024 and requested information from Nvidia about its billions of dollars in sales to the company, concerned that some of the chips Megaspeed bought for data center projects in Malaysia were in fact being diverted to China. Singapore also began investigating similar allegations in 2025. Megaspeed has denied any wrongdoing.",
-        "Diversion of this kind would be a fairly routine issue for a company like Nvidia, whose in-demand chips are the targets of smugglers and resellers. When it comes to compliance and liability for export-control violations, Nvidia and other chip sellers need assurances that the end users of their chips are obeying the rules. However, they also cannot ignore other information that might call the reliability of those assurances into question, export-control attorneys told TechCrunch.",
-        "And that’s why Jensen Huang’s affair with Megaspeed executive Alice Huang was such a problem for Nvidia, likely even more so than her alleged role as a source for Chinese intelligence agencies. If Nvidia personnel, from lower-level employees up to the CEO, had reason to believe that statements from Megaspeed weren’t reliable, the attorneys said, that would increase the company’s legal risk.",
-        "“Government investigators likely would want to know, notwithstanding whatever formal assurances were exchanged between the parties, what anyone at Nvidia actually knew about the end use and end users of the chips,” Dan Fisher-Owens, an attorney at the firm Berliner Corcoran & Rowe, told TechCrunch last week.",
-        "The concern Nvidia’s board faced when it decided to oust Huang is that he knew more about what Megaspeed was doing with Nvidia’s products than was reflected in any of the compliance statements. The Wall Street Journal reported that Alice Huang and her husband, Kang Wei, were part of a network of businesses that funneled chips to a company in Shanghai. Kang also reportedly introduced his wife to Jensen Huang, whom he had known for a decade.",
-        "On Monday, the U.S. government added Megaspeed and its affiliates to a list of companies restricted from U.S. trade due to national security concerns. The U.S. also issued new rules last week barring large data centers that purchase U.S. chips from serving customers in China and other nations seen as problematic by the U.S. government. Nvidia, meanwhile, said it would stop selling licensed chips to China and laid out plans to hire its first compliance officer and create a new board committee focused on export controls."
-      ],
-      "title_pt": "As questões que Jensen Huang e Nvidia ainda terão de responder sobre Megaspeed",
-      "summary_pt": "A questão central para os investigadores é o que a Nvidia sabia sobre onde esses chips foram parar e se o caso de Huang com um executivo da Megaspeed deu à empresa motivos para duvidar das garantias da Megaspeed.",
-      "full_paragraphs_pt": [
-        "O retorno de Jensen Huang como CEO da Nvidia não aliviou o escrutínio que a empresa enfrenta. A fabricante de chips ainda precisa responder a várias investigações sobre alegações de que suas GPUs avançadas foram contrabandeadas para a China por um cliente, a operadora de data center Megaspeed, com sede em Cingapura, em violação das regras de exportação dos EUA projetadas para retardar o desenvolvimento de modelos de IA de fronteira na China.",
-        "A questão central para os investigadores é o que a Nvidia sabia sobre onde esses chips foram parar e se o caso de Huang com um executivo da Megaspeed deu à empresa motivos para duvidar das garantias da Megaspeed. O retorno de Huang não resolve isso. O procurador-geral dos EUA, Todd Blanche, sugeriu que a Nvidia não é alvo de uma investigação, mas o procurador-geral da Califórnia e o Congresso estão avançando, e a Comissão de Valores Mobiliários também está investigando.",
-        "O governo dos EUA abriu uma investigação sobre a Megaspeed em 2024 e solicitou informações da Nvidia sobre seus bilhões de dólares em vendas para a empresa, preocupado que alguns dos chips que a Megaspeed comprou para projetos de data centers na Malásia estivessem na verdade sendo desviados para a China. Cingapura também começou a investigar alegações semelhantes em 2025. A Megaspeed negou qualquer irregularidade.",
-        "Desvio desse tipo seria um problema bastante rotineiro para uma empresa como a Nvidia, cujos chips muito procurados são alvo de contrabandistas e revendedores. Quando se trata de conformidade e responsabilidade por violações de controle de exportação, a Nvidia e outros vendedores de chips precisam de garantias de que os usuários finais de seus chips estão obedecendo às regras. No entanto, eles também não podem ignorar outras informações que possam questionar a confiabilidade dessas garantias, disseram advogados de controle de exportação ao TechCrunch.",
-        "E é por isso que o caso de Jensen Huang com a executiva da Megaspeed, Alice Huang, foi um problema tão grande para a Nvidia, provavelmente ainda mais do que seu suposto papel como fonte para agências de inteligência chinesas. Se o pessoal da Nvidia, desde funcionários de nível inferior até o CEO, tivesse motivos para acreditar que as declarações da Megaspeed não eram confiáveis, disseram os advogados, isso aumentaria o risco legal da empresa.",
-        "“Os investigadores do governo provavelmente gostariam de saber, independentemente de quaisquer garantias formais trocadas entre as partes, o que alguém na Nvidia realmente sabia sobre o uso final e os usuários finais dos chips”, disse Dan Fisher-Owens, advogado da empresa Berliner Corcoran & Rowe, ao TechCrunch na semana passada.",
-        "A preocupação que o conselho da Nvidia enfrentou quando decidiu demitir Huang é que ele sabia mais sobre o que a Megaspeed estava fazendo com os produtos da Nvidia do que o refletido em qualquer uma das declarações de conformidade. O Wall Street Journal informou que Alice Huang e seu marido, Kang Wei, faziam parte de uma rede de empresas que canalizava chips para uma empresa em Xangai. Kang também teria apresentado sua esposa a Jensen Huang, que ele conhecia há uma década.",
-        "Na segunda-feira, o governo dos EUA adicionou a Megaspeed e suas afiliadas a uma lista de empresas restritas ao comércio dos EUA devido a questões de segurança nacional. Os EUA também emitiram novas regras na semana passada proibindo grandes centros de dados que compram chips dos EUA de atender clientes na China e em outros países considerados problemáticos pelo governo dos EUA. Enquanto isso, a Nvidia disse que iria parar de vender chips licenciados para a China e traçou planos para contratar seu primeiro diretor de conformidade e criar um novo comitê de conselho focado em controles de exportação."
       ]
     },
     {
@@ -1137,6 +1154,136 @@
       ]
     },
     {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 5,986 curtidas e 96,527 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 5,986 curtidas e 96,527 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,360 curtidas e 2,445,633 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,360 curtidas e 2,445,633 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "inworld/voice-isolator (audio-to-audio)",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 887 curtidas e 15,244 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "inworld/voice-isolator (audio-to-audio)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 887 curtidas e 15,244 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 831 curtidas e 762,491 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 831 curtidas e 762,491 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "SulphurAI/Sulphur-3 (open-source)",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 1,042 curtidas e 189,735 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "SulphurAI/Sulphur-3 (open-source)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 1,042 curtidas e 189,735 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF (text-generation)",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'text-generation', com 304 curtidas e 59,366 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF (text-generation)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'text-generation', com 304 curtidas e 59,366 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Spaces",
+      "section": "tempo_real",
+      "title": "Space: JCisHERE/wan2-2-i2v-v3",
+      "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+      "date": "Trending",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 760 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "Espaço: JCisHERE/wan2-2-i2v-v3",
+      "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 514 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Spaces",
+      "section": "tempo_real",
+      "title": "Space: MiniMaxAI/minimax-h3-image",
+      "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
+      "date": "Trending",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 349 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "Espaço: MiniMaxAI/minimax-h3-image",
+      "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 213 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Spaces",
+      "section": "tempo_real",
+      "title": "Space: Lakonik/pi-H3",
+      "url": "https://huggingface.co/spaces/Lakonik/pi-H3",
+      "date": "Trending",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 173 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "Espaço: Lakonik/pi-H3",
+      "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 157 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Spaces",
+      "section": "tempo_real",
+      "title": "Space: huggingface/moe-blogpost",
+      "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+      "date": "Trending",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 853 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "Espaço: huggingface/moe-blogpost",
+      "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 762 curtidas da comunidade de engenharia de IA.",
+      "full_paragraphs_pt": []
+    },
+    {
       "source": "Anthropic News (Claude)",
       "section": "labs",
       "title": "Investing in the public benefit",
@@ -1153,7 +1300,7 @@
         "This builds on commitments our co-founders and employees have already made. When Anthropic was founded, our co-founders pledged to donate 80% of their equity holdings, and since founding we have also operated an equity donation match program that allows employees to pledge equity which Anthropic matches. Approximately half of our employees participate in this program. When combined with today’s announcement, roughly 20% of Anthropic shares will be dedicated to the public good, plus any additional percentage that could be added if the company reaches specific valuation milestones.",
         "In the coming months, we will share more about the Anthropic Public Benefit Fund’s structure and governance, including the valuation milestones that may add to its stake. We will also report on our progress to date against our mission in an upcoming public benefit report."
       ],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "Investir no benefício público",
       "summary_pt": "Hoje, estamos comprometendo parte das ações da Anthropic com o Fundo de Benefício Público da Anthropic, uma nova entidade integral com uma estrutura que aumenta a participação à medida que a empresa cresce. Sujeito à aprovação dos acionistas, 5% das ações da Anthropic serão comprometidas hoje, com 2% adicionais adicionados a critério do conselho para cada aumento de 50% no valor da empresa acima de uma linha de base definida. Como uma empresa de utilidade pública, a maior parte do nosso trabalho na prossecução da nossa missão ocorre dentro da empresa: investigação relevante para a IA",
       "full_paragraphs_pt": [
@@ -1180,7 +1327,7 @@
         "The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.",
         "A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "Anthropic arquiva S-1 junto à SEC para proposta de oferta pública inicial",
       "summary_pt": "Hoje, a Anthropic, PBC apresentou uma declaração de registro no Formulário S-1 junto à Comissão de Valores Mobiliários dos EUA relativa à sua proposta de oferta pública inicial de suas ações ordinárias Classe A. A Anthropic pretende listar suas ações ordinárias Classe A no Nasdaq Global Select Market sob o símbolo “ANT”. A quantidade de ações ordinárias Classe A a serem ofertadas e a faixa de preço da oferta proposta ainda não foram determinadas.",
       "full_paragraphs_pt": [
@@ -1205,7 +1352,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026, and a related registration statement filed pursuant to Rule 462(b) under the Securities Act became effective upon filing on November 18, 2026. The offering was made only by means of a prospectus. Copies of the final prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "Anthropic anuncia fechamento de oferta pública inicial, incluindo exercício integral da opção dos subscritores de compra de ações adicionais, e fechamento de…",
       "summary_pt": "Hoje a Antrópico, PBC anunciou o fechamento de sua oferta pública inicial de um total de 1.127.000.000 ações ordinárias Classe A a um preço de oferta pública de US$ 83,00 por ação, incluindo o exercício integral pelos subscritores de sua opção de comprar 147.000.000 ações ordinárias Classe A adicionais da Antrópico ao preço da oferta pública inicial. A oferta consistiu em 1.103.351.354 ações vendidas pela Anthropic e 23.648.646 ações vendidas por determinados acionistas vendedores. O valor bruto agregado",
       "full_paragraphs_pt": [
@@ -1230,7 +1377,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "Oferta pública inicial de preços antrópicos",
       "summary_pt": "Hoje a Anthropic, PBC fixou o preço de sua oferta pública inicial de suas ações ordinárias Classe A em US$ 83,00 por ação. A oferta consiste em 980.000.000 ações ordinárias Classe A, das quais 956.351.354 estão sendo vendidas pela Anthropic e 23.648.646 das quais estão sendo vendidas por determinados acionistas vendedores. A Antthropic não receberá quaisquer recursos provenientes da venda de ações pelos acionistas vendedores. Espera-se que as ações comecem a ser negociadas no Nasdaq Global Select Market em 19 de novembro de 2026 sob o símbolo “ANT”. A oferta",
       "full_paragraphs_pt": [
@@ -1239,136 +1386,6 @@
         "A declaração de registro relativa a esses valores mobiliários foi declarada efetiva pela Securities and Exchange Commission em 18 de novembro de 2026. A oferta está sendo feita apenas por meio de prospecto. Cópias do prospecto final podem ser obtidas, quando disponíveis, em: Goldman Sachs & Co. LLC, aos cuidados de: Prospectus Department, 200 West Street, New York, NY 10282, pelo telefone (866) 471-2526, ou por e-mail em prospectus-ny@ny.email.gs.com; ou Morgan Stanley & Co. LLC, Aos cuidados de: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, ou por e-mail em prospectus@morganstanley.com.",
         "O anúncio de hoje não constitui uma oferta de venda ou solicitação de oferta de compra desses valores mobiliários, nem deverá haver qualquer venda desses valores mobiliários em qualquer estado ou jurisdição em que tal oferta, solicitação ou venda seja ilegal antes do registro ou qualificação sob as leis de valores mobiliários de qualquer estado ou jurisdição."
       ]
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 5,957 curtidas e 96,527 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 5,957 curtidas e 96,527 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
-      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,335 curtidas e 2,445,633 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,335 curtidas e 2,445,633 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "inworld/voice-isolator (audio-to-audio)",
-      "url": "https://huggingface.co/inworld/voice-isolator",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 865 curtidas e 15,244 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "inworld/voice-isolator (audio-to-audio)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 865 curtidas e 15,244 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
-      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 814 curtidas e 762,491 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 814 curtidas e 762,491 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "SulphurAI/Sulphur-3 (open-source)",
-      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 1,012 curtidas e 189,735 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "SulphurAI/Sulphur-3 (open-source)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 1,012 curtidas e 189,735 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF (text-generation)",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'text-generation', com 279 curtidas e 59,366 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF (text-generation)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'text-generation', com 279 curtidas e 59,366 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Spaces",
-      "section": "tempo_real",
-      "title": "Space: JCisHERE/wan2-2-i2v-v3",
-      "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
-      "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 760 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "Espaço: JCisHERE/wan2-2-i2v-v3",
-      "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 514 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Spaces",
-      "section": "tempo_real",
-      "title": "Space: MiniMaxAI/minimax-h3-image",
-      "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
-      "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 347 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "Espaço: MiniMaxAI/minimax-h3-image",
-      "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 213 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Spaces",
-      "section": "tempo_real",
-      "title": "Space: Lakonik/pi-H3",
-      "url": "https://huggingface.co/spaces/Lakonik/pi-H3",
-      "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 173 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "Espaço: Lakonik/pi-H3",
-      "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 157 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Spaces",
-      "section": "tempo_real",
-      "title": "Space: huggingface/moe-blogpost",
-      "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
-      "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 853 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "Espaço: huggingface/moe-blogpost",
-      "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 762 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs_pt": []
     },
     {
       "source": "Ultralytics (YOLO / Visão Industrial)",
@@ -1387,7 +1404,7 @@
         "max sets each tensor's range from the single largest value seen during calibration. If one activation spikes far above the rest, the whole range stretches to cover it, and the ordinary values that carry most of the signal get squeezed into a few levels. entropy instead picks the clipping range that best preserves each tensor's distribution, measured by minimum KL divergence, and saturates the rare outliers.",
         "That explains a result that looked backwards. More calibration images bring more outliers, so following the docs' advice to calibrate on more data made max engines worse. On YOLO26s-pose, going from 4 calibration images to 128 dropped the max engine from 0.6103 to 0.3130 pose mAP 50-95 on COCO val2017, while the entropy engine held steady, 0.6118 and 0.6106."
       ],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "Calibração de entropia Yolo Tensorrt Int8",
       "summary_pt": "Ultralytics 8.4.217 muda a calibração do TensorRT 11 INT8 para entropia, recuperando até 29,76 pose e 20,10 box mAP 50-95 pontos com 128 imagens. Se você exportar o Ultralytics YOLO para um mecanismo TensorRT INT8, o método de calibração decidirá quanta precisão você manterá. Até esta semana, nosso caminho TensorRT 11 calibrado com max, e em alguns modelos que custam muito. Em um NVIDIA RTX PRO 6000 Blackwell, um mecanismo de segmentação Ultralytics YOLO26s calibrado em 128 imagens marcou 0,2675 box mAP 50-95 no COCO val2017, contra 0,47",
       "full_paragraphs_pt": [
@@ -1418,7 +1435,7 @@
         "Model quantization maps an activation tensor's float values onto 256 integer levels with one per-tensor scale and zero point, so the values in that tensor need to share a range. A YOLO detection head breaks that rule: it joins box coordinates in pixels, about 0 to 640 at the default 640-pixel input, with class scores from 0 to 1 in one output tensor.",
         "Give that tensor one INT8 scale and the boxes set it. Each integer step then covers about 2.5 pixels, so class scores, which live between 0 and 1, lose almost all of their resolution. This is why the standard ONNX export with quantize=8 quantizes only the convolution and matrix-multiplication layers and leaves the head in float. On a GPU or CPU, that is a sensible trade. On a microcontroller, a float head costs activation memory you would rather keep."
       ],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "Stm32N6 Yolo26 St Borda Ai",
       "summary_pt": "Exporte Ultralytics YOLO26 para o NPU STM32N6 com formato = \"stedgeai\": gráfico inteiro INT8, calibração em suas próprias imagens e compilação com ST Edge AI Core. Como você coloca um modelo Ultralytics YOLO26 em um microcontrolador STM32N6? A partir de 20 de novembro de 2026, um comando de exportação fornece um modelo ONNX para o compilador ST. Ultralytics 8.4.216, lançado em 20 de novembro de 2026, adiciona format=\"stedgeai\", que grava um arquivo ONNX moldado para ST Edge AI Core, o conjunto de ferramentas STMicroelectronics que compila redes neurais para STM32 de",
       "full_paragraphs_pt": [
@@ -1449,7 +1466,7 @@
         "Qwen4-Max improves on Qwen3.8-Max on every headline metric, costs less per image and completed every benchmark request. It still sits well behind the leaders on average: GPT-6.1 Terra scores 0.560 for less money and in well under half the time.",
         "Each dot is a paid model on the Ultralytics VLM Leaderboard."
       ],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "Anotação automática Qwen4 Max",
       "summary_pt": "Qwen4-Max ocupa o 13º lugar entre 51 em nosso benchmark de anotação automática, primeiro em radiografias de pulso e segundo nas prateleiras de varejo. Precisão, custo e como executá-lo. O Alibaba lançou o Qwen4-Max em 16 de novembro de 2026, chamando-o de o modelo mais capaz da família Qwen até o momento, com visão nativa e uma janela de contexto de um milhão de tokens. Executamos o teste no UL37, nosso benchmark de detecção de 36 conjuntos de dados, no mesmo dia.",
       "full_paragraphs_pt": [
@@ -1480,7 +1497,7 @@
         "In this run, the two are close on accuracy. Their mAP 50-95 scores, which reward tight boxes, differ by 0.001, and their precision by 0.003. Sol finds slightly more of the labeled objects: its 0.643 recall is the highest of all 50 models on the leaderboard, just ahead of Gemini 4 Carbon's 0.642. It is also the fastest of the top seven models, at 3.4 seconds per image.",
         "The eight highest-scoring models on UL37, with provider cost per 1,000 images."
       ],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "Anotação automática Gpt 6 2 Sol Vs Astra",
       "summary_pt": "GPT-6.2 Sol e Astra pontuam 0,551 e 0,546 mAP 50 em 36 conjuntos de dados de detecção, mas Sol custa US$ 8,10 por 1.000 imagens versus US$ 31,88. Aqui está o que usar. A OpenAI lançou o GPT-6.2 Astra e o GPT-6.2 Sol em 17 de novembro de 2026, descrevendo o Astra como seu modelo mais capaz e o Sol como seu modelo ideal para o trabalho diário. Quando pedimos que desenhassem caixas delimitadoras, a precisão deles ficou próxima. Seus preços não.",
       "full_paragraphs_pt": [
@@ -1495,71 +1512,6 @@
       ]
     },
     {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "elementalsouls/Claude-BugHunter (+1,644 ⭐ hoje)",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "date": "Trending",
-      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "elementalsouls/Claude-BugHunter (+1.644 ⭐ hoje)",
-      "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 84 habilidades, 15 comandos de barra, 681 padrões de relatórios divulgados com curadoria de 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "HKUDS/CLI-Anything (+1,094 ⭐ hoje)",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "date": "Trending",
-      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "HKUDS/CLI-Qualquer coisa (+1.094 ⭐ hoje)",
-      "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "jingyaogong/minimind (+828 ⭐ hoje)",
-      "url": "https://github.com/jingyaogong/minimind",
-      "date": "Trending",
-      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "jingyaogong/minimind (+828 ⭐ hoje)",
-      "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "mvanhorn/last30days-skill (+950 ⭐ hoje)",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "date": "Trending",
-      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "mvanhorn/last30days-skill (+950 ⭐ hoje)",
-      "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "Tracer-Cloud/opensre (+343 ⭐ hoje)",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "date": "Trending",
-      "summary": "The open-source agent for CI/CD reliability.",
-      "full_paragraphs": [],
-      "published_ts": 1795569690,
-      "title_pt": "Tracer-Cloud/opensre (+343 ⭐ hoje)",
-      "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "GitHub Trending (Typescript)",
       "section": "tempo_real",
       "title": "cursor/plugins (+408 ⭐ hoje)",
@@ -1567,7 +1519,7 @@
       "date": "Trending",
       "summary": "Cursor plugin specification and official plugins",
       "full_paragraphs": [],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "cursor/plugins (+408 ⭐ hoje)",
       "summary_pt": "Especificação do plugin de cursor e plugins oficiais",
       "full_paragraphs_pt": []
@@ -1580,7 +1532,7 @@
       "date": "Trending",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "full_paragraphs": [],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "firecrawl/firecrawl (+1.131 ⭐ hoje)",
       "summary_pt": "Infraestrutura de conhecimento para tornar seus agentes mais inteligentes. Pesquise, extraia e acesse mais de 550 provedores de dados por meio de uma API.",
       "full_paragraphs_pt": []
@@ -1593,7 +1545,7 @@
       "date": "Trending",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs": [],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "google-labs-code/stitch-skills (+352 ⭐ hoje)",
       "summary_pt": "Uma biblioteca de habilidades de agente projetada para funcionar com o servidor Stitch MCP. Cada habilidade segue o padrão aberto Agent Skills, para compatibilidade com agentes de codificação como Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs_pt": []
@@ -1606,9 +1558,87 @@
       "date": "Trending",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "full_paragraphs": [],
-      "published_ts": 1795569690,
+      "published_ts": 1795572656,
       "title_pt": "toeverything/AFFiNE (+578 ⭐ hoje)",
       "summary_pt": "Pode haver mais do que Notion e Miro. AFFiNE (pronuncia-se [ə'fain]) é uma base de conhecimento de última geração que reúne planejamento, classificação e criação. Privacidade em primeiro lugar, código aberto, personalizável e pronto para uso.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "elementalsouls/Claude-BugHunter (+1,644 ⭐ hoje)",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "date": "Trending",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "elementalsouls/Claude-BugHunter (+1.644 ⭐ hoje)",
+      "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 84 habilidades, 15 comandos de barra, 681 padrões de relatórios divulgados com curadoria de 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "HKUDS/CLI-Anything (+1,094 ⭐ hoje)",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "date": "Trending",
+      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "HKUDS/CLI-Qualquer coisa (+1.094 ⭐ hoje)",
+      "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "jingyaogong/minimind (+828 ⭐ hoje)",
+      "url": "https://github.com/jingyaogong/minimind",
+      "date": "Trending",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "jingyaogong/minimind (+828 ⭐ hoje)",
+      "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "mvanhorn/last30days-skill (+950 ⭐ hoje)",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "date": "Trending",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "mvanhorn/last30days-skill (+950 ⭐ hoje)",
+      "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "Tracer-Cloud/opensre (+343 ⭐ hoje)",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "date": "Trending",
+      "summary": "The open-source agent for CI/CD reliability.",
+      "full_paragraphs": [],
+      "published_ts": 1795572656,
+      "title_pt": "Tracer-Cloud/opensre (+343 ⭐ hoje)",
+      "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "Inkling 2 mini ain't Qwen 3.8 27B - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN1BucFVCdWRuYWFZb1YwMDNWVmNYV3FxeFhkTkZtY3Y5WHhOWU1XR3BmSFFKdWk2S3g2LTJEWE8zaHhKZF8tUlN0b0pNV3N2SGZRZEdILUYzQk1ESHdkWDRfZXBtRW8xNlp1MlE1Q3FwTkdISGc3SDJudWF1UWUyRTd0Y1lEWUszeVlqRGxB?oc=5",
+      "date": "Wed, 25 Nov 2026 01:57:15",
+      "published_ts": 1795571835,
+      "summary": "Inkling 2 mini ain't Qwen 3.8 27B Reddit",
+      "full_paragraphs": [],
+      "title_pt": "Inkling 2 mini não é Qwen 3.8 27B - Reddit",
+      "summary_pt": "Inkling 2 mini não é Qwen 3.8 27B Reddit",
       "full_paragraphs_pt": []
     },
     {
@@ -1628,23 +1658,6 @@
       "full_paragraphs_pt": [
         "Está acontecendo na robótica. A nossa investigação recente mostrou que apenas quatro em cada 10 organizações estão estruturadas para transformar a robótica numa vantagem no mundo real.",
         "Desenvolvemos um modelo e um conjunto de ferramentas para ajudar equipes multifuncionais a mudar isso. Abordar lacunas em:"
-      ]
-    },
-    {
-      "source": "NVIDIA Developer (Jetson/Omniverse)",
-      "section": "industria",
-      "title": "Q&A: How Everstone Brings Where Winds Meet to Life with NVIDIA DLSS 5",
-      "url": "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/",
-      "date": "2026-11-24T22:26:24Z",
-      "published_ts": 1795559184,
-      "summary": "Where Winds Meet moves between distant mountain landscapes, bustling streets, and quiet moments with its characters. For Everstone Studio, bringing more...",
-      "full_paragraphs": [
-        "Where Winds Meet moves between distant mountain landscapes, bustling streets, and quiet moments with its characters. For Everstone Studio, bringing more realistic lighting and materials to this wuxia world means keeping its aesthetics, recognizable characters, and carefully composed atmosphere intact. The team’s ongoing work with NVIDIA DLSS and Streamline provided a foundation for…"
-      ],
-      "title_pt": "Perguntas e respostas: como Everstone dá vida ao encontro dos ventos com NVIDIA DLSS 5",
-      "summary_pt": "Where Winds Meet se move entre paisagens montanhosas distantes, ruas movimentadas e momentos tranquilos com seus personagens. Para Everstone Studio, trazendo mais...",
-      "full_paragraphs_pt": [
-        "Where Winds Meet se move entre paisagens montanhosas distantes, ruas movimentadas e momentos tranquilos com seus personagens. Para o Everstone Studio, trazer iluminação e materiais mais realistas para este mundo wuxia significa manter intactas sua estética, personagens reconhecíveis e atmosfera cuidadosamente composta. O trabalho contínuo da equipe com NVIDIA DLSS e Streamline forneceu uma base para…"
       ]
     },
     {
@@ -1816,6 +1829,19 @@
       ]
     },
     {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "T3 Code drama (Chinese post on X) - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMUdZZExlVndjSEpTdXBheWFCeGplcGVudFpsQ25XWWtBekpuSGRwdWk3aVJZbEl4eUJKbk05S0hoal83SkFaWUQ0MlZsdWtKODNxSUw3VGZhR09zY2liSWhyMWhYc1lQbnNFaWg0cHhLLVliMi1nOUM0WkQ4b0ZRVnRFZ3pscmhQc3FHaHVB?oc=5",
+      "date": "Tue, 24 Nov 2026 11:21:37",
+      "published_ts": 1795519297,
+      "summary": "T3 Code drama (Chinese post on X) Reddit",
+      "full_paragraphs": [],
+      "title_pt": "Drama do código T3 (postagem chinesa no X) - Reddit",
+      "summary_pt": "Drama do código T3 (postagem chinesa no X) Reddit",
+      "full_paragraphs_pt": []
+    },
+    {
       "source": "OpenAI News",
       "section": "labs",
       "title": "Searching for distant planets with Astra",
@@ -1974,6 +2000,19 @@
       "full_paragraphs_pt": []
     },
     {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "GLM 5.4 is great at coding. But absolutely garbage at writing and anything but that. Are future open weight models going to be just codemaxxed?? - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkhNUTQ4eXNuSmFrbnoyQWlhQlRLSVFFYkp2ODNBd3RhSlpIczFDdkd5Nnd1SUR4ekxDNDhuOHUxaS1uQUJ3UEE0dHFnSzl3eXMwY0JlODVjQU5WYVN6T255Qkw3cFlWRVpDcEVMaVhHYzFGdkdBT0FhSVc4bGNKYzVjRDlDWHBaOFd6akJwdTM4TVlFMVVnS3FpMU10MmFabFY2Uw?oc=5",
+      "date": "Mon, 23 Nov 2026 15:50:16",
+      "published_ts": 1795449016,
+      "summary": "GLM 5.4 is great at coding. But absolutely garbage at writing and anything but that. Are future open weight models going to be just codemaxxed?? Reddit",
+      "full_paragraphs": [],
+      "title_pt": "GLM 5.4 é ótimo em codificação. Mas absolutamente lixo na escrita e tudo menos isso. Os futuros modelos de peso aberto serão apenas codemaxxados? -Reddit",
+      "summary_pt": "GLM 5.4 é ótimo em codificação. Mas absolutamente lixo na escrita e tudo menos isso. Os futuros modelos de peso aberto serão apenas codemaxxados? Reddit",
+      "full_paragraphs_pt": []
+    },
+    {
       "source": "n8n (Automação & Orquestração)",
       "section": "industria",
       "title": "The Monday morning incident: your “Lead Routing” workflow stopped routing",
@@ -2034,6 +2073,19 @@
         "A Association for Human Mathematics criticou a prova como “pouco mais que publicidade” para os laboratórios de IA, dizendo que nenhum ser humano poderia compreendê-la razoavelmente.",
         "Uma prova rival de Alessandro Masullo surgiu horas depois, supostamente feita sem IA ao longo de quase 12 anos, embora outros rapidamente sinalizassem problemas nela."
       ]
+    },
+    {
+      "source": "LocalLLaMA / Open-Source",
+      "section": "tempo_real",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer - Reddit",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYzkxaFJ4UUU1a0VVNjB3R1BWUjBSMEhnSmlJeklMTFJ2MlQyakM5c21RTlNCV21RRTNWVzJrOWdFcHM3dUlOV200ZWVwdV9LaUpscmdISEgzTkhIbHdXM3ktUVhFS1B0dnJldTJuOEEybTlHODAwdDhTTmQzMThZeDFuT2dlNVFMY012dy1PazVLTW5SelEtQkRWdGRPdlMzWWc?oc=5",
+      "date": "Mon, 23 Nov 2026 10:11:32",
+      "published_ts": 1795428692,
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer Reddit",
+      "full_paragraphs": [],
+      "title_pt": "GLM-5.4: Rumo à codificação generalizada com nosso primeiro transformador de loop - Reddit",
+      "summary_pt": "GLM-5.4: Rumo à codificação generalizada com nosso primeiro transformador de loop Reddit",
+      "full_paragraphs_pt": []
     },
     {
       "source": "TLDR AI",
@@ -2457,19 +2509,6 @@
       "full_paragraphs_pt": []
     },
     {
-      "source": "LangChain / LangGraph",
-      "section": "industria",
-      "title": "Exclusive | AI Startup LangChain More Than Doubles Its Valuation to $3 Billion - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTExQ3Y3Q3JBV2Z1WGtJbmpzZWdJbTV1UjlDZ21BenEzUWhOTW1pc2doRlhDRktWZFNDT1lhWjROcE9UZUQzQmQxRFBYZW9kYTBockNoUEtzWFhVbDBTb2pZNXFpSnAtU2tMRVdySzA5Y2d4bmY1WFhvQV9Fd3dTbHVmTFhNNXVxcEN2UXFrenhpUy1jdVJ0UHVUUTRpS2djV3lZZ185MXB3QQ?oc=5",
-      "date": "Thu, 12 Nov 2026 08:00:00",
-      "published_ts": 1794470400,
-      "summary": "Exclusive | AI Startup LangChain More Than Doubles Its Valuation to $3 Billion WSJ",
-      "full_paragraphs": [],
-      "title_pt": "Exclusivo | LangChain, startup de IA, mais que dobra sua avaliação para US$ 3 bilhões – WSJ",
-      "summary_pt": "Exclusivo | LangChain, startup de IA, mais que dobra sua avaliação para US$ 3 bilhões WSJ",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "Hacker News (Engenharia IA)",
       "section": "labs",
       "title": "Show HN: Kapso – Iterative learning from enterprise data",
@@ -2493,6 +2532,32 @@
       "full_paragraphs": [],
       "title_pt": "IBM e Microsoft anunciam uma nova plataforma de agente de IA projetada para transformação específica do setor - Microsoft Source",
       "summary_pt": "IBM e Microsoft anunciam uma nova plataforma de agente de IA projetada para transformação específica do setor Microsoft Source",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "LangChain / LangGraph",
+      "section": "industria",
+      "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search | Artificial Intelligence - Amazon Web Services",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZzJaa0t4blY2blZCVlB4QkRsRV84WXRMdlRVb1FnSnhvVFNISlkwX3lmQjZCV1lXYXAzTlVyczB4WXlOY0IteFdmQXN5QU1WdEt1Z3lNbzBTN0IxeXZWc2hIUGUwelMtVThlcnZCUG9ZYTc1cUQ4WGczUkFSckgxQ0ZsVHAyRV9ValJjckhpWmV6WkdtMFBQMEtOVkFuYTVYMW1DaFJ1aUkwUnUxVVFBWlRjTlNZajJ2Tm5EQUVpeGNodGZNWkNTSmZZMi01RGs?oc=5",
+      "date": "Tue, 10 Nov 2026 08:00:00",
+      "published_ts": 1794297600,
+      "summary": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search | Artificial Intelligence Amazon Web Services",
+      "full_paragraphs": [],
+      "title_pt": "Crie um observador de dependência diário com pesquisa na web LangGraph e Amazon Bedrock AgentCore | Inteligência Artificial - Amazon Web Services",
+      "summary_pt": "Crie um observador de dependência diário com pesquisa na web LangGraph e Amazon Bedrock AgentCore | Inteligência Artificial Amazon Web Services",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "LangChain / LangGraph",
+      "section": "industria",
+      "title": "LangChain Deep Agents now natively supports Oracle AI Database 26ai and OCI Generative AI - Oracle Blogs",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZFBwazdTSG9PUG5zY0pEMlZScnAtemhBV3lCUGhNbjVfb3FsMm9vSlBDSXRwZm0zLUVuVWlJLWF6WFpxc1ZhQTRSU3NVbFNmR1NDdnlVUzRDOHBieUhDUVZTNVVfUUtZZDZDRDl2REoyX3c3R3M4YjdpejBaWV9oN05xMHdFNWN5cm9tSDJtZnc4akE?oc=5",
+      "date": "Tue, 10 Nov 2026 08:00:00",
+      "published_ts": 1794297600,
+      "summary": "LangChain Deep Agents now natively supports Oracle AI Database 26ai and OCI Generative AI Oracle Blogs",
+      "full_paragraphs": [],
+      "title_pt": "LangChain Deep Agents agora oferece suporte nativo ao Oracle AI Database 26ai e OCI Generative AI - Oracle Blogs",
+      "summary_pt": "LangChain Deep Agents agora oferece suporte nativo ao Oracle AI Database 26ai e OCI Generative AI Oracle Blogs",
       "full_paragraphs_pt": []
     },
     {
@@ -2651,19 +2716,6 @@
       "full_paragraphs": [],
       "title_pt": "Crie aplicativos no Copilot Cowork e no Copilot Studio - Microsoft",
       "summary_pt": "Crie aplicativos no Copilot Cowork e no Copilot Studio Microsoft",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "LangChain / LangGraph",
-      "section": "industria",
-      "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance - NVIDIA Developer",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY1J4RXlUdkZGVkxMbHVYLXZJU3lLa3dSTkdoZHhVa2M2Y1JNb3JJeXFvMEYzS2pOb2hGQW4taC1KdjFzSktHa2VqVWRncjlKdEpBbTl6SzBFWlZjRmFDZ3dFU09EUFh5Ulk1X2xaR3FyRWFCR0ZjcnBxVEcwOGFEUlFmTWNMOWwzUC1qbHo5dUJsQ0haTmZlUUlCNlZJT2NNQzFnSVNkd0lrV2JQS3ROcXd5V0hqY29Wa2dTNWFtN1ZpQkpjamdCNUU5c1g?oc=5",
-      "date": "Wed, 08 Jul 2026 07:00:00",
-      "published_ts": 1783494000,
-      "summary": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance NVIDIA Developer",
-      "full_paragraphs": [],
-      "title_pt": "Crie um perfil de chicote de agentes profundos LangChain para NVIDIA Nemotron 3 Ultra para melhorar o desempenho - Desenvolvedor NVIDIA",
-      "summary_pt": "Crie um perfil de chicote de agentes profundos LangChain para NVIDIA Nemotron 3 Ultra para melhorar o desempenho Desenvolvedor NVIDIA",
       "full_paragraphs_pt": []
     },
     {
