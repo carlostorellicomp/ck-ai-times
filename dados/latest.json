@@ -1,32 +1,32 @@
 {
-  "generated_at": "26/11/2026 às 16:05 (BRT)",
+  "generated_at": "26/11/2026 às 16:49 (BRT)",
   "date": "2026-11-26",
-  "total_items": 98,
+  "total_items": 94,
   "sources_status": {
     "TechCrunch AI (Diário 24/7)": "OK (5 itens)",
+    "The Verge AI (Diário 24/7)": "OK (4 itens)",
     "Ars Technica AI": "OK (4 itens)",
     "MIT Technology Review AI": "OK (4 itens)",
     "OpenAI News": "OK (4 itens)",
-    "The Verge AI (Diário 24/7)": "OK (4 itens)",
     "One Useful Thing (Ethan Mollick)": "OK (3 itens)",
-    "The Rundown AI": "OK (4 itens)",
     "Anthropic News (Claude)": "OK (4 itens)",
+    "Hugging Face Models": "OK (6 itens)",
     "TLDR AI": "OK (5 itens)",
     "Hugging Face Spaces": "OK (4 itens)",
-    "Hugging Face Models": "OK (6 itens)",
-    "NVIDIA Developer Blog": "OK (4 itens)",
-    "Mercado IA Brasil": "OK (5 itens)",
+    "NVIDIA Blog": "OK (4 itens)",
     "Google AI Blog": "OK (4 itens)",
     "Microsoft Copilot & Azure AI": "OK (4 itens)",
+    "Mercado IA Brasil": "OK (5 itens)",
+    "The Rundown AI": "OK (4 itens)",
     "n8n Blog": "OK (4 itens)",
-    "LangChain / LangGraph": "OK (4 itens)",
-    "NVIDIA Blog": "OK (4 itens)",
-    "The Batch (Andrew Ng)": "ERRO: HTTP Error 403: Forbidden",
     "Ultralytics Blog": "OK (4 itens)",
     "Hacker News AI": "OK (5 itens)",
-    "GitHub Trending Python": "OK (5 itens)",
-    "LocalLLaMA & Open Source": "OK (4 itens)",
+    "The Batch (Andrew Ng)": "ERRO: HTTP Error 403: Forbidden",
+    "NVIDIA Developer Blog": "OK (4 itens)",
+    "LangChain / LangGraph": "OK (4 itens)",
+    "LocalLLaMA & Open Source": "OK (0 itens)",
     "GitHub Trending TypeScript": "OK (4 itens)",
+    "GitHub Trending Python": "OK (5 itens)",
     "Ranking Top 50 LLMs (Artificial Analysis)": "OK (50 Top50 / 20 Open)"
   },
   "rankings": {
@@ -981,7 +981,7 @@
         "This builds on commitments our co-founders and employees have already made. When Anthropic was founded, our co-founders pledged to donate 80% of their equity holdings, and since founding we have also operated an equity donation match program that allows employees to pledge equity which Anthropic matches. Approximately half of our employees participate in this program. When combined with today’s announcement, roughly 20% of Anthropic shares will be dedicated to the public good, plus any additional percentage that could be added if the company reaches specific valuation milestones.",
         "In the coming months, we will share more about the Anthropic Public Benefit Fund’s structure and governance, including the valuation milestones that may add to its stake. We will also report on our progress to date against our mission in an upcoming public benefit report."
       ],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Investir no benefício público",
       "summary_pt": "Hoje, estamos comprometendo parte das ações da Anthropic com o Fundo de Benefício Público da Anthropic, uma nova entidade integral com uma estrutura que aumenta a participação à medida que a empresa cresce. Sujeito à aprovação dos acionistas, 5% das ações da Anthropic serão comprometidas hoje, com 2% adicionais adicionados a critério do conselho para cada aumento de 50% no valor da empresa acima de uma linha de base definida. Como uma empresa de utilidade pública, a maior parte do nosso trabalho na prossecução da nossa missão ocorre dentro da empresa: investigação relevante para a IA",
       "full_paragraphs_pt": [
@@ -1008,7 +1008,7 @@
         "The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.",
         "A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Anthropic arquiva S-1 junto à SEC para proposta de oferta pública inicial",
       "summary_pt": "Hoje, a Anthropic, PBC apresentou uma declaração de registro no Formulário S-1 junto à Comissão de Valores Mobiliários dos EUA relativa à sua proposta de oferta pública inicial de suas ações ordinárias Classe A. A Anthropic pretende listar suas ações ordinárias Classe A no Nasdaq Global Select Market sob o símbolo “ANT”. A quantidade de ações ordinárias Classe A a serem ofertadas e a faixa de preço da oferta proposta ainda não foram determinadas.",
       "full_paragraphs_pt": [
@@ -1033,7 +1033,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026, and a related registration statement filed pursuant to Rule 462(b) under the Securities Act became effective upon filing on November 18, 2026. The offering was made only by means of a prospectus. Copies of the final prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Anthropic anuncia fechamento de oferta pública inicial, incluindo exercício integral da opção dos subscritores de compra de ações adicionais, e fechamento de…",
       "summary_pt": "Hoje a Antrópico, PBC anunciou o fechamento de sua oferta pública inicial de um total de 1.127.000.000 ações ordinárias Classe A a um preço de oferta pública de US$ 83,00 por ação, incluindo o exercício integral pelos subscritores de sua opção de comprar 147.000.000 ações ordinárias Classe A adicionais da Antrópico ao preço da oferta pública inicial. A oferta consistiu em 1.103.351.354 ações vendidas pela Anthropic e 23.648.646 ações vendidas por determinados acionistas vendedores. O valor bruto agregado",
       "full_paragraphs_pt": [
@@ -1058,7 +1058,7 @@
         "A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com.",
         "Today’s announcement does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
       ],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Oferta pública inicial de preços antrópicos",
       "summary_pt": "Hoje a Anthropic, PBC fixou o preço de sua oferta pública inicial de suas ações ordinárias Classe A em US$ 83,00 por ação. A oferta consiste em 980.000.000 ações ordinárias Classe A, das quais 956.351.354 estão sendo vendidas pela Anthropic e 23.648.646 das quais estão sendo vendidas por determinados acionistas vendedores. A Antthropic não receberá quaisquer recursos provenientes da venda de ações pelos acionistas vendedores. Espera-se que as ações comecem a ser negociadas no Nasdaq Global Select Market em 19 de novembro de 2026 sob o símbolo “ANT”. A oferta",
       "full_paragraphs_pt": [
@@ -1069,6 +1069,84 @@
       ]
     },
     {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 6,198 curtidas e 96,527 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 6,198 curtidas e 96,527 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,457 curtidas e 2,445,633 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,457 curtidas e 2,445,633 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "inworld/voice-isolator (audio-to-audio)",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 938 curtidas e 15,244 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "inworld/voice-isolator (audio-to-audio)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 938 curtidas e 15,244 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 898 curtidas e 762,491 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 898 curtidas e 762,491 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "SulphurAI/Sulphur-3 (open-source)",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 1,192 curtidas e 189,735 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "SulphurAI/Sulphur-3 (open-source)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 1,192 curtidas e 189,735 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "Hugging Face Models",
+      "section": "tempo_real",
+      "title": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF (text-generation)",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "date": "Trending",
+      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'text-generation', com 483 curtidas e 59,366 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF (text-generation)",
+      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'text-generation', com 483 curtidas e 59,366 downloads no mês. Pode ser avaliado para uso local (on-premise).",
+      "full_paragraphs_pt": []
+    },
+    {
       "source": "Hugging Face Spaces",
       "section": "tempo_real",
       "title": "Space: JCisHERE/wan2-2-i2v-v3",
@@ -1076,7 +1154,7 @@
       "date": "Trending",
       "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 810 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Espaço: JCisHERE/wan2-2-i2v-v3",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 514 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1087,9 +1165,9 @@
       "title": "Space: MiniMaxAI/minimax-h3-image",
       "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
       "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 366 curtidas da comunidade de engenharia de IA.",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 367 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Espaço: MiniMaxAI/minimax-h3-image",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 213 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1102,7 +1180,7 @@
       "date": "Trending",
       "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 188 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Espaço: Lakonik/pi-H3",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (gradio), acumulando 157 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs_pt": []
@@ -1113,89 +1191,11 @@
       "title": "Space: huggingface/moe-blogpost",
       "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
       "date": "Trending",
-      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 861 curtidas da comunidade de engenharia de IA.",
+      "summary": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 862 curtidas da comunidade de engenharia de IA.",
       "full_paragraphs": [],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Espaço: huggingface/moe-blogpost",
       "summary_pt": "Aplicação demonstrativa interativa em alta no Hugging Face (docker), acumulando 762 curtidas da comunidade de engenharia de IA.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 6,190 curtidas e 96,527 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 6,190 curtidas e 96,527 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
-      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,449 curtidas e 2,445,633 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 1,449 curtidas e 2,445,633 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "inworld/voice-isolator (audio-to-audio)",
-      "url": "https://huggingface.co/inworld/voice-isolator",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 937 curtidas e 15,244 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "inworld/voice-isolator (audio-to-audio)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'audio-to-audio', com 937 curtidas e 15,244 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
-      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 891 curtidas e 762,491 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'image-text-to-text', com 891 curtidas e 762,491 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "SulphurAI/Sulphur-3 (open-source)",
-      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 1,185 curtidas e 189,735 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "SulphurAI/Sulphur-3 (open-source)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'open-source', com 1,185 curtidas e 189,735 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "Hugging Face Models",
-      "section": "tempo_real",
-      "title": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF (text-generation)",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
-      "date": "Trending",
-      "summary": "Modelo open-source em alta no Hugging Face para a categoria 'text-generation', com 477 curtidas e 59,366 downloads no mês. Pode ser avaliado para uso local (on-premise).",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF (text-generation)",
-      "summary_pt": "Modelo open-source em alta no Hugging Face para a categoria 'text-generation', com 477 curtidas e 59,366 downloads no mês. Pode ser avaliado para uso local (on-premise).",
       "full_paragraphs_pt": []
     },
     {
@@ -1215,7 +1215,7 @@
         "The evening featured a fireside chat between Ultralytics Founder & CEO Glenn Jocher and James Swingos, COO of General Intuition and former investor at General Catalyst.",
         "Moderated by Pablo Karnbaum, the conversation brought together two complementary perspectives on physical AI: developing models that help machines perceive the world and building intelligent systems that enable them to act within it."
       ],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Meetup Ultralíticos em Nova York",
       "summary_pt": "Descubra os destaques do Meetup Ultralytics New York, desde a exploração de IA física e robótica com General Intuition até a conexão com a comunidade local de IA. Em 17 de novembro, a equipe Ultralytics deu as boas-vindas à comunidade local de IA para uma noite de demonstrações ao vivo, networking e discussões sobre o futuro da IA ​​física. O encontro também marcou a inauguração do nosso quarto escritório, localizado na cidade de Nova York.",
       "full_paragraphs_pt": [
@@ -1246,7 +1246,7 @@
         "Each page also states its Ultralytics version, and runtime versions where reported. Pages checked November 25, 2026.",
         "Jetson is the class to choose when you need larger models, several cameras or GPU headroom for the rest of a robot's software. The Jetson guide benchmarks YOLO26n through YOLO26x on four modules at 640 pixels on COCO128, timing inference only, without pre- and post-processing. As a TensorRT FP16 engine, YOLO26n takes between 1.39 ms and 4.57 ms per image across the four:"
       ],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Dispositivos Edge AI",
       "summary_pt": "Resultados YOLO26 medidos em Jetson, DGX Spark, Raspberry Pi 5 com Hailo-8 ou DEEPX, RK3588, Snapdragon, iPhone, Apple M4 e STM32, cada um com sua configuração. Qual dispositivo de IA de ponta deve executar seu modelo de visão computacional? Depende do tamanho do modelo que você precisa, de quantas câmeras o alimentam e da potência e do espaço que você tem. NVIDIA Jetson é adequado para modelos maiores e vários fluxos, um Raspberry Pi 5 com um acelerador Hailo-8 ou DEEPX é adequado para construções compactas de placa única, placas Rockchip RK3588 são adequadas para gateways Linux de baixo custo, telefones com",
       "full_paragraphs_pt": [
@@ -1277,7 +1277,7 @@
         "max sets each tensor's range from the single largest value seen during calibration. If one activation spikes far above the rest, the whole range stretches to cover it, and the ordinary values that carry most of the signal get squeezed into a few levels. entropy instead picks the clipping range that best preserves each tensor's distribution, measured by minimum KL divergence, and saturates the rare outliers.",
         "That explains a result that looked backwards. More calibration images bring more outliers, so following the docs' advice to calibrate on more data made max engines worse. On YOLO26s-pose, going from 4 calibration images to 128 dropped the max engine from 0.6103 to 0.3130 pose mAP 50-95 on COCO val2017, while the entropy engine held steady, 0.6118 and 0.6106."
       ],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Calibração de entropia Yolo Tensorrt Int8",
       "summary_pt": "Ultralytics 8.4.217 muda a calibração do TensorRT 11 INT8 para entropia, recuperando até 29,76 pose e 20,10 box mAP 50-95 pontos com 128 imagens. Se você exportar o Ultralytics YOLO para um mecanismo TensorRT INT8, o método de calibração decidirá quanta precisão você manterá. Até esta semana, nosso caminho TensorRT 11 calibrado com max, e em alguns modelos que custam muito. Em um NVIDIA RTX PRO 6000 Blackwell, um mecanismo de segmentação Ultralytics YOLO26s calibrado em 128 imagens marcou 0,2675 box mAP 50-95 no COCO val2017, contra 0,47",
       "full_paragraphs_pt": [
@@ -1308,7 +1308,7 @@
         "Model quantization maps an activation tensor's float values onto 256 integer levels with one per-tensor scale and zero point, so the values in that tensor need to share a range. A YOLO detection head breaks that rule: it joins box coordinates in pixels, about 0 to 640 at the default 640-pixel input, with class scores from 0 to 1 in one output tensor.",
         "Give that tensor one INT8 scale and the boxes set it. Each integer step then covers about 2.5 pixels, so class scores, which live between 0 and 1, lose almost all of their resolution. This is why the standard ONNX export with quantize=8 quantizes only the convolution and matrix-multiplication layers and leaves the head in float. On a GPU or CPU, that is a sensible trade. On a microcontroller, a float head costs activation memory you would rather keep."
       ],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "Stm32N6 Yolo26 St Borda Ai",
       "summary_pt": "Exporte Ultralytics YOLO26 para o NPU STM32N6 com formato = \"stedgeai\": gráfico inteiro INT8, calibração em suas próprias imagens e compilação com ST Edge AI Core. Como você coloca um modelo Ultralytics YOLO26 em um microcontrolador STM32N6? A partir de 20 de novembro de 2026, um comando de exportação fornece um modelo ONNX para o compilador ST. Ultralytics 8.4.216, lançado em 20 de novembro de 2026, adiciona format=\"stedgeai\", que grava um arquivo ONNX moldado para ST Edge AI Core, o conjunto de ferramentas STMicroelectronics que compila redes neurais para STM32 de",
       "full_paragraphs_pt": [
@@ -1323,71 +1323,6 @@
       ]
     },
     {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "elementalsouls/Claude-BugHunter (+1,600 ⭐ hoje)",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "date": "Trending",
-      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "elementalsouls/Claude-BugHunter (+1.600 ⭐ hoje)",
-      "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 85 habilidades, 16 comandos de barra, 681 padrões de relatórios divulgados selecionados em 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "HKUDS/CLI-Anything (+744 ⭐ hoje)",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "date": "Trending",
-      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "HKUDS/CLI-Qualquer coisa (+744 ⭐ hoje)",
-      "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "jingyaogong/minimind (+701 ⭐ hoje)",
-      "url": "https://github.com/jingyaogong/minimind",
-      "date": "Trending",
-      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "jingyaogong/minimind (+701 ⭐ hoje)",
-      "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "mvanhorn/last30days-skill (+755 ⭐ hoje)",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "date": "Trending",
-      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "mvanhorn/last30days-skill (+755 ⭐ hoje)",
-      "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "GitHub Trending (Python)",
-      "section": "tempo_real",
-      "title": "Tracer-Cloud/opensre (+325 ⭐ hoje)",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "date": "Trending",
-      "summary": "The open-source agent for CI/CD reliability.",
-      "full_paragraphs": [],
-      "published_ts": 1795655101,
-      "title_pt": "Tracer-Cloud/opensre (+325 ⭐ hoje)",
-      "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "GitHub Trending (Typescript)",
       "section": "tempo_real",
       "title": "cursor/plugins (+268 ⭐ hoje)",
@@ -1395,7 +1330,7 @@
       "date": "Trending",
       "summary": "Cursor plugin specification and official plugins",
       "full_paragraphs": [],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "cursor/plugins (+268 ⭐ hoje)",
       "summary_pt": "Especificação do plugin de cursor e plugins oficiais",
       "full_paragraphs_pt": []
@@ -1408,7 +1343,7 @@
       "date": "Trending",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "full_paragraphs": [],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "firecrawl/firecrawl (+1.042 ⭐ hoje)",
       "summary_pt": "Infraestrutura de conhecimento para tornar seus agentes mais inteligentes. Pesquise, extraia e acesse mais de 550 provedores de dados por meio de uma API.",
       "full_paragraphs_pt": []
@@ -1421,7 +1356,7 @@
       "date": "Trending",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs": [],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "google-labs-code/stitch-skills (+308 ⭐ hoje)",
       "summary_pt": "Uma biblioteca de habilidades de agente projetada para funcionar com o servidor Stitch MCP. Cada habilidade segue o padrão aberto Agent Skills, para compatibilidade com agentes de codificação como Antigravity, Gemini CLI, Claude Code, Cursor.",
       "full_paragraphs_pt": []
@@ -1434,9 +1369,74 @@
       "date": "Trending",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "full_paragraphs": [],
-      "published_ts": 1795655101,
+      "published_ts": 1795657786,
       "title_pt": "toeverything/AFFiNE (+521 ⭐ hoje)",
       "summary_pt": "Pode haver mais do que Notion e Miro. AFFiNE (pronuncia-se [ə'fain]) é uma base de conhecimento de última geração que reúne planejamento, classificação e criação. Privacidade em primeiro lugar, código aberto, personalizável e pronto para uso.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "elementalsouls/Claude-BugHunter (+1,600 ⭐ hoje)",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "date": "Trending",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "elementalsouls/Claude-BugHunter (+1.600 ⭐ hoje)",
+      "summary_pt": "Um pacote de habilidades do Claude Code para caça a bugs e trabalho externo em equipe vermelha - 85 habilidades, 16 comandos de barra, 681 padrões de relatórios divulgados selecionados em 24 classes principais de vulnerabilidade, além de identidade corporativa + matrizes de ataque à infraestrutura.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "HKUDS/CLI-Anything (+744 ⭐ hoje)",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "date": "Trending",
+      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "HKUDS/CLI-Qualquer coisa (+744 ⭐ hoje)",
+      "summary_pt": "\"CLI-Anything: Tornando TODOS os agentes de software nativos\" - CLI-Hub: https://clianything.cc/",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "jingyaogong/minimind (+701 ⭐ hoje)",
+      "url": "https://github.com/jingyaogong/minimind",
+      "date": "Trending",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "jingyaogong/minimind (+701 ⭐ hoje)",
+      "summary_pt": "🧠 Treine seu modelo grande de 64 milhões do zero em duas horas. Treine seu próprio LLM 64M do zero em 2 horas.",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "mvanhorn/last30days-skill (+755 ⭐ hoje)",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "date": "Trending",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "mvanhorn/last30days-skill (+755 ⭐ hoje)",
+      "summary_pt": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e, em seguida, sintetiza um resumo fundamentado",
+      "full_paragraphs_pt": []
+    },
+    {
+      "source": "GitHub Trending (Python)",
+      "section": "tempo_real",
+      "title": "Tracer-Cloud/opensre (+325 ⭐ hoje)",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "date": "Trending",
+      "summary": "The open-source agent for CI/CD reliability.",
+      "full_paragraphs": [],
+      "published_ts": 1795657786,
+      "title_pt": "Tracer-Cloud/opensre (+325 ⭐ hoje)",
+      "summary_pt": "O agente de código aberto para confiabilidade de CI/CD.",
       "full_paragraphs_pt": []
     },
     {
@@ -1776,19 +1776,6 @@
       ]
     },
     {
-      "source": "LocalLLaMA / Open-Source",
-      "section": "tempo_real",
-      "title": "Inkling 2 mini ain't Qwen 3.8 27B - Reddit",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN1BucFVCdWRuYWFZb1YwMDNWVmNYV3FxeFhkTkZtY3Y5WHhOWU1XR3BmSFFKdWk2S3g2LTJEWE8zaHhKZF8tUlN0b0pNV3N2SGZRZEdILUYzQk1ESHdkWDRfZXBtRW8xNlp1MlE1Q3FwTkdISGc3SDJudWF1UWUyRTd0Y1lEWUszeVlqRGxB?oc=5",
-      "date": "Wed, 25 Nov 2026 01:57:15",
-      "published_ts": 1795571835,
-      "summary": "Inkling 2 mini ain't Qwen 3.8 27B Reddit",
-      "full_paragraphs": [],
-      "title_pt": "Inkling 2 mini não é Qwen 3.8 27B - Reddit",
-      "summary_pt": "Inkling 2 mini não é Qwen 3.8 27B Reddit",
-      "full_paragraphs_pt": []
-    },
-    {
       "source": "TLDR AI",
       "section": "newsletters",
       "title": "OpenAI solves matrix math 🔢, SWE-2.1 💻, swarm limitations 🐝",
@@ -1823,19 +1810,6 @@
       "full_paragraphs_pt": [
         "As atualizações de desenvolvimento de jogos da NVIDIA deste mês ajudam as equipes a trazer novos gráficos, animações e recursos locais de IA para seus mecanismos, ao mesmo tempo que equilibram qualidade de imagem, desempenho e intenção criativa. Este post cobre: ​​Em uma entrevista, a Gaijin Entertainment compartilha como integrou o DLSS 5 com a renderização neural guiada em 3D no motor Dagor do War Thunder, preservando ao mesmo tempo o jogo…"
       ]
-    },
-    {
-      "source": "LocalLLaMA / Open-Source",
-      "section": "tempo_real",
-      "title": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF · Hugging Face - Reddit",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjg3dkVlLWpwUmNEWlI4UGZma09JbTdkTUhLdVQ0a2owLVFHUE0yLTQ1X1hjdWs5aXAxaS1WdGphM1lmQ1ZaMnFmNUdYWnJad3BETUZkUWxOdktHdUVZcl9DZm9RellfaUNQU3FPcDNQTVFQSjc2QzRPcWk0WnU5XzU4Wi04MzdtTWJuUHJuNWsyOG9Vb215X2FKZzI?oc=5",
-      "date": "Tue, 24 Nov 2026 19:30:20",
-      "published_ts": 1795548620,
-      "summary": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF · Hugging Face Reddit",
-      "full_paragraphs": [],
-      "title_pt": "prisma-ml/Ternary-Bonsai-2.5-27B-GGUF · Abraçando o rosto - Reddit",
-      "summary_pt": "prisma-ml/Ternary-Bonsai-2.5-27B-GGUF · Rosto Abraçando Reddit",
-      "full_paragraphs_pt": []
     },
     {
       "source": "NVIDIA Developer (Jetson/Omniverse)",
@@ -1948,19 +1922,6 @@
         "Os agentes estavam rodando no Cairn, uma estrutura de teste de penetração de IA de código aberto. Os hackers, que forneceram instruções em chinês simplificado e configuraram o modelo para o fuso horário padrão chinês, deram aos agentes uma lista de endereços IP e o objetivo: “obter acesso ao shell”. Em pouco tempo, os agentes descobriram um dia zero em um aplicativo de IA de imagens médicas de código aberto em execução em um dos servidores de destino. Os agentes então exploraram a vulnerabilidade e obtiveram controle total do sistema.",
         "“Essas descobertas mostram que as operações ofensivas dos agentes já estão acontecendo e os defensores devem se preparar para a velocidade e persistência que essas ferramentas permitem”, disse a Amazon."
       ]
-    },
-    {
-      "source": "LocalLLaMA / Open-Source",
-      "section": "tempo_real",
-      "title": "T3 Code drama (Chinese post on X) - Reddit",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMUdZZExlVndjSEpTdXBheWFCeGplcGVudFpsQ25XWWtBekpuSGRwdWk3aVJZbEl4eUJKbk05S0hoal83SkFaWUQ0MlZsdWtKODNxSUw3VGZhR09zY2liSWhyMWhYc1lQbnNFaWg0cHhLLVliMi1nOUM0WkQ4b0ZRVnRFZ3pscmhQc3FHaHVB?oc=5",
-      "date": "Tue, 24 Nov 2026 11:21:37",
-      "published_ts": 1795519297,
-      "summary": "T3 Code drama (Chinese post on X) Reddit",
-      "full_paragraphs": [],
-      "title_pt": "Drama do código T3 (postagem chinesa no X) - Reddit",
-      "summary_pt": "Drama do código T3 (postagem chinesa no X) Reddit",
-      "full_paragraphs_pt": []
     },
     {
       "source": "OpenAI News",
@@ -2118,19 +2079,6 @@
       "full_paragraphs": [],
       "title_pt": "Uma Pesquisa Google mais personalizada e exclusivamente sua",
       "summary_pt": "Obtenha respostas de pesquisa mais úteis ao ativar com segurança a conexão da Google Wallet, do Drive e do aplicativo Gemini à inteligência pessoal no modo AI. Estamos adicionando a Carteira virtual do Google e o Drive ao Personal Intelligence, permitindo que a Pesquisa forneça respostas com base em seus gastos, documentos e bate-papos. Essas atualizações ajudam você a gerenciar finanças, organizar projetos e manter o contexto em seus tópicos de pesquisa. Você pode optar por conectar esses aplicativos visitando as configurações de Personalização de pesquisa, onde você permanece no controle de seus",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "LocalLLaMA / Open-Source",
-      "section": "tempo_real",
-      "title": "GLM 5.4 is great at coding. But absolutely garbage at writing and anything but that. Are future open weight models going to be just codemaxxed?? - Reddit",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkhNUTQ4eXNuSmFrbnoyQWlhQlRLSVFFYkp2ODNBd3RhSlpIczFDdkd5Nnd1SUR4ekxDNDhuOHUxaS1uQUJ3UEE0dHFnSzl3eXMwY0JlODVjQU5WYVN6T255Qkw3cFlWRVpDcEVMaVhHYzFGdkdBT0FhSVc4bGNKYzVjRDlDWHBaOFd6akJwdTM4TVlFMVVnS3FpMU10MmFabFY2Uw?oc=5",
-      "date": "Mon, 23 Nov 2026 15:50:16",
-      "published_ts": 1795449016,
-      "summary": "GLM 5.4 is great at coding. But absolutely garbage at writing and anything but that. Are future open weight models going to be just codemaxxed?? Reddit",
-      "full_paragraphs": [],
-      "title_pt": "GLM 5.4 é ótimo em codificação. Mas absolutamente lixo na escrita e tudo menos isso. Os futuros modelos de peso aberto serão apenas codemaxxados? -Reddit",
-      "summary_pt": "GLM 5.4 é ótimo em codificação. Mas absolutamente lixo na escrita e tudo menos isso. Os futuros modelos de peso aberto serão apenas codemaxxados? Reddit",
       "full_paragraphs_pt": []
     },
     {
@@ -2550,6 +2498,19 @@
       "full_paragraphs_pt": []
     },
     {
+      "source": "LangChain / LangGraph",
+      "section": "industria",
+      "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search | Artificial Intelligence - Amazon Web Services",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZzJaa0t4blY2blZCVlB4QkRsRV84WXRMdlRVb1FnSnhvVFNISlkwX3lmQjZCV1lXYXAzTlVyczB4WXlOY0IteFdmQXN5QU1WdEt1Z3lNbzBTN0IxeXZWc2hIUGUwelMtVThlcnZCUG9ZYTc1cUQ4WGczUkFSckgxQ0ZsVHAyRV9ValJjckhpWmV6WkdtMFBQMEtOVkFuYTVYMW1DaFJ1aUkwUnUxVVFBWlRjTlNZajJ2Tm5EQUVpeGNodGZNWkNTSmZZMi01RGs?oc=5",
+      "date": "Tue, 10 Nov 2026 08:00:00",
+      "published_ts": 1794297600,
+      "summary": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search | Artificial Intelligence Amazon Web Services",
+      "full_paragraphs": [],
+      "title_pt": "Crie um observador de dependência diário com pesquisa na web LangGraph e Amazon Bedrock AgentCore | Inteligência Artificial - Amazon Web Services",
+      "summary_pt": "Crie um observador de dependência diário com pesquisa na web LangGraph e Amazon Bedrock AgentCore | Inteligência Artificial Amazon Web Services",
+      "full_paragraphs_pt": []
+    },
+    {
       "source": "One Useful Thing (Ethan Mollick)",
       "section": "newsletters",
       "title": "Fable 5.2 and Jagged AGI",
@@ -2705,19 +2666,6 @@
       "full_paragraphs": [],
       "title_pt": "Crie aplicativos no Copilot Cowork e no Copilot Studio - Microsoft",
       "summary_pt": "Crie aplicativos no Copilot Cowork e no Copilot Studio Microsoft",
-      "full_paragraphs_pt": []
-    },
-    {
-      "source": "LangChain / LangGraph",
-      "section": "industria",
-      "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance - NVIDIA Developer",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY1J4RXlUdkZGVkxMbHVYLXZJU3lLa3dSTkdoZHhVa2M2Y1JNb3JJeXFvMEYzS2pOb2hGQW4taC1KdjFzSktHa2VqVWRncjlKdEpBbTl6SzBFWlZjRmFDZ3dFU09EUFh5Ulk1X2xaR3FyRWFCR0ZjcnBxVEcwOGFEUlFmTWNMOWwzUC1qbHo5dUJsQ0haTmZlUUlCNlZJT2NNQzFnSVNkd0lrV2JQS3ROcXd5V0hqY29Wa2dTNWFtN1ZpQkpjamdCNUU5c1g?oc=5",
-      "date": "Wed, 08 Jul 2026 07:00:00",
-      "published_ts": 1783494000,
-      "summary": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance NVIDIA Developer",
-      "full_paragraphs": [],
-      "title_pt": "Crie um perfil de aproveitamento de agentes profundos LangChain para NVIDIA Nemotron 3 Ultra para melhorar o desempenho - Desenvolvedor NVIDIA",
-      "summary_pt": "Crie um perfil de chicote de agentes profundos LangChain para NVIDIA Nemotron 3 Ultra para melhorar o desempenho Desenvolvedor NVIDIA",
       "full_paragraphs_pt": []
     },
     {
