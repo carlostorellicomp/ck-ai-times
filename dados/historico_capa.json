@@ -27,6 +27,10 @@
     "2026-11-26": [
       "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
       "https://blog.n8n.io/ai-test-case-generation/"
+    ],
+    "2026-11-27": [
+      "https://therundownai.beehiiv.com/p/ai-takes-a-swing-at-physics-biggest-puzzle",
+      "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
     ]
   },
   "seen_urls": {
@@ -248,6 +252,15 @@
     "https://tldr.tech/ai/2026-11-26": "2026-11-26",
     "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/": "2026-11-26",
     "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent": "2026-11-26",
-    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjg3dkVlLWpwUmNEWlI4UGZma09JbTdkTUhLdVQ0a2owLVFHUE0yLTQ1X1hjdWs5aXAxaS1WdGphM1lmQ1ZaMnFmNUdYWnJad3BETUZkUWxOdktHdUVZcl9DZm9RellfaUNQU3FPcDNQTVFQSjc2QzRPcWk0WnU5XzU4Wi04MzdtTWJuUHJuNWsyOG9Vb215X2FKZzI?oc=5": "2026-11-26"
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjg3dkVlLWpwUmNEWlI4UGZma09JbTdkTUhLdVQ0a2owLVFHUE0yLTQ1X1hjdWs5aXAxaS1WdGphM1lmQ1ZaMnFmNUdYWnJad3BETUZkUWxOdktHdUVZcl9DZm9RellfaUNQU3FPcDNQTVFQSjc2QzRPcWk0WnU5XzU4Wi04MzdtTWJuUHJuNWsyOG9Vb215X2FKZzI?oc=5": "2026-11-26",
+    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE11Sm5MZS1OY1MySEJDZHdlUVlheDlTQ2ZCeTkwT2dnZ2NtVjB6Z2MwNjNWbGlpUG8wR09j?oc=5": "2026-11-27",
+    "https://therundownai.beehiiv.com/p/ai-takes-a-swing-at-physics-biggest-puzzle": "2026-11-27",
+    "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/": "2026-11-27",
+    "https://www.ultralytics.com/blog/pycocotools-yolo-map": "2026-11-27",
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUzRoSkxfWHY0RkkwUGRkUzJsUlgxRzNrVE5WNkVVMlM5MEo3OHdiai1wWl9oaXhjV1dHTEpnTzJfSy12b2poay1XdktaeHJXbk1IWnlMeENGY0txdWdzOFlDVS1LY2pUZjN5Q1B6cXlDMm1PMTlSZjNRLXZhMDBpUVVPZWtJaEpjNFRXS2wwTGNwUk1pNjRXdTJfYXZXWHZBc2x1LQ?oc=5": "2026-11-27",
+    "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/": "2026-11-27",
+    "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/": "2026-11-27",
+    "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZV9RWFNqRmpDMG14MlFsZWtiSGlsVGNVcHg2a1VLeV9EU3BaakZMc0tRMExBTDE5OVRXd1VLQ1FCTHR1X2Fad3pCdlBnbllYbXNvYlhYYzhtRFV0U29OdE9kZDlJaWFpWmZpZnRVN2JvcWZRTHNDS1U4X21XSlZVcG1XR1YtUDZMaWNGMzhNUnlXUDUweUVtS25lQl9HTFBWTjNvZ0x5QzMwaTB2dHA4YlFiX2ZTV3d4S2E5SkxyVmRIcUVjNFZON1ZVaDJtNkpkeWJYMW5vaVljSUxSSXFWZlEyQ3V5VnllMDdBVFlZWTMyR3gtUVHSAYQCQVVfeXFMTkFzN0NPdzZBS1Z3amdKTlBoSE5SNWpDbjhUTnRaaDJJdHF3NnJTM3ZnbnlWenMzcWR5NmllRHZUZ0RFSG1KRUU1SVdEZ2oxR2ZvNTd0eVRlLTM5SUptQzI3b0huc1c0YTNRcW5kV1JVSjVKbnA4Y0I4dVZvTVRTZWxkVENOTGNVQkZRMGJfdWdoYjc2QTJtbi15UjVjQ2pEY3FSS2hrdXQtbXNzTzZwbmE5a2FUMDNQZG4wb1JyeE5tV2xfdmJaRkY4dzBpTkNGbXBSM2VEenlaTlNnQlJKRXNWOTA4N1JwVmhObTRBWVZtMHBWNnNwaVFVcE9PdnN2LTdOMjk?oc=5": "2026-11-27",
+    "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTnlOUzZDOGI2Y0IyQjkxZTdGdURlSkk3WVltdk1FX3JZeDJuOFV0ejY1UE1jWEVRSmJNSTM4d190N0NnMExjNjV2YlNqcm0tRDAzWlJwMzRTSVlRNjJpWjFwRUN4WndEcGg0UWc0SzN6aVdSdkF4MjdxTkpLeU1yTi1BUHJZWHpNMkRyVWpqSXlTaWVJaDF6bjFVcFNad09FVW4wd29kQTczSGI0QUQ4alc3Y2tLVDNVZVJZWVRvUmc5LVg3emRzMHF2SE16QnliY3BBTF8wOUpiRUJ2clhrV0YtSG4tdw?oc=5": "2026-11-27"
   }
 }
