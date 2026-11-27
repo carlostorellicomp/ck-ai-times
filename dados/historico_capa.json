@@ -29,8 +29,8 @@
       "https://blog.n8n.io/ai-test-case-generation/"
     ],
     "2026-11-27": [
-      "https://therundownai.beehiiv.com/p/ai-takes-a-swing-at-physics-biggest-puzzle",
-      "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+      "https://blog.n8n.io/fault-tolerance/",
+      "https://therundownai.beehiiv.com/p/ai-takes-a-swing-at-physics-biggest-puzzle"
     ]
   },
   "seen_urls": {
@@ -261,6 +261,12 @@
     "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/": "2026-11-27",
     "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/": "2026-11-27",
     "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZV9RWFNqRmpDMG14MlFsZWtiSGlsVGNVcHg2a1VLeV9EU3BaakZMc0tRMExBTDE5OVRXd1VLQ1FCTHR1X2Fad3pCdlBnbllYbXNvYlhYYzhtRFV0U29OdE9kZDlJaWFpWmZpZnRVN2JvcWZRTHNDS1U4X21XSlZVcG1XR1YtUDZMaWNGMzhNUnlXUDUweUVtS25lQl9HTFBWTjNvZ0x5QzMwaTB2dHA4YlFiX2ZTV3d4S2E5SkxyVmRIcUVjNFZON1ZVaDJtNkpkeWJYMW5vaVljSUxSSXFWZlEyQ3V5VnllMDdBVFlZWTMyR3gtUVHSAYQCQVVfeXFMTkFzN0NPdzZBS1Z3amdKTlBoSE5SNWpDbjhUTnRaaDJJdHF3NnJTM3ZnbnlWenMzcWR5NmllRHZUZ0RFSG1KRUU1SVdEZ2oxR2ZvNTd0eVRlLTM5SUptQzI3b0huc1c0YTNRcW5kV1JVSjVKbnA4Y0I4dVZvTVRTZWxkVENOTGNVQkZRMGJfdWdoYjc2QTJtbi15UjVjQ2pEY3FSS2hrdXQtbXNzTzZwbmE5a2FUMDNQZG4wb1JyeE5tV2xfdmJaRkY4dzBpTkNGbXBSM2VEenlaTlNnQlJKRXNWOTA4N1JwVmhObTRBWVZtMHBWNnNwaVFVcE9PdnN2LTdOMjk?oc=5": "2026-11-27",
-    "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTnlOUzZDOGI2Y0IyQjkxZTdGdURlSkk3WVltdk1FX3JZeDJuOFV0ejY1UE1jWEVRSmJNSTM4d190N0NnMExjNjV2YlNqcm0tRDAzWlJwMzRTSVlRNjJpWjFwRUN4WndEcGg0UWc0SzN6aVdSdkF4MjdxTkpLeU1yTi1BUHJZWHpNMkRyVWpqSXlTaWVJaDF6bjFVcFNad09FVW4wd29kQTczSGI0QUQ4alc3Y2tLVDNVZVJZWVRvUmc5LVg3emRzMHF2SE16QnliY3BBTF8wOUpiRUJ2clhrV0YtSG4tdw?oc=5": "2026-11-27"
+    "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTnlOUzZDOGI2Y0IyQjkxZTdGdURlSkk3WVltdk1FX3JZeDJuOFV0ejY1UE1jWEVRSmJNSTM4d190N0NnMExjNjV2YlNqcm0tRDAzWlJwMzRTSVlRNjJpWjFwRUN4WndEcGg0UWc0SzN6aVdSdkF4MjdxTkpLeU1yTi1BUHJZWHpNMkRyVWpqSXlTaWVJaDF6bjFVcFNad09FVW4wd29kQTczSGI0QUQ4alc3Y2tLVDNVZVJZWVRvUmc5LVg3emRzMHF2SE16QnliY3BBTF8wOUpiRUJ2clhrV0YtSG4tdw?oc=5": "2026-11-27",
+    "https://blog.n8n.io/fault-tolerance/": "2026-11-27",
+    "https://blog.n8n.io/deterministic-ai/": "2026-11-27",
+    "https://tldr.tech/ai/2026-11-27": "2026-11-27",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVVVT0R3c3F5UmhxaHFlTWtPWUJ1a2hkYl9BM3pYQ1hHOFRzSUtKZWh1M3hZcDEtemdodmRHX2VFbkJkWHdyV01NT2VxSzZibEN1VDhKY2c5UU9KQ25zTVUtZXVwcVd6NmI5Q0JfLXNMWkplZG5obTR3M1ZkVElpVFNTcw?oc=5": "2026-11-27",
+    "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini": "2026-11-27",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc1dRY1VFMzVmNU1kOUtYeFVlTkVwSUtZbmNUUDMxRW5hNXh4c09CUm12TWtreUVoaVF0aEtqLUV5NTdDMUtBLVZFTG1OVFlNbWVrVHJ1eU52RG5ETXdBdmpYOHU4c09Xb1YzTXJoNVJpV1gwQS1VUTd0WnpMTXVHd1N5VGd4ZDlPMm9Jd3NhMkhjZw?oc=5": "2026-11-27"
   }
 }
