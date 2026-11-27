@@ -212,7 +212,12 @@ def parse_pub_ts(date_str):
     except Exception:
         return 0
 
-def parse_rss(name, section, url, limit=5):
+AI_TOPIC_RE = re.compile(
+    r'\b(ai|a\.i\.|artificial intelligence|llm|llms|openai|anthropic|claude|gemini|nvidia|gpt-\d|gpt\b|deepseek|qwen|agentic|ai agent|machine learning|deep learning|neural|gpu|gpus|robotics?|chatgpt|copilot|mistral|hugging\s*face|inference|transformer|open-weights|intelig[êe]ncia artificial)\b',
+    re.IGNORECASE
+)
+
+def parse_rss(name, section, url, limit=5, require_ai=False):
     items = []
     raw = fetch_url(url)
     raw = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#[0-9]+;|#x[0-9a-fA-F]+;)', '&amp;', raw)
@@ -224,7 +229,8 @@ def parse_rss(name, section, url, limit=5):
         entries = root.findall('.//a:entry', ns)
         is_atom = True
 
-    for e in entries[:limit]:
+    scan_limit = max(limit * 5, 20) if require_ai else limit
+    for e in entries[:scan_limit]:
         full_paras = []
         if not is_atom:
             title = clean_text(e.findtext('title') or '', 180)
@@ -249,6 +255,8 @@ def parse_rss(name, section, url, limit=5):
             desc = clean_text(e.findtext('a:summary', default='', namespaces=ns) or raw_content, 420)
 
         if title and link:
+            if require_ai and not AI_TOPIC_RE.search(title + ' ' + desc):
+                continue
             items.append({
                 'source': name,
                 'section': section,
@@ -259,6 +267,8 @@ def parse_rss(name, section, url, limit=5):
                 'summary': desc,
                 'full_paragraphs': full_paras
             })
+            if len(items) >= limit:
+                break
     return items
 
 def parse_huggingface_models(limit=6):
@@ -557,7 +567,7 @@ def collect_all():
         ('TechCrunch AI (Diário 24/7)', lambda: parse_rss('TechCrunch AI', 'newsletters', 'https://techcrunch.com/category/artificial-intelligence/feed/', 5)),
         ('The Verge AI (Diário 24/7)', lambda: parse_rss('The Verge AI', 'newsletters', 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', 4)),
         ('MIT Technology Review AI', lambda: parse_rss('MIT Technology Review AI', 'newsletters', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', 4)),
-        ('Ars Technica AI', lambda: parse_rss('Ars Technica AI', 'labs', 'https://feeds.arstechnica.com/arstechnica/technology-lab', 4)),
+        ('Ars Technica AI', lambda: parse_rss('Ars Technica AI', 'labs', 'https://feeds.arstechnica.com/arstechnica/technology-lab', 4, require_ai=True)),
         ('Mercado IA Brasil', lambda: parse_rss('Radar IA Brasil (Empresas & Indústria)', 'newsletters', 'https://news.google.com/rss/search?q=inteligencia+artificial+empresas+industria+OR+%22AI+Drop%22&hl=pt-BR&gl=BR&ceid=BR:pt-419', 5)),
         ('OpenAI News', lambda: parse_rss('OpenAI News', 'labs', 'https://openai.com/news/rss.xml', 4)),
         ('Anthropic News (Claude)', lambda: parse_anthropic(4)),

@@ -1,11 +1,12 @@
-name: Atualizar The CK AI Times (Automático 06h17 + 07h43 BRT)
+name: Atualizar The CK AI Times (Automático Manhã & Redundância)
 
 on:
   schedule:
-    # 06:17 BRT (09:17 UTC) — minuto fora de pico para garantir edição no ar antes das 07h00
+    # Compensação para fila do GitHub Actions (~9-10h): dispara de noite UTC para publicar antes das 07h BRT
+    - cron: '17 22 * * *'
+    - cron: '43 23 * * *'
+    # Horário nominal 06:17 BRT (09:17 UTC) caso fila esteja zerada + atualização vespertina se houver fila
     - cron: '17 9 * * *'
-    # 07:43 BRT (10:43 UTC) — redundância automática + captura de newsletters da manhã dos EUA
-    - cron: '43 10 * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,10 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do repositório
@@ -32,7 +30,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Coletar 20 fontes reais + Ranking Top 50 LLMs (Artificial Analysis)
+      - name: Coletar 24 fontes reais + Ranking Top 50 LLMs (Artificial Analysis)
         run: python coletor_ck_ai_times.py
 
       - name: Gerar index.html editorial (Zero Invenções)
@@ -50,13 +48,20 @@ jobs:
           fi
 
       - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload do artefato estático
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: '.'
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy no GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
